@@ -1,0 +1,1218 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1AWB_1|Chains A, B|MYO-INOSITOL MONOPHOSPHATASE|Homo sapiens (9606)</BlastOutput_query-def>
+  <BlastOutput_query-len>276</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1AWB_1|Chains A, B|MYO-INOSITOL MONOPHOSPHATASE|Homo sapiens (9606)</Iteration_query-def>
+  <Iteration_query-len>276</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1IMA|A</Hit_id>
+  <Hit_def>STRUCTURAL ANALYSIS OF INOSITOL MONOPHOSPHATASE COMPLEXES WITH SUBSTRATES [Homo sapiens] &gt;pdb|1IMA|B STRUCTURAL ANALYSIS OF INOSITOL MONOPHOSPHATASE COMPLEXES WITH SUBSTRATES [Homo sapiens] &gt;pdb|1IMB|A STRUCTURAL ANALYSIS OF INOSITOL MONOPHOSPHATASE COMPLEXES WITH SUBSTRATES [Homo sapiens] &gt;pdb|1IMB|B STRUCTURAL ANALYSIS OF INOSITOL MONOPHOSPHATASE COMPLEXES WITH SUBSTRATES [Homo sapiens] &gt;pdb|1IMC|A STRUCTURAL STUDIES OF METAL BINDING BY INOSITOL MONOPHOSPHATASE: EVIDENCE FOR TWO-METAL ION CATALYSIS [Homo sapiens] &gt;pdb|1IMC|B STRUCTURAL STUDIES OF METAL BINDING BY INOSITOL MONOPHOSPHATASE: EVIDENCE FOR TWO-METAL ION CATALYSIS [Homo sapiens] &gt;pdb|1IMD|A STRUCTURAL STUDIES OF METAL BINDING BY INOSITOL MONOPHOSPHATASE: EVIDENCE FOR TWO-METAL ION CATALYSIS [Homo sapiens] &gt;pdb|1IMD|B STRUCTURAL STUDIES OF METAL BINDING BY INOSITOL MONOPHOSPHATASE: EVIDENCE FOR TWO-METAL ION CATALYSIS [Homo sapiens] &gt;pdb|1IME|A STRUCTURAL STUDIES OF METAL BINDING BY INOSITOL MONOPHOSPHATASE: EVIDENCE FOR TWO-METAL ION CATALYSIS [Homo sapiens] &gt;pdb|1IME|B STRUCTURAL STUDIES OF METAL BINDING BY INOSITOL MONOPHOSPHATASE: EVIDENCE FOR TWO-METAL ION CATALYSIS [Homo sapiens] &gt;pdb|1IMF|A STRUCTURAL STUDIES OF METAL BINDING BY INOSITOL MONOPHOSPHATASE: EVIDENCE FOR TWO-METAL ION CATALYSIS [Homo sapiens] &gt;pdb|4AS4|A Structure of human inositol monophosphatase 1 [Homo sapiens] &gt;pdb|4AS4|B Structure of human inositol monophosphatase 1 [Homo sapiens] &gt;pdb|6GIU|A Human IMPase with L-690330 [Homo sapiens] &gt;pdb|6GIU|B Human IMPase with L-690330 [Homo sapiens] &gt;pdb|6GJ0|A Human IMPase with Mn [Homo sapiens] &gt;pdb|6GJ0|B Human IMPase with Mn [Homo sapiens]</Hit_def>
+  <Hit_accession>1IMA_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>573.163</Hsp_bit-score>
+      <Hsp_score>1476</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_qseq>
+      <Hsp_hseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_hseq>
+      <Hsp_midline>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1AWB|A</Hit_id>
+  <Hit_def>HUMAN MYO-INOSITOL MONOPHOSPHATASE IN COMPLEX WITH D-INOSITOL-1-PHOSPHATE AND CALCIUM [Homo sapiens] &gt;pdb|1AWB|B HUMAN MYO-INOSITOL MONOPHOSPHATASE IN COMPLEX WITH D-INOSITOL-1-PHOSPHATE AND CALCIUM [Homo sapiens] &gt;pdb|2HHM|A STRUCTURE OF INOSITOL MONOPHOSPHATASE, THE PUTATIVE TARGET OF LITHIUM THERAPY [Homo sapiens] &gt;pdb|2HHM|B STRUCTURE OF INOSITOL MONOPHOSPHATASE, THE PUTATIVE TARGET OF LITHIUM THERAPY [Homo sapiens]</Hit_def>
+  <Hit_accession>1AWB_A</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.778</Hsp_bit-score>
+      <Hsp_score>1475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_qseq>
+      <Hsp_hseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_hseq>
+      <Hsp_midline>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6ZK0|AAA</Hit_id>
+  <Hit_def>Chain AAA, Inositol monophosphatase 1 [Homo sapiens] &gt;pdb|6ZK0|BBB Chain BBB, Inositol monophosphatase 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>6ZK0_AAA</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.392</Hsp_bit-score>
+      <Hsp_score>1474</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_qseq>
+      <Hsp_hseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_hseq>
+      <Hsp_midline>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|2BJI|A</Hit_id>
+  <Hit_def>High Resolution Structure of myo-Inositol Monophosphatase, The Target of Lithium Therapy [Bos taurus] &gt;pdb|2BJI|B High Resolution Structure of myo-Inositol Monophosphatase, The Target of Lithium Therapy [Bos taurus]</Hit_def>
+  <Hit_accession>2BJI_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.161</Hsp_bit-score>
+      <Hsp_score>1341</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDED</Hsp_qseq>
+      <Hsp_hseq>ADPWQECMDYAVTLAGQAGEVVREALKNEMNIMVKSSPADLVTATDQKVEKMLITSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHGFPFVAVSIGFVVNKKMEFGIVYSCLEDKMYTGRKGKGAFCNGQKLQVSHQEDITKSLLVTELGSSRTPETVRIILSNIERLLCLPIHGIRGVGTAALNMCLVAAGAADAYYEMGIHCWDVAGAGIIVTEAGGVLLDVTGGPFDLMSRRVIASSNKTLAERIAKEIQIIPLQRDDED</Hsp_hseq>
+      <Hsp_midline>ADPWQECMDYAVTLA QAGEVV EA+KNEMN+M+KSSP DLVTATDQKVEKMLI+SIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVH FPFVAVSIGF VNKK+EFG+VYSC+E KMYT RKGKGAFCNGQKLQVS QEDITKSLLVTELGSSRTPETVR++LSN+E+L C+P+HGIR VGTAA+NMCLVA G ADAYYEMGIHCWDVAGAGIIVTEAGGVL+DVTGGPFDLMSRRVIA++N+ LAERIAKEIQ+IPLQRDDED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|4AS5|A</Hit_id>
+  <Hit_def>Structure of mouse inositol monophosphatase 1 [Mus musculus] &gt;pdb|4AS5|B Structure of mouse inositol monophosphatase 1 [Mus musculus] &gt;pdb|4AS5|C Structure of mouse inositol monophosphatase 1 [Mus musculus] &gt;pdb|4AS5|D Structure of mouse inositol monophosphatase 1 [Mus musculus]</Hit_def>
+  <Hit_accession>4AS5_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.064</Hsp_bit-score>
+      <Hsp_score>1307</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDE</Hsp_qseq>
+      <Hsp_hseq>ADPWQECMDYAVILARQAGEMIREALKNEMDVMIKSSPADLVTVTDQKVEKMLMSSIKEKYPCHSFIGEESVAAGEKTVFTEQPTWVIDPIDGTTNFVHRFPFVAVSIGFLVNKEMEFGIVYSCVEDKMYTGRKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRKPETLRIVLSNMEKLCSIPIHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDMAGAGIIVTEAGGVLMDVTGGPFDLMSRRIIAANSITLAKRIAKEIEIIPLQRDDE</Hsp_hseq>
+      <Hsp_midline>ADPWQECMDYAV LARQAGE++ EA+KNEM+VM+KSSP DLVT TDQKVEKML+SSIKEKYP HSFIGEESVAAGEK++ T+ PTW+IDPIDGTTNFVHRFPFVAVSIGF VNK++EFG+VYSCVE KMYT RKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSR PET+R+VLSNMEKL  IP+HGIRSVGTAAVNMCLVATGGADAYYEMGIHCWD+AGAGIIVTEAGGVLMDVTGGPFDLMSRR+IAAN+  LA+RIAKEI++IPLQRDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|2CZH|A</Hit_id>
+  <Hit_def>Crystal structure of human myo-inositol monophosphatase 2 (IMPA2) with phosphate ion (orthorhombic form) [Homo sapiens] &gt;pdb|2CZH|B Crystal structure of human myo-inositol monophosphatase 2 (IMPA2) with phosphate ion (orthorhombic form) [Homo sapiens] &gt;pdb|2CZI|A Crystal structure of human myo-inositol monophosphatase 2 (IMPA2) with calcium and phosphate ions [Homo sapiens] &gt;pdb|2CZK|A Crystal structure of human myo-inositol monophosphatase 2 (IMPA2) (trigonal form) [Homo sapiens] &gt;pdb|2DDK|A Crystal structure of human myo-inositol monophosphatase 2 (IMPA2) (orthorhombic form) [Homo sapiens] &gt;pdb|2DDK|B Crystal structure of human myo-inositol monophosphatase 2 (IMPA2) (orthorhombic form) [Homo sapiens]</Hit_def>
+  <Hit_accession>2CZH_A</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.502</Hsp_bit-score>
+      <Hsp_score>872</Hsp_score>
+      <Hsp_evalue>1.02165e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>ADPWQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDE</Hsp_qseq>
+      <Hsp_hseq>AGPWEECFQAAVQLALRAGQIIRKALTEEKRVSTKTSAADLVTETDHLVEDLIISELRERFPSHRFIAEEAAASGAKCVLTHSPTWIIDPIDGTCNFVHRFPTVAVSIGFAVRQELEFGVIYHCTEERLYTGRRGRGAFCNGQRLRVSGETDLSKALVLTEIGPKRDPATLKLFLSNMERLLHAKAHGVRVIGSSTLALCHLASGAADAYYQFGLHCWDLAAATVIIREAGGIVIDTSGGPLDLMACRVVAASTREMAMLIAQALQTINYGRDDE</Hsp_hseq>
+      <Hsp_midline>A PW+EC   AV LA +AG+++ +A+  E  V  K+S  DLVT TD  VE ++IS ++E++PSH FI EE+ A+G K +LT +PTWIIDPIDGT NFVHRFP VAVSIGFAV +++EFGV+Y C E ++YT R+G+GAFCNGQ+L+VS + D++K+L++TE+G  R P T+++ LSNME+L     HG+R +G++ + +C +A+G ADAYY+ G+HCWD+A A +I+ EAGG+++D +GGP DLM+ RV+AA+ R +A  IA+ +Q I   RDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|2FVZ|A</Hit_id>
+  <Hit_def>Human Inositol Monophosphosphatase 2 [Homo sapiens] &gt;pdb|2FVZ|B Human Inositol Monophosphosphatase 2 [Homo sapiens] &gt;pdb|2FVZ|C Human Inositol Monophosphosphatase 2 [Homo sapiens] &gt;pdb|2FVZ|D Human Inositol Monophosphosphatase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>2FVZ_A</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.035</Hsp_bit-score>
+      <Hsp_score>863</Hsp_score>
+      <Hsp_evalue>1.03116e-116</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>WQECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDE</Hsp_qseq>
+      <Hsp_hseq>WEECFQAAVQLALRAGQIIRKALTEEKRVSTKTSAADLVTETDHLVEDLIISELRERFPSHRFIAEEAAASGAKCVLTHSPTWIIDPIDGTCNFVHRFPTVAVSIGFAVRQELEFGVIYHCTEERLYTGRRGRGAFCNGQRLRVSGETDLSKALVLTEIGPKRDPATLKLFLSNMERLLHAKAHGVRVIGSSTLALCHLASGAADAYYQFGLHCWDLAAATVIIREAGGIVIDTSGGPLDLMACRVVAASTREMAMLIAQALQTINYGRDDE</Hsp_hseq>
+      <Hsp_midline>W+EC   AV LA +AG+++ +A+  E  V  K+S  DLVT TD  VE ++IS ++E++PSH FI EE+ A+G K +LT +PTWIIDPIDGT NFVHRFP VAVSIGFAV +++EFGV+Y C E ++YT R+G+GAFCNGQ+L+VS + D++K+L++TE+G  R P T+++ LSNME+L     HG+R +G++ + +C +A+G ADAYY+ G+HCWD+A A +I+ EAGG+++D +GGP DLM+ RV+AA+ R +A  IA+ +Q I   RDDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|2QFL|A</Hit_id>
+  <Hit_def>Structure of SuhB: Inositol monophosphatase and extragenic suppressor from E. coli [Escherichia coli]</Hit_def>
+  <Hit_accession>2QFL_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>5.96041e-45</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MDYAVTLARQAGEVVCEAIKNEMNV-MLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAK</Hsp_qseq>
+      <Hsp_hseq>LNIAVRAARKAGNLIAKNYETPDAVEASQKGSNDFVTNVDKAAEAVIIDTIRKSYPQHTIITEES---GELEGTDQDVQWVIDPLDGTTNFIKRLPHFAVSIAVRIKGRTEVAVVYDPMRNELFTATRGQGAQLNGYRLRGSTARDLDGTILATGF-PFKAKQYATTYINIVGKLFN-ECADFRATGSAALDLAYVAAGRVDGFFEIGLRPWDFAAGELLVREAGGIVSDFTGGHNYMLTGNIVAGNPRVVKAMLAN</Hsp_hseq>
+      <Hsp_midline>++ AV  AR+AG ++ +  +    V   +    D VT  D+  E ++I +I++ YP H+ I EES   GE      +  W+IDP+DGTTNF+ R P  AVSI   +  + E  VVY  +  +++TA +G+GA  NG +L+ S   D+  ++L T     +  +     ++ + KLF       R+ G+AA+++  VA G  D ++E+G+  WD A   ++V EAGG++ D TGG   +++  ++A N R++   +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|6TQN|T</Hit_id>
+  <Hit_def>rrn anti-termination complex without S4 [Escherichia coli] &gt;pdb|6TQO|T rrn anti-termination complex [Escherichia coli]</Hit_def>
+  <Hit_accession>6TQN_T</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.02936e-44</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MDYAVTLARQAGEVVCEAIKNEMNV-MLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAK</Hsp_qseq>
+      <Hsp_hseq>LNIAVRAARKAGNLIAKNYETPDAVEASQKGSNDFVTNVDKAAEAVIIDTIRKSYPQHTIITEES---GELEGTDQDVQWVIDPLDGTTNFIKRLPHFAVSIAVRIKGRTEVAVVYDPMRNELFTATRGQGAQLNGYRLRGSTARDLDGTILATGF-PFKAKQYATTYINIVGKLFN-ECADFRRTGSAALDLAYVAAGRVDGFFEIGLRPWDFAAGELLVREAGGIVSDFTGGHNYMLTGNIVAGNPRVVKAMLAN</Hsp_hseq>
+      <Hsp_midline>++ AV  AR+AG ++ +  +    V   +    D VT  D+  E ++I +I++ YP H+ I EES   GE      +  W+IDP+DGTTNF+ R P  AVSI   +  + E  VVY  +  +++TA +G+GA  NG +L+ S   D+  ++L T     +  +     ++ + KLF       R  G+AA+++  VA G  D ++E+G+  WD A   ++V EAGG++ D TGG   +++  ++A N R++   +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|6IB7|A</Hit_id>
+  <Hit_def>Structure of wild type SuhB [Escherichia coli] &gt;pdb|6IB8|A Structure of a complex of SuhB and NusA AR2 domain [Escherichia coli] &gt;pdb|6IB8|B Structure of a complex of SuhB and NusA AR2 domain [Escherichia coli] &gt;pdb|6TQN|S rrn anti-termination complex without S4 [Escherichia coli] &gt;pdb|6TQO|S rrn anti-termination complex [Escherichia coli]</Hit_def>
+  <Hit_accession>6IB7_A</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.12047e-44</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MDYAVTLARQAGEVVCEAIKNEMNV-MLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAK</Hsp_qseq>
+      <Hsp_hseq>LNIAVRAARKAGNLIAKNYETPDAVEASQKGSNDFVTNVDKAAEAVIIDTIRKSYPQHTIITEES---GELEGTDQDVQWVIDPLDGTTNFIKRLPHFAVSIAVRIKGRTEVAVVYDPMRNELFTATRGQGAQLNGYRLRGSTARDLDGTILATGF-PFKAKQYATTYINIVGKLFN-ECADFRRTGSAALDLAYVAAGRVDGFFEIGLRPWDFAAGELLVREAGGIVSDFTGGHNYMLTGNIVAGNPRVVKAMLAN</Hsp_hseq>
+      <Hsp_midline>++ AV  AR+AG ++ +  +    V   +    D VT  D+  E ++I +I++ YP H+ I EES   GE      +  W+IDP+DGTTNF+ R P  AVSI   +  + E  VVY  +  +++TA +G+GA  NG +L+ S   D+  ++L T     +  +     ++ + KLF       R  G+AA+++  VA G  D ++E+G+  WD A   ++V EAGG++ D TGG   +++  ++A N R++   +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|5ZHH|A</Hit_id>
+  <Hit_def>Structure of Inositol monophosphatase from Anabaena (Nostoc) sp. PCC 7120 [Nostoc sp. PCC 7120 = FACHB-418] &gt;pdb|5ZHH|B Structure of Inositol monophosphatase from Anabaena (Nostoc) sp. PCC 7120 [Nostoc sp. PCC 7120 = FACHB-418] &gt;pdb|5ZHH|C Structure of Inositol monophosphatase from Anabaena (Nostoc) sp. PCC 7120 [Nostoc sp. PCC 7120 = FACHB-418] &gt;pdb|5ZHH|D Structure of Inositol monophosphatase from Anabaena (Nostoc) sp. PCC 7120 [Nostoc sp. PCC 7120 = FACHB-418]</Hit_def>
+  <Hit_accession>5ZHH_A</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>9.25202e-43</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNP-TWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVH---GIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPL</Hsp_qseq>
+      <Hsp_hseq>KLEDAITEKGRPGDLVTAADKASEAVVLEIIRRHFPQHSILAEESGKLGNQ----DNEYLWAIDPLDGTTNYAHQYPAFCVSIGLLINGVPQVGVIYDPFHDELFRGAAGLGATRNRRPIKVSDTSELSKSLLVTGFAYDR-----RETPDNNYAEFCHLTHLTQGVRRSGSAALDLAHVACGRVDGYWERGISPWDVVAGVILLEEAGGKVTAYDSTPLKIATGRILATNGSIHDNLSRALMQVPPL</Hsp_hseq>
+      <Hsp_midline>K E  +  K  P DLVTA D+  E +++  I+  +P HS + EES   G +    DN   W IDP+DGTTN+ H++P   VSIG  +N   + GV+Y     +++    G GA  N + ++VS   +++KSLLVT     R     R    N    FC   H   G+R  G+AA+++  VA G  D Y+E GI  WDV    I++ EAGG +      P  + + R++A N  I        +QV PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|3LUZ|A</Hit_id>
+  <Hit_def>Crystal structure of extragenic suppressor protein suhB from Bartonella henselae, via combined iodide SAD molecular replacement [Bartonella henselae] &gt;pdb|3LUZ|B Crystal structure of extragenic suppressor protein suhB from Bartonella henselae, via combined iodide SAD molecular replacement [Bartonella henselae] &gt;pdb|3LV0|A Crystal structure of extragenic suppressor protein suhB from Bartonella henselae, native [Bartonella henselae] &gt;pdb|3LV0|B Crystal structure of extragenic suppressor protein suhB from Bartonella henselae, native [Bartonella henselae]</Hit_def>
+  <Hit_accession>3LUZ_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.92597e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>QECMDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNP-TWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTP--ETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANN--RILAERIAKE</Hsp_qseq>
+      <Hsp_hseq>QAAMKAGRSLVRDYGEV------QNLQVSLKG-PADYVSQADRKAEKIIFNELSKARPKFGFLMEES----EEIIGEDSQHRFIVDPLDGTTNFLHGIPFFAVSIALESQGKIVAGVIYNPINDELFTAERGSGAFFNDRRCRVSARRRLEDCVIATGMPHLGRPGHGTYLIELRNV----MAEVSGIRRFGTAALDLAYVAAGRTDGFWEDNLQIWDMAAGILMVREAGGFVTDKEGGNDIFRKKNIIAGNEHIRIKLERALKK</Hsp_hseq>
+      <Hsp_midline>Q  M    +L R  GEV        + V LK  P D V+  D+K EK++ + + +  P   F+ EES    E+ I  D+   +I+DP+DGTTNF+H  PF AVSI      KI  GV+Y+ +  +++TA +G GAF N ++ +VS +  +   ++ T +     P   T  + L N+       V GIR  GTAA+++  VA G  D ++E  +  WD+A   ++V EAGG + D  GG      + +IA N   RI  ER  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|2P3N|A</Hit_id>
+  <Hit_def>Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8] &gt;pdb|2P3N|B Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8] &gt;pdb|2P3N|C Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8] &gt;pdb|2P3N|D Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8] &gt;pdb|2P3V|A Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8] &gt;pdb|2P3V|B Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8] &gt;pdb|2P3V|C Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8] &gt;pdb|2P3V|D Thermotoga maritima IMPase TM1415 [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>2P3N_A</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.45956e-35</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MDYAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRI</Hsp_qseq>
+      <Hsp_hseq>LDFSIKLLRKVGHLLMIHWGRVDNVEKKTGFKDIVTEIDREAQRMIVDEIRKFFPDENIMAEEGIF--EKG----DRLWIIDPIDGTINFVHGLPNFSISLAYVENGEVKLGVVHAPALNETLYAEEGSGAFFNGERIRVSENASLEECVGST---GSYVDFTGKFI-ERMEK----RTRRIRILGSAALNAAYVGAGRVDFFVTWRINPWDIAAGLIIVKEAGGMVTDFSGKEANAFSKNFIFSNGLI</Hsp_hseq>
+      <Hsp_midline>+D+++ L R+ G ++        NV  K+   D+VT  D++ ++M++  I++ +P  + + EE +   EK     +  WIIDPIDGT NFVH  P  ++S+ +  N +++ GVV++    +   A +G GAF NG++++VS+   + + +  T    S    T + +   MEK        IR +G+AA+N   V  G  D +    I+ WD+A   IIV EAGG++ D +G   +  S+  I +N  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|5I3S|A</Hit_id>
+  <Hit_def>Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|5I3S|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|5I3S|C Chain C, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|5I3S|D Chain D, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>5I3S_A</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>8.55434e-35</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>YAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKE</Hsp_qseq>
+      <Hsp_hseq>FAQGLIQEAGIRIKQLMEQNLTIETKSNPNDLVTNVDKATEDFIFDTILETYPNHQVLGEE--GHGHDIDTSKGTVWVVDPIDGTLNFVHQQENFAISIGIYIDGKPYAGFVYDVMADVLYHAKVGEGAYRGSQPLKPLNDSNLRQSIIGINPNWLTKP-----ILGEIFKEIVNDSRSARAYGSAALEIVSVATGNLEAYMTPRLQPWDFAGGLVILYEVNGQASNLLGEPLTISGPNSILVGNRGLHQEISND</Hsp_hseq>
+      <Hsp_midline>+A  L ++AG  + + ++  + +  KS+P DLVT  D+  E  +  +I E YP+H  +GEE    G     +    W++DPIDGT NFVH+    A+SIG  ++ K   G VY  +   +Y A+ G+GA+   Q L+     ++ +S++         P     +L  + K         R+ G+AA+ +  VATG  +AY    +  WD AG  +I+ E  G   ++ G P  +     I   NR L + I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3T0J|A</Hit_id>
+  <Hit_def>Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|3T0J|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|3T0J|C Chain C, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|3T0J|D Chain D, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|5DW8|A Crystal structure of 2&apos;AMP bound SaIMPase-II [Staphylococcus aureus] &gt;pdb|5DW8|B Crystal structure of 2&apos;AMP bound SaIMPase-II [Staphylococcus aureus] &gt;pdb|5J16|A Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|5J16|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|5J16|C Chain C, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|5J16|D Chain D, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>3T0J_A</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>9.86104e-35</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>YAVTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKE</Hsp_qseq>
+      <Hsp_hseq>FAQGLIQEAGIRIKQLMEQNLTIETKSNPNDLVTNVDKATEDFIFDTILETYPNHQVLGEE--GHGHDIDTSKGTVWVVDPIDGTLNFVHQQENFAISIGIYIDGKPYAGFVYDVMADVLYHAKVGEGAYRGSQPLKPLNDSNLRQSIIGINPNWLTKP-----ILGEIFKEIVNDSRSARAYGSAALEIVSVATGNLEAYMTPRLQPWDFAGGLVILYEVNGQASNLLGEPLTISGPNSILVGNRGLHQEISND</Hsp_hseq>
+      <Hsp_midline>+A  L ++AG  + + ++  + +  KS+P DLVT  D+  E  +  +I E YP+H  +GEE    G     +    W++DPIDGT NFVH+    A+SIG  ++ K   G VY  +   +Y A+ G+GA+   Q L+     ++ +S++         P     +L  + K         R+ G+AA+ +  VATG  +AY    +  WD AG  +I+ E  G   ++ G P  +     I   NR L + I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|2Q74|A</Hit_id>
+  <Hit_def>Mycobacterium tuberculosis SuhB [Mycobacterium tuberculosis H37Rv] &gt;pdb|2Q74|B Mycobacterium tuberculosis SuhB [Mycobacterium tuberculosis H37Rv] &gt;pdb|2Q74|C Mycobacterium tuberculosis SuhB [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>2Q74_A</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.55041e-27</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>VCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGE-KSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQK----LQVSQQEDITKSLLVTELGSS-RTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWD</Hsp_qseq>
+      <Hsp_hseq>ISRAGDGDGAVRAKSSPTDPVTVVDTDTERLLRDRLAQLRPGDPILGEEGGGPADVTATPSDRVTWVLDPIDGTVNFVYGIPAYAVSIGAQVGGITVAGAVADVAARTVYSAATGLGAHLTDERGRHVLRCTGVDELSMALLGTGFGYSVRCREKQAELLAHVVPL----VRDVRRIGSAALDLCMVAAGRLDAYYEHGVQVWD</Hsp_hseq>
+      <Hsp_midline>+  A   +  V  KSSP D VT  D   E++L   + +  P    +GEE     +  +  +D  TW++DPIDGT NFV+  P  AVSIG  V      G V       +Y+A  G GA    ++    L+ +  ++++ +LL T  G S R  E    +L+++  L    V  +R +G+AA+++C+VA G  DAYYE G+  WD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|2PCR|A</Hit_id>
+  <Hit_def>Crystal structure of Myo-inositol-1(or 4)-monophosphatase (aq_1983) from Aquifex Aeolicus VF5 [Aquifex aeolicus VF5] &gt;pdb|2PCR|B Crystal structure of Myo-inositol-1(or 4)-monophosphatase (aq_1983) from Aquifex Aeolicus VF5 [Aquifex aeolicus VF5] &gt;pdb|2PCR|C Crystal structure of Myo-inositol-1(or 4)-monophosphatase (aq_1983) from Aquifex Aeolicus VF5 [Aquifex aeolicus VF5] &gt;pdb|2PCR|D Crystal structure of Myo-inositol-1(or 4)-monophosphatase (aq_1983) from Aquifex Aeolicus VF5 [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>2PCR_A</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>3.33925e-25</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>QECMDYAVTLARQAGEVVCE---AIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERI</Hsp_qseq>
+      <Hsp_hseq>KKYLEVAKIAALAGGQVLKENFGKVKKE-NIEEKGEK-DFVSYVDKTSEERIKEVILKFFPDHEVVGEEXGAEGSGSEYR----WFIDPLDGTKNYINGFPIFAVSVGLVKGEEPIVGAVYLPYFDKLYWGAKGLGAYVNGKRIKVKDNESLKHAGVVYGF-PSRSRRDISIYLNIFKDVFY-EVGSXRRPGAAAVDLCXVAEGIFDGXXEFEXKPWDITAGLVILKEAGGVYT-LVGEPFGVSD---IIAGNKALHDFI</Hsp_hseq>
+      <Hsp_midline>++ ++ A   A   G+V+ E    +K E N+  K    D V+  D+  E+ +   I + +P H  +GEE  A G  S       W IDP+DGT N+++ FP  AVS+G    ++   G VY     K+Y   KG GA+ NG++++V   E +  + +V     SR+   + + L+  + +F   V   R  G AAV++C VA G  D   E     WD+    +I+ EAGGV   + G PF +     I A N+ L + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|1DK4|A</Hit_id>
+  <Hit_def>Crystal Structure Of Mj0109 Gene Product Inositol Monophosphatase [Methanocaldococcus jannaschii] &gt;pdb|1DK4|B Crystal Structure Of Mj0109 Gene Product Inositol Monophosphatase [Methanocaldococcus jannaschii] &gt;pdb|1G0H|A Crystal Structure Of Mj0109 Gene Product Inositol Monophosphatase-Fructose 1,6 Bisphosphatase [Methanocaldococcus jannaschii] &gt;pdb|1G0H|B Crystal Structure Of Mj0109 Gene Product Inositol Monophosphatase-Fructose 1,6 Bisphosphatase [Methanocaldococcus jannaschii] &gt;pdb|1G0I|A Crystal Structure Of Mj0109 Gene Product Inositol Monophosphatase-Fructose 1,6 Bisphosphatase [Methanocaldococcus jannaschii] &gt;pdb|1G0I|B Crystal Structure Of Mj0109 Gene Product Inositol Monophosphatase-Fructose 1,6 Bisphosphatase [Methanocaldococcus jannaschii]</Hit_def>
+  <Hit_accession>1DK4_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.21062e-19</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SVAAGEKSILTDNPTW--IIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEM--GIHCWDVAGAGIIVTEAGGVLMDVTGG--PFDLMSR---RVIAANNR</Hsp_qseq>
+      <Hsp_hseq>NIVSEELGVIDNSSEWTVVIDPIDGSFNFINGIPFFAFCFGVFKNNEPYYGLTYEFLTKSFYEAYKGKGAYLNGRKIKV---KDFNPNNIVISYYPSKKID--------LEKLRN-KVKRVRIFGAFGLEMCYVAKGTLDAVFDVRPKVRAVDIASSYIICKEAGALITDENGDELKFDLNATDRLNIIVANSK</Hsp_hseq>
+      <Hsp_midline>++ + E  ++ ++  W  +IDPIDG+ NF++  PF A   G   N +  +G+ Y  +    Y A KGKGA+ NG+K++V   +D   + +V     S+  +        +EKL    V  +R  G   + MC VA G  DA +++   +   D+A + II  EAG ++ D  G    FDL +     +I AN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|5EQ7|A</Hit_id>
+  <Hit_def>Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) in complex with free phosphate [Medicago truncatula] &gt;pdb|5EQ8|A Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) in complex with L-histidinol [Medicago truncatula] &gt;pdb|5EQA|A Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) with intermolecular cross-link between Lys158 and Cys245 [Medicago truncatula] &gt;pdb|5EQA|B Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) with intermolecular cross-link between Lys158 and Cys245 [Medicago truncatula] &gt;pdb|5EQA|C Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) with intermolecular cross-link between Lys158 and Cys245 [Medicago truncatula] &gt;pdb|5EQA|D Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) with intermolecular cross-link between Lys158 and Cys245 [Medicago truncatula]</Hit_def>
+  <Hit_accession>5EQ7_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>6.4192e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>DYAVTLARQAGEVVCEAI-KNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVT---ELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTG-------GPFDL-MSRRVIAANNRILAERIAKEIQ</Hsp_qseq>
+      <Hsp_hseq>DVANKAANAAGDVIRKYFRKNNFDIIHKND-LSPVTIADQSAEEAMVSVILDNFPSHAVYGEEKGWRCKQD--SADYVWVLDPIDGTKSFITGXPLFGTLIALLQNGTPILGIIDQPVLKERWIGITGKRTTLNGQEVSTRTCADLSQAYLYTTSPHLFSGDAEEAFIRVRDKVK----IPLYGCDCYAYA-----LLSSGFVDLVVESGLKPYDFLALIPVIEGSGGVITDWKGHQLRWEASPLSIATSFNVVAAGDKQIHQQALDSLQ</Hsp_hseq>
+      <Hsp_midline>D A   A  AG+V+ +   KN  +++ K+  +  VT  DQ  E+ ++S I + +PSH+  GEE     ++   + +  W++DPIDGT +F+   P     I    N     G++   V  + +    GK    NGQ++      D++++ L T    L S    E    V   ++    IP++G      A     L+++G  D   E G+  +D      ++  +GGV+ D  G        P  +  S  V+AA ++ + ++    +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|5EQ9|A</Hit_id>
+  <Hit_def>Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) in complex with L-histidinol phosphate and Mg2+ [Medicago truncatula] &gt;pdb|5EQ9|B Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) in complex with L-histidinol phosphate and Mg2+ [Medicago truncatula] &gt;pdb|5EQ9|C Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) in complex with L-histidinol phosphate and Mg2+ [Medicago truncatula] &gt;pdb|5EQ9|D Crystal structure of Medicago truncatula Histidinol-Phosphate Phosphatase (MtHPP) in complex with L-histidinol phosphate and Mg2+ [Medicago truncatula] &gt;pdb|5T3J|A Histidinol Phosphate Phosphatase(HPP) soaked with selenourea for 10 min [Medicago truncatula]</Hit_def>
+  <Hit_accession>5EQ9_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.15037e-15</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>DYAVTLARQAGEVVCEAI-KNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVT---ELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTG-------GPFDL-MSRRVIAANNRILAERIAKEIQ</Hsp_qseq>
+      <Hsp_hseq>DVANKAANAAGDVIRKYFRKNNFDIIHKND-LSPVTIADQSAEEAMVSVILDNFPSHAVYGEEKGWRCKQD--SADYVWVLDPIDGTKSFITGKPLFGTLIALLQNGTPILGIIDQPVLKERWIGITGKRTTLNGQEVSTRTCADLSQAYLYTTSPHLFSGDAEEAFIRVRDKVK----IPLYGCDCYAYA-----LLSSGFVDLVVESGLKPYDFLALIPVIEGSGGVITDWKGHQLRWEASPLSIATSFNVVAAGDKQIHQQALDSLQ</Hsp_hseq>
+      <Hsp_midline>D A   A  AG+V+ +   KN  +++ K+  +  VT  DQ  E+ ++S I + +PSH+  GEE     ++   + +  W++DPIDGT +F+   P     I    N     G++   V  + +    GK    NGQ++      D++++ L T    L S    E    V   ++    IP++G      A     L+++G  D   E G+  +D      ++  +GGV+ D  G        P  +  S  V+AA ++ + ++    +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1VDW|A</Hit_id>
+  <Hit_def>A hypothetical protein PH1897 from Pyrococcus horikoshii with similarities for Inositol-1 monophosphatase [Pyrococcus horikoshii] &gt;pdb|1VDW|B A hypothetical protein PH1897 from Pyrococcus horikoshii with similarities for Inositol-1 monophosphatase [Pyrococcus horikoshii]</Hit_def>
+  <Hit_accession>1VDW_A</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.19337e-15</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>TWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMG--IHCWDVAGAGIIVTEAGGVLMDVTGGPFDLM-----SRRVIAANNRILAERIAKEIQ</Hsp_qseq>
+      <Hsp_hseq>TVVVDPLDGSYNFINGIPFFAVSVAIFHEKDPIYAFIYEPIVERLYEGIPGKGSYLNGEKIKVRELAEKPSISFYTKGKGTKIIDKVKRT---------------RTLGAIALELAYLARGALDAVVDIRNYLRPTDIAAGVVIAREAGAIVKDLDGKDVEITFSATEKVNIIAANNEELLETILRSIE</Hsp_hseq>
+      <Hsp_midline>T ++DP+DG+ NF++  PF AVS+     K   +  +Y  +  ++Y    GKG++ NG+K++V +  +       T+   ++  + V+                 R++G  A+ +  +A G  DA  ++   +   D+A   +I  EAG ++ D+ G   ++         +IAANN  L E I + I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|5EYG|A</Hit_id>
+  <Hit_def>Crystal structure of IMPase/NADP phosphatase complexed with NADP and Ca2+ [Staphylococcus aureus] &gt;pdb|5EYG|B Crystal structure of IMPase/NADP phosphatase complexed with NADP and Ca2+ [Staphylococcus aureus] &gt;pdb|5EYH|A Crystal Structure of IMPase/NADP phosphatase complexed with NADP and Ca2+ at pH 7.0 [Staphylococcus aureus] &gt;pdb|5EYH|B Crystal Structure of IMPase/NADP phosphatase complexed with NADP and Ca2+ at pH 7.0 [Staphylococcus aureus] &gt;pdb|5F24|A Crystal structure of dual specific IMPase/NADP phosphatase bound with D-inositol-1-phosphate [Staphylococcus aureus] &gt;pdb|5F24|B Crystal structure of dual specific IMPase/NADP phosphatase bound with D-inositol-1-phosphate [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5EYG_A</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.63626e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>RQAGEVVCEAIKN----------EMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTD--NPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGI--------IVTEAGGVLMDVTGGPF</Hsp_qseq>
+      <Hsp_hseq>QQIDKLICSWLKQIDNVIPQLIMEMTTETKRHRFDLVTNVDKQIQQQFQQFLATYFPEHQLLAEEKSNA----MITNEINHLWIMDPIDGTANLVKQQEDYCIILAYFYEGKPMLSYVYDYPHKKLYKAIRGEGAFCNGFKMEEPPSLKLEDAII--------SFNAQVMNLDTVQDLFDASF-SYRLVGACGLDSMRVAKGQFGAHINTNPKPWDIAAQFLFAELLNLKMTTLDGKAIDHLKGAPF</Hsp_hseq>
+      <Hsp_midline>+Q  +++C  +K           EM    K    DLVT  D+++++     +   +P H  + EE   A    ++T+  N  WI+DPIDGT N V +     + + +    K     VY     K+Y A +G+GAFCNG K++      +  +++        +     M L  ++ LF       R VG   ++   VA G   A+       WD+A   +        + T  G  +  + G PF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|4G61|A</Hit_id>
+  <Hit_def>Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4G61|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4I3E|A Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4I3E|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4I3Y|A Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4I3Y|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4I40|A Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4I40|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4PTK|A Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|4PTK|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>4G61_A</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.16831e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>RQAGEVVCEAIKN----------EMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTD--NPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGI--------IVTEAGGVLMDVTGGPF</Hsp_qseq>
+      <Hsp_hseq>QQIDKLICSWLKQIDNVIPQLIMEMTTETKRHRFDLVTNVDKQIQQQFQQFLATYFPEHQLLAEEKSNA----MITNEINHLWIMDPIDGTANLVKQQEDYCIILAYFYEGKPMLSYVYDYPHKKLYKAIRGEGAFCNGIKMEEPPSLKLEDAII--------SFNAQVMNLDTVQDLFDASF-SYRLVGACGLDSMRVAKGQFGAHINTNPKPWDIAAQFLFAELLNLKMTTLDGKAIDHLKGAPF</Hsp_hseq>
+      <Hsp_midline>+Q  +++C  +K           EM    K    DLVT  D+++++     +   +P H  + EE   A    ++T+  N  WI+DPIDGT N V +     + + +    K     VY     K+Y A +G+GAFCNG K++      +  +++        +     M L  ++ LF       R VG   ++   VA G   A+       WD+A   +        + T  G  +  + G PF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3RYD|A</Hit_id>
+  <Hit_def>Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|3RYD|C Chain C, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>3RYD_A</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.18286e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>RQAGEVVCEAIKN----------EMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTD--NPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGI--------IVTEAGGVLMDVTGGPF</Hsp_qseq>
+      <Hsp_hseq>QQIDKLICSWLKQIDNVIPQLIMEMTTETKRHRFDLVTNVDKQIQQQFQQFLATYFPEHQLLAEEKSNA----MITNEINHLWIMDPIDGTANLVKQQEDYCIILAYFYEGKPMLSYVYDYPHKKLYKAIRGEGAFCNGIKMEEPPSLKLEDAII--------SFNAQVMNLDTVQDLFDASF-SYRLVGACGLDSMRVAKGQFGAHINTNPKPWDIAAQFLFAELLNLKMTTLDGKAIDHLKGAPF</Hsp_hseq>
+      <Hsp_midline>+Q  +++C  +K           EM    K    DLVT  D+++++     +   +P H  + EE   A    ++T+  N  WI+DPIDGT N V +     + + +    K     VY     K+Y A +G+GAFCNG K++      +  +++        +     M L  ++ LF       R VG   ++   VA G   A+       WD+A   +        + T  G  +  + G PF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|3QMF|A</Hit_id>
+  <Hit_def>Chain A, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476] &gt;pdb|3QMF|B Chain B, Inositol monophosphatase family protein [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>3QMF_A</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.18286e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>RQAGEVVCEAIKN----------EMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTD--NPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGI--------IVTEAGGVLMDVTGGPF</Hsp_qseq>
+      <Hsp_hseq>QQIDKLICSWLKQIDNVIPQLIMEMTTETKRHRFDLVTNVDKQIQQQFQQFLATYFPEHQLLAEEKSNA----MITNEINHLWIMDPIDGTANLVKQQEDYCIILAYFYEGKPMLSYVYDYPHKKLYKAIRGEGAFCNGIKMEEPPSLKLEDAII--------SFNAQVMNLDTVQDLFDASF-SYRLVGACGLDSMRVAKGQFGAHINTNPKPWDIAAQFLFAELLNLKMTTLDGKAIDHLKGAPF</Hsp_hseq>
+      <Hsp_midline>+Q  +++C  +K           EM    K    DLVT  D+++++     +   +P H  + EE   A    ++T+  N  WI+DPIDGT N V +     + + +    K     VY     K+Y A +G+GAFCNG K++      +  +++        +     M L  ++ LF       R VG   ++   VA G   A+       WD+A   +        + T  G  +  + G PF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5YHT|A</Hit_id>
+  <Hit_def>Crystal structure of a phosphatase from Mycobacterium tuberculosis in complex with its substrate [Mycobacterium tuberculosis H37Rv] &gt;pdb|5YHT|B Crystal structure of a phosphatase from Mycobacterium tuberculosis in complex with its substrate [Mycobacterium tuberculosis H37Rv] &gt;pdb|5ZON|A Histidinol phosphate phosphatase from Mycobacterium tuberculosis [Mycobacterium tuberculosis H37Rv] &gt;pdb|5ZON|B Histidinol phosphate phosphatase from Mycobacterium tuberculosis [Mycobacterium tuberculosis H37Rv] &gt;pdb|5ZON|C Histidinol phosphate phosphatase from Mycobacterium tuberculosis [Mycobacterium tuberculosis H37Rv] &gt;pdb|5ZON|D Histidinol phosphate phosphatase from Mycobacterium tuberculosis [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>5YHT_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>4.47408e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>AVTLARQAGEVVCEAIKNEMNVMLKSSPVDL--VTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCN-----GQKLQVSQ--QEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVL--MDVTGGP</Hsp_qseq>
+      <Hsp_hseq>ALALADRADEL-TRVRFGALDLRIDTKP-DLTPVTDADRAVESDVRQTLGRDRPGDGVLGEEF---GGSTTFTGR-QWIVDPIDGTKNFVRGVPVWASLIALLEDGVPSVGVVSAPALQRRWWAARGRGAFASVDGARPHRLSVSSVAELHSASLSFSSLSGWAR-PGLRERFIGLTDTVWRVRAYG------DFLSYCLVAEGAVDIAAEPQVSVWDLAALDIVVREAGGRLTSLDGVAGP</Hsp_hseq>
+      <Hsp_midline>A+ LA +A E+        +++ + + P DL  VT  D+ VE  +  ++    P    +GEE    G  +  T    WI+DPIDGT NFV   P  A  I    +     GVV +    + + A +G+GAF +       +L VS   +         +  G +R P      +   + ++ +  +G        ++ CLVA G  D   E  +  WD+A   I+V EAGG L  +D   GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|6B65|A</Hit_id>
+  <Hit_def>IMPase (AF2372) R92Q/K164E [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B65|B IMPase (AF2372) R92Q/K164E [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B66|A IMPase (AF2372) R92Q/K164E with 400 mM Glutamate [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B66|B IMPase (AF2372) R92Q/K164E with 400 mM Glutamate [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>6B65_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.18945e-13</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SVAAGEKSILTDNPTWI-IDPIDGTTNFVHRFPFVAVSIGFAVNKKIE---FGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMG----IHCWDVAGAGIIVTEAGGVLMDVTG-----GPFDLMSR-RVIAANNRI</Hsp_qseq>
+      <Hsp_hseq>TVVTEESGVLGEGDVFVALDPLDGTFNATQGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYA-DSSGAYRNGERIEVSDAEELYCNAIIY------YPDRK------------FPFERMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKL</Hsp_hseq>
+      <Hsp_midline>+V   E  +L +   ++ +DP+DGT N     P  +VS+ F+ + K++   FG VY+   G  Y A    GA+ NG++++VS  E++  + ++        P+               P   +R  G+AA  +C  A G  D + ++     +  +D A    I  +AGG + ++ G       FD+  R  ++AAN ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|6B64|A</Hit_id>
+  <Hit_def>IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B64|B IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>6B64_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.76156e-13</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SVAAGEKSILTDNPTWI-IDPIDGTTNFVHRFPFVAVSIGFAVNKKIE---FGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMG----IHCWDVAGAGIIVTEAGGVLMDVTG-----GPFDLMSR-RVIAANNRI</Hsp_qseq>
+      <Hsp_hseq>TVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYA-DSSGAYRNGERIEVSDAEELYCNAIIY------YPDRK------------FPFKRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKL</Hsp_hseq>
+      <Hsp_midline>+V   E  +L +   ++ +DP+DGT N     P  +VS+ F+ + K++   FG VY+   G  Y A    GA+ NG++++VS  E++  + ++        P+               P   +R  G+AA  +C  A G  D + ++     +  +D A    I  +AGG + ++ G       FD+  R  ++AAN ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1LBV|A</Hit_id>
+  <Hit_def>Crystal Structure of apo-form (P21) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus [Archaeoglobus fulgidus] &gt;pdb|1LBV|B Crystal Structure of apo-form (P21) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus [Archaeoglobus fulgidus] &gt;pdb|1LBW|A Crystal Structure of apo-form (P32) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus [Archaeoglobus fulgidus] &gt;pdb|1LBW|B Crystal Structure of apo-form (P32) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus [Archaeoglobus fulgidus] &gt;pdb|1LBX|A Crystal Structure of a ternary complex of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus with Calcium ions and D-myo-Inositol-1-Phosphate [Archaeoglobus fulgidus] &gt;pdb|1LBX|B Crystal Structure of a ternary complex of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus with Calcium ions and D-myo-Inositol-1-Phosphate [Archaeoglobus fulgidus] &gt;pdb|1LBY|A Crystal Structure of a complex (P32 crystal form) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus with 3 Manganese ions, Fructose-6-Phosphate, and Phosphate ion [Archaeoglobus fulgidus] &gt;pdb|1LBY|B Crystal Structure of a complex (P32 crystal form) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus with 3 Manganese ions, Fructose-6-Phosphate, and Phosphate ion [Archaeoglobus fulgidus] &gt;pdb|1LBZ|A Crystal Structure of a complex (P32 crystal form) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus with 3 Calcium ions and Fructose-1,6 bisphosphate [Archaeoglobus fulgidus] &gt;pdb|1LBZ|B Crystal Structure of a complex (P32 crystal form) of dual activity FBPase/IMPase (AF2372) from Archaeoglobus fulgidus with 3 Calcium ions and Fructose-1,6 bisphosphate [Archaeoglobus fulgidus] &gt;pdb|6B5Z|A IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B5Z|B IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B60|A IMPase (AF2372) with 25 mM Glutamate [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B60|B IMPase (AF2372) with 25 mM Glutamate [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B61|A IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B61|B IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B62|A IMPase (AF2372) with 400 mM Glutamate [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B62|B IMPase (AF2372) with 400 mM Glutamate [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B63|A IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304] &gt;pdb|6B63|B IMPase (AF2372) with 25 mM Asp [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>1LBV_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.77893e-13</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SVAAGEKSILTDNPTWI-IDPIDGTTNFVHRFPFVAVSIGFAVNKKIE---FGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMG----IHCWDVAGAGIIVTEAGGVLMDVTG-----GPFDLMSR-RVIAANNRI</Hsp_qseq>
+      <Hsp_hseq>TVVTEESGVLGEGDVFVALDPLDGTFNATRGIPVYSVSLCFSYSDKLKDAFFGYVYNLATGDEYYA-DSSGAYRNGERIEVSDAEELYCNAIIY------YPDRK------------FPFKRMRIFGSAATELCFFADGSFDCFLDIRPGKMLRIYDAAAGVFIAEKAGGKVTELDGESLGNKKFDMQERLNIVAANEKL</Hsp_hseq>
+      <Hsp_midline>+V   E  +L +   ++ +DP+DGT N     P  +VS+ F+ + K++   FG VY+   G  Y A    GA+ NG++++VS  E++  + ++        P+               P   +R  G+AA  +C  A G  D + ++     +  +D A    I  +AGG + ++ G       FD+  R  ++AAN ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1XI6|A</Hit_id>
+  <Hit_def>Extragenic suppressor from Pyrococcus furiosus Pfu-1862794-001 [Pyrococcus furiosus]</Hit_def>
+  <Hit_accession>1XI6_A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.81926e-13</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLKSSPV-DLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNP---TWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMG--IHCWDVAGAGIIVTEAGGVLMDVTGGPFDL</Hsp_qseq>
+      <Hsp_hseq>LVKISPSGDETKLVDKLAEDLILSRITE-------LGVNVVS--EEVGVIDNESEYTVIVDPLDGSYNFIAGIPFFALSLAVFKKDKPIYAIIYEPMTERFFEGIPGEGAFLNGKRIKVRKTPDEKPSISFYSRGKGH--EIVKHVKRT------------RTLGAIALELAYLAMGALDGVVDVRKYVRPTDIAAGTIIAKEAGALIKDSAGKDIDI</Hsp_hseq>
+      <Hsp_midline>++K SP  D     D+  E +++S I E       +G   V+  E+  + DN    T I+DP+DG+ NF+   PF A+S+      K  + ++Y  +  + +    G+GAF NG++++V +  D   S+     G     E V+ V               R++G  A+ +  +A G  D   ++   +   D+A   II  EAG ++ D  G   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|4HXV|A</Hit_id>
+  <Hit_def>Crystal structure of 3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase1 from Entamoeba histolytica in complex with AMP and metal ions [Entamoeba histolytica] &gt;pdb|4O7I|A Structural and functional characterization of 3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase1 from Entamoeba histolytica [Entamoeba histolytica]</Hit_def>
+  <Hit_accession>4HXV_A</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>6.36795e-11</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MDYAVTLARQAGEVVCE--------AIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAG-----------------------EKSILTDNPT------WIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVE---GKMYTARKGKGA-------FCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHC------WDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILA</Hsp_qseq>
+      <Hsp_hseq>FDKELALALEIVQVSCKITTSVAEHTLTDQTQIKNDKSPV---TVGDYSVQAYVNKKIHETFPEDQIVAEEDTKTIPEDIFAKVCKHVQIYSDMKDDEIRKSIDLGNSTGGKGRHWVLDPIDGTLGFLRREQY-AVCLAFMIDGDIKVGVL-GCPNFEGGLIVAAQKGCGAKMFSVNDIKNGKDIHVSTTPKTSDMCFCESVEVSHTDQSRSKTITERLQVTKPPVRMDSQCKYMAI-----ASGRADVYLRLPRNLSYQEKIWDHAAGYLIVKEAGGKVTDIYGNDLDFSLGRTLCNNHGIVA</Hsp_hseq>
+      <Hsp_midline> D  + LA +  +V C+         + ++  +    SPV   T  D  V+  +   I E +P    + EE                             KSI   N T      W++DPIDGT  F+ R  + AV + F ++  I+ GV+  C     G +  A+KG GA         NG+ + VS     +       +  S T ++    ++   ++   PV         A+     A+G AD Y  +  +       WD A   +IV EAGG + D+ G   D    R +  N+ I+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1JP4|A</Hit_id>
+  <Hit_def>Crystal Structure of an Enzyme Displaying both Inositol-Polyphosphate 1-Phosphatase and 3&apos;-Phosphoadenosine-5&apos;-Phosphate Phosphatase Activities [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1JP4_A</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>9.90754e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>AVTLARQAGEVV-CEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGE--KSILTDNPT----------------------WIIDPIDGTTNFVH-RFPFVAVSIGFAVNKKIEFGVVYS----------CVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSL-----LVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHC--WDVAGAGIIVTEAGGVLMDVTGGPFD-------LMSRRVIAA--NNRILAERIAKEIQ</Hsp_qseq>
+      <Hsp_hseq>AYSIAQKAGTIVRCVIAEGDLGIVQKTSATDLQTKADRMVQMSICSSLSRKFPKLTIIGEEDLPPGEVDQELIEDGQSEEILKQPCPSQYSAIKEEDLVVW-VDPVDGTKEYTEGLLDNVTVLIGIAYEGKAIAGIINQPYYNYQAGPDAVLGRTIWGVLGLGAFGFQLKEAPAGKHIITTTRSHSNKLVTDCIAAMNPDNV------------------LRVGGAGNKIIQLIEGKASAYVFASPGCKKWDTCAPEVILHAVGGKLTDIHGNPLQYDKEVKHMNSAGVLAALRNYEYYASRVPESVK</Hsp_hseq>
+      <Hsp_midline>A ++A++AG +V C   + ++ ++ K+S  DL T  D+ V+  + SS+  K+P  + IGEE +  GE  + ++ D  +                      W +DP+DGT  +       V V IG A   K   G++             V G+      G GAF    K   + +  IT +      LVT+  ++  P+ V                    VG A   +  +  G A AY      C  WD     +I+   GG L D+ G P         + S  V+AA  N    A R+ + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|4N81|A</Hit_id>
+  <Hit_def>Chain A, Inositol monophosphatase [Zymomonas mobilis subsp. mobilis ZM4 = ATCC 31821]</Hit_def>
+  <Hit_accession>4N81_A</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.3711e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>WQECMDYAVTLARQAGEVVCEAIKNEMNVMLKS--SPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEE-SVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDLMS-RRVIAANNRILAE</Hsp_qseq>
+      <Hsp_hseq>YEDDIRLAHRLADVAADIIRPFFRAPLTIDLKADHSPV---TKADRGAEQAMRAILEQERPEDGIFGEEMGVSRPDARRL-----WVLDPIDGTRAFIGGRASFGTLIALVEDGRPVLGIINQPIHQERWVGVKDLPTSFNGEVIHTRSCPALDHALLATT--SPWLFEKEGEVHFDKIRLKCRDT----LLGGDCYNYGLLSLGHCDLVVEQGLKFYDFAALVPIVEGAGGIMRDWQNRPLNKNSVGEVIAAGDHHLIE</Hsp_hseq>
+      <Hsp_midline>+++ +  A  LA  A +++    +  + + LK+  SPV   T  D+  E+ + + ++++ P     GEE  V+  +   L     W++DPIDGT  F+         I    + +   G++   +  + +   K      NG+ +       +  +LL T   S    E    V  +  +L C        +G    N  L++ G  D   E G+  +D A    IV  AGG++ D    P +  S   VIAA +  L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|3B8B|A</Hit_id>
+  <Hit_def>Crystal structure of CysQ from Bacteroides thetaiotaomicron, a bacterial member of the inositol monophosphatase family [Bacteroides thetaiotaomicron VPI-5482]</Hit_def>
+  <Hit_accession>3B8B_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.41797e-08</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>AVTLARQAGEVVC---EAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKE-KYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNG-----QKLQVSQQEDITKS-----------LLVTELGSSRTPETVRMVLSNMEKLFCIPVHG---IRSVGTAAVNMCLVATGGADAY</Hsp_qseq>
+      <Hsp_hseq>AIDAALKAGEKILSIYEDPKSDFEIERKADNSPLTIA-DRKAHEAIVAILNETPFPVLSEEGKHXDYAVRRGWDT---LWIVDPLDGTKEFIKRNGEFTVNIALVQNAVPVXGVIYVPVKKELYFAVEGTGAYKXSGIVGLEDEGVTLQQXIEKSERXPLADARDHFIAVASRSHLTPET-ETYIADLKK-----KHGNVELISSGS-SIKICLVAEGKADVY</Hsp_hseq>
+      <Hsp_midline>A+  A +AGE +    E  K++  +  K+    L  A D+K  + +++ + E  +P  S  G+    A  +   T    WI+DP+DGT  F+ R     V+I    N     GV+Y  V+ ++Y A +G GA+        +   V+ Q+ I KS            +     S  TPET    +++++K      HG   + S G+ ++ +CLVA G AD Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4QXD|A</Hit_id>
+  <Hit_def>Crystal structure of Inositol Polyphosphate 1-Phosphatase from Entamoeba histolytica [Entamoeba histolytica HM-1:IMSS] &gt;pdb|4QXD|B Crystal structure of Inositol Polyphosphate 1-Phosphatase from Entamoeba histolytica [Entamoeba histolytica HM-1:IMSS]</Hit_def>
+  <Hit_accession>4QXD_A</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>5.82097e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>VTLARQAGEVVCEAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDN--PT--------------------WIIDPIDGTTNFVHR-FPFVAVSIGFAVNKKIEFGVVYSCVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIH--CWDVAGAGIIVTEAGGVLMDVTGGPF</Hsp_qseq>
+      <Hsp_hseq>ITAVKEASYSISK-FKEEVEIKYKSDGSE-VTQVDTQSQQIIFSIIKNKYPTINIIGEEDVENG----IPDNQLPTITQLSFGSLENKIININDIIIYVDPLDGTDCYTHKQYDSVCVLVGVTYKGKPMIGIV-----SKPFYNNEITFAIENYIS-SISLQPLNDKIIFVC---------SKKNDIQHLIKSFPDP-YEVKYKGGSGAKMMAIIHQEADIYYHPLIQSCTWDTLAAQVILEAQGGIVCDIYGNPL</Hsp_hseq>
+      <Hsp_midline>+T  ++A   + +  K E+ +  KS   + VT  D + ++++ S IK KYP+ + IGEE V  G    + DN  PT                      +DP+DGT  + H+ +  V V +G     K   G+V      K +   +   A  N     +S Q    K + V          + +  + ++ K F  P + ++  G +   M  +    AD YY   I    WD   A +I+   GG++ D+ G P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|5ESY|A</Hit_id>
+  <Hit_def>Arabidopsis thaliana SAL1 [Arabidopsis thaliana] &gt;pdb|5ESY|B Arabidopsis thaliana SAL1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>5ESY_A</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.03528e-06</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>WIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVVYSCVE-------------------GKMYTARKGKGAF-------CNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPV-------HGIRSVGTAAVNMCLVATGGADAYYEMGIHCWDVAGAGIIVTEAGGVLMDVTGGPFDL-------MSRRVIAANNRIL</Hsp_qseq>
+      <Hsp_hseq>WVLDPIDGTKGFL-RGDQYAVALGLLEEGKVVLGVL-ACPNLPLASIAGNNKNKSSSDEIGCLFFATIGSGTYMQLLDSKSSPVKVQVSSVENPEEASFFESFEGAHSLHDLSSSIANKLGVKAPPVRIDSQAKYGALSRGDGAIYLRFPHKG----YRE---KIWDHVAGAIVVTEAGGIVTDAAGKPLDFSKGKYLDLDTGIIVANEKLM</Hsp_hseq>
+      <Hsp_midline>W++DPIDGT  F+ R    AV++G     K+  GV+ +C                     G ++ A  G G +        +  K+QVS  E+  ++        + +   +   ++N   +   PV       +G  S G  A+ +     G    Y E     WD     I+VTEAGG++ D  G P D        +   +I AN +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|1K9Y|A</Hit_id>
+  <Hit_def>The PAPase Hal2p complexed with magnesium ions and reaction products: AMP and inorganic phosphate [Saccharomyces cerevisiae] &gt;pdb|1K9Z|A The PAPase Hal2p complexed with zinc ions [Saccharomyces cerevisiae] &gt;pdb|1KA0|A The PAPase Hal2p complexed with a sodium ion and the reaction product AMP [Saccharomyces cerevisiae] &gt;pdb|1KA1|A The PAPase Hal2p complexed with calcium and magnesium ions and reaction substrate: PAP [Saccharomyces cerevisiae] &gt;pdb|1QGX|A X-Ray Structure Of Yeast Hal2p [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1K9Y_A</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.02175e-06</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>WIIDPIDGTTNFVHRFPFVAVSIGFAVNKKIEFGVV---------YSCVE-------GKMYTARKGKGAFCNGQ-------KLQVSQQEDITKSLLVTEL----GSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHC------WDVAGAGIIVTEAGGVLMDVTGG-PFDLMSRRVIA</Hsp_qseq>
+      <Hsp_hseq>WCLDPIDGTKGFLRGEQF-AVCLALIVDGVVQLGCIGCPNLVLSSYGAQDLKGHESFGYIFRAVRGLGAFYSPSSDAESWTKIHVRHLKD-TKDMITLEGVEKGHSSHDEQTAIKNKLNISKSLHLD---------SQAKYCLLALGLADVYLRLPIKLSYQEKIWDHAAGNVIVHEAGGIHTDAMEDVPLDFGNGRTLA</Hsp_hseq>
+      <Hsp_midline>W +DPIDGT  F+    F AV +   V+  ++ G +         Y   +       G ++ A +G GAF +         K+ V   +D TK ++  E      SS   +T      N+ K   +          +    CL+A G AD Y  + I        WD A   +IV EAGG+  D     P D  + R +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|2WEF|A</Hit_id>
+  <Hit_def>Human 3&apos;(2&apos;), 5&apos;-bisphosphate nucleotidase 1 (BPNT1) in complex with AMP, PO4 and Magnesium [Homo sapiens]</Hit_def>
+  <Hit_accession>2WEF_A</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>8.41632e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>AVTLARQAGEVVCEAI-KNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGE-KSILTDNPTW----------------------IIDPIDGTTNFVH-RFPFVAVSIGFAVNKKIEFGVVYS----------CVEGKMYTARKGKGAFCNGQKLQVSQQEDITKSL-----LVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRSVGTAAVNMCLVATGGADAYYEMGIHC--WDVAGAGIIVTEAGGVLMDVTG</Hsp_qseq>
+      <Hsp_hseq>AYSIAQKAGMIVRRVIAEGDLGIVEKTCATDLQTKADRLAQMSICSSLARKFPKLTIIGEEDLPSEEVDQELIEDSQWEEILKQPCPSQYSAIKEEDLVVWVDPLDGTKEYTEGLLDNVTVLIGIAYEGKAIAGVINQPYYNYEAGPDAVLGRTIWGVLGLGAFGFQLKEVPAGKHIITTTRSHSNKLVTDCVAAMNPDAV------------------LRVGGAGNKIIQLIEGKASAYVFASPGCKKWDTCAPEVILHAVGGKLTDIHG</Hsp_hseq>
+      <Hsp_midline>A ++A++AG +V   I + ++ ++ K+   DL T  D+  +  + SS+  K+P  + IGEE + + E    L ++  W                       +DP+DGT  +       V V IG A   K   GV+             V G+      G GAF    K   + +  IT +      LVT+  ++  P+ V                    VG A   +  +  G A AY      C  WD     +I+   GG L D+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|5DJF|A</Hit_id>
+  <Hit_def>Chain A, 3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase [Mycobacterium tuberculosis] &gt;pdb|5DJG|A Chain A, 3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase [Mycobacterium tuberculosis] &gt;pdb|5DJH|A Chain A, 3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase [Mycobacterium tuberculosis] &gt;pdb|5DJI|A Chain A, 3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase [Mycobacterium tuberculosis] &gt;pdb|5DJJ|A Chain A, 3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase [Mycobacterium tuberculosis] &gt;pdb|5DJK|A Chain A, 3&apos;-phosphoadenosine 5&apos;-phosphate phosphatase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>5DJF_A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00826261</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPTWIIDPIDGTTNF</Hsp_qseq>
+      <Hsp_hseq>PWTLGEAGDRQANSLLLRRLQAERPGDAVLSEE--AHDDLARLKSDRVWIIDPLDGTREF</Hsp_hseq>
+      <Hsp_midline>P  L  A D++   +L+  ++ + P  + + EE  A  + + L  +  WIIDP+DGT  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|2PW6|A</Hit_id>
+  <Hit_def>Crystal structure of uncharacterized protein JW3007 from Escherichia coli K12 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>2PW6_A</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.1598</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>WDVAGAGIIVTEAGGVLMDVTGGPFDLMSRRVIAANNRILAERIAKEIQVIPLQRDDE</Hsp_qseq>
+      <Hsp_hseq>WFTRGTGVTAXETPPTIHDFGGFPQALYDTHYPAPGSPALAQRLVELLAPIPVTLDKE</Hsp_hseq>
+      <Hsp_midline>W   G G+   E    + D  G P  L      A  +  LA+R+ + +  IP+  D E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|1WF9|A</Hit_id>
+  <Hit_def>Solution structure of a novel beta-grasp fold like domain of Hypothetical protein (Arabidopsis thaliana) [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>1WF9_A</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.94728</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>EAIKNEMNVMLKSSPVDLVTATDQKVEKMLISSIKEKYPSHSFIGEESVAAGEKSILTDNPT</Hsp_qseq>
+      <Hsp_hseq>QTLSTNRNLLLAKSPSDFLAFTDMADPNLRISSLNLAHGSMVYLAYE----GERTIRGSGPS</Hsp_hseq>
+      <Hsp_midline>+ +    N++L  SP D +  TD     + ISS+   + S  ++  E    GE++I    P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|3GEH|A</Hit_id>
+  <Hit_def>Crystal structure of MnmE from Nostoc in complex with GDP, FOLINIC ACID and ZN [Nostoc sp. PCC 7120 = FACHB-418]</Hit_def>
+  <Hit_accession>3GEH_A</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.65515</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>VVYSCVEGKMYTARKGK---GAFCNGQKLQVSQQEDITKSLLVTELGSSRTPETVRMVLSNMEKLFCIPVHGIRS</Hsp_qseq>
+      <Hsp_hseq>VLQLCLESGARLAQPGEFTLRAFLNGRL-------DLTQAESIADLVGARSPQAAQTALAGLQGKLAHPIRQLRA</Hsp_hseq>
+      <Hsp_midline>V+  C+E     A+ G+    AF NG+        D+T++  + +L  +R+P+  +  L+ ++     P+  +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>103</Statistics_hsp-len>
+      <Statistics_eff-space>3695964215</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

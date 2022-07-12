@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1BH5_1|Chains A, B, C, D|LACTOYLGLUTATHIONE LYASE|Homo sapiens (9606)</BlastOutput_query-def>
+  <BlastOutput_query-len>183</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1BH5_1|Chains A, B, C, D|LACTOYLGLUTATHIONE LYASE|Homo sapiens (9606)</Iteration_query-def>
+  <Iteration_query-len>183</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1BH5|A</Hit_id>
+  <Hit_def>HUMAN GLYOXALASE I Q33E, E172Q DOUBLE MUTANT [Homo sapiens] &gt;pdb|1BH5|B HUMAN GLYOXALASE I Q33E, E172Q DOUBLE MUTANT [Homo sapiens] &gt;pdb|1BH5|C HUMAN GLYOXALASE I Q33E, E172Q DOUBLE MUTANT [Homo sapiens] &gt;pdb|1BH5|D HUMAN GLYOXALASE I Q33E, E172Q DOUBLE MUTANT [Homo sapiens]</Hit_def>
+  <Hit_accession>1BH5_A</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>1.22421e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_qseq>
+      <Hsp_hseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_hseq>
+      <Hsp_midline>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|3VW9|A</Hit_id>
+  <Hit_def>Human Glyoxalase I with an N-hydroxypyridone inhibitor [Homo sapiens] &gt;pdb|3VW9|B Human Glyoxalase I with an N-hydroxypyridone inhibitor [Homo sapiens] &gt;pdb|3W0T|A Human Glyoxalase I with an N-hydroxypyridone derivative inhibitor [Homo sapiens] &gt;pdb|3W0T|B Human Glyoxalase I with an N-hydroxypyridone derivative inhibitor [Homo sapiens] &gt;pdb|3W0T|C Human Glyoxalase I with an N-hydroxypyridone derivative inhibitor [Homo sapiens] &gt;pdb|3W0T|D Human Glyoxalase I with an N-hydroxypyridone derivative inhibitor [Homo sapiens] &gt;pdb|3W0U|A human Glyoxalase I with an N-hydroxypyridone inhibitor [Homo sapiens] &gt;pdb|3W0U|B human Glyoxalase I with an N-hydroxypyridone inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>3VW9_A</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>1.17371e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_qseq>
+      <Hsp_hseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQQTMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIEILNPNKMATLM</Hsp_hseq>
+      <Hsp_midline>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQ+TMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWI+ILNPNKMATLM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1FRO|A</Hit_id>
+  <Hit_def>Human Glyoxalase I With Benzyl-Glutathione Inhibitor [Homo sapiens] &gt;pdb|1FRO|B Human Glyoxalase I With Benzyl-Glutathione Inhibitor [Homo sapiens] &gt;pdb|1FRO|C Human Glyoxalase I With Benzyl-Glutathione Inhibitor [Homo sapiens] &gt;pdb|1FRO|D Human Glyoxalase I With Benzyl-Glutathione Inhibitor [Homo sapiens] &gt;pdb|1QIN|A Human Glyoxalase I Complexed With S-(N-Hydroxy-N-P- Iodophenylcarbamoyl) Glutathione [Homo sapiens] &gt;pdb|1QIN|B Human Glyoxalase I Complexed With S-(N-Hydroxy-N-P- Iodophenylcarbamoyl) Glutathione [Homo sapiens] &gt;pdb|1QIP|A Human Glyoxalase I Complexed With S-P- Nitrobenzyloxycarbonylglutathione [Homo sapiens] &gt;pdb|1QIP|B Human Glyoxalase I Complexed With S-P- Nitrobenzyloxycarbonylglutathione [Homo sapiens] &gt;pdb|1QIP|C Human Glyoxalase I Complexed With S-P- Nitrobenzyloxycarbonylglutathione [Homo sapiens] &gt;pdb|1QIP|D Human Glyoxalase I Complexed With S-P- Nitrobenzyloxycarbonylglutathione [Homo sapiens]</Hit_def>
+  <Hit_accession>1FRO_A</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>1.25406e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_qseq>
+      <Hsp_hseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQQTMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIEILNPNKMATLM</Hsp_hseq>
+      <Hsp_midline>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQ+TMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWI+ILNPNKMATLM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|2ZA0|A</Hit_id>
+  <Hit_def>Crystal structure of mouse glyoxalase I complexed with methyl-gerfelin [Mus musculus] &gt;pdb|2ZA0|B Crystal structure of mouse glyoxalase I complexed with methyl-gerfelin [Mus musculus] &gt;pdb|4KYH|A Crystal structure of mouse glyoxalase I complexed with zopolrestat [Mus musculus] &gt;pdb|4KYH|B Crystal structure of mouse glyoxalase I complexed with zopolrestat [Mus musculus] &gt;pdb|4KYK|A Crystal structure of mouse glyoxalase I complexed with indomethacin [Mus musculus] &gt;pdb|4KYK|B Crystal structure of mouse glyoxalase I complexed with indomethacin [Mus musculus] &gt;pdb|4OPN|A Crystal structure of mouse glyoxalase I complexed with mAH [Mus musculus] &gt;pdb|4OPN|B Crystal structure of mouse glyoxalase I complexed with mAH [Mus musculus] &gt;pdb|4X2A|A Crystal structure of mouse glyoxalase I complexed with baicalein [Mus musculus] &gt;pdb|4X2A|B Crystal structure of mouse glyoxalase I complexed with baicalein [Mus musculus]</Hit_def>
+  <Hit_accession>2ZA0_A</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>2.50823e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_qseq>
+      <Hsp_hseq>AEPQPASSGLTDETAFSCCSDPDPSTKDFLLQQTMLRIKDPKKSLDFYTRVLGLTLLQKLDFPAMKFSLYFLAYEDKNDIPKDKSEKTAWTFSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIEILNPNKIATII</Hsp_hseq>
+      <Hsp_midline>AEPQP S GLTDE A SCCSD DPSTKDFLLQ+TMLR+KDPKKSLDFYTRVLG+TL+QK DFP MKFSLYFLAYEDKNDIPK+K EK AW  SRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWI+ILNPNK+AT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|4PV5|A</Hit_id>
+  <Hit_def>Crystal structure of mouse glyoxalase I in complexed with 18-beta-glycyrrhetinic acid [Mus musculus] &gt;pdb|4PV5|B Crystal structure of mouse glyoxalase I in complexed with 18-beta-glycyrrhetinic acid [Mus musculus]</Hit_def>
+  <Hit_accession>4PV5_A</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.591</Hsp_bit-score>
+      <Hsp_score>893</Hsp_score>
+      <Hsp_evalue>2.76211e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>AEPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_qseq>
+      <Hsp_hseq>AEPQPASSGLTDETAFSCCSDPDPSTKDFLLQQTMLRIKDPKKSLDFYTRVLGLTLLQKLDFPAMKFSLYFLAYEDKNDIPKDKSEKTAWTFSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIEILNPNKIATII</Hsp_hseq>
+      <Hsp_midline>AEPQP S GLTDE A SCCSD DPSTKDFLLQ+TMLR+KDPKKSLDFYTRVLG+TL+QK DFP MKFSLYFLAYEDKNDIPK+K EK AW  SRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWI+ILNPNK+AT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|6L0U|A</Hit_id>
+  <Hit_def>Crystal structure of mouse glyoxalase I complexed with a small molecule inhibitor [Mus musculus] &gt;pdb|6L0U|B Crystal structure of mouse glyoxalase I complexed with a small molecule inhibitor [Mus musculus]</Hit_def>
+  <Hit_accession>6L0U_A</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>3.49893e-121</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKMATLM</Hsp_qseq>
+      <Hsp_hseq>PASSGLTDETAFSCCSDPDPSTKDFLLQQTMLRIKDPKKSLDFYTRVLGLTLLQKLDFPAMKFSLYFLAYEDKNDIPKDKSEKTAWTFSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIEILNPNKIATII</Hsp_hseq>
+      <Hsp_midline>P S GLTDE A SCCSD DPSTKDFLLQ+TMLR+KDPKKSLDFYTRVLG+TL+QK DFP MKFSLYFLAYEDKNDIPK+K EK AW  SRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWI+ILNPNK+AT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4MTQ|A</Hit_id>
+  <Hit_def>Ni-bound GloA2 [Pseudomonas aeruginosa PAO1] &gt;pdb|4MTQ|B Ni-bound GloA2 [Pseudomonas aeruginosa PAO1] &gt;pdb|4MTR|A Zn-bound GloA2 [Pseudomonas aeruginosa PAO1] &gt;pdb|4MTR|B Zn-bound GloA2 [Pseudomonas aeruginosa PAO1] &gt;pdb|4MTS|A Ni- and Zn-bound GloA2 at high resolution [Pseudomonas aeruginosa PAO1] &gt;pdb|4MTS|B Ni- and Zn-bound GloA2 at high resolution [Pseudomonas aeruginosa PAO1] &gt;pdb|4MTT|A Ni- and Zn-bound GloA2 at low resolution [Pseudomonas aeruginosa PAO1] &gt;pdb|4MTT|B Ni- and Zn-bound GloA2 at low resolution [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>4MTQ_A</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>3.63773e-22</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKG----LAFIQDPDGYWIQILNPN</Hsp_qseq>
+      <Hsp_hseq>HSMLRVADLEAALEFYTRALDMRLLRRRDYPEGRFTLAFVGYQ---------DERAA------AALELTHNW-----DRDGYTQGD----GYGHLAIEVEDAAVTCARARALGYRVTREA--GLMQHGRSVIAFLEDPDGYKVELIQKG</Hsp_hseq>
+      <Hsp_midline> +MLRV D + +L+FYTR L M L+++ D+P  +F+L F+ Y+         DE+ A      A LELTHNW     +   Y  G+    G+GH+ I V D    C R   LG +  ++   G M+     +AF++DPDGY ++++   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1F9Z|A</Hit_id>
+  <Hit_def>CRYSTAL STRUCTURE OF THE NI(II)-BOUND GLYOXALASE I FROM ESCHERICHIA COLI [Escherichia coli] &gt;pdb|1F9Z|B CRYSTAL STRUCTURE OF THE NI(II)-BOUND GLYOXALASE I FROM ESCHERICHIA COLI [Escherichia coli] &gt;pdb|1FA5|A CRYSTAL STRUCTURE OF THE ZN(II)-BOUND GLYOXALASE I OF ESCHERICHIA COLI [Escherichia coli] &gt;pdb|1FA5|B CRYSTAL STRUCTURE OF THE ZN(II)-BOUND GLYOXALASE I OF ESCHERICHIA COLI [Escherichia coli] &gt;pdb|1FA6|A Crystal Structure Of The Co(Ii)-Bound Glyoxalase I Of Escherichia Coli [Escherichia coli] &gt;pdb|1FA6|B Crystal Structure Of The Co(Ii)-Bound Glyoxalase I Of Escherichia Coli [Escherichia coli] &gt;pdb|1FA7|A Crystal Structure Of Cd(Ii)-Bound Glyoxalase I Of Escherichia Coli [Escherichia coli] &gt;pdb|1FA7|B Crystal Structure Of Cd(Ii)-Bound Glyoxalase I Of Escherichia Coli [Escherichia coli] &gt;pdb|1FA8|A Crystal Structure Of The Apo Form Glyoxalase I Of Escherichia Coli [Escherichia coli] &gt;pdb|1FA8|B Crystal Structure Of The Apo Form Glyoxalase I Of Escherichia Coli [Escherichia coli]</Hit_def>
+  <Hit_accession>1F9Z_A</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>4.59631e-22</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKK--PDDGKMKGLAFIQDPDGYWIQIL</Hsp_qseq>
+      <Hsp_hseq>LLHTMLRVGDLQRSIDFYTKVLGMKLLRTSENPEYKYSLAFVGYGPETE---------------EAVIELTYNWGVDKYELGT---------AYGHIALSVDNAAEACEKIRQNGGNVTREAGPVKGGTTVIAFVEDPDGYKIELI</Hsp_hseq>
+      <Hsp_midline>L  TMLRV D ++S+DFYT+VLGM L++  + P  K+SL F+ Y  + +               +A +ELT+NWG +  E  +          +GHI ++V +   AC++  + G    ++  P  G    +AF++DPDGY I+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|2C21|A</Hit_id>
+  <Hit_def>Specificity of the Trypanothione-dependednt Leishmania major Glyoxalase I: Structure and biochemical comparison with the human enzyme [Leishmania major] &gt;pdb|2C21|B Specificity of the Trypanothione-dependednt Leishmania major Glyoxalase I: Structure and biochemical comparison with the human enzyme [Leishmania major] &gt;pdb|2C21|C Specificity of the Trypanothione-dependednt Leishmania major Glyoxalase I: Structure and biochemical comparison with the human enzyme [Leishmania major] &gt;pdb|2C21|D Specificity of the Trypanothione-dependednt Leishmania major Glyoxalase I: Structure and biochemical comparison with the human enzyme [Leishmania major] &gt;pdb|2C21|E Specificity of the Trypanothione-dependednt Leishmania major Glyoxalase I: Structure and biochemical comparison with the human enzyme [Leishmania major] &gt;pdb|2C21|F Specificity of the Trypanothione-dependednt Leishmania major Glyoxalase I: Structure and biochemical comparison with the human enzyme [Leishmania major]</Hit_def>
+  <Hit_accession>2C21_A</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>5.35669e-16</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQILNPNKM</Hsp_qseq>
+      <Hsp_hseq>MLHTMIRVGDLDRSIKFYTERLGMKVLRKWDVPEDKYTLVFLGYGPE---------------MSSTVLELTYNYG-----VTSYKHDEA----YGHIAIGVEDVKELVADMRKHDVPIDYEDESGFM---AFVVDPDGYYIELLNEKTM</Hsp_hseq>
+      <Hsp_midline>+  TM+RV D  +S+ FYT  LGM +++K D P  K++L FL Y  +                    LELT+N+G       SY +  +    +GHI I V DV        +  V    + + G M   AF+ DPDGY+I++LN   M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|6BNN|A</Hit_id>
+  <Hit_def>Crystal structure of V278E-glyoxalase I mutant from Zea mays in space group P4(1)2(1)2 [Zea mays] &gt;pdb|6BNX|A Crystal structure of V278E-glyoxalase I mutant from Zea mays in space group P6(3) [Zea mays]</Hit_def>
+  <Hit_accession>6BNN_A</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>5.03684e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>EPQPPSGGLTDEAALSCCSDADPSTKDFL--------LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFE----ELGVKFVKKPDDGKMKG----LAFIQDPDGYWIQILN</Hsp_qseq>
+      <Hsp_hseq>EPGPVKGGST---VIAFAQDPDGYMFELIQRADTPEPLCQVMLRVGDLERSIKFYEKALGMKLLRKKDVPDYKYTIAMLGYADED---------------KTTVLELTYNYGVTE-----YSKGNA----YAQVAIGTNDVYKSAEAVDLATKELGGKILRQP--GPLPGINTKIASFVDPDGWKVELVD</Hsp_hseq>
+      <Hsp_midline>EP P  GG T    ++   D D    + +        L + MLRV D ++S+ FY + LGM L++K D P  K+++  L Y D++               +   LELT+N+G  +     Y  GN+    +  + I   DVY + +  +    ELG K +++P  G + G    +A   DPDG+ +++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>8.55544e-13</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKG----LAFIQDPDGYWIQIL</Hsp_qseq>
+      <Hsp_hseq>MLHAVYRVGDLDRTIKYYTECFGMKLLRKRDVPDEKYTNAFLGFGPEN---------------TNFAVELTYNYGVD-----KYDIGT----GFGHFAIANDDVYKLAENIKSKGGKITREP--GPVKGGSTVIAFAQDPDGYMFELI</Hsp_hseq>
+      <Hsp_midline>+   + RV D  +++ +YT   GM L++K D P  K++  FL +  +N                   +ELT+N+G +      Y  G     GFGH  IA  DVY   +  +  G K  ++P  G +KG    +AF QDPDGY  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|5D7Z|A</Hit_id>
+  <Hit_def>Crystal structure of glyoxalase I from Zea mays [Zea mays]</Hit_def>
+  <Hit_accession>5D7Z_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.60746e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>EPQPPSGGLTDEAALSCCSDADPSTKDFL--------LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFE----ELGVKFVKKPDDGKMKG----LAFIQDPDGYWIQILN</Hsp_qseq>
+      <Hsp_hseq>EPGPVKGGST---VIAFAQDPDGYMFELIQRADTPEPLCQVMLRVGDLERSIKFYEKALGMKLLRKKDVPDYKYTIAMLGYADED---------------KTTVLELTYNYGVTE-----YSKGNA----YAQVAIGTNDVYKSAEAVDLATKELGGKILRQP--GPLPGINTKIASFVDPDGWKVVLVD</Hsp_hseq>
+      <Hsp_midline>EP P  GG T    ++   D D    + +        L + MLRV D ++S+ FY + LGM L++K D P  K+++  L Y D++               +   LELT+N+G  +     Y  GN+    +  + I   DVY + +  +    ELG K +++P  G + G    +A   DPDG+ + +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>9.8617e-13</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKG----LAFIQDPDGYWIQIL</Hsp_qseq>
+      <Hsp_hseq>MLHAVYRVGDLDRTIKYYTECFGMKLLRKRDVPDEKYTNAFLGFGPEN---------------TNFAVELTYNYGVD-----KYDIGT----GFGHFAIANDDVYKLAENIKSKGGKITREP--GPVKGGSTVIAFAQDPDGYMFELI</Hsp_hseq>
+      <Hsp_midline>+   + RV D  +++ +YT   GM L++K D P  K++  FL +  +N                   +ELT+N+G +      Y  G     GFGH  IA  DVY   +  +  G K  ++P  G +KG    +AF QDPDGY  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|6BNZ|A</Hit_id>
+  <Hit_def>Crystal structure of E144Q-glyoxalase I mutant from Zea mays in space group P4(1)2(1)2 [Zea mays]</Hit_def>
+  <Hit_accession>6BNZ_A</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.87494e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>EPQPPSGGLTDEAALSCCSDADPSTKDFL--------LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFE----ELGVKFVKKPDDGKMKG----LAFIQDPDGYWIQILNPN</Hsp_qseq>
+      <Hsp_hseq>EPGPVKGGST---VIAFAQDPDGYMFQLIQRADTPEPLCQVMLRVGDLERSIKFYEKALGMKLLRKKDVPDYKYTIAMLGYADED---------------KTTVLELTYNYGVTE-----YSKGNA----YAQVAIGTNDVYKSAEAVDLATKELGGKILRQP--GPLPGINTKIASFVDPDG-WKVVLVDN</Hsp_hseq>
+      <Hsp_midline>EP P  GG T    ++   D D      +        L + MLRV D ++S+ FY + LGM L++K D P  K+++  L Y D++               +   LELT+N+G  +     Y  GN+    +  + I   DVY + +  +    ELG K +++P  G + G    +A   DPDG W  +L  N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.9326e-13</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKG----LAFIQDPDGYWIQIL</Hsp_qseq>
+      <Hsp_hseq>MLHAVYRVGDLDRTIKYYTECFGMKLLRKRDVPDEKYTNAFLGFGPEN---------------TNFAVELTYNYGVD-----KYDIGT----GFGHFAIANDDVYKLAENIKSKGGKITREP--GPVKGGSTVIAFAQDPDGYMFQLI</Hsp_hseq>
+      <Hsp_midline>+   + RV D  +++ +YT   GM L++K D P  K++  FL +  +N                   +ELT+N+G +      Y  G     GFGH  IA  DVY   +  +  G K  ++P  G +KG    +AF QDPDGY  Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|6BMB|A</Hit_id>
+  <Hit_def>Crystal structure of Arabidopsis Dehydroquinate dehydratase-shikimate dehydrogenase (T381G mutant) in complex with tartrate and shikimate [Arabidopsis thaliana] &gt;pdb|6BMQ|A Crystal structure of Arabidopsis Dehydroquinate dehydratase-shikimate dehydrogenase (T381G mutant) in complex with tartrate and shikimate [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>6BMB_A</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.139257</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>EAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLG</Hsp_qseq>
+      <Hsp_hseq>EAALQCCDEVDPLAKSIGAVNTILRRKSDGKLLGYNTDCIG</Hsp_hseq>
+      <Hsp_midline>EAAL CC + DP  K      T+LR K   K L + T  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|2GPT|A</Hit_id>
+  <Hit_def>Crystal structure of Arabidopsis Dehydroquinate dehydratase-shikimate dehydrogenase in complex with tartrate and shikimate [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>2GPT_A</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.147133</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>EAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLG</Hsp_qseq>
+      <Hsp_hseq>EAALQCCDEVDPLAKSIGAVNTILRRKSDGKLLGYNTDCIG</Hsp_hseq>
+      <Hsp_midline>EAAL CC + DP  K      T+LR K   K L + T  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3L7T|A</Hit_id>
+  <Hit_def>Crystal structure of SMU.1112c [Streptococcus mutans] &gt;pdb|3L7T|B Crystal structure of SMU.1112c [Streptococcus mutans] &gt;pdb|3L7T|C Crystal structure of SMU.1112c [Streptococcus mutans] &gt;pdb|3L7T|D Crystal structure of SMU.1112c [Streptococcus mutans]</Hit_def>
+  <Hit_accession>3L7T_A</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.226595</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPR---GFGHIGIAVPDVYSACKRFEELGVKFVK-KPDDGKMKGLAFIQDPDG</Hsp_qseq>
+      <Hsp_hseq>VHHVALIVSDYDKSYEFYVNQLGFEVIRE------------------NHRPKRHDYKLDLKCG-DIELEIFGNKLT-DSNYCAPPERISWPREACGLRHLAFYVEDVEASRQELIALGIRVEEVRYDDYTGKKMAFFFDPDG</Hsp_hseq>
+      <Hsp_midline>+    L V D  KS +FY   LG  +I++                  N  PK  D K+         LE+  N  T D    +     S PR   G  H+   V DV ++ +    LG++  + + DD   K +AF  DPDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|4HC5|A</Hit_id>
+  <Hit_def>Crystal structure of member of Glyoxalase/bleomycin resistance protein/dioxygenase superfamily from Sphaerobacter thermophilus DSM 20745 [Sphaerobacter thermophilus DSM 20745] &gt;pdb|4HC5|B Crystal structure of member of Glyoxalase/bleomycin resistance protein/dioxygenase superfamily from Sphaerobacter thermophilus DSM 20745 [Sphaerobacter thermophilus DSM 20745] &gt;pdb|4HC5|C Crystal structure of member of Glyoxalase/bleomycin resistance protein/dioxygenase superfamily from Sphaerobacter thermophilus DSM 20745 [Sphaerobacter thermophilus DSM 20745] &gt;pdb|4HC5|D Crystal structure of member of Glyoxalase/bleomycin resistance protein/dioxygenase superfamily from Sphaerobacter thermophilus DSM 20745 [Sphaerobacter thermophilus DSM 20745]</Hit_def>
+  <Hit_accession>4HC5_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.36976</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>LQETMLRVKDPKKSLDFYTRVLGMTLIQKCDF-PIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLA-FIQDPDG</Hsp_qseq>
+      <Hsp_hseq>VHSATIIVSDQEKALDFYVNTLGFEKVFDNQLDPNXRFVTV---------VPPGAQTQVALGLP-------------------SWYEDGRKPGGYTGISLITRDIDEAYKTLTERGVTFTKPPEXXPWGQRATWFSDPDG</Hsp_hseq>
+      <Hsp_midline>+    + V D +K+LDFY   LG   +      P  +F            +P     ++A  L                    S++     P G+  I +   D+  A K   E GV F K P+       A +  DPDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5UMQ|A</Hit_id>
+  <Hit_def>Crystal structure of TnmS1, an antibiotic binding protein from Streptomyces sp. CB03234 [Streptomyces sp. CB03234] &gt;pdb|5UMQ|B Crystal structure of TnmS1, an antibiotic binding protein from Streptomyces sp. CB03234 [Streptomyces sp. CB03234]</Hit_def>
+  <Hit_accession>5UMQ_A</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.883596</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>VKDPKKSLDFYTRVLGMTLIQKCDFPIMKFSLYFLAYEDKNDIPKEKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGL-AFIQDPDGYWIQILNPNK</Hsp_qseq>
+      <Hsp_hseq>VNDQDKAIDFYVNTLGFELREDQAFGPMRWV------------------EVAPAGSQTRIVLCTKHFPV-------YEEGKIGR--FTDIQLVTEDIKATHEELVRRGVNFTRAPEQMPFGGANASFQDPDGNEFLLLQPSR</Hsp_hseq>
+      <Hsp_midline>V D  K++DFY   LG  L +   F  M++                   ++A A S+   +  T ++         Y  G      F  I +   D+ +  +     GV F + P+     G  A  QDPDG    +L P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|4G6X|A</Hit_id>
+  <Hit_def>Crystal structure of glyoxalase/bleomycin resistance protein from Catenulispora acidiphila. [Catenulispora acidiphila DSM 44928]</Hit_def>
+  <Hit_accession>4G6X_A</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.89255</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>GFGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGLAFIQDPDGYWIQI</Hsp_qseq>
+      <Hsp_hseq>GIPAASFAVDDIAAEYERLSALGVRFTQEPTDXGPVVTAILDDTCGNLIQL</Hsp_hseq>
+      <Hsp_midline>G      AV D+ +  +R   LGV+F ++P D      A + D  G  IQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|5UHJ|A</Hit_id>
+  <Hit_def>The crystal structure of a natural product biosynthetic enzyme from Streptomyces sp. CB03234 [Streptomyces sp. CB03234] &gt;pdb|5UHJ|B The crystal structure of a natural product biosynthetic enzyme from Streptomyces sp. CB03234 [Streptomyces sp. CB03234]</Hit_def>
+  <Hit_accession>5UHJ_A</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.46589</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>FGHIGIAVPDVYSACKRFEELGVKFVKKPDDGKMKGL-AFIQDPDGYWIQILNPNK</Hsp_qseq>
+      <Hsp_hseq>FTDIQLVTEDIKATHEELVRRGVNFTRAPEQXPFGGANASFQDPDGNEFLLLQPSR</Hsp_hseq>
+      <Hsp_midline>F  I +   D+ +  +     GV F + P+     G  A  QDPDG    +L P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|7KIS|A</Hit_id>
+  <Hit_def>Chain A, Peptidoglycan D,D-transpeptidase MrdA [Pseudomonas aeruginosa] &gt;pdb|7KIS|B Chain B, Peptidoglycan D,D-transpeptidase MrdA [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>7KIS_A</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.54855</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPQPPSGGLTDEAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLGMT</Hsp_qseq>
+      <Hsp_hseq>QPIPPTRGIIFDRNGVIIADNRPS---FSLTITRERTEDLQKTLDTLVEILGLT</Hsp_hseq>
+      <Hsp_midline>+P PP+ G+  +      +D  PS   F L  T  R +D +K+LD    +LG+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|2O7Q|A</Hit_id>
+  <Hit_def>Crystal Structure of the A. thaliana DHQ-dehydroshikimate-SDH-shikimate-NADP(H) [Arabidopsis thaliana] &gt;pdb|2O7S|A Crystal Structure of the A. thaliana DHQ-dehydroshikimate-SDH-shikimate-NADP(H) [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>2O7Q_A</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.45391</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>EAALSCCSDADPSTKDFLLQETMLRVKDPKKSLDFYTRVLG</Hsp_qseq>
+      <Hsp_hseq>EAALQXCDEVDPLAKSIGAVNTILRRKSDGKLLGYNTDXIG</Hsp_hseq>
+      <Hsp_midline>EAAL  C + DP  K      T+LR K   K L + T  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|6S6B|J</Hit_id>
+  <Hit_def>Type III-B Cmr-beta Cryo-EM structure of the Apo state [Sulfolobus islandicus REY15A] &gt;pdb|6S8B|J Cryo-EM structure of the Type III-B Cmr-beta bound to cognate target RNA and AMPPnP, state 1 [Sulfolobus islandicus REY15A] &gt;pdb|6S8E|J Cryo-EM structure of the type III-B Cmr-beta complex bound to non-cognate target RNA [Sulfolobus islandicus REY15A] &gt;pdb|6S91|J Cryo-EM structure of the Type III-B Cmr-beta bound to cognate target RNA and AMPPnP, state 2 [Sulfolobus islandicus REY15A] &gt;pdb|6SH8|J Cryo-EM structure of the Type III-B Cmr-beta bound to cognate target RNA and AMPPnP, state 2, in the presence of ssDNA [Sulfolobus islandicus REY15A] &gt;pdb|6SHB|J Cryo-EM structure of the Type III-B Cmr-beta bound to cognate target RNA and AMPPnP, state 1, in the presence of ssDNA [Sulfolobus islandicus REY15A] &gt;pdb|6SIC|J Cryo-EM structure of the Type III-B Cmr-beta bound to cognate target RNA [Sulfolobus islandicus REY15A]</Hit_def>
+  <Hit_accession>6S6B_J</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.14785</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GNSDPRGFGHIGIAVPDVY--SACKRFEELGVKFVKKPDDGKMKG</Hsp_qseq>
+      <Hsp_hseq>GRKTSRGFGSLSIIDVKCYDNSICKKIEDLAKNFLKISSGNELKS</Hsp_hseq>
+      <Hsp_midline>G    RGFG + I     Y  S CK+ E+L   F+K     ++K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|5X7U|A</Hit_id>
+  <Hit_def>Trehalose synthase from Thermobaculum terrenum [Thermobaculum terrenum ATCC BAA-798]</Hit_def>
+  <Hit_accession>5X7U_A</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.44594</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>FPIMKFSLYFLAYEDKNDIPK------EKDEKIAWALSRKATLELTHNWGTEDDETQSYHNGNSDPRGFGHIGI</Hsp_qseq>
+      <Hsp_hseq>FPIMPRMYMALRREDRHPITEILRRTPPIPETCQWALFLRNHDELTLEMVTDEERDYMYHEYAKDPRMRLNLGI</Hsp_hseq>
+      <Hsp_midline>FPIM      L  ED++ I +         E   WAL  +   ELT    T+++    YH    DPR   ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3HDP|A</Hit_id>
+  <Hit_def>Crystal structure of the NI(II)-bound Glyoxalase-I from Clostridium acetobutylicum [Clostridium acetobutylicum]</Hit_def>
+  <Hit_accession>3HDP_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.06859</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>HIGIAVPDVYSACKRFEELGVKFVKKP----DDGKMKGLAFIQDPDGYWIQILNPN</Hsp_qseq>
+      <Hsp_hseq>HIGYAVKNIDSALKKFKRLG--YVEESEVVRDEVRKVYIQFVIN-GGYRVELVAPD</Hsp_hseq>
+      <Hsp_midline>HIG AV ++ SA K+F+ LG  +V++     D+ +   + F+ +  GY ++++ P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|2QH0|A</Hit_id>
+  <Hit_def>Crystal structure of a glyoxalase from clostridium acetobutylicum [Clostridium acetobutylicum]</Hit_def>
+  <Hit_accession>2QH0_A</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.28655</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>HIGIAVPDVYSACKRFEELGVKFVKKP----DDGKMKGLAFIQDPDGYWIQILNPN</Hsp_qseq>
+      <Hsp_hseq>HIGYAVKNIDSALKKFKRLG--YVEESEVVRDEVRKVYIQFVIN-GGYRVELVAPD</Hsp_hseq>
+      <Hsp_midline>HIG AV ++ SA K+F+ LG  +V++     D+ +   + F+ +  GY ++++ P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>99</Statistics_hsp-len>
+      <Statistics_eff-space>1838548236</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

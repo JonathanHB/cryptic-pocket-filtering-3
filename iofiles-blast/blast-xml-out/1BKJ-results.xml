@@ -1,0 +1,1302 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1BKJ_1|Chains A, B|NADPH-FLAVIN OXIDOREDUCTASE|Vibrio harveyi (669)</BlastOutput_query-def>
+  <BlastOutput_query-len>240</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1BKJ_1|Chains A, B|NADPH-FLAVIN OXIDOREDUCTASE|Vibrio harveyi (669)</Iteration_query-def>
+  <Iteration_query-len>240</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1BKJ|A</Hit_id>
+  <Hit_def>Nadph:fmn Oxidoreductase From Vibrio Harveyi [Vibrio harveyi] &gt;pdb|1BKJ|B Nadph:fmn Oxidoreductase From Vibrio Harveyi [Vibrio harveyi] &gt;pdb|2BKJ|A NADPH:FMN OXIDOREDUCTASE FROM VIBRIO HARVEYI COMPLEXED WITH NAD+ [Vibrio harveyi] &gt;pdb|2BKJ|B NADPH:FMN OXIDOREDUCTASE FROM VIBRIO HARVEYI COMPLEXED WITH NAD+ [Vibrio harveyi]</Hit_def>
+  <Hit_accession>1BKJ_A</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.36</Hsp_bit-score>
+      <Hsp_score>1287</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MNNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGLAKR</Hsp_qseq>
+      <Hsp_hseq>MNNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGLAKR</Hsp_hseq>
+      <Hsp_midline>MNNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGLAKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|5UU6|A</Hit_id>
+  <Hit_def>The crystal structure of nitroreductase A from Vibrio parahaemolyticus RIMD 2210633 [Vibrio parahaemolyticus RIMD 2210633] &gt;pdb|5UU6|B The crystal structure of nitroreductase A from Vibrio parahaemolyticus RIMD 2210633 [Vibrio parahaemolyticus RIMD 2210633] &gt;pdb|5UU6|C The crystal structure of nitroreductase A from Vibrio parahaemolyticus RIMD 2210633 [Vibrio parahaemolyticus RIMD 2210633] &gt;pdb|5UU6|D The crystal structure of nitroreductase A from Vibrio parahaemolyticus RIMD 2210633 [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>5UU6_A</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>1.10126e-145</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>NNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGLAKR</Hsp_qseq>
+      <Hsp_hseq>NSTIQTILGHRSIRKFTSQPIDKEQLETILQAGLAASSSSXLQVVSIVRVTDIEKRSQLAKFAGNQAYVESAAEFLVFCIDYQRHASINPDVQADFTELXLIGAVDSGIXAQNCLLAAESXGLGGVYIGGLRNNAQQVDELLGLPQNTAILFGXCLGHPDQNPEVKPRLPAHVVVHENQYQDLNLDDIQAYDQTXQNYYANRSSNQKQSTWSQEVTSKLAGESRPHILPYLNGKGLAKK</Hsp_hseq>
+      <Hsp_midline>N+TI+TIL HRSIRKFT+ PI  EQ +TI+QAGLAASSSS LQVVSIVRVTD EKR++LA+FAGNQAYVESAAEFLVFCIDYQRHA+INPDVQADFTEL LIGAVDSGI AQNCLLAAES GLGGVYIGGLRN+A QVDELLGLP+N+A+LFG CLGHPDQNPEVKPRLPAHVVVHENQYQ+LNLDDIQ+YDQT Q YYA+R+SNQK STWSQEVT KLAGESRPHILPYLN KGLAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1F5V|A</Hit_id>
+  <Hit_def>Structure And Site-Directed Mutagenesis Of A Flavoprotein From Escherichia Coli That Reduces Nitrocompounds. Alteration Of Pyridine Nucleotide Binding By A Single Amino Acid Substitution [Escherichia coli] &gt;pdb|1F5V|B Structure And Site-Directed Mutagenesis Of A Flavoprotein From Escherichia Coli That Reduces Nitrocompounds. Alteration Of Pyridine Nucleotide Binding By A Single Amino Acid Substitution [Escherichia coli] &gt;pdb|7NB9|A Chain A, Oxygen-insensitive NADPH nitroreductase [Escherichia coli K-12] &gt;pdb|7NIY|A Chain A, Oxygen-insensitive NADPH nitroreductase [Escherichia coli K-12] &gt;pdb|7NMP|A Chain A, Oxygen-insensitive NADPH nitroreductase [Escherichia coli K-12] &gt;pdb|7NNX|A Chain A, Oxygen-insensitive NADPH nitroreductase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>1F5V_A</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>3.46368e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MNNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGLAKR</Hsp_qseq>
+      <Hsp_hseq>MTPTIELICGHRSIRHFTDEPISEAQREAIINSARATSSSSFLQCSSIIRITDKALREELVTLTGGQKHVAQAAEFWVFCADFNRHLQICPDAQLGLAEQLLLGVVDTAMMAQNALIAAESLGLGGVYIGGLRNNIEAVTKLLKLPQHVLPLFGLCLGWPADNPDLKPRLPASILVHENSYQPLDKGALAQYDEQLAEYYLTRGSNNRRDTWSDHIRRTIIKESRPFILDYLHKQGWATR</Hsp_hseq>
+      <Hsp_midline>M  TIE I  HRSIR FT  PI++ QR+ II +  A SSSS LQ  SI+R+TD   R EL    G Q +V  AAEF VFC D+ RH  I PD Q    E  L+G VD+ +MAQN L+AAES+GLGGVYIGGLRN+   V +LL LP++   LFG+CLG P  NP++KPRLPA ++VHEN YQ L+   +  YD+ +  YY +R SN +  TWS  +   +  ESRP IL YL+ +G A R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|5HDJ|A</Hit_id>
+  <Hit_def>Chain A, NfrA1 [Priestia megaterium] &gt;pdb|5HDJ|B Chain B, NfrA1 [Priestia megaterium]</Hit_def>
+  <Hit_accession>5HDJ_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>3.08697e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MNNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADF------TELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQ---ELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGLAKR</Hsp_qseq>
+      <Hsp_hseq>MNSVIETILNHRSIRKYEDKPLSEEQIQTIVESAQAASTSSYIQAYSIIGVKDKETKRKLAQLAGNQPYVETNGHFFVFCADFHRHDVIAEMEKKDLSTALESTEQFMVAIIDVALAAQNATLAAESMGLGACYIGGLRNELEEVSKLLKLPHHVIPLFGLTVGHPAGITDKKPRLPFKHVYHEETYEPNDEQTKKELTAYNEEISAYYNERTNGKRQDTWTGQMAEMLSNPKRMYMKEFVEKQGFNKK</Hsp_hseq>
+      <Hsp_midline>MN+ IETIL HRSIRK+   P+++EQ QTI+++  AAS+SS +Q  SI+ V D E + +LAQ AGNQ YVE+   F VFC D+ RH  I    + D       TE  ++  +D  + AQN  LAAESMGLG  YIGGLRN   +V +LL LP +   LFG+ +GHP    + KPRLP   V HE  Y+   E    ++ +Y++ + AYY  RT+ ++  TW+ ++   L+   R ++  ++  +G  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|3N2S|A</Hit_id>
+  <Hit_def>Structure of NfrA1 nitroreductase from B. subtilis [Bacillus subtilis] &gt;pdb|3N2S|B Structure of NfrA1 nitroreductase from B. subtilis [Bacillus subtilis] &gt;pdb|3N2S|C Structure of NfrA1 nitroreductase from B. subtilis [Bacillus subtilis] &gt;pdb|3N2S|D Structure of NfrA1 nitroreductase from B. subtilis [Bacillus subtilis]</Hit_def>
+  <Hit_accession>3N2S_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>8.53155e-61</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>NNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELT------LIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQ----SYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGLAK</Hsp_qseq>
+      <Hsp_hseq>NNTIETILNHRSIRSFTDQLLTAEEIDTLVKSAQAASTSSYVQAYSIIGVSDPEKKRELSVLAGNQPYVEKNGHFFVFCADLYRHQQLAEEKGEHISELLENTEXFXVSLIDAALAAQNXSIAAESXGLGICYIGGIRNELDKVTEVLQTPDHVLPLFGLAVGHPANLSGKKPRLPKQAVYHENTYN-VNTDDFRHTXNTYDKTISDYYRERTNGKREETWSDQILNFXKQKPRTYLNDYVKEKGFNK</Hsp_hseq>
+      <Hsp_midline>NNTIETIL HRSIR FT   +T E+  T++++  AAS+SS +Q  SI+ V+D EK+ EL+  AGNQ YVE    F VFC D  RH  +  +     +EL        +  +D+ + AQN  +AAES GLG  YIGG+RN   +V E+L  P++   LFG+ +GHP      KPRLP   V HEN Y  +N DD +    +YD+T+  YY  RT+ ++  TWS ++      + R ++  Y+  KG  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|5HEI|A</Hit_id>
+  <Hit_def>Chain A, NfrA2 [Priestia megaterium] &gt;pdb|5HEI|B Chain B, NfrA2 [Priestia megaterium] &gt;pdb|5HEI|C Chain C, NfrA2 [Priestia megaterium] &gt;pdb|5HEI|D Chain D, NfrA2 [Priestia megaterium] &gt;pdb|5HEI|E Chain E, NfrA2 [Priestia megaterium] &gt;pdb|5HEI|F Chain F, NfrA2 [Priestia megaterium] &gt;pdb|5HEI|G Chain G, NfrA2 [Priestia megaterium] &gt;pdb|5HEI|H Chain H, NfrA2 [Priestia megaterium]</Hit_def>
+  <Hit_accession>5HEI_A</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>6.58909e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>MNNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRH---ATIN--PDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGL</Hsp_qseq>
+      <Hsp_hseq>MNEAIRTIQDHRSIRQYTDEAVSDEHLDTIIQSAQSAASSINGQQVTIISVQDKEKKKKLSELAGNQAWIDQAPLFLIFCADFNRAKIAAELNDAPLGVTDGLESILVGATDAGISLEAATVAAESLGLGTVPIGGIRRKPLEVIELLDLPEYVFPVSGLVVGHPSDHSAKKPRLPQAAVHHRESYNHDLKSLIQDYDAEMAEYMKKRTNGADDRNWSQTVSAIYKTIYYPEVRAMLEKQGF</Hsp_hseq>
+      <Hsp_midline>MN  I TI  HRSIR++T   ++DE   TIIQ+  +A+SS   Q V+I+ V D EK+ +L++ AGNQA+++ A  FL+FC D+ R    A +N  P    D  E  L+GA D+GI  +   +AAES+GLG V IGG+R    +V ELL LPE    + G+ +GHP  +   KPRLP   V H   Y       IQ YD  M  Y   RT+      WSQ V+        P +   L  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1ZCH|A</Hit_id>
+  <Hit_def>Structure of the hypothetical oxidoreductase YcnD from Bacillus subtilis [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1ZCH_A</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>9.52329e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MNNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELT------LIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDD----IQSYDQTMQAYYASRTSNQKLSTWSQEVTGKLAGESRPHILPYLNSKGL</Hsp_qseq>
+      <Hsp_hseq>MNEVIKSLTDHRSIRSYTDEPVAQEQLDQIIEAVQSAPSSINGQQVTVITVQDKERKKKISELAGGQPWIDQAPVFLLFCADFNRAKIALEDLHDFKMEITNGLESVLVGAVDAGIALGTATAAAESLGLGTVPIGAVRGNPQELIELLELPKYVFPLSGLVIGHPADRSAKKPRLPQEAVNHQETY--LNQDELTSHIQAYDEQMSEYMNKRTNGKETRNWSQSIASYYERLYYPHIREMLEKQGF</Hsp_hseq>
+      <Hsp_midline>MN  I+++  HRSIR +T  P+  EQ   II+A  +A SS   Q V+++ V D E++ ++++ AG Q +++ A  FL+FC D+ R      D+     E+T      L+GAVD+GI       AAES+GLG V IG +R +  ++ ELL LP+    L G+ +GHP      KPRLP   V H+  Y  LN D+    IQ+YD+ M  Y   RT+ ++   WSQ +         PHI   L  +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|3EOF|A</Hit_id>
+  <Hit_def>Crystal structure of putative oxidoreductase (YP_213212.1) from Bacteroides fragilis NCTC 9343 at 1.99 A resolution [Bacteroides fragilis NCTC 9343] &gt;pdb|3EOF|B Crystal structure of putative oxidoreductase (YP_213212.1) from Bacteroides fragilis NCTC 9343 at 1.99 A resolution [Bacteroides fragilis NCTC 9343]</Hit_def>
+  <Hit_accession>3EOF_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.98326e-18</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQA--DFTELT--LIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVT</Hsp_qseq>
+      <Hsp_hseq>DTVKNRRTIRKYQQKDITPDLLNDLLETSFRASTXGGXQLYSVVVTRDAEKKEILSPAHFNQPXVKEAPVVLTFCADFRRFCKYCQERNAVPGYGNLXSFLNAAXDTLLVAQTFCTLAEEAGLGICYLGTTTYNPQXIIDALHLPELVFPITTVTVGYPAESPKQVDRLPIEGIIHEESYHDYTAEDINR----LYAYKESLPENKLFIEENQKET</Hsp_hseq>
+      <Hsp_midline>+T+   R+IRK+    IT +    +++    AS+    Q+ S+V   D+EK+  L+    NQ  V+ A   L FC D++R      +  A   +  L   L  A D+ ++AQ     AE  GLG  Y+G    +   + + L LPE    +  + +G+P ++P+   RLP   ++HE  Y +   +DI      + AY  S   N+     +Q+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|4DN2|A</Hit_id>
+  <Hit_def>CRYSTAL STRUCTURE OF putative Nitroreductase from Geobacter metallireducens GS-15 [Geobacter metallireducens GS-15] &gt;pdb|4DN2|B CRYSTAL STRUCTURE OF putative Nitroreductase from Geobacter metallireducens GS-15 [Geobacter metallireducens GS-15]</Hit_def>
+  <Hit_accession>4DN2_A</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.26427e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>NTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYV-----------ESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKP-RLPAHVVVHENQYQ</Hsp_qseq>
+      <Hsp_hseq>ETLEAIRTRRSVRKFSDRPVEPEKLRAVLDAARLAPSWANXQCWRFVVVEDQATKVQISELSYVEAYFGPKGYKSNPAQKALAEAPVVII-----ACGEPPQSGELRGQQYY-LTDVGIAAQNLXLAAHDLGLGSVFVGVFDEQ--QLGELLGIPAELRIVGLFPLGYPLEGPKAGPSRKPLDEIVHYGKYQ</Hsp_hseq>
+      <Hsp_midline> T+E I   RS+RKF+  P+  E+ + ++ A   A S +  Q    V V D   + ++++ +  +AY            ++ AE  V  I     A   P    +          D GI AQN  LAA  +GLG V++G       Q+ ELLG+P    ++    LG+P + P+  P R P   +VH  +YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|3M5K|A</Hit_id>
+  <Hit_def>Crystal structure of Putative NADH dehydrogenase/NAD(P)H nitroreductase (BDI_1728) from Parabacteroides distasonis ATCC 8503 at 1.86 A resolution [Parabacteroides distasonis ATCC 8503] &gt;pdb|3M5K|B Crystal structure of Putative NADH dehydrogenase/NAD(P)H nitroreductase (BDI_1728) from Parabacteroides distasonis ATCC 8503 at 1.86 A resolution [Parabacteroides distasonis ATCC 8503]</Hit_def>
+  <Hit_accession>3M5K_A</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.89077e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>NNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVY--IGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQN</Hsp_qseq>
+      <Hsp_hseq>NQTLETILNRKSVRKYKDRPVEKEKIDKLIRAGXAAPSSRDRRPWEFIIVTDRKALDTXAEGLPFARXLKETRQAIVVCGDTIKSSN------AWF--------LDCSAASQNLLLAAESXGLGAVWTAVYPYPDRIEIVRKELRLPDHIXPLNVIPVGYPXQK</Hsp_hseq>
+      <Hsp_midline>N T+ETIL  +S+RK+   P+  E+   +I+AG AA SS   +    + VTD +  +  A+       ++   + +V C D  + +       A F        +D    +QN LLAAES GLG V+  +    +    V + L LP++   L  + +G+P Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|5J62|A</Hit_id>
+  <Hit_def>FMN-dependent Nitroreductase (CDR20291_0684) from Clostridium difficile R20291 [Clostridioides difficile R20291] &gt;pdb|5J62|B FMN-dependent Nitroreductase (CDR20291_0684) from Clostridium difficile R20291 [Clostridioides difficile R20291]</Hit_def>
+  <Hit_accession>5J62_A</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>8.16627e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>NNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAY----VESAAEFLVF-------CIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVD---------------------------------ELLGLPENSAVLFGMCLGHPDQN-PEVKPRLPAHVVVHENQY</Hsp_qseq>
+      <Hsp_hseq>NQTINLIQSRRSIRKFTTEQISDEQVNTLLHCAFAAPSGCNKQPWHITVVQDQKLLKEISDDTLSRIHEVSNVEINKNFKLFYGAPTVLFISYDESSSWAP--------------YDIGILTGNITTAAQALGLGSCIIGMVRGLFTPVEQGDIEGLVSVLDKEDVKESESIKMKFDTNKKYRELLDIPEGYSVPFGIAVGIPDGNLPNAREVVYKVSRVAENLY</Hsp_hseq>
+      <Hsp_midline>N TI  I + RSIRKFT   I+DEQ  T++    AA S    Q   I  V D +   E++    ++ +    VE    F +F        I Y   ++  P               D GI+  N   AA+++GLG   IG +R     V+                                 ELL +PE  +V FG+ +G PD N P  +  +     V EN Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|4G8S|A</Hit_id>
+  <Hit_def>Crystal Structure Of a Putative Nitroreductase from Geobacter sulfurreducens PCA (Target PSI-013445) [Geobacter sulfurreducens PCA] &gt;pdb|4G8S|B Crystal Structure Of a Putative Nitroreductase from Geobacter sulfurreducens PCA (Target PSI-013445) [Geobacter sulfurreducens PCA]</Hit_def>
+  <Hit_accession>4G8S_A</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>3.40472e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>NTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYV-----------ESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVK---PRLPAHVVVHENQYQ</Hsp_qseq>
+      <Hsp_hseq>DTLEAIRTRRSVRAFSDRPVEPEKLQXVLEAARQAPSWANXQCSRFVVVQDAEVKAKISELSFVEAFFAPLGYRTNPAQKALAEAPVVIV-----ACGVPGESGDLRGQQYY-XTDVGIATENLXLAAHAVGLGSVFVGVFGEE--QLGDLLDIPPEIRIVGLFPLGYPREETQAKSGPARKPLDEIVFQGKWK</Hsp_hseq>
+      <Hsp_midline>+T+E I   RS+R F+  P+  E+ Q +++A   A S +  Q    V V D+E + ++++ +  +A+            ++ AE  V  +     A   P    D          D GI  +N  LAA ++GLG V++G       Q+ +LL +P    ++    LG+P +  + K    R P   +V + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3GE5|A</Hit_id>
+  <Hit_def>Crystal structure of a putative nad(p)h:fmn oxidoreductase (pg0310) from porphyromonas gingivalis w83 at 1.70 A resolution [Porphyromonas gingivalis W83] &gt;pdb|3GE5|B Crystal structure of a putative nad(p)h:fmn oxidoreductase (pg0310) from porphyromonas gingivalis w83 at 1.70 A resolution [Porphyromonas gingivalis W83]</Hit_def>
+  <Hit_accession>3GE5_A</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.92049e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>RSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPR</Hsp_qseq>
+      <Hsp_hseq>RSVRKFIDRPVEEEKLXAILEAGRIAPSAHNYQPWHFLVVREEEGRKRLAP-CSQQPWFPGAPIYIITLGDHQRAWKRGAGDSVD---------IDTSIAXTYXXLEAHSLGLGCTWVCAF--DQALCSEIFDIPSHXTPVSILALGYGD--PTVPPR</Hsp_hseq>
+      <Hsp_midline>RS+RKF   P+ +E+   I++AG  A S+   Q    + V + E R  LA     Q +   A  +++   D+QR          D         +D+ I      L A S+GLG  ++       A   E+  +P +   +  + LG+ D  P V PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3KWK|A</Hit_id>
+  <Hit_def>Crystal structure of Putative NADH dehydrogenase/NAD(P)H nitroreductase (NP_809094.1) from BACTEROIDES THETAIOTAOMICRON VPI-5482 at 1.54 A resolution [Bacteroides thetaiotaomicron VPI-5482]</Hit_def>
+  <Hit_accession>3KWK_A</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.00576e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>NNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGG--LRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQY</Hsp_qseq>
+      <Hsp_hseq>NAALDNIFERKSVRTYLNKGVEKEKIDLXLRAGXSAPSGKDVRPWEFVVVSDRAKLDSXAAALPYAKXLTQARNAIIVCGDSAR---------------SFYWYLDCSAAAQNILLAAESXGLGAVWTAAYPYEDRXEVVRKYTHLPENILPLCVIPFGYPATKEQPKQKYDEK-KIHYNQY</Hsp_hseq>
+      <Hsp_midline>N  ++ I   +S+R +    +  E+    ++AG +A S   ++    V V+D  K +  A        +  A   ++ C D  R               +    +D    AQN LLAAES GLG V+       +    V +   LPEN   L  +  G+P    + K +      +H NQY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3GFA|A</Hit_id>
+  <Hit_def>Crystal structure of a putative nitroreductase in complex with fmn (cd3205) from clostridium difficile 630 at 1.35 A resolution [Clostridioides difficile 630] &gt;pdb|3GFA|B Crystal structure of a putative nitroreductase in complex with fmn (cd3205) from clostridium difficile 630 at 1.35 A resolution [Clostridioides difficile 630]</Hit_def>
+  <Hit_accession>3GFA_A</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.2758e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELA---------------------QFAGNQAYVE--SAAEFLVFCIDYQRHATINP-DVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRL</Hsp_qseq>
+      <Hsp_hseq>DSISKRRSIRKYKNQSISHETIEKIIEAGINAPSSKNRQPWRFVVITEKEKESXLKAXSKGIQNEINDNGLLPGSRQHIAGANYTVEIXKQAPVTIFILNILGKSPLEKLSPEERFYEXANXQSIGAAI--QNXSLTAVELGLGSLWICDVYFAYRELCEWLNT--DSQLVAAISLGYPDEEPSRRPRL</Hsp_hseq>
+      <Hsp_midline>++I   RSIRK+    I+ E  + II+AG+ A SS   Q    V +T+ EK + L                        AG    VE    A   +F ++    + +     +  F E     ++ + I  QN  L A  +GLG ++I  +  +  ++ E L    +S ++  + LG+PD+ P  +PRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1NOX|A</Hit_id>
+  <Hit_def>Nadh Oxidase From Thermus Thermophilus [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>1NOX_A</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>2.66397e-05</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQR-----HATINPDVQADFTELTLIGAVDSGI--MAQNCLLAAES--------------MGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVV</Hsp_qseq>
+      <Hsp_hseq>LKRRSIRRYRKDPVPEGLLREILEAALRAPSAWNLQPWRIVVVRDPATKRALREAAFGQAHVEEAPVVLVLYADLEDALAHLDEVIHPGVQGERREAQ-KQAIQRAFAAMGQEARKAWASGQSYILLGYLLLLLEAYGLGSVPMLGFDPERVRAILGLPSRAAIPALVALGYPAEEGYPSHRLPLERVV</Hsp_hseq>
+      <Hsp_midline>L  RSIR++   P+ +   + I++A L A S+  LQ   IV V D   +  L + A  QA+VE A   LV   D +         I+P VQ +  E     A+      M Q    A  S                 G   +  L     +V  +LGLP  +A+   + LG+P +      RLP   VV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5J6C|A</Hit_id>
+  <Hit_def>FMN-dependent Nitroreductase (CDR20291_0767) from Clostridium difficile R20291 [Clostridioides difficile R20291] &gt;pdb|5J6C|B FMN-dependent Nitroreductase (CDR20291_0767) from Clostridium difficile R20291 [Clostridioides difficile R20291]</Hit_def>
+  <Hit_accession>5J6C_A</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>6.38415e-05</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>HRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQF--AGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRN--------SAAQVDELLGLPENSAVLFGMCLGHPDQNPE</Hsp_qseq>
+      <Hsp_hseq>RRSIRKYKDVEVEKEKLDKILKAALLAPSSKGLRTWEFIVVDDKEKLINLSQCRTKGGGFFLKNAPLAIVIIADKEKN-----DVWIE----------DASIAASYIQLQAHELGLGSCWI-QVRNRMYDDNIEADKYIREELKVPSKYSVECIISIGYSDEEKK</Hsp_hseq>
+      <Hsp_midline> RSIRK+  V +  E+   I++A L A SS  L+    + V D EK   L+Q    G   ++++A   +V   D +++     DV  +          D+ I A    L A  +GLG  +I  +RN        +   + E L +P   +V   + +G+ D+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|3EK3|A</Hit_id>
+  <Hit_def>Crystal structure of Nitroreductase with Bound FMN (YP_211706.1) from Bacteroides fragilis NCTC 9343 at 1.70 A resolution [Bacteroides fragilis NCTC 9343]</Hit_def>
+  <Hit_accession>3EK3_A</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000202595</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>NNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQ-----FA-GNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVD-----ELLGLPENSAVLFGMCLGHPDQNPEVKPR</Hsp_qseq>
+      <Hsp_hseq>NEVLETIKARRSVRAYDRKQIPADDLNAILEAGAYAPSGXHYETWHFTAVCNTVKLEELNERIKGAFAKSDDKHLRERGHSETYCCYY--HAPTLVIVSNEPKQ--WWAGXDCACAIENXFLAATSLGIASCWINQLGTTCDDPEVRAYLTSLGVPENHKVYGCVALGYKAEGALLKEK</Hsp_hseq>
+      <Hsp_midline>N  +ETI A RS+R +    I  +    I++AG  A S    +      V ++ K  EL +     FA  +  ++        +C  Y  HA     V  +  +       D     +N  LAA S+G+   +I  L  +    +       LG+PEN  V   + LG+  +   +K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|2ISJ|A</Hit_id>
+  <Hit_def>Chain A, BluB [Sinorhizobium meliloti] &gt;pdb|2ISJ|B Chain B, BluB [Sinorhizobium meliloti] &gt;pdb|2ISJ|C Chain C, BluB [Sinorhizobium meliloti] &gt;pdb|2ISJ|D Chain D, BluB [Sinorhizobium meliloti] &gt;pdb|2ISJ|E Chain E, BluB [Sinorhizobium meliloti] &gt;pdb|2ISJ|F Chain F, BluB [Sinorhizobium meliloti] &gt;pdb|2ISJ|G Chain G, BluB [Sinorhizobium meliloti] &gt;pdb|2ISJ|H Chain H, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|A Chain A, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|B Chain B, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|C Chain C, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|D Chain D, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|E Chain E, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|F Chain F, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|G Chain G, BluB [Sinorhizobium meliloti] &gt;pdb|2ISK|H Chain H, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|A Chain A, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|B Chain B, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|C Chain C, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|D Chain D, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|E Chain E, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|F Chain F, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|G Chain G, BluB [Sinorhizobium meliloti] &gt;pdb|2ISL|H Chain H, BluB [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>2ISJ_A</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000525068</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>TILAHRSIR-KFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESA--------AEFLVFCIDYQRHATINPDVQADFTE--LTLIGAVDSGIM--------AQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPD---QNPEV-----KPRLPAHVVVHENQY</Hsp_qseq>
+      <Hsp_hseq>AIETRRDVRDEFLPEPLSEELIARLLGAAHQAPSVGFMQPWNFVLVRQDETREKVWQ-AFQRANDEAAEMFSGERQAKYRSLKLEGIRKAPLSICVTCDRTRGGAVVLGRTHNPQMDLYSTVCAVQNLWLAARAEGVGVGWVSIFHES--EIKAILGIPDHVEIVAWLCLGFVDRLYQEPELAAKGWRQRLPLEDLVFEEGW</Hsp_hseq>
+      <Hsp_midline> I   R +R +F   P+++E    ++ A   A S   +Q  + V V   E R ++ Q A  +A  E+A        A++    ++  R A ++  V  D T     ++G   +  M         QN  LAA + G+G  ++     S  ++  +LG+P++  ++  +CLG  D   Q PE+     + RLP   +V E  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|3EO7|A</Hit_id>
+  <Hit_def>Crystal structure of a putative nitroreductase (ava_2154) from anabaena variabilis atcc 29413 at 1.80 A resolution [Trichormus variabilis ATCC 29413]</Hit_def>
+  <Hit_accession>3EO7_A</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0030161</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>510</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>DSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHP</Hsp_qseq>
+      <Hsp_hseq>DAGHLGQRLNLAAIQLNLGVSGIGGFFDD--QVNEVLGIPNDEAVIYITTLGRP</Hsp_hseq>
+      <Hsp_midline>D+G + Q   LAA  + LG   IGG  +   QV+E+LG+P + AV++   LG P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|3GR3|A</Hit_id>
+  <Hit_def>Crystal structure of a nitroreductase-like family protein (pnba, bh06130) from bartonella henselae str. houston-1 at 1.45 A resolution [Bartonella henselae str. Houston-1] &gt;pdb|3GR3|B Crystal structure of a nitroreductase-like family protein (pnba, bh06130) from bartonella henselae str. houston-1 at 1.45 A resolution [Bartonella henselae str. Houston-1]</Hit_def>
+  <Hit_accession>3GR3_A</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00447265</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>NTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDS---EKRNELAQFA-----GNQAY-------------------------------------VESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQN-PE</Hsp_qseq>
+      <Hsp_hseq>DIFQSILSRKSIRAFTDQPVTQETIREILKLAARAPSGTNLQPWQVIVLTGKILQKVGQELSQLVLSGIKGEREYHYYPRQWREPYLSRRRKVGLDLYKSLGIQKGDQEKXLHQKAKNFLFYGAPVGLLFTIDHDXEXG-------SWLDLGXFXQTIXLAARGFGLDTCAQAAFADYHKQIRSLLSVPSDRHIICGXALGYRDXNAPE</Hsp_hseq>
+      <Hsp_midline>+  ++IL+ +SIR FT  P+T E  + I++    A S + LQ   ++ +T     +   EL+Q       G + Y                                      + A  FL +        TI+ D +           +D G   Q   LAA   GL         +   Q+  LL +P +  ++ G  LG+ D N PE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|2R01|A</Hit_id>
+  <Hit_def>Crystal structure of a putative fmn-dependent nitroreductase (ct0345) from chlorobium tepidum tls at 1.15 A resolution [Chlorobaculum tepidum TLS]</Hit_def>
+  <Hit_accession>2R01_A</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0076962</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>ETILAHRSIRKFTA-VPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNE----------LAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQN---PEVKP</Hsp_qseq>
+      <Hsp_hseq>ELVARSRSIRRFDEHVAVNDATLRDLVELVCYTPSAANRQLLRFLPVTGADXSDKVFPCLKWAGYLEDWPGPEPGERPAAALVXLCR--------NEDLPG--------AACDSGIAAQTIXLGAAEKELGGCIVAAIDRE--RLXASLGIPDAWTVLLVIALGKPAETVVIDQIKP</Hsp_hseq>
+      <Hsp_midline>E +   RSIR+F   V + D   + +++      S++  Q++  + VT ++  ++          L  + G +     AA  +  C         N D+           A DSGI AQ   L A    LGG  +  +     ++   LG+P+   VL  + LG P +     ++KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|3PXV|A</Hit_id>
+  <Hit_def>Crystal structure of a Nitroreductase with bound FMN (Dhaf_2018) from Desulfitobacterium hafniense DCB-2 at 2.30 A resolution [Desulfitobacterium hafniense DCB-2] &gt;pdb|3PXV|B Crystal structure of a Nitroreductase with bound FMN (Dhaf_2018) from Desulfitobacterium hafniense DCB-2 at 2.30 A resolution [Desulfitobacterium hafniense DCB-2] &gt;pdb|3PXV|C Crystal structure of a Nitroreductase with bound FMN (Dhaf_2018) from Desulfitobacterium hafniense DCB-2 at 2.30 A resolution [Desulfitobacterium hafniense DCB-2] &gt;pdb|3PXV|D Crystal structure of a Nitroreductase with bound FMN (Dhaf_2018) from Desulfitobacterium hafniense DCB-2 at 2.30 A resolution [Desulfitobacterium hafniense DCB-2]</Hit_def>
+  <Hit_accession>3PXV_A</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0362491</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>VDSGIMAQNCLLAAESMGLGGVYIG--------GLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLP</Hsp_qseq>
+      <Hsp_hseq>VDCGILCQTIALAATSLGIANIXCGYTGLAFASGLR--AEEFSKRLGFPEGYAFGCSVLLGH--ANTTKPPHVP</Hsp_hseq>
+      <Hsp_midline>VD GI+ Q   LAA S+G+  +  G        GLR  A +  + LG PE  A    + LGH   N    P +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|4QHL|A</Hit_id>
+  <Hit_def>I3.2 (unbound) from CH103 Lineage [Homo sapiens] &gt;pdb|4QHL|C I3.2 (unbound) from CH103 Lineage [Homo sapiens] &gt;pdb|4QHM|A I3.1 (unbound) from CH103 Lineage [Homo sapiens] &gt;pdb|4QHM|C I3.1 (unbound) from CH103 Lineage [Homo sapiens] &gt;pdb|4QHM|E I3.1 (unbound) from CH103 Lineage [Homo sapiens] &gt;pdb|4QHM|G I3.1 (unbound) from CH103 Lineage [Homo sapiens] &gt;pdb|6VPY|A I33M (I3.2 mutant from CH103 Lineage) [Homo sapiens] &gt;pdb|6VPY|H I33M (I3.2 mutant from CH103 Lineage) [Homo sapiens]</Hit_def>
+  <Hit_accession>4QHL_A</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.172755</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYAS-----RTSNQKLSTWSQE--VTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>LSLTCTVSGGSMG--GYYWSWLRQSPVKGLEWIG--------YIFHTGHTNYNPSLESRVTVSVDTSENQF-SLRLRSVTAADTAV--YYCASLPRGQLVNAFFDNWGQGTLVTVASASTKGPSVFP</Hsp_hseq>
+      <Hsp_midline>++  C ++  SMG  G Y   LR S  +  E +G        +    GH + NP ++ R+   V   ENQ+  L L  + + D  +  YY +     +  N     W Q   VT   A    P + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|6B3S|C</Hit_id>
+  <Hit_def>Crystal structure of the Fab fragment of necitumumab (Fab11F8) in complex with domain III from a cetuximab resistant variant of EGFR (sEGFRd3-S468R) [Homo sapiens] &gt;pdb|6B3S|F Crystal structure of the Fab fragment of necitumumab (Fab11F8) in complex with domain III from a cetuximab resistant variant of EGFR (sEGFRd3-S468R) [Homo sapiens] &gt;pdb|6B3S|H Crystal structure of the Fab fragment of necitumumab (Fab11F8) in complex with domain III from a cetuximab resistant variant of EGFR (sEGFRd3-S468R) [Homo sapiens] &gt;pdb|6B3S|J Crystal structure of the Fab fragment of necitumumab (Fab11F8) in complex with domain III from a cetuximab resistant variant of EGFR (sEGFRd3-S468R) [Homo sapiens]</Hit_def>
+  <Hit_accession>6B3S_C</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.281263</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLST---WSQE--VTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>LSLTCTVSGGSISSGDYYWSWIRQPPGKGLEWIGYIYYS--------GSTDYNPSLKSRVTMSVDTSKNQF-SLKVNSVTAADTAV--YYCARVSIFGVGTFDYWGQGTLVTVSSASTKGPSVFP</Hsp_hseq>
+      <Hsp_midline>++  C ++  S+  G  Y   +R    +  E +G    S        G  D NP +K R+   V   +NQ+  L ++ + + D  +  YY +R S   + T   W Q   VT   A    P + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|3B2U|C</Hit_id>
+  <Hit_def>Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2U|F Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2U|H Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2U|J Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2U|N Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2U|Q Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2U|T Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2U|W Crystal structure of isolated domain III of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens] &gt;pdb|3B2V|H Crystal structure of the extracellular region of the epidermal growth factor receptor in complex with the Fab fragment of IMC-11F8 [Homo sapiens]</Hit_def>
+  <Hit_accession>3B2U_C</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.292715</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLST---WSQE--VTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>LSLTCTVSGGSISSGDYYWSWIRQPPGKGLEWIGYIYYS--------GSTDYNPSLKSRVTMSVDTSKNQF-SLKVNSVTAADTAV--YYCARVSIFGVGTFDYWGQGTLVTVSSASTKGPSVFP</Hsp_hseq>
+      <Hsp_midline>++  C ++  S+  G  Y   +R    +  E +G    S        G  D NP +K R+   V   +NQ+  L ++ + + D  +  YY +R S   + T   W Q   VT   A    P + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|2I7H|A</Hit_id>
+  <Hit_def>Crystal Structure of the Nitroreductase-like Family Protein from Bacillus cereus [Bacillus cereus] &gt;pdb|2I7H|B Crystal Structure of the Nitroreductase-like Family Protein from Bacillus cereus [Bacillus cereus] &gt;pdb|2I7H|C Crystal Structure of the Nitroreductase-like Family Protein from Bacillus cereus [Bacillus cereus] &gt;pdb|2I7H|D Crystal Structure of the Nitroreductase-like Family Protein from Bacillus cereus [Bacillus cereus] &gt;pdb|2I7H|E Crystal Structure of the Nitroreductase-like Family Protein from Bacillus cereus [Bacillus cereus] &gt;pdb|2I7H|F Crystal Structure of the Nitroreductase-like Family Protein from Bacillus cereus [Bacillus cereus]</Hit_def>
+  <Hit_accession>2I7H_A</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.632486</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLP</Hsp_qseq>
+      <Hsp_hseq>FXQNFQLLAWERGLGCVWKSGGLNYNPLFIEGIGLTRGQRIVGILHIGYFDKAPEGKARTP</Hsp_hseq>
+      <Hsp_midline>  QN  L A   GLG V+  G  N      E +GL     ++  + +G+ D+ PE K R P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|4RFO|H</Hit_id>
+  <Hit_def>Chain H, N60-i3 Fab heavy chain [Homo sapiens] &gt;pdb|5KJR|H Crystal structure of the ADCC-potent antibody N60-i3 Fab in complex with HIV-1 Clade A/E gp120 W69A/S115W mutant and M48U1. [Homo sapiens]</Hit_def>
+  <Hit_accession>4RFO_H</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.741908</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQK----LSTWSQE--VTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>LSLTCTVSGASISSGGYFWSWIRQHPGKGLEWIG-----NIYY---IGNTYYNPSLKSRLTISVDTTQNQF-SLKLTSVTAADTAV--YYCARVPRLRGGNYFDSWGQGTLVTVSSASTKGPSVFP</Hsp_hseq>
+      <Hsp_midline>++  C ++  S+  GG +   +R    +  E +G      + +   +G+   NP +K RL   V   +NQ+  L L  + + D  +  YY +R    +      +W Q   VT   A    P + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|3E39|A</Hit_id>
+  <Hit_def>Crystal structure of a putative nitroreductase in complex with fmn (dde_0787) from desulfovibrio desulfuricans subsp. at 1.70 A resolution [Desulfovibrio alaskensis G20] &gt;pdb|3E39|B Crystal structure of a putative nitroreductase in complex with fmn (dde_0787) from desulfovibrio desulfuricans subsp. at 1.70 A resolution [Desulfovibrio alaskensis G20]</Hit_def>
+  <Hit_accession>3E39_A</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.848776</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>NNTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGL-PENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHE</Hsp_qseq>
+      <Hsp_hseq>NPVLQAIRQRRSIRRYTDEAVSDEAVRLILEAGIWAPSGLNNQPCRFLVIRADDPRCDILAAHTRYGHIVRGAKVIILVFL---------DREAXYNEVKDHQA--AGAAVQNXLLAAHALQLGAVWLGEIINQAATLLPALALDPARLSFEAAIAAGHPAQNGSSSRRPLAELLLEE</Hsp_hseq>
+      <Hsp_midline>N  ++ I   RSIR++T   ++DE  + I++AG+ A S    Q    + +   + R ++        ++   A+ ++             D +A + E+    A  +G   QN LLAA ++ LG V++G + N AA +   L L P   +    +  GHP QN     R  A +++ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|3BM1|A</Hit_id>
+  <Hit_def>Crystal structure of a minimal nitroreductase ydjA from Escherichia coli K12 with and without FMN cofactor [Escherichia coli K-12] &gt;pdb|3BM1|B Crystal structure of a minimal nitroreductase ydjA from Escherichia coli K12 with and without FMN cofactor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>3BM1_A</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.32031</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>NTIETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQFAGNQAYVESAAEFLVFCIDYQRHA--------TINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHP</Hsp_qseq>
+      <Hsp_hseq>DALELLINRRSASRLAEPAPTGEQLQNILRAGMRAPDHKSMQPWHFF-VIEGEGRERFSAVLEQGAIAAGSDDK---AIDKARNAPFRAPLIITVVAKCEENHKVPRWEQEMSAGCAVMAMQMAAVAQGFGGIWRSGALTESPVVREAFGCREQDKIVGFLYLGTP</Hsp_hseq>
+      <Hsp_midline>+ +E ++  RS  +      T EQ Q I++AG+ A     +Q      V + E R   +      A    + +     ID  R+A        T+    + +         + +G       +AA + G GG++  G    +  V E  G  E   ++  + LG P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|4R4F|H</Hit_id>
+  <Hit_def>Crystal structure of non-neutralizing, A32-like antibody 2.2c in complex with HIV-1 YU2 gp120 [Homo sapiens]</Hit_def>
+  <Hit_accession>4R4F_H</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.08859</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQ---KLSTWSQE--VTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>LSLTCGVYGES--LSGHYWSWVRQPPGKRLEWIGEIKHN--------GSPNYHPSLKSRVTISLDMSKNQF-SLNLTSVTAADTAV--YFCARRSNWPYLPFDPWGQGTLVTVSSASTKGPSVFP</Hsp_hseq>
+      <Hsp_midline>++  C +  ES  L G Y   +R    +  E +G  +++        G P+ +P +K R+   + + +NQ+  LNL  + + D  +  Y+ +R SN        W Q   VT   A    P + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|4R4B|B</Hit_id>
+  <Hit_def>Crystal structure of the anti-hiv-1 antibody 2.2c [Homo sapiens] &gt;pdb|4R4B|D Crystal structure of the anti-hiv-1 antibody 2.2c [Homo sapiens] &gt;pdb|4R4B|F Crystal structure of the anti-hiv-1 antibody 2.2c [Homo sapiens] &gt;pdb|4R4B|H Crystal structure of the anti-hiv-1 antibody 2.2c [Homo sapiens] &gt;pdb|4R4H|H Crystal structure of non-neutralizing, A32-like antibody 2.2c in complex with HIV-1 Env gp120 [Homo sapiens]</Hit_def>
+  <Hit_accession>4R4B_B</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.19222</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQ---KLSTWSQE--VTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>LSLTCGVYGES--LSGHYWSWVRQPPGKRLEWIGEIKHN--------GSPNYHPSLKSRVTISLDMSKNQF-SLNLTSVTAADTAV--YFCARRSNWPYLPFDPWGQGTLVTVSSASTKGPSVFP</Hsp_hseq>
+      <Hsp_midline>++  C +  ES  L G Y   +R    +  E +G  +++        G P+ +P +K R+   + + +NQ+  LNL  + + D  +  Y+ +R SN        W Q   VT   A    P + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|3EG9|A</Hit_id>
+  <Hit_def>Crystal structure of the mammalian COPII-coat protein Sec23/24 bound to the transport signal sequence of membrin [Homo sapiens] &gt;pdb|3EGD|A Crystal structure of the mammalian COPII-coat protein Sec23a/24a complexed with the SNARE protein Sec22 and bound to the transport signal sequence of vesicular stomatitis virus glycoprotein [Homo sapiens] &gt;pdb|3EGX|A Crystal structure of the mammalian COPII-coat protein Sec23a/24a complexed with the SNARE protein Sec22b and bound to the transport signal sequence of the SNARE protein Bet1 [Homo sapiens] &gt;pdb|5VNE|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with Emp24 sorting motif [Homo sapiens] &gt;pdb|5VNF|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with a C-terminal VV sorting motif [Homo sapiens] &gt;pdb|5VNG|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with a C-terminal II sorting motif [Homo sapiens] &gt;pdb|5VNH|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with a C-terminal SV sorting motif [Homo sapiens] &gt;pdb|5VNI|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with a C-terminal FA sorting motif [Homo sapiens] &gt;pdb|5VNJ|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with a C-terminal FF sorting motif (ERGIC-53) [Homo sapiens] &gt;pdb|5VNK|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with a C-terminal LL sorting motif [Homo sapiens] &gt;pdb|5VNL|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with 4-phenylbutyric acid (1mM soaking) [Homo sapiens] &gt;pdb|5VNM|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with 4-phenylbutyric acid (15mM soaking) [Homo sapiens] &gt;pdb|5VNN|A Crystal structure of Sec23a/Sec24a/Sec22 complexed with 4-phenylbutyric acid (50mM soaking) [Homo sapiens] &gt;pdb|5VNO|A Crystal structure of Sec23a/Sec24a/Sec22 [Homo sapiens]</Hit_def>
+  <Hit_accession>3EG9_A</Hit_accession>
+  <Hit_len>764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.20488</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>LIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDI</Hsp_qseq>
+      <Hsp_hseq>LVGLITFGRMVQVHELGCEGISKSYVFRGTKDLSAKQLQEMLGLSK-------VPLTQATRGPQVQQPPPSNRFLQPVQKIDMNLTDL</Hsp_hseq>
+      <Hsp_midline>L+G +  G M Q   L  E +    V+ G    SA Q+ E+LGL +       + L    + P+V+   P++  +   Q  ++NL D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|5KYN|A</Hit_id>
+  <Hit_def>Structure of Sec23 and TANGO1 complex [Homo sapiens] &gt;pdb|5KYN|B Structure of Sec23 and TANGO1 complex [Homo sapiens] &gt;pdb|5KYU|A crystal structure of Sec23 and TANGO1 peptide2 complex [Homo sapiens] &gt;pdb|5KYW|A crystal structure of Sec23 and TANGO1 peptide3 complex [Homo sapiens] &gt;pdb|5KYX|A crystal structure of Sec23 and TANGO1 peptide1 complex [Homo sapiens] &gt;pdb|5KYY|A Crystal structure of Sec23 and TANGO1 peptide4 complex [Homo sapiens]</Hit_def>
+  <Hit_accession>5KYN_A</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.20525</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>LIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDI</Hsp_qseq>
+      <Hsp_hseq>LVGLITFGRMVQVHELGCEGISKSYVFRGTKDLSAKQLQEMLGLSK-------VPLTQATRGPQVQQPPPSNRFLQPVQKIDMNLTDL</Hsp_hseq>
+      <Hsp_midline>L+G +  G M Q   L  E +    V+ G    SA Q+ E+LGL +       + L    + P+V+   P++  +   Q  ++NL D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4R4N|C</Hit_id>
+  <Hit_def>Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens] &gt;pdb|4R4N|F Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens] &gt;pdb|4R4N|H Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens] &gt;pdb|4R4N|J Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens] &gt;pdb|4R4N|N Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens] &gt;pdb|4R4N|Q Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens] &gt;pdb|4R4N|T Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens] &gt;pdb|4R4N|W Crystal structure of the anti-hiv-1 antibody 2.2c in complex with hiv-1 93ug037 gp120 [Homo sapiens]</Hit_def>
+  <Hit_accession>4R4N_C</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.70212</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQ---KLSTWSQE--VTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>LSLTCGVYGES--LXGHYWSWVRQPPGKRLEWIGEIKHN--------GSPNYHPSLKSRVTISLDMSKNQF-SLNLTSVTAADTAV--YFCARRSNWPYLPFDPWGQGTLVTVSSASTKGPSVFP</Hsp_hseq>
+      <Hsp_midline>++  C +  ES  L G Y   +R    +  E +G  +++        G P+ +P +K R+   + + +NQ+  LNL  + + D  +  Y+ +R SN        W Q   VT   A    P + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|3EO8|A</Hit_id>
+  <Hit_def>Crystal structure of BluB-like flavoprotein (YP_001089088.1) from CLOSTRIDIUM DIFFICILE 630 at 1.74 A resolution [Clostridioides difficile 630] &gt;pdb|3EO8|B Crystal structure of BluB-like flavoprotein (YP_001089088.1) from CLOSTRIDIUM DIFFICILE 630 at 1.74 A resolution [Clostridioides difficile 630] &gt;pdb|3EO8|C Crystal structure of BluB-like flavoprotein (YP_001089088.1) from CLOSTRIDIUM DIFFICILE 630 at 1.74 A resolution [Clostridioides difficile 630] &gt;pdb|3EO8|D Crystal structure of BluB-like flavoprotein (YP_001089088.1) from CLOSTRIDIUM DIFFICILE 630 at 1.74 A resolution [Clostridioides difficile 630] &gt;pdb|3EO8|E Crystal structure of BluB-like flavoprotein (YP_001089088.1) from CLOSTRIDIUM DIFFICILE 630 at 1.74 A resolution [Clostridioides difficile 630] &gt;pdb|3EO8|F Crystal structure of BluB-like flavoprotein (YP_001089088.1) from CLOSTRIDIUM DIFFICILE 630 at 1.74 A resolution [Clostridioides difficile 630]</Hit_def>
+  <Hit_accession>3EO8_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.97773</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>ETILAHRSIRKFTAVPITDEQRQTIIQAGLAASSSSMLQVVSIVRVTDSEKRNELAQ----------FAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFT---------ELTLIGA----VDS-----------GIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELL----GLPENSAVLFG--MCLGHPDQN---PEVKP</Hsp_qseq>
+      <Hsp_hseq>DTIFKRQSVRKFKNQDVSDEDILKXIKAAGAAPSGKNIQNWHFVVIKRRDLXEKIADVITKKQQEILVEXDKVSVDKANRFRKFVKNFTLFYLKAPVLVLVFTKVYNPSGYYELELIDAPKETIDKLFIRNPGXQSLGAAIENFTLSAIELGYGSCWLTSQNYAADEIEAVLEAETGF-EKGEYFLGAXLALGVPEDNLKSPSKKP</Hsp_hseq>
+      <Hsp_midline>+TI   +S+RKF    ++DE     I+A  AA S   +Q    V +   +   ++A              ++  V+ A  F  F  ++       P +   FT         EL LI A    +D            G   +N  L+A  +G G  ++     +A +++ +L    G  E      G  + LG P+ N   P  KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|4XOM|A</Hit_id>
+  <Hit_def>Coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain). [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOM|B Coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain). [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOM|C Coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain). [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOM|D Coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain). [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOO|A FMN complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOO|B FMN complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOO|C FMN complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOO|D FMN complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOQ|A F420 complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOQ|B F420 complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOQ|C F420 complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv] &gt;pdb|4XOQ|D F420 complex of coenzyme F420:L-glutamate ligase (FbiB) from Mycobacterium tuberculosis (C-terminal domain) [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>4XOM_A</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.23039</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LAHRSIRKFTAVPITDEQRQTIIQAGLAASSSS--------MLQVVSI-VRVTDSEK---RNELA-----------QFAGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPA</Hsp_qseq>
+      <Hsp_hseq>LLRRSVRRFSTDPVPGDLVEAAVAEALTAPAPHHTRPTRFVWLQTPAIRARLLDRMKDKWRSDLTSDGLPADAIERRVARGQILYDAPEVVIPMLVPDGAHS--YPDAARTDAEHTMF-TVAVGAAVQALLVALAVRGLGSCWIGSTIFAADLVRDELDLPVDWEPLGAIAIGYADEPSGLRDPVPA</Hsp_hseq>
+      <Hsp_midline>L  RS+R+F+  P+  +  +  +   L A +           LQ  +I  R+ D  K   R++L            + A  Q   ++    +   +    H+   PD      E T+   V  G   Q  L+A    GLG  +IG    +A  V + L LP +   L  + +G+ D+   ++  +PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|3EFO|A</Hit_id>
+  <Hit_def>Crystal Structure of the mammalian COPII-coat protein Sec23/24 bound to the transport signal sequence of syntaxin 5 [Homo sapiens]</Hit_def>
+  <Hit_accession>3EFO_A</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.52223</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>LIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDI</Hsp_qseq>
+      <Hsp_hseq>LVGLITFGRMVQVHELGCEGISKSYVFRGTGDLSAKQLQEMLGLSK-------VPLTQATRGPQVQQPPPSNRFLQPVQKIDMNLTDL</Hsp_hseq>
+      <Hsp_midline>L+G +  G M Q   L  E +    V+ G    SA Q+ E+LGL +       + L    + P+V+   P++  +   Q  ++NL D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|3HOI|A</Hit_id>
+  <Hit_def>Crystal structure of FMN-dependent nitroreductase BF3017 from Bacteroides fragilis NCTC 9343 (YP_212631.1) from Bacteroides fragilis NCTC 9343 at 1.55 A resolution [Bacteroides fragilis NCTC 9343]</Hit_def>
+  <Hit_accession>3HOI_A</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.38963</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>AGNQAYVESAAEFLVFCIDYQRHATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGV</Hsp_qseq>
+      <Hsp_hseq>AGGQAFVNNAPVSLVLVSDLSKLG------DAKSNHVQLXGAXDAGIVSQNISLFCSAARLATV</Hsp_hseq>
+      <Hsp_midline>AG QA+V +A   LV   D  +         A    + L GA D+GI++QN  L   +  L  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|2NUP|A</Hit_id>
+  <Hit_def>Crystal Structure of the human Sec23a/24a heterodimer, complexed with the SNARE protein Sec22b [Homo sapiens] &gt;pdb|2NUT|A Crystal Structure of the human Sec23a/24a heterodimer, complexed with the SNARE protein Sec22b [Homo sapiens]</Hit_def>
+  <Hit_accession>2NUP_A</Hit_accession>
+  <Hit_len>769</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.93259</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>LIGAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAVLFGMCLGHPDQNPEVKPRLPAHVVVHENQYQELNLDDI</Hsp_qseq>
+      <Hsp_hseq>LVGLITFGRMVQVHELGCEGISKSYVFRGTKDLSAKQLQEMLGLSK-------VPVTQATRGPQVQQPPPSNRFLQPVQKIDMNLTDL</Hsp_hseq>
+      <Hsp_midline>L+G +  G M Q   L  E +    V+ G    SA Q+ E+LGL +       + +    + P+V+   P++  +   Q  ++NL D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|4ESW|A</Hit_id>
+  <Hit_def>Crystal structure of C. albicans Thi5 H66G mutant [Candida albicans WO-1] &gt;pdb|4ESW|B Crystal structure of C. albicans Thi5 H66G mutant [Candida albicans WO-1]</Hit_def>
+  <Hit_accession>4ESW_A</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.46651</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>ATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGL</Hsp_qseq>
+      <Hsp_hseq>AILEPSNPSDVTELVGSGKVDMGLKAMVGTLAAKARGFPVTSIGSL</Hsp_hseq>
+      <Hsp_midline>A + P   +D TEL   G VD G+ A    LAA++ G     IG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|4ESX|A</Hit_id>
+  <Hit_def>Crystal structure of C. albicans Thi5 complexed with PLP [Candida albicans WO-1] &gt;pdb|4ESX|B Crystal structure of C. albicans Thi5 complexed with PLP [Candida albicans WO-1]</Hit_def>
+  <Hit_accession>4ESX_A</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.52447</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>ATINPDVQADFTELTLIGAVDSGIMAQNCLLAAESMGLGGVYIGGL</Hsp_qseq>
+      <Hsp_hseq>AILEPSNPSDVTELVGSGKVDMGLXAMVHTLAAKARGFPVTSIGSL</Hsp_hseq>
+      <Hsp_midline>A + P   +D TEL   G VD G+ A    LAA++ G     IG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|6N7J|A</Hit_id>
+  <Hit_def>BDBV223 Fab bound to synthetic peptide of Bundibugyo virus Glycoprotein Stalk [Homo sapiens] &gt;pdb|6N7J|H BDBV223 Fab bound to synthetic peptide of Bundibugyo virus Glycoprotein Stalk [Homo sapiens] &gt;pdb|6N7U|A apo-BDBV223 Fab [Homo sapiens]</Hit_def>
+  <Hit_accession>6N7J_A</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.56461</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GHPDQNPEVKPRLPAHVVVHENQYQELNLDDIQSYDQTMQAYYASRTSNQKLSTWSQEVTGK</Hsp_qseq>
+      <Hsp_hseq>GNANYNPSLKGRVAISVDTSKNQF-SLRLNSVTAADTAIY-YCTSRIRSHIAYSWKGDVWGK</Hsp_hseq>
+      <Hsp_midline>G+ + NP +K R+   V   +NQ+  L L+ + + D  +  Y  SR  +    +W  +V GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|7O79|A</Hit_id>
+  <Hit_def>Chain A, Poly(Beta-D-mannuronate) lyase [Pseudopedobacter saltans DSM 12145]</Hit_def>
+  <Hit_accession>7O79_A</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.82669</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GAVDSGIMAQNCLLAAESMGLGGVYIGGLRNSAAQVDELLGLPENSAV</Hsp_qseq>
+      <Hsp_hseq>GHVKDGLYVNNTFL---NVGGAGINIGGSYNGNPGADQRMLLPENNTI</Hsp_hseq>
+      <Hsp_midline>G V  G+   N  L   ++G  G+ IGG  N     D+ + LPEN+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|2PBC|A</Hit_id>
+  <Hit_def>FK506-binding protein 2 [Homo sapiens] &gt;pdb|2PBC|B FK506-binding protein 2 [Homo sapiens] &gt;pdb|2PBC|C FK506-binding protein 2 [Homo sapiens] &gt;pdb|2PBC|D FK506-binding protein 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>2PBC_A</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.90717</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>NLDDIQSYDQTM---QAYYASRTSNQKLSTWSQEVTGKLAGESRPHILP</Hsp_qseq>
+      <Hsp_hseq>KLEDGTEFDSSLPQNQPFVFSLGTGQVIKGWDQGLLGMCEGEKRKLVIP</Hsp_hseq>
+      <Hsp_midline> L+D   +D ++   Q +  S  + Q +  W Q + G   GE R  ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>102</Statistics_hsp-len>
+      <Statistics_eff-space>2966287368</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

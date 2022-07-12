@@ -1,0 +1,1046 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1ALN_1|Chain A|CYTIDINE DEAMINASE|Escherichia coli (562)</BlastOutput_query-def>
+  <BlastOutput_query-len>294</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1ALN_1|Chain A|CYTIDINE DEAMINASE|Escherichia coli (562)</Iteration_query-def>
+  <Iteration_query-len>294</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1AF2|A</Hit_id>
+  <Hit_def>Crystal Structure Of Cytidine Deaminase Complexed With Uridine [Escherichia coli] &gt;pdb|1ALN|A Crystal Structure Of Cytidine Deaminase Complexed With 3-deazacytidine [Escherichia coli] &gt;pdb|1CTT|A TRANSITION-STATE SELECTIVITY FOR A SINGLE OH GROUP DURING CATALYSIS BY CYTIDINE DEAMINASE [Escherichia coli] &gt;pdb|1CTU|A TRANSITION-STATE SELECTIVITY FOR A SINGLE OH GROUP DURING CATALYSIS BY CYTIDINE DEAMINASE [Escherichia coli]</Hit_def>
+  <Hit_accession>1AF2_A</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>603.594</Hsp_bit-score>
+      <Hsp_score>1555</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>294</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MHPRFQTAFAQLADNLQSALEPILADKYFPALLTGEQVSSLKSATGLDEDALAFALLPLAAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVNYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDLEIKTLLMDEQDHGYALTGDALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKALGCHSIDRVLLA</Hsp_qseq>
+      <Hsp_hseq>MHPRFQTAFAQLADNLQSALEPILADKYFPALLTGEQVSSLKSATGLDEDALAFALLPLAAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVNYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDLEIKTLLMDEQDHGYALTGDALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKALGCHSIDRVLLA</Hsp_hseq>
+      <Hsp_midline>MHPRFQTAFAQLADNLQSALEPILADKYFPALLTGEQVSSLKSATGLDEDALAFALLPLAAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVNYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDLEIKTLLMDEQDHGYALTGDALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKALGCHSIDRVLLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|6K63|A</Hit_id>
+  <Hit_def>The crystal structure of cytidine deaminase from Klebsiella pneumoniae [Klebsiella pneumoniae subsp. pneumoniae MGH 78578] &gt;pdb|6K63|B The crystal structure of cytidine deaminase from Klebsiella pneumoniae [Klebsiella pneumoniae subsp. pneumoniae MGH 78578] &gt;pdb|6K63|C The crystal structure of cytidine deaminase from Klebsiella pneumoniae [Klebsiella pneumoniae subsp. pneumoniae MGH 78578] &gt;pdb|6K63|D The crystal structure of cytidine deaminase from Klebsiella pneumoniae [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>6K63_A</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>3.33088e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>MHPRFQTAFAQLADNLQSALEPILADKYFPALLTGEQVSSLKSATGLDEDALAFALLPLAAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVNYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDLEIKTLLMDEQDHGYALTGDALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKALGCHSIDRVLL</Hsp_qseq>
+      <Hsp_hseq>MHSRFQAALTTLAADLQAAIAPMLADPHFPALLEADQVATLQHATGLDEDALAFALLPLAAACARPDLSHFNVGAIARGVSGRWYFGGNMEFLGATMQQTVHAEQSAISHAWLRGETSLRAITVNYTPCGHCRQFMNELNSGLALRIHLPGREAHALEHYLPDAFGPKDLEIKTLLMDEQDHGFPVSGDALTQAAIQAANRCHAPYSHSPSGVALELKDGTIFSGSYAENAAFNPTLPPLQGALNLLSLNGYDYPAIQRAILAEKADAALIQWDATVATLKALGCHNIERVLL</Hsp_hseq>
+      <Hsp_midline>MH RFQ A   LA +LQ+A+ P+LAD +FPALL  +QV++L+ ATGLDEDALAFALLPLAAACAR  LS+FNVGAIARGVSG WYFG NMEF+GATMQQTVHAEQSAISHAWL GE +L AITVNYTPCGHCRQFMNELNSGL LRIHLPGREAHAL  YLPDAFGPKDLEIKTLLMDEQDHG+ ++GDAL+QAAI AANR H PYS SPSGVALE KDG IFSGSYAENAAFNPTLPPLQGAL LL+L GYDYP IQRA+LAEKADA LIQWDAT ATLKALGCH+I+RVLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|4EG2|A</Hit_id>
+  <Hit_def>2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae] &gt;pdb|4EG2|B 2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae] &gt;pdb|4EG2|C 2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae] &gt;pdb|4EG2|D 2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae] &gt;pdb|4EG2|E 2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae] &gt;pdb|4EG2|F 2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae] &gt;pdb|4EG2|G 2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae] &gt;pdb|4EG2|H 2.2 Angstrom Crystal Structure of Cytidine deaminase from Vibrio cholerae in Complex with Zinc and Uridine [Vibrio cholerae]</Hit_def>
+  <Hit_accession>4EG2_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>5.73599e-83</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>RFQTAFAQLADNLQSALEPILADKYFPALLTGEQVSSLKSATGLDEDALAFALLPLAAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVNYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDLEIKTLLMDEQDHGYALTGD-ALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKAL</Hsp_qseq>
+      <Hsp_hseq>RIEQALQQXPASFAPYLRELVLAKDFDATFSAEQYQQLLTLSGLEDADLRVALLPIAAAYSYAPISEFYVGAIVRGISGRLYLGANXEFTGAQLGQTVHAEQCAISHAWXKGEKGVADITINFSPCGHCRQFXNELTTASSLKIQLPKRAAKTLQEYLPESFGPADLGIDSGLXSPVNHGKTSDDDEELIQQALRAXNISHSPYTQNFSGVALKXRSGAIYLGAYAENAAFNPSLPPLQVALAQAXXXGESFEDIEAAALVESATGKISHLADTQATLEVI</Hsp_hseq>
+      <Hsp_midline>R + A  Q   +    L  ++  K F A  + EQ   L + +GL++  L  ALLP+AAA +  P+S F VGAI RG+SG  Y GAN EF GA + QTVHAEQ AISHAW  GEK +A IT+N++PCGHCRQF NEL +   L+I LP R A  L++YLP++FGP DL I + L    +HG     D  L Q A+ A N SH PY+++ SGVAL+ + G I+ G+YAENAAFNP+LPPLQ AL      G  + DI+ A L E A   +     T ATL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|6L08|A</Hit_id>
+  <Hit_def>Crystal structure of Arabidopsis cytidine deaminase [Arabidopsis thaliana] &gt;pdb|6L08|B Crystal structure of Arabidopsis cytidine deaminase [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>6L08_A</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.15067e-42</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>LLTGEQVSSLKSATGLDEDALAFALLPLAAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVNYTPCGHCRQFMNELNSGLDLRIHL--PGREAHA-----------LRDYLPDAFGPKDLEIKT--LLMDEQD------------HGYALTGDALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALI--LLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKAL</Hsp_qseq>
+      <Hsp_hseq>VIQSKEAESAAKQLGVSVIQLLPSLVKPAQSYARTPISKFNVAVVGLGSSGRIFLGVNVEFPNLPLHHSIHAEQFLVTNLTLNGERHLNFFAVSAAPCGHCRQFLQEIRDAPEIKILITDPNNSADSDSAADSDGFLRLGSFLPHRFGPDDLLGKDHPLLLESHDNHLKISDLDSICNGNTDSSADLKQTALAAANRSYAPYSLCPSGVSLVDCDGKVYRGWYMESAAYNPSMGPVQAALVDYVANGGGGGYERIVGAVLVEKEDAVVRQEHTARLLLETI</Hsp_hseq>
+      <Hsp_midline>++  ++  S     G+    L  +L+  A + ARTP+S FNV  +  G SG  + G N+EF    +  ++HAEQ  +++  L+GE+ L    V+  PCGHCRQF+ E+    +++I +  P   A +           L  +LP  FGP DL  K   LL++  D            +G   +   L Q A+AAANRS+ PYS  PSGV+L   DG+++ G Y E+AA+NP++ P+Q AL+  + N  G  Y  I  AVL EK DA + Q       L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1ZAB|A</Hit_id>
+  <Hit_def>Crystal Structure of Mouse Cytidine Deaminase Complexed with 3-Deazauridine [Mus musculus] &gt;pdb|1ZAB|B Crystal Structure of Mouse Cytidine Deaminase Complexed with 3-Deazauridine [Mus musculus] &gt;pdb|1ZAB|C Crystal Structure of Mouse Cytidine Deaminase Complexed with 3-Deazauridine [Mus musculus] &gt;pdb|1ZAB|D Crystal Structure of Mouse Cytidine Deaminase Complexed with 3-Deazauridine [Mus musculus] &gt;pdb|2FR5|A Crystal Structure of Mouse Cytidine Deaminase Complexed with Tetrahydrouridine [Mus musculus] &gt;pdb|2FR5|B Crystal Structure of Mouse Cytidine Deaminase Complexed with Tetrahydrouridine [Mus musculus] &gt;pdb|2FR5|C Crystal Structure of Mouse Cytidine Deaminase Complexed with Tetrahydrouridine [Mus musculus] &gt;pdb|2FR5|D Crystal Structure of Mouse Cytidine Deaminase Complexed with Tetrahydrouridine [Mus musculus] &gt;pdb|2FR6|A Crystal Structure of Mouse Cytidine Deaminase Complexed with Cytidine [Mus musculus] &gt;pdb|2FR6|B Crystal Structure of Mouse Cytidine Deaminase Complexed with Cytidine [Mus musculus] &gt;pdb|2FR6|C Crystal Structure of Mouse Cytidine Deaminase Complexed with Cytidine [Mus musculus] &gt;pdb|2FR6|D Crystal Structure of Mouse Cytidine Deaminase Complexed with Cytidine [Mus musculus]</Hit_def>
+  <Hit_accession>1ZAB_A</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.15802e-08</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN-------YTPCGHCRQFMNELNSGLDLRIHLPGRE----AHALRDYLPDAFGPKDLE</Hsp_qseq>
+      <Hsp_hseq>AYCPYSRFPVGAALLTGDGRIFSGCNIE--NACYPLGVCAERTAIQKAISEGYKDFRAIAISSDLQEEFISPCGACRQVMREF--GTDWAVYMTKPDGTFVVRTVQELLPASFGPEDLQ</Hsp_hseq>
+      <Hsp_midline>A  P S F VGA      G  + G N+E   A     V AE++AI  A   G K   AI ++        +PCG CRQ M E   G D  +++   +       +++ LP +FGP+DL+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00281866</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>AANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAF</Hsp_qseq>
+      <Hsp_hseq>AKKSAYCPYSRFPVGAALLTGDGRIFSGCNIENACY</Hsp_hseq>
+      <Hsp_midline>A   ++ PYS+ P G AL   DGRIFSG   ENA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|1MQ0|A</Hit_id>
+  <Hit_def>Crystal Structure of Human Cytidine Deaminase [Homo sapiens] &gt;pdb|1MQ0|B Crystal Structure of Human Cytidine Deaminase [Homo sapiens]</Hit_def>
+  <Hit_accession>1MQ0_A</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.87546e-08</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN-------YTPCGHCRQFMNELNSGLDLRIHLPGRE--AHALRDYLPDAFGPKDLE</Hsp_qseq>
+      <Hsp_hseq>AYCPYSHFPVGAALLTQEGRIFKGCNIE--NACYPLGICAERTAIQKAVSEGYKDFRAIAIASDMQDDFISPCGACRQVMREFGTNWPVYMTKPDGTYIVMTVQELLPSSFGPEDLQ</Hsp_hseq>
+      <Hsp_midline>A  P S+F VGA      G  + G N+E   A     + AE++AI  A   G K   AI +         +PCG CRQ M E  +   + +  P        +++ LP +FGP+DL+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.031292</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>AANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAF</Hsp_qseq>
+      <Hsp_hseq>AKQSAYCPYSHFPVGAALLTQEGRIFKGCNIENACY</Hsp_hseq>
+      <Hsp_midline>A   ++ PYS  P G AL  ++GRIF G   ENA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1UX1|A</Hit_id>
+  <Hit_def>Bacillus subtilis cytidine deaminase with a Cys53His and an Arg56Gln substitution [Bacillus subtilis] &gt;pdb|1UX1|B Bacillus subtilis cytidine deaminase with a Cys53His and an Arg56Gln substitution [Bacillus subtilis] &gt;pdb|1UX1|C Bacillus subtilis cytidine deaminase with a Cys53His and an Arg56Gln substitution [Bacillus subtilis] &gt;pdb|1UX1|D Bacillus subtilis cytidine deaminase with a Cys53His and an Arg56Gln substitution [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1UX1_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.98804e-07</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN------YTPCGHCRQFMNELNSG--LDLRIHLPGR-EAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCN--HAEQTALFKAVSEGDTEFQMLAVAADTPGPVSPCGACRQVISELCTKDVIVVLTNLQGQIKEMTVEELLPGAFSSEDL</Hsp_hseq>
+      <Hsp_midline>A  P S F VGA      G  Y G N+E    +M    HAEQ+A+  A   G+     + V        +PCG CRQ ++EL +   + +  +L G+ +   + + LP AF  +DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000408998</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAP</Hsp_qseq>
+      <Hsp_hseq>ALKARDMAYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCNHAEQTAL----FKAVSEGDTEFQMLAVAADTP</Hsp_hseq>
+      <Hsp_midline>A+ A + ++ PYSK   G AL  KDG+++ G   ENAA++      Q AL     K     D +  +LA  AD P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1UX0|A</Hit_id>
+  <Hit_def>Bacillus subtilis cytidine deaminase with an Arg56 - Gln substitution [Bacillus subtilis] &gt;pdb|1UX0|B Bacillus subtilis cytidine deaminase with an Arg56 - Gln substitution [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1UX0_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.14191e-06</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN------YTPCGHCRQFMNELNSG--LDLRIHLPGR-EAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCNC--AEQTALFKAVSEGDTEFQMLAVAADTPGPVSPCGACRQVISELCTKDVIVVLTNLQGQIKEMTVEELLPGAFSSEDL</Hsp_hseq>
+      <Hsp_midline>A  P S F VGA      G  Y G N+E    +M     AEQ+A+  A   G+     + V        +PCG CRQ ++EL +   + +  +L G+ +   + + LP AF  +DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000324835</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAP</Hsp_qseq>
+      <Hsp_hseq>ALKARDMAYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCNCAEQTAL----FKAVSEGDTEFQMLAVAADTP</Hsp_hseq>
+      <Hsp_midline>A+ A + ++ PYSK   G AL  KDG+++ G   ENAA++      Q AL     K     D +  +LA  AD P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|3IJF|X</Hit_id>
+  <Hit_def>Chain X, Cytidine deaminase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>3IJF_X</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.5605e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN-----YTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AAAGAYVPYSRFAVGAAALVDDGRVVTGCNVENVSYGLTLCAECAVVCALHS-TGGGRLLALACVDGHGSVLMPCGRCRQVLLE-HGGSELLIDHPVRP-RRLGDLLPDAFGLDDL</Hsp_hseq>
+      <Hsp_midline>AAA A  P S F VGA A    G    G N+E +   +            H+   G + LA   V+       PCG CRQ + E + G +L I  P R    L D LPDAFG  DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.162248</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>DALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTL</Hsp_qseq>
+      <Hsp_hseq>NMLRGNATQAAAGAYVPYSRFAVGAAALVDDGRVVTGCNVENVSYGLTL</Hsp_hseq>
+      <Hsp_midline>+ L   A  AA  +++PYS+   G A    DGR+ +G   EN ++  TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|4WIG|A</Hit_id>
+  <Hit_def>Chain A, Cytidine deaminase [Mycobacterium tuberculosis] &gt;pdb|4WIG|B Chain B, Cytidine deaminase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>4WIG_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.74022e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN-----YTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AAAGAYVPYSRFAVGAAALVDDGRVVTGCNVDNVSYGLTLCAECAVVCALHS-TGGGRLLALACVDGHGSVLMPCGRCRQVLLE-HGGSELLIDHPVRP-RRLGDLLPDAFGLDDL</Hsp_hseq>
+      <Hsp_midline>AAA A  P S F VGA A    G    G N++ +   +            H+   G + LA   V+       PCG CRQ + E + G +L I  P R    L D LPDAFG  DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.466515</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>LSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTL</Hsp_qseq>
+      <Hsp_hseq>LRGNATQAAAGAYVPYSRFAVGAAALVDDGRVVTGCNVDNVSYGLTL</Hsp_hseq>
+      <Hsp_midline>L   A  AA  +++PYS+   G A    DGR+ +G   +N ++  TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4WIF|A</Hit_id>
+  <Hit_def>Chain A, Cytidine deaminase [Mycobacterium tuberculosis] &gt;pdb|4WIF|B Chain B, Cytidine deaminase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>4WIF_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.87185e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITV------NYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AAAGAYVPYSRFAVGAAALVDDGRVVTGCNVQNVSYGL--TLCAECAVVCALHSTGGGRLLALACVDGHGSVLMPCGRCRQVLLE-HGGSELLIDHPVRP-RRLGDLLPDAFGLDDL</Hsp_hseq>
+      <Hsp_midline>AAA A  P S F VGA A    G    G N++ +   +  T+ AE + +     +G   L A+           PCG CRQ + E + G +L I  P R    L D LPDAFG  DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.453401</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>DALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTL</Hsp_qseq>
+      <Hsp_hseq>NMLRGNATQAAAGAYVPYSRFAVGAAALVDDGRVVTGCNVQNVSYGLTL</Hsp_hseq>
+      <Hsp_midline>+ L   A  AA  +++PYS+   G A    DGR+ +G   +N ++  TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|3R2N|A</Hit_id>
+  <Hit_def>Crystal structure of cytidine deaminase from Mycobacterium leprae [Mycobacterium leprae Br4923] &gt;pdb|3R2N|B Crystal structure of cytidine deaminase from Mycobacterium leprae [Mycobacterium leprae Br4923] &gt;pdb|3R2N|C Crystal structure of cytidine deaminase from Mycobacterium leprae [Mycobacterium leprae Br4923] &gt;pdb|3R2N|D Crystal structure of cytidine deaminase from Mycobacterium leprae [Mycobacterium leprae Br4923]</Hit_def>
+  <Hit_accession>3R2N_A</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>8.01951e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AAACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITV------NYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKD</Hsp_qseq>
+      <Hsp_hseq>ARANSYAPYSNFPVGVAGFVNDGRLITGVNVE--NASYGLALCAECSMISALYATGGGRLVAVYCVDGNGDSLMPCGRCRQLLYE-HGGPELKIMTP-KGVQTMAQLLPQAFNPQE</Hsp_hseq>
+      <Hsp_midline>A A +  P SNF VG       G    G N+E   A+    + AE S IS  + +G   L A+        +  PCG CRQ + E + G +L+I  P +    +   LP AF P++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>7.34758e-05</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>DALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAF</Hsp_qseq>
+      <Hsp_hseq>DTLQKAAVAARANSYAPYSNFPVGVAGFVNDGRLITGVNVENASY</Hsp_hseq>
+      <Hsp_midline>D L +AA+AA   S+ PYS  P GVA    DGR+ +G   ENA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|2D30|A</Hit_id>
+  <Hit_def>Crystal Structure of Cytidine Deaminase Cdd-2 (BA4525) from Bacillus Anthracis at 2.40A Resolution [Bacillus anthracis] &gt;pdb|2D30|B Crystal Structure of Cytidine Deaminase Cdd-2 (BA4525) from Bacillus Anthracis at 2.40A Resolution [Bacillus anthracis]</Hit_def>
+  <Hit_accession>2D30_A</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>8.93682e-06</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN------YTPCGHCRQFMNELNSGLDLRIHLPG----REAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AYVPYSKFQVGAALLTQDGKVYRGCNVE--NASYGLCNCAERTALFKAVSEGDKEFVAIAIVADTKRPVPPCGACRQVMVEL-CKQDTKVYLSNLHGDVQETTVGELLPGAFLAEDL</Hsp_hseq>
+      <Hsp_midline>A  P S F VGA      G  Y G N+E   A+      AE++A+  A   G+K   AI +         PCG CRQ M EL    D +++L       +   + + LP AF  +DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000704919</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>LTGDALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAF</Hsp_qseq>
+      <Hsp_hseq>MNSKQLIQEAIEARKQAYVPYSKFQVGAALLTQDGKVYRGCNVENASY</Hsp_hseq>
+      <Hsp_midline>+    L Q AI A  ++++PYSK   G AL  +DG+++ G   ENA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1JTK|A</Hit_id>
+  <Hit_def>Crystal structure of cytidine deaminase from Bacillus subtilis in complex with the inhibitor tetrahydrodeoxyuridine [Bacillus subtilis] &gt;pdb|1JTK|B Crystal structure of cytidine deaminase from Bacillus subtilis in complex with the inhibitor tetrahydrodeoxyuridine [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1JTK_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>1.05541e-05</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN------YTPCGHCRQFMNELNSG--LDLRIHLPGR-EAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCNC--AERTALFKAVSEGDTEFQMLAVAADTPGPVSPCGACRQVISELCTKDVIVVLTNLQGQIKEMTVEELLPGAFSSEDL</Hsp_hseq>
+      <Hsp_midline>A  P S F VGA      G  Y G N+E    +M     AE++A+  A   G+     + V        +PCG CRQ ++EL +   + +  +L G+ +   + + LP AF  +DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00147836</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAP</Hsp_qseq>
+      <Hsp_hseq>ALKARDMAYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCNCAERTAL----FKAVSEGDTEFQMLAVAADTP</Hsp_hseq>
+      <Hsp_midline>A+ A + ++ PYSK   G AL  KDG+++ G   ENAA++      + AL     K     D +  +LA  AD P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1UWZ|A</Hit_id>
+  <Hit_def>Bacillus subtilis cytidine deaminase with an Arg56 - Ala substitution [Bacillus subtilis] &gt;pdb|1UWZ|B Bacillus subtilis cytidine deaminase with an Arg56 - Ala substitution [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1UWZ_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>2.17579e-05</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN------YTPCGHCRQFMNELNSG--LDLRIHLPGR-EAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCNC--AEATALFKAVSEGDTEFQMLAVAADTPGPVSPCGACRQVISELCTKDVIVVLTNLQGQIKEMTVEELLPGAFSSEDL</Hsp_hseq>
+      <Hsp_midline>A  P S F VGA      G  Y G N+E    +M     AE +A+  A   G+     + V        +PCG CRQ ++EL +   + +  +L G+ +   + + LP AF  +DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00360152</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAP</Hsp_qseq>
+      <Hsp_hseq>ALKARDMAYAPYSKFQVGAALLTKDGKVYRGCNIENAAYSMCNCAEATAL----FKAVSEGDTEFQMLAVAADTP</Hsp_hseq>
+      <Hsp_midline>A+ A + ++ PYSK   G AL  KDG+++ G   ENAA++        AL     K     D +  +LA  AD P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|3MPZ|A</Hit_id>
+  <Hit_def>Crystal structure of CYTIDINE DEAMINASE from Mycobacterium smegmatis [Mycolicibacterium smegmatis MC2 155] &gt;pdb|3MPZ|B Crystal structure of CYTIDINE DEAMINASE from Mycobacterium smegmatis [Mycolicibacterium smegmatis MC2 155] &gt;pdb|3MPZ|C Crystal structure of CYTIDINE DEAMINASE from Mycobacterium smegmatis [Mycolicibacterium smegmatis MC2 155] &gt;pdb|3MPZ|D Crystal structure of CYTIDINE DEAMINASE from Mycobacterium smegmatis [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>3MPZ_A</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>3.10858e-05</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN------YTPCGHCRQFMNELNSGLDLRIHLPGREAHA---LRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AYAPYSGFPVGAAALVDDGRTVTGCNVENV--SYGLGLCAECAVVCALHSGGGGRLVALSCVGPDGGVLMPCGRCRQVLLE-HGGPELLID----HAHGPRPLRELLPDAFGPDDL</Hsp_hseq>
+      <Hsp_midline>A  P S F VGA A    G    G N+E +  +    + AE + +      G   L A++          PCG CRQ + E + G +L I      AH    LR+ LPDAFGP DL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0144582</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>IKTLLMDEQDHGYALTGDALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFN</Hsp_qseq>
+      <Hsp_hseq>MGTLEAQTQGPGSMVNWNALRSKAIEVSRHAYAPYSGFPVGAAALVDDGRTVTGCNVENVSYG</Hsp_hseq>
+      <Hsp_midline>+ TL    Q  G  +  +AL   AI  +  ++ PYS  P G A    DGR  +G   EN ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1R5T|A</Hit_id>
+  <Hit_def>The Crystal Structure of Cytidine Deaminase CDD1, an Orphan C to U editase from Yeast [Saccharomyces cerevisiae] &gt;pdb|1R5T|B The Crystal Structure of Cytidine Deaminase CDD1, an Orphan C to U editase from Yeast [Saccharomyces cerevisiae] &gt;pdb|1R5T|C The Crystal Structure of Cytidine Deaminase CDD1, an Orphan C to U editase from Yeast [Saccharomyces cerevisiae] &gt;pdb|1R5T|D The Crystal Structure of Cytidine Deaminase CDD1, an Orphan C to U editase from Yeast [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1R5T_A</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>6.77627e-05</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>TPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITV--------NYTPCGHCRQFMNELNSGLDLRIHL-----PGREAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>SPYSHFRVGCSILTNNDVIFTGANVE--NASYSNCICAERSAMIQVLMAGHRSGWKCMVICGDSEDQCVSPCGVCRQFINEFVVK-DFPIVMLNSTGSRSKVMTMGELLPMAFGPSHL</Hsp_hseq>
+      <Hsp_midline>+P S+F VG      +   + GAN+E   A+    + AE+SA+    ++G ++     V          +PCG CRQF+NE     D  I +        +   + + LP AFGP  L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0110547</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>DALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGY</Hsp_qseq>
+      <Hsp_hseq>EALKRAALKACELSYSPYSHFRVGCSILTNNDVIFTGANVENASYSNCICAERSAMIQVLMAGH</Hsp_hseq>
+      <Hsp_midline>+AL +AA+ A   S+ PYS    G ++   +  IF+G+  ENA+++  +   + A+I + + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|6KW6|A</Hit_id>
+  <Hit_def>Crystal Structure of cytidine deaminase from Streptomyces noursei [Streptomyces noursei] &gt;pdb|6KW6|B Crystal Structure of cytidine deaminase from Streptomyces noursei [Streptomyces noursei]</Hit_def>
+  <Hit_accession>6KW6_A</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>8.16382e-05</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>ARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEKALAAITVN------YTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAFGPKDL</Hsp_qseq>
+      <Hsp_hseq>AYAPYSGYPVGAAALVDDGRTVTGCNVE--NASYGLGLCAECGLVSALFASGGGRLTAFTCVDGKGELLVPCGRCRQLLHE-HGGPDLLVDTAA-GIRPLAALLPDAFGPGHL</Hsp_hseq>
+      <Hsp_midline>A  P S + VGA A    G    G N+E   A+    + AE   +S  + SG   L A T          PCG CRQ ++E + G DL +         L   LPDAFGP  L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.039455</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>ALSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFN</Hsp_qseq>
+      <Hsp_hseq>ALRTQARDAMSRAYAPYSGYPVGAAALVDDGRTVTGCNVENASYG</Hsp_hseq>
+      <Hsp_midline>AL   A  A +R++ PYS  P G A    DGR  +G   ENA++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|3DMO|A</Hit_id>
+  <Hit_def>1.6 A crystal structure of cytidine deaminase from Burkholderia pseudomallei [Burkholderia pseudomallei] &gt;pdb|3DMO|B 1.6 A crystal structure of cytidine deaminase from Burkholderia pseudomallei [Burkholderia pseudomallei] &gt;pdb|3DMO|C 1.6 A crystal structure of cytidine deaminase from Burkholderia pseudomallei [Burkholderia pseudomallei] &gt;pdb|3DMO|D 1.6 A crystal structure of cytidine deaminase from Burkholderia pseudomallei [Burkholderia pseudomallei]</Hit_def>
+  <Hit_accession>3DMO_A</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000279187</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>PLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGEK--ALAAITV------NYTPCGHCRQFMNEL----------NSGLDLRIHLPGREAHALRDYLPDAF</Hsp_qseq>
+      <Hsp_hseq>PYSNFKVGAALVTNDGKVFHGCNVE--NASYGLCNCAERTALFSALAAGYRPGEFAAIAVVGETHGPIAPCGACRQVMIELGKPTLEVVLTNMQGDVRVTSAG-------DLLPDAF</Hsp_hseq>
+      <Hsp_midline>P SNF VGA      G  + G N+E   A+      AE++A+  A  +G +    AAI V         PCG CRQ M EL          N   D+R+   G       D LPDAF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.364357</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKALGCHSIDRVL</Hsp_qseq>
+      <Hsp_hseq>PYSNFKVGAALVTNDGKVFHGCNVENASYGLCNCAERTALFSALAAGYRPGEFAAIAVVGETHGPIAPCGACRQVMIELGKPTLEVVL</Hsp_hseq>
+      <Hsp_midline>PYS    G AL   DG++F G   ENA++       + AL      GY   +     +  +   P+    A    +  LG  +++ VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|4F3W|A</Hit_id>
+  <Hit_def>Crystal structure of cytidine deaminase Cdd from Mycobacterium marinum [Mycobacterium marinum M] &gt;pdb|4F3W|B Crystal structure of cytidine deaminase Cdd from Mycobacterium marinum [Mycobacterium marinum M] &gt;pdb|4F3W|C Crystal structure of cytidine deaminase Cdd from Mycobacterium marinum [Mycobacterium marinum M] &gt;pdb|4F3W|D Crystal structure of cytidine deaminase Cdd from Mycobacterium marinum [Mycobacterium marinum M]</Hit_def>
+  <Hit_accession>4F3W_A</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0126684</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>AACARTPLSNFNVGAIARGVSGTWYFGANMEFIGATMQQTVHAEQSAISHAWLSGE-KALAAIT---VNYTPCGHCRQFMNELNSGLDLRIHLPGREAHALRDYLPDAF</Hsp_qseq>
+      <Hsp_hseq>AAGAYAPYSRFPVGAAALVDDGRVVTGCNVENVSYGLALCAECGVVCALHATGGGRLVALACVDGRGAPLMPCGRCRQLLFEHGGPELLVDHLAG--PRRLGDLLPEPF</Hsp_hseq>
+      <Hsp_midline>AA A  P S F VGA A    G    G N+E +   +            HA   G   ALA +        PCG CRQ + E      L  HL G     L D LP+ F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.167832</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>LSQAAIAAANRSHMPYSKSPSGVALECKDGRIFSGSYAENAAFNPTLPPLQGALILLNLKG</Hsp_qseq>
+      <Hsp_hseq>LRDKATQVAAGAYAPYSRFPVGAAALVDDGRVVTGCNVENVSYGLALCAECGVVCALHATG</Hsp_hseq>
+      <Hsp_midline>L   A   A  ++ PYS+ P G A    DGR+ +G   EN ++   L    G +  L+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|3FD3|A</Hit_id>
+  <Hit_def>Structure of the C-terminal domains of a LysR family protein from Agrobacterium tumefaciens str. C58. [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>3FD3_A</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.970479</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GTWYFGANMEFIGAT-MQQTVHAEQSAISHAWLSGEKALAAITVNYTPCGHCR</Hsp_qseq>
+      <Hsp_hseq>GTWFLDAVSKFTGGSDYLVNIAVDDQDHTVEWLRGGRVLAAVTAHDKPVQGCR</Hsp_hseq>
+      <Hsp_midline>GTW+  A  +F G +     +  +    +  WL G + LAA+T +  P   CR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1NJ1|A</Hit_id>
+  <Hit_def>Crystal structure of Prolyl-tRNA Synthetase from Methanothermobacter thermautotrophicus bound to cysteine sulfamoyl adenylate [Methanothermobacter thermautotrophicus] &gt;pdb|1NJ2|A Crystal structure of Prolyl-tRNA Synthetase from Methanothermobacter thermautotrophicus [Methanothermobacter thermautotrophicus str. Delta H] &gt;pdb|1NJ5|A Crystal structure of Prolyl-tRNA Synthetase from Methanothermobacter thermautotrophicus bound to proline sulfamoyl adenylate [Methanothermobacter thermautotrophicus str. Delta H] &gt;pdb|1NJ6|A Crystal structure of Prolyl-tRNA Synthetase from Methanothermobacter thermautotrophicus bound to alanine sulfamoyl adenylate [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>1NJ1_A</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.70315</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>CRQFMNELNSGLDLRIHLPGREAHALRDY---------LPDAFGPKDLEIKTLLMDEQDHGYALTGD</Hsp_qseq>
+      <Hsp_hseq>CRELRSRLEAA-GFRVHLDDRDIRAGRKYYEWEMRGVPLRVEIGPRDLEKGAAVISRRDTGEKVTAD</Hsp_hseq>
+      <Hsp_midline>CR+  + L +    R+HL  R+  A R Y         L    GP+DLE    ++  +D G  +T D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|3OJ6|A</Hit_id>
+  <Hit_def>Crystal structure of Blasticidin S Deaminase from Coccidioides Immitis [Coccidioides immitis] &gt;pdb|3OJ6|B Crystal structure of Blasticidin S Deaminase from Coccidioides Immitis [Coccidioides immitis] &gt;pdb|3OJ6|C Crystal structure of Blasticidin S Deaminase from Coccidioides Immitis [Coccidioides immitis] &gt;pdb|3OJ6|D Crystal structure of Blasticidin S Deaminase from Coccidioides Immitis [Coccidioides immitis]</Hit_def>
+  <Hit_accession>3OJ6_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.96189</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TPCGHCRQFMNELNSGLD-LRIHLPGREAHALRDYLPDAF</Hsp_qseq>
+      <Hsp_hseq>SPCGRCRQVLADLHPGIKAIVIGKEGPKMVAVEELLPSIY</Hsp_hseq>
+      <Hsp_midline>+PCG CRQ + +L+ G+  + I   G +  A+ + LP  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|2RJN|A</Hit_id>
+  <Hit_def>Crystal structure of an uncharacterized protein Q2BKU2 from Neptuniibacter caesariensis [Neptuniibacter caesariensis]</Hit_def>
+  <Hit_accession>2RJN_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.58146</Hsp_evalue>
+      <Hsp_query-from>239</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>PLQGALILLNLKGYDYPDIQRAVLAEKADAPLIQWDATSATLKALGCHSIDRVLL</Hsp_qseq>
+      <Hsp_hseq>PEMGGEVFLEQVAKSYPDIERVVISGYADA--------QATIDAVNRGKISRFLL</Hsp_hseq>
+      <Hsp_midline>P  G  + L      YPDI+R V++  ADA         AT+ A+    I R LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|7KO8|B</Hit_id>
+  <Hit_def>Chain B, E1 glycoprotein [Mayaro virus] &gt;pdb|7KO8|E Chain E, E1 glycoprotein [Mayaro virus] &gt;pdb|7KO8|H Chain H, E1 glycoprotein [Mayaro virus] &gt;pdb|7KO8|L Chain L, E1 glycoprotein [Mayaro virus]</Hit_def>
+  <Hit_accession>7KO8_B</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.66154</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PDAFGPKDLEIKTLLMDEQDHGYALTGDALSQAAIAAANRSHMPYSKSPSGVALECKD</Hsp_qseq>
+      <Hsp_hseq>PGRFG--DIQSRTL--DSKDL-YANTGLKLARPA---AGNIHVPYTQTPSGFKTWQKD</Hsp_hseq>
+      <Hsp_midline>P  FG  D++ +TL  D +D  YA TG  L++ A   A   H+PY+++PSG     KD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>104</Statistics_hsp-len>
+      <Statistics_eff-space>4034284060</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

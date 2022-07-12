@@ -1,0 +1,1321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1A8I_1|Chain A|GLYCOGEN PHOSPHORYLASE B|Oryctolagus cuniculus (9986)</BlastOutput_query-def>
+  <BlastOutput_query-len>842</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1A8I_1|Chain A|GLYCOGEN PHOSPHORYLASE B|Oryctolagus cuniculus (9986)</Iteration_query-def>
+  <Iteration_query-len>842</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1B4D|A</Hit_id>
+  <Hit_def>Amidocarbamate Inhibitor Of Glycogen Phosphorylase [Oryctolagus cuniculus] &gt;pdb|1BX3|A Effects Of Commonly Used Cryoprotectants On Glycogen Phosphorylase Activity And Structure [Oryctolagus cuniculus] &gt;pdb|1C8K|A Flavopiridol Inhibits Glycogen Phosphorylase By Binding At The Inhibitor Site [Oryctolagus cuniculus] &gt;pdb|1FS4|A Structures of glycogen phosphorylase-inhibitor complexes and the implications for structure-based drug design [Oryctolagus cuniculus] &gt;pdb|1FTQ|A Structures Of Glycogen Phosphorylase-Inhibitor Complexes And The Implications For Structure-Based Drug Design [Oryctolagus cuniculus] &gt;pdb|1FTW|A Structures Of Glycogen Phosphorylase-Inhibitor Complexes And The Implications For Structure-Based Drug Design [Oryctolagus cuniculus] &gt;pdb|1FTY|A Structures Of Glycogen Phosphorylase-Inhibitor Complexes And The Implications For Structure-Based Drug Design [Oryctolagus cuniculus] &gt;pdb|1FU4|A Structures Of Glycogen Phosphorylase-Inhibitor Complexes And The Implications For Structure-Based Drug Design [Oryctolagus cuniculus] &gt;pdb|1FU7|A Structures Of Glycogen Phosphorylase-Inhibitor Complexes And The Implications For Structure-Based Drug Design [Oryctolagus cuniculus] &gt;pdb|1FU8|A Structures Of Glycogen Phosphorylase-Inhibitor Complexes And The Implications For Structure-Based Drug Design [Oryctolagus cuniculus] &gt;pdb|1GFZ|A Flavopiridol Inhibits Glycogen Phosphorylase By Binding At The Inhibitor Site [Oryctolagus cuniculus] &gt;pdb|1GG8|A Design Of Inhibitors Of Glycogen Phosphorylase: A Study Of Alpha-And Beta-C-Glucosides And 1-Thio-Beta-D-Glucose Compounds [Oryctolagus cuniculus] &gt;pdb|1GGN|A Structures of glycogen phosphorylase-inhibitor complexes and the implications for structure-based drug design [Oryctolagus cuniculus] &gt;pdb|1GPB|A GLYCOGEN PHOSPHORYLASE B: DESCRIPTION OF THE PROTEIN STRUCTURE [Oryctolagus cuniculus] &gt;pdb|1H5U|A THE 1.76 A RESOLUTION CRYSTAL STRUCTURE OF GLYCOGEN PHOSPHORYLASE B COMPLEXED WITH GLUCOSE AND CP320626, A POTENTIAL ANTIDIABETIC DRUG [Oryctolagus cuniculus] &gt;pdb|1HLF|A Binding Of Glucopyranosylidene-spiro-thiohydantoin To Glycogen Phosphorylase B: Kinetic And Crystallographic Stud [Oryctolagus cuniculus] &gt;pdb|1K06|A Crystallographic Binding Study of 100 mM N-benzoyl-N&apos;-beta-D-glucopyranosyl urea to glycogen phosphorylase b [Oryctolagus cuniculus] &gt;pdb|1K08|A Crystallographic Binding Study of 10 mM N-benzoyl-N&apos;-beta-D-glucopyranosyl urea to glycogen phosphorylase b [Oryctolagus cuniculus] &gt;pdb|1KTI|A Binding Of 100 Mm N-Acetyl-N&apos;-Beta-D-Glucopyranosyl Urea To Glycogen Phosphorylase B: Kinetic And Crystallographic Studies [Oryctolagus cuniculus] &gt;pdb|1P29|A Crystal Structure of glycogen phosphorylase b in complex with maltopentaose [Oryctolagus cuniculus] &gt;pdb|1P2B|A Crystal Structure of Glycogen Phosphorylase B in Complex with Maltoheptaose [Oryctolagus cuniculus] &gt;pdb|1P2D|A Crystal Structure of Glycogen Phosphorylase B in complex with Beta Cyclodextrin [Oryctolagus cuniculus] &gt;pdb|1P2G|A Crystal Structure of Glycogen Phosphorylase B in complex with Gamma Cyclodextrin [Oryctolagus cuniculus] &gt;pdb|1P4G|A Crystal structure of glycogen phosphorylase b in complex with C-(1-azido-alpha-D-glucopyranosyl)formamide [Oryctolagus cuniculus] &gt;pdb|1P4H|A Crystal structure of glycogen phosphorylase b in complex with C-(1-acetamido-alpha-D-glucopyranosyl) formamide [Oryctolagus cuniculus] &gt;pdb|1P4J|A Crystal structure of glycogen phosphorylase b in complex with C-(1-hydroxy-beta-D-glucopyranosyl)formamide [Oryctolagus cuniculus] &gt;pdb|1WUT|A Acyl Ureas as Human Liver Glycogen Phosphorylase Inhibitors for the Treatment of Type 2 Diabetes [Oryctolagus cuniculus] &gt;pdb|1WUY|A Crystallographic studies on acyl ureas, a new class of inhibitors of glycogen phosphorylase. Broad specificity of the allosteric site [Oryctolagus cuniculus] &gt;pdb|1WV0|A Crystallographic studies on acyl ureas, a new class of inhibitors of glycogen phosphorylase. Broad specificity of the allosteric site [Oryctolagus cuniculus] &gt;pdb|1WV1|A Crystallographic studies on acyl ureas, a new class of inhibitors of glycogenphosphorylase. Broad specificity of the allosteric site [Oryctolagus cuniculus] &gt;pdb|1WW2|A Crystallographic studies on two bioisosteric analogues, N-acetyl-beta-D-glucopyranosylamine and N-trifluoroacetyl-beta-D-glucopyranosylamine, potent inhibitors of muscle glycogen phosphorylase [Oryctolagus cuniculus] &gt;pdb|1WW3|A Crystallographic studies on two bioisosteric analogues, N-acetyl-beta-D-glucopyranosylamine and N-trifluoroacetyl-beta-D-glucopyranosylamine, potent inhibitors of muscle glycogen phosphorylase [Oryctolagus cuniculus] &gt;pdb|2GPB|A COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B [Oryctolagus cuniculus] &gt;pdb|2IEG|A Crystal structure of rabbit muscle glycogen phosphorylase in complex with 3,4-dihydro-2-quinolone [Oryctolagus cuniculus] &gt;pdb|2IEG|B Crystal structure of rabbit muscle glycogen phosphorylase in complex with 3,4-dihydro-2-quinolone [Oryctolagus cuniculus] &gt;pdb|2IEI|A Crystal structure of rabbit muscle glycogen phosphorylase in complex with 3,4-dihydro-2-quinolone [Oryctolagus cuniculus] &gt;pdb|2IEI|B Crystal structure of rabbit muscle glycogen phosphorylase in complex with 3,4-dihydro-2-quinolone [Oryctolagus cuniculus] &gt;pdb|2PRI|A BINDING OF 2-DEOXY-GLUCOSE-6-PHOSPHATE TO GLYCOGEN PHOSPHORYLASE B [Oryctolagus cuniculus] &gt;pdb|2PRJ|A Binding of N-acetyl-beta-D-glucopyranosylamine to Glycogen Phosphorylase B [Oryctolagus cuniculus] &gt;pdb|2QN7|A Glycogen Phosphorylase b in complex with N-4-hydroxybenzoyl-N&apos;-4-beta-D-glucopyranosyl urea [Oryctolagus cuniculus] &gt;pdb|2QN8|A Glycogen Phosphorylase b in complex with N-4-nitrobenzoyl-N&apos;-beta-D-glucopyranosyl urea [Oryctolagus cuniculus] &gt;pdb|2QN9|A Glycogen Phosphorylase in complex with N-4-aminobenzoyl-N&apos;-beta-D-glucopyranosyl urea [Oryctolagus cuniculus] &gt;pdb|2SKC|A Pyridoxal Phosphorylase B In Complex With Fluorophosphate, Glucose And Inosine-5&apos;-Monophosphate [Oryctolagus cuniculus] &gt;pdb|2SKD|A Pyridoxal Phosphorylase B In Complex With Phosphate, Glucose And Inosine-5&apos;-Monophosphate [Oryctolagus cuniculus] &gt;pdb|2SKE|A Pyridoxal Phosphorylase B In Complex With Phosphite, Glucose And Inosine-5&apos;-monophosphate [Oryctolagus cuniculus] &gt;pdb|3GPB|A COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B [Oryctolagus cuniculus] &gt;pdb|4GPB|A COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B [Oryctolagus cuniculus] &gt;pdb|5GPB|A COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B [Oryctolagus cuniculus] &gt;pdb|6GPB|A REFINED CRYSTAL STRUCTURE OF THE PHOSPHORYLASE-HEPTULOSE 2-PHOSPHATE-OLIGOSACCHARIDE-AMP COMPLEX [Oryctolagus cuniculus] &gt;pdb|7GPB|A STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|7GPB|B STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|7GPB|C STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|7GPB|D STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|8GPB|A STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|9GPB|A THE ALLOSTERIC TRANSITION OF GLYCOGEN PHOSPHORYLASE [Oryctolagus cuniculus] &gt;pdb|9GPB|B THE ALLOSTERIC TRANSITION OF GLYCOGEN PHOSPHORYLASE [Oryctolagus cuniculus] &gt;pdb|9GPB|C THE ALLOSTERIC TRANSITION OF GLYCOGEN PHOSPHORYLASE [Oryctolagus cuniculus] &gt;pdb|9GPB|D THE ALLOSTERIC TRANSITION OF GLYCOGEN PHOSPHORYLASE [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1B4D_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1754.18</Hsp_bit-score>
+      <Hsp_score>4542</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>842</Hsp_identity>
+      <Hsp_positive>842</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|3ZCS|A</Hit_id>
+  <Hit_def>Rabbit muscle glycogen phosphorylase b in complex with N-(1-naphthoyl) -N-beta-D-glucopyranosyl urea determined at 2.07 A resolution [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>3ZCS_A</Hit_accession>
+  <Hit_len>843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1753.8</Hsp_bit-score>
+      <Hsp_score>4541</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>843</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>842</Hsp_identity>
+      <Hsp_positive>842</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1AXR|A</Hit_id>
+  <Hit_def>Cooperativity Between Hydrogen-Bonding And Charge-Dipole Interactions In The Inhibition Of Beta-Glycosidases By Azolopyridines: Evidence From A Study With Glycogen Phosphorylase B [Oryctolagus cuniculus] &gt;pdb|1E1Y|A Flavopiridol inhibits glycogen phosphorylase by binding at the inhibitor site [Oryctolagus cuniculus] &gt;pdb|1GPY|A CRYSTALLOGRAPHIC BINDING STUDIES ON THE ALLOSTERIC INHIBITOR GLUCOSE-6-PHOSPHATE TO T STATE GLYCOGEN PHOSPHORYLASE B [Oryctolagus cuniculus] &gt;pdb|1PYG|A Structural Basis For The Activation Of Glycogen Phosphorylase B By Adenosine Monophosphate [Oryctolagus cuniculus] &gt;pdb|1PYG|B Structural Basis For The Activation Of Glycogen Phosphorylase B By Adenosine Monophosphate [Oryctolagus cuniculus] &gt;pdb|1PYG|C Structural Basis For The Activation Of Glycogen Phosphorylase B By Adenosine Monophosphate [Oryctolagus cuniculus] &gt;pdb|1PYG|D Structural Basis For The Activation Of Glycogen Phosphorylase B By Adenosine Monophosphate [Oryctolagus cuniculus] &gt;pdb|1UZU|A Glycogen Phosphorylase b in complex with indirubin-5&apos;-sulphonate [Oryctolagus cuniculus] &gt;pdb|1XC7|A Binding of beta-D-glucopyranosyl bismethoxyphosphoramidate to glycogen phosphorylase b: Kinetic and crystallographic studies [Oryctolagus cuniculus] &gt;pdb|1XKX|A Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1,3,4-oxadiazole,-benzothiazole, and-benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site. [Oryctolagus cuniculus] &gt;pdb|1XL0|A Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1,3,4-oxadiazole,-benzothiazole, and-benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site. [Oryctolagus cuniculus] &gt;pdb|1XL1|A Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1,3,4-oxadiazole,-benzothiazole, and-benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site. [Oryctolagus cuniculus] &gt;pdb|1Z62|A Indirubin-3&apos;-aminooxy-acetate inhibits glycogen phosphorylase by binding at the inhibitor and the allosteric site. Broad specificities of the two sites [Oryctolagus cuniculus] &gt;pdb|2AMV|A The Structure Of Glycogen Phosphorylase B With An Alkyl- Dihydropyridine-Dicarboxylic Acid [Oryctolagus cuniculus] &gt;pdb|2F3P|A Crystal Structure of the glycogen phosphorylase B / N-(beta-D-glucopyranosyl)oxamic acid complex [Oryctolagus cuniculus] &gt;pdb|2F3Q|A Crystal structure of the glycogen phosphorylase B / methyl-N-(beta-D-glucopyranosyl)oxamate complex [Oryctolagus cuniculus] &gt;pdb|2F3S|A Crystal Structure of the glycogen phosphorylase B / ethyl-N-(beta-D-glucopyranosyl)oxamate complex [Oryctolagus cuniculus] &gt;pdb|2F3U|A Crystal Structure of the glycogen phosphorylase B / N-(beta-D-glucopyranosyl)-N&apos;-cyclopropyl oxalamide complex [Oryctolagus cuniculus] &gt;pdb|2FET|A Synthesis of C-D-Glycopyranosyl-Hydroquinones and-Benzoquinones. Inhibition of PTP1B. Inhibition of and binding to glycogen phosphorylase in the crystal [Oryctolagus cuniculus] &gt;pdb|2FF5|A Synthesis of C-D-Glycopyranosyl-Hydroquinones and-Benzoquinones. Inhibition of PTP1B. Inhibition of and binding to glycogen phosphorylase in the crystal [Oryctolagus cuniculus] &gt;pdb|3BD7|A Glycogen Phosphorylase complex with 1(-D-glucopyranosyl) thymine [Oryctolagus cuniculus] &gt;pdb|3BD8|A Glucogen Phosphorylase complex with 1(-D-glucopyranosyl) cytosine [Oryctolagus cuniculus] &gt;pdb|3BDA|A Glycogen Phosphorylase complex with 1(-D-glucopyranosyl) cyanuric acid [Oryctolagus cuniculus] &gt;pdb|5LRC|A Crystal structure of Glycogen Phosphorylase in complex with KS114 [Oryctolagus cuniculus] &gt;pdb|5LRE|A Crystal structure of Glycogen Phosphorylase b in complex with KS382 [Oryctolagus cuniculus] &gt;pdb|5LRF|A Crystal structure of Glycogen Phosphorylase b in complex with KS389 [Oryctolagus cuniculus] &gt;pdb|5O50|A Glycogen Phosphorylase b in complex with 33a [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1AXR_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1753.03</Hsp_bit-score>
+      <Hsp_score>4539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>841</Hsp_identity>
+      <Hsp_positive>842</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|3ZCQ|A</Hit_id>
+  <Hit_def>Rabbit muscle glycogen phosphorylase b in complex with N-(4- trifluoromethyl-benzoyl)-N-beta-D-glucopyranosyl urea determined at 2. 15 A resolution [Oryctolagus cuniculus] &gt;pdb|3ZCR|A Rabbit muscle glycogen phosphorylase b in complex with N-(4-tert- butyl-benzoyl)-N-beta-D-glucopyranosyl urea determined at 2.07 A resolution [Oryctolagus cuniculus] &gt;pdb|3ZCT|A Rabbit muscle glycogen phosphorylase b in complex with N-(2-naphthoyl) -N-beta-D-glucopyranosyl urea determined at 2.0 A resolution [Oryctolagus cuniculus] &gt;pdb|3ZCU|A Rabbit muscle glycogen phosphorylase b in complex with N-(pyridyl-2- carbonyl)-N-beta-D-glucopyranosyl urea determined at 2.05 A resolution [Oryctolagus cuniculus] &gt;pdb|3ZCV|A Rabbit muscle glycogen phosphorylase b in complex with N-(indol-2- carbonyl)-N-beta-D-glucopyranosyl urea determined at 1.8 A resolution [Oryctolagus cuniculus] &gt;pdb|4CTM|A Glucopyranosylidene-spiro-iminothiazolidinone, a New Bicyclic Ring System: Synthesis, Derivatization, and Evaluation as Glycogen Phosphorylase Inhibitors by Enzyme Kinetic and Crystallographic Methods [Oryctolagus cuniculus] &gt;pdb|4CTN|A Glucopyranosylidene-spiro-iminothiazolidinone, a New Bicyclic Ring System: Synthesis, Derivatization, and Evaluation as Glycogen Phosphorylase Inhibitors by Enzyme Kinetic and Crystallographic Methods [Oryctolagus cuniculus] &gt;pdb|4CTO|A Glucopyranosylidene-spiro-iminothiazolidinone, a New Bicyclic Ring System: Synthesis, Derivatization, and Evaluation as Glycogen Phosphorylase Inhibitors by Enzyme Kinetic and Crystallographic Methods [Oryctolagus cuniculus] &gt;pdb|4YI3|A Crystal structure of Gpb in complex with 4a [Oryctolagus cuniculus] &gt;pdb|4YI5|A Crystal structure of Gpb in complex with 4b [Oryctolagus cuniculus] &gt;pdb|4YUA|A Glycogen phosphorylase in complex with ellagic acid [Oryctolagus cuniculus] &gt;pdb|5JTT|A Crystal structure of GPb in complex with 8a [Oryctolagus cuniculus] &gt;pdb|5JTU|A Crystal structure of GPb in complex with 8b [Oryctolagus cuniculus] &gt;pdb|5LRD|A Crystal structure of Glycogen Phosphorylase b in complex with KS242 [Oryctolagus cuniculus] &gt;pdb|5MEM|A A potent fluorescent inhibitor of glycogen phosphorylase as a catalytic site probe. [Oryctolagus cuniculus] &gt;pdb|5O52|A Glycogen Phosphorylase b in complex with 33b [Oryctolagus cuniculus] &gt;pdb|5O54|A Glycogen Phosphorylase b in complex with 29a [Oryctolagus cuniculus] &gt;pdb|5O56|A Glycogen Phosphorylase b in complex with 29b [Oryctolagus cuniculus] &gt;pdb|5OWY|A Glycogen Phosphorylase in complex with KS252 [Oryctolagus cuniculus] &gt;pdb|5OWZ|A Glycogen Phosphorylase in complex with KS172 [Oryctolagus cuniculus] &gt;pdb|5OX1|A Glycogen Phosphorylase in complex with JLH270 [Oryctolagus cuniculus] &gt;pdb|5OX3|A Glycogen Phosphorylase in complex with SzB102v [Oryctolagus cuniculus] &gt;pdb|5OX4|A Glycogen Phosphorylase in complex with CK900 [Oryctolagus cuniculus] &gt;pdb|6F3J|A The crystal structure of Glycogen Phosphorylase in complex with 10a [Oryctolagus cuniculus] &gt;pdb|6F3L|A The crystal structure of Glycogen Phosphorylase in complex with 10b [Oryctolagus cuniculus] &gt;pdb|6F3R|A The crystal structure of Glycogen Phosphorylase in complex with 10c [Oryctolagus cuniculus] &gt;pdb|6F3S|A The crystal structure of Glycogen Phosphorylase in complex with 10d [Oryctolagus cuniculus] &gt;pdb|6F3U|A The crystal structure of Glycogen Phosphorylase in complex with 10h [Oryctolagus cuniculus] &gt;pdb|6QA6|A Glycogen Phosphorylase b in complex with 30 [Oryctolagus cuniculus] &gt;pdb|6QA7|A Glycogen Phosphorylase b in complex with 29 [Oryctolagus cuniculus] &gt;pdb|6QA8|A Glycogen Phosphorylase b in complex with 28 [Oryctolagus cuniculus] &gt;pdb|6R0H|A Glycogen Phosphorylase b in complex with 3 [Oryctolagus cuniculus] &gt;pdb|6R0I|A Glycogen Phosphorylase b in complex with 4 [Oryctolagus cuniculus] &gt;pdb|6S4H|A The crystal structure of glycogen phosphorylase in complex with 8 [Oryctolagus cuniculus] &gt;pdb|6S4K|A The crystal structure of glycogen phosphorylase in complex with 12 [Oryctolagus cuniculus] &gt;pdb|6S4O|A The crystal structure of glycogen phosphorylase in complex with 9 [Oryctolagus cuniculus] &gt;pdb|6S4P|A The crystal structure of glycogen phosphorylase in complex with 13 [Oryctolagus cuniculus] &gt;pdb|6S4R|A The crystal structure of glycogen phosphorylase in complex with 11 [Oryctolagus cuniculus] &gt;pdb|6S51|A The crystal structure of glycogen phosphorylase in complex with 10 [Oryctolagus cuniculus] &gt;pdb|6S52|A The crystal structure of glycogen phosphorylase in complex with 14 [Oryctolagus cuniculus] &gt;pdb|6YVE|AAA Chain AAA, Glycogen phosphorylase, muscle form [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>3ZCQ_A</Hit_accession>
+  <Hit_len>843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1753.03</Hsp_bit-score>
+      <Hsp_score>4539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>843</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>841</Hsp_identity>
+      <Hsp_positive>842</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1GPA|A</Hit_id>
+  <Hit_def>STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|1GPA|B STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|1GPA|C STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus] &gt;pdb|1GPA|D STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1GPA_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1752.26</Hsp_bit-score>
+      <Hsp_score>4537</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>841</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQIXVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQI VRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|1A8I|A</Hit_id>
+  <Hit_def>Spirohydantoin Inhibitor Of Glycogen Phosphorylase [Oryctolagus cuniculus] &gt;pdb|1Z6P|A Glycogen phosphorylase AMP site inhibitor complex [Oryctolagus cuniculus] &gt;pdb|1Z6Q|A Glycogen phosphorylase with inhibitor in the AMP site [Oryctolagus cuniculus] &gt;pdb|2GPN|A 100 K Structure Of Glycogen Phosphorylase At 2.0 Angstroms Resolution [Oryctolagus cuniculus] &gt;pdb|3E3O|A Glycogen phosphorylase R state-IMP complex [Oryctolagus cuniculus] &gt;pdb|3E3O|B Glycogen phosphorylase R state-IMP complex [Oryctolagus cuniculus] &gt;pdb|3E3O|C Glycogen phosphorylase R state-IMP complex [Oryctolagus cuniculus] &gt;pdb|3E3O|D Glycogen phosphorylase R state-IMP complex [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1A8I_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1752.26</Hsp_bit-score>
+      <Hsp_score>4537</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>841</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMXFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNM FMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1NOI|A</Hit_id>
+  <Hit_def>Complex Of Glycogen Phosphorylase With A Transition State Analogue Nojirimycin Tetrazole And Phosphate In The T And R States [Oryctolagus cuniculus] &gt;pdb|1NOI|B Complex Of Glycogen Phosphorylase With A Transition State Analogue Nojirimycin Tetrazole And Phosphate In The T And R States [Oryctolagus cuniculus] &gt;pdb|1NOI|C Complex Of Glycogen Phosphorylase With A Transition State Analogue Nojirimycin Tetrazole And Phosphate In The T And R States [Oryctolagus cuniculus] &gt;pdb|1NOI|D Complex Of Glycogen Phosphorylase With A Transition State Analogue Nojirimycin Tetrazole And Phosphate In The T And R States [Oryctolagus cuniculus] &gt;pdb|1NOJ|A Complex Of Glycogen Phosphorylase With A Transition State Analogue Nojirimycin Tetrazole And Phosphate In The T State [Oryctolagus cuniculus] &gt;pdb|1NOK|A Complex Of Glycogen Phosphorylase With A Transition State Analogue Nojirimycin Tetrazole And Phosphate In The T State [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1NOI_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1751.87</Hsp_bit-score>
+      <Hsp_score>4536</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>841</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKPAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGK APGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|2PYD|A</Hit_id>
+  <Hit_def>The crystal structure of Glycogen phosphorylase in complex with glucose at 100 K [Oryctolagus cuniculus] &gt;pdb|2PYI|A Crystal structure of Glycogen Phosphorylase in complex with glucosyl triazoleacetamide [Oryctolagus cuniculus] &gt;pdb|3L79|A Crystal Structure of Glycogen Phosphorylase DK1 complex [Oryctolagus cuniculus] &gt;pdb|3L7A|A Crystal Structure of Glycogen Phosphorylase DK2 complex [Oryctolagus cuniculus] &gt;pdb|3L7B|A Crystal Structure of Glycogen Phosphorylase DK3 complex [Oryctolagus cuniculus] &gt;pdb|3L7C|A Crystal Structure of Glycogen Phosphorylase DK4 complex [Oryctolagus cuniculus] &gt;pdb|3L7D|A Crystal Structure of Glycogen Phosphorylase DK5 complex [Oryctolagus cuniculus] &gt;pdb|6Y55|A The crystal structure of glycogen phosphorylase in complex with 43 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>2PYD_A</Hit_accession>
+  <Hit_len>843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1751.49</Hsp_bit-score>
+      <Hsp_score>4535</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>843</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>840</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMXFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNM FMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|3ZCP|A</Hit_id>
+  <Hit_def>Rabbit muscle glycogen phosphorylase b in complex with N- cyclohexancarbonyl-N-beta-D-glucopyranosyl urea determined at 1.83 A resolution [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>3ZCP_A</Hit_accession>
+  <Hit_len>843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1751.1</Hsp_bit-score>
+      <Hsp_score>4534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>843</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>840</Hsp_identity>
+      <Hsp_positive>842</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTLFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKT+FKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|2G9Q|A</Hit_id>
+  <Hit_def>The crystal structure of the glycogen phosphorylase b- 1AB complex [Oryctolagus cuniculus] &gt;pdb|2G9R|A The crystal structure of glycogen phosphorylase b in complex with (3R,4R,5R)-5-hydroxymethyl-1-(3-phenylpropyl)-piperidine-3,4-diol [Oryctolagus cuniculus] &gt;pdb|2G9U|A The crystal structure of glycogen phosphorylase in complex with (3R,4R,5R)-5-hydroxymethyl-1-(3-phenylpropyl)-piperidine-3,4-diol and phosphate [Oryctolagus cuniculus] &gt;pdb|2G9V|A The crystal structure of glycogen phosphorylase in complex with (3R,4R,5R)-5-hydroxymethylpiperidine-3,4-diol and phosphate [Oryctolagus cuniculus] &gt;pdb|2OFF|A The crystal structure of Glycogen Phosphorylase b in complex with a potent allosteric inhibitor [Oryctolagus cuniculus] &gt;pdb|2QLM|A Glycogen phosphorylase in complex with FN67 [Oryctolagus cuniculus] &gt;pdb|2QLN|A Glycogen Phosphorylase b in complex with N-4-phenylbenzoyl-N&apos;-beta-D-glucopyranosyl urea [Oryctolagus cuniculus] &gt;pdb|2QN1|A Glycogen Phosphorylase b in complex with asiatic acid [Oryctolagus cuniculus] &gt;pdb|2QN2|A Glycogen Phosphorylase b in complex with Maslinic Acid [Oryctolagus cuniculus] &gt;pdb|2QN3|A Glycogen Phosphorylase in complex with N-4-chlorobenzoyl-N-beta-D-glucopyranosyl urea [Oryctolagus cuniculus] &gt;pdb|2QNB|A Glycogen Phosphorylase b in complex with N-benzoyl-N&apos;-beta-D-glucopyranosyl urea [Oryctolagus cuniculus] &gt;pdb|2QRG|A Glycogen Phosphorylase b in complex with (1R)-3&apos;-(4-methoxyphenyl)-spiro[1,5-anhydro-D-glucitol-1,5&apos;-isoxazoline] [Oryctolagus cuniculus] &gt;pdb|2QRH|A Glycogen Phosphorylase b in complex with (1R)-3&apos;-phenylspiro[1,5-anhydro-D-glucitol-1,5&apos;-isoxazoline] [Oryctolagus cuniculus] &gt;pdb|2QRM|A Glycogen Phosphorylase b in complex with (1R)-3&apos;-(4-nitrophenyl)-spiro[1,5-anhydro-D-glucitol-1,5&apos;-isoxazoline] [Oryctolagus cuniculus] &gt;pdb|2QRP|A Glycogen Phosphorylase b in complex with (1R)-3&apos;-(2-naphthyl)-spiro[1,5-anhydro-D-glucitol-1,5&apos;-isoxazoline] [Oryctolagus cuniculus] &gt;pdb|2QRQ|A Glycogen Phosphorylase b in complex with (1R)-3&apos;-(4-methylphenyl)-spiro[1,5-anhydro-D-glucitol-1,5&apos;-isoxazoline] [Oryctolagus cuniculus] &gt;pdb|3BCR|A Glycogen Phosphorylase b in complex with AZT [Oryctolagus cuniculus] &gt;pdb|3BCS|A Glycogen Phosphorylase complex with 1(-D-glucopyranosyl) uracil [Oryctolagus cuniculus] &gt;pdb|3BCU|A Glucogen Phosphorylase complex with thymidine [Oryctolagus cuniculus] &gt;pdb|3BD6|A Glycogen Phosphorylase complex with 1(-D-ribofuranosyl) cyanuric acid [Oryctolagus cuniculus] &gt;pdb|3CUT|A Crystal structure of glycogen phosphorylase b in complex with N-(-D-glucopyranosyl)-N&apos;-(2-naphthyl)oxamide [Oryctolagus cuniculus] &gt;pdb|3CUU|A Crystal structure of glycogen phosphorylase b in complex with N-(-D-glucopyranosyl)-N&apos;-(2-naphthyl)oxamides [Oryctolagus cuniculus] &gt;pdb|3CUV|A Tracking structure activity relationships of glycogen phosphorylase inhibitors: synthesis, kinetic and crystallographic evaluation of analogues of N-(-D-glucopyranosyl)-N&apos;-oxamides [Oryctolagus cuniculus] &gt;pdb|3CUW|A Crystal structure of glycogen phosphorylase b in complex with N-(-D-glucopyranosyl)-N&apos;-(2-naphthyl)oxamides [Oryctolagus cuniculus] &gt;pdb|3E3L|A The R-state Glycogen Phosphorylase [Oryctolagus cuniculus] &gt;pdb|3E3L|B The R-state Glycogen Phosphorylase [Oryctolagus cuniculus] &gt;pdb|3E3L|C The R-state Glycogen Phosphorylase [Oryctolagus cuniculus] &gt;pdb|3E3L|D The R-state Glycogen Phosphorylase [Oryctolagus cuniculus] &gt;pdb|3E3N|A The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3E3N|B The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3E3N|C The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3E3N|D The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3E3N|E The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3E3N|F The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3E3N|G The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3E3N|H The Glycogen phosphorylase b R state- AMP complex [Oryctolagus cuniculus] &gt;pdb|3EBO|A Glycogen Phosphorylase b/Chrysin complex [Oryctolagus cuniculus] &gt;pdb|3EBP|A Glycogen Phosphorylase b/flavopiridol complex [Oryctolagus cuniculus] &gt;pdb|3G2H|A Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazoles in complex with glycogen phosphorylase [Oryctolagus cuniculus] &gt;pdb|3G2I|A Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazole [Oryctolagus cuniculus] &gt;pdb|3G2J|A Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazoles in complex with glycogen phosphorylase [Oryctolagus cuniculus] &gt;pdb|3G2K|A Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazole [Oryctolagus cuniculus] &gt;pdb|3G2L|A Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazoles in complex with glycogen phosphorylase [Oryctolagus cuniculus] &gt;pdb|3G2N|A Crystal structure of N-acylglucosylamine with glycogen phosphorylase [Oryctolagus cuniculus] &gt;pdb|3MQF|A Glycogen phosphorylase complexed with 4-fluorobenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MRT|A Glycogen phosphorylase complexed with 4-pyridinecarboxaldehyde-4-(beta-D-glucopyranosyl) thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MRV|A Glycogen phosphorylase complexed with 3-hydroxybenzaldehyde-4-(beta-D-glucopyranosyl) thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MRX|A Glycogen phosphorylase complexed with 4-methoxybenzaldehyde-4-(2,3,4,6-tetra-O-acetyl-beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MS2|A Glycogen phosphorylase complexed with 4-methylbenzaldehyde-4-(beta-D-glucopyranosyl) thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MS4|A Glycogen phosphorylase complexed with 4-trifluoromethylbenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MS7|A Glycogen phosphorylase complexed with 2-chlorobenzaldehyde-4-(2,3,4,6-tetra-O-acetyl-beta-D-glucopyranosyl) thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MSC|A Glycogen phosphorylase complexed with 2-nitrobenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MT7|A Glycogen phosphorylase complexed with 4-bromobenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MT8|A Glycogen phosphorylase complexed with 4-chlorobenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MT9|A Glycogen phosphorylase complexed with 4-nitrobenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MTA|A Glycogen phosphorylase complexed with 3-bromobenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MTB|A Glycogen phosphorylase complexed with 3-chlorobenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3MTD|A Glycogen phosphorylase complexed with 4-hydroxybenzaldehyde-4-(beta-D-glucopyranosyl)-thiosemicarbazone [Oryctolagus cuniculus] &gt;pdb|3NP7|A Glycogen phosphorylase complexed with 2,5-dihydroxy-3-(beta-D-glucopyranosyl)-chlorobenzene and 2,5-dihydroxy-4-(beta-D-glucopyranosyl)-chlorobenzene [Oryctolagus cuniculus] &gt;pdb|3NP9|A Glycogen phosphorylase complexed with 3-(beta-D-glucopyranosyl)-2-hydroxy-5-methoxy-chlorobenzene [Oryctolagus cuniculus] &gt;pdb|3NPA|A Glycogen phosphorylase complexed with 2,5-dihydroxy-4-(beta-D-glucopyranosyl)-bromo-benzene [Oryctolagus cuniculus] &gt;pdb|3S0J|A The crystal structure of glycogen phosphorylase b in complex with 2,5-dihydroxy-4-(beta-D-glucopyranosyl)-chlorobenzene [Oryctolagus cuniculus] &gt;pdb|3SYM|A Glycogen Phosphorylase b in complex with 3 -C-(hydroxymethyl)-beta-D-glucopyranonucleoside of 5-fluorouracil [Oryctolagus cuniculus] &gt;pdb|3SYR|A Glycogen phosphorylase b in complex with beta-D-glucopyranonucleoside 5-fluorouracil [Oryctolagus cuniculus] &gt;pdb|3T3D|A Glycogen phosphorylase b in complex with GlcU [Oryctolagus cuniculus] &gt;pdb|3T3E|A Glycogen phosphorylase b in complex with GlcClU [Oryctolagus cuniculus] &gt;pdb|3T3G|A Glycogen Phosphorylase b in complex with GlcBrU [Oryctolagus cuniculus] &gt;pdb|3T3H|A Glycogen Phosphorylase b in complex with GlcIU [Oryctolagus cuniculus] &gt;pdb|3T3I|A Glycogen Phosphorylase b in complex with GlcCF3U [Oryctolagus cuniculus] &gt;pdb|6Y5C|A The crystal structure of glycogen phosphorylase in complex with 52 [Oryctolagus cuniculus] &gt;pdb|6Y5O|A The crystal structure of glycogen phosphorylase in complex with 20 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>2G9Q_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1751.1</Hsp_bit-score>
+      <Hsp_score>4534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>840</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMXFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNM FMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1C8L|A</Hit_id>
+  <Hit_def>Synergistic Inhibition Of Glycogen Phosphorylase A By A Potential Antidiabetic Drug And Caffeine [Oryctolagus cuniculus] &gt;pdb|1LWN|A Crystal structure of rabbit muscle glycogen phosphorylase a in complex with a potential hypoglycaemic drug at 2.0 A resolution [Oryctolagus cuniculus] &gt;pdb|1LWO|A Crystal structure of rabbit muscle glycogen phosphorylase a in complex with a potential hypoglycaemic drug at 2.0 A resolution [Oryctolagus cuniculus] &gt;pdb|2GPA|A Allosteric Inhibition Of Glycogen Phosphorylase A By A Potential Antidiabetic Drug [Oryctolagus cuniculus] &gt;pdb|3AMV|A Allosteric Inhibition Of Glycogen Phosphorylase A By A Potential Antidiabetic Drug [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1C8L_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1751.1</Hsp_bit-score>
+      <Hsp_score>4534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>840</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQIXVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQI VRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|3NC4|A</Hit_id>
+  <Hit_def>The binding of beta-D-glucopyranosyl-thiosemicarbazone derivatives to glycogen phosphorylase: a new class of inhibitors [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>3NC4_A</Hit_accession>
+  <Hit_len>841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1748.79</Hsp_bit-score>
+      <Hsp_score>4528</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>841</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>839</Hsp_identity>
+      <Hsp_positive>840</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>841</Hsp_align-len>
+      <Hsp_qseq>RPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>RPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMXFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>RPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNM FMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|5OX0|A</Hit_id>
+  <Hit_def>Glycogen Phosphorylase in complex with CK898 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>5OX0_A</Hit_accession>
+  <Hit_len>843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1748.41</Hsp_bit-score>
+      <Hsp_score>4527</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>843</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>840</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKIXGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKI GGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|4Z5X|A</Hit_id>
+  <Hit_def>Glycogen phosphorylase in complex with gallic acid [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>4Z5X_A</Hit_accession>
+  <Hit_len>843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1748.41</Hsp_bit-score>
+      <Hsp_score>4527</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>843</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>840</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>842</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAAXFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAA FLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1C50|A</Hit_id>
+  <Hit_def>Identification And Structural Characterization Of A Novel Allosteric Binding Site Of Glycogen Phosphorylase B [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1C50_A</Hit_accession>
+  <Hit_len>830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1729.92</Hsp_bit-score>
+      <Hsp_score>4479</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>842</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>830</Hsp_identity>
+      <Hsp_positive>830</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>830</Hsp_align-len>
+      <Hsp_qseq>ISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_qseq>
+      <Hsp_hseq>ISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_hseq>
+      <Hsp_midline>ISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|7O8E|A</Hit_id>
+  <Hit_def>Chain A, Glycogen phosphorylase, muscle form [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>7O8E_A</Hit_accession>
+  <Hit_len>830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1726.84</Hsp_bit-score>
+      <Hsp_score>4471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>829</Hsp_identity>
+      <Hsp_positive>830</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>830</Hsp_align-len>
+      <Hsp_qseq>QEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_qseq>
+      <Hsp_hseq>QEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_hseq>
+      <Hsp_midline>QEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1ABB|A</Hit_id>
+  <Hit_def>Control Of Phosphorylase B Conformation By A Modified Cofactor: Crystallographic Studies On R-State Glycogen Phosphorylase Reconstituted With Pyridoxal 5&apos;-Diphosphate [Oryctolagus cuniculus] &gt;pdb|1ABB|B Control Of Phosphorylase B Conformation By A Modified Cofactor: Crystallographic Studies On R-State Glycogen Phosphorylase Reconstituted With Pyridoxal 5&apos;-Diphosphate [Oryctolagus cuniculus] &gt;pdb|1ABB|C Control Of Phosphorylase B Conformation By A Modified Cofactor: Crystallographic Studies On R-State Glycogen Phosphorylase Reconstituted With Pyridoxal 5&apos;-Diphosphate [Oryctolagus cuniculus] &gt;pdb|1ABB|D Control Of Phosphorylase B Conformation By A Modified Cofactor: Crystallographic Studies On R-State Glycogen Phosphorylase Reconstituted With Pyridoxal 5&apos;-Diphosphate [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>1ABB_A</Hit_accession>
+  <Hit_len>828</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1725.29</Hsp_bit-score>
+      <Hsp_score>4467</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>837</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>828</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>828</Hsp_identity>
+      <Hsp_positive>828</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>828</Hsp_align-len>
+      <Hsp_qseq>RKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAP</Hsp_qseq>
+      <Hsp_hseq>RKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAP</Hsp_hseq>
+      <Hsp_midline>RKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|7P7D|A</Hit_id>
+  <Hit_def>Chain A, Glycogen phosphorylase, muscle form [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>7P7D_A</Hit_accession>
+  <Hit_len>830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1722.21</Hsp_bit-score>
+      <Hsp_score>4459</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>830</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>828</Hsp_identity>
+      <Hsp_positive>828</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>830</Hsp_align-len>
+      <Hsp_qseq>QEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_qseq>
+      <Hsp_hseq>QEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKIXGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMXFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_hseq>
+      <Hsp_midline>QEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKI GGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNM FMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|1Z8D|A</Hit_id>
+  <Hit_def>Crystal Structure of Human Muscle Glycogen Phosphorylase a with AMP and Glucose [Homo sapiens]</Hit_def>
+  <Hit_accession>1Z8D_A</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1718.75</Hsp_bit-score>
+      <Hsp_score>4450</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>841</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>816</Hsp_identity>
+      <Hsp_positive>834</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>841</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKI</Hsp_qseq>
+      <Hsp_hseq>SRPLSDQEKRKQIXVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKISGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGHVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRILVDLERMDWDKAWDVTVRTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEVIAERIGEDFISDLDQLRKLLSFVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDIQVKRIHEYKRQLLNCLHVITLYNRIKREPNKFFVPRTVMIGGKAAPGYHMAKMIIRLVTAIGDVVNHDPAVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMXFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDKLDQRGYNAQEYYDRIPELRQVIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEDYIKCQEKVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEAI</Hsp_hseq>
+      <Hsp_midline>SRPLSDQEKRKQI VRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKI GGWQMEEADDWLRYGNPWEKARPEFTLPVHFYG VEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMR+LVDLER+DWDKAW+VTV+TCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAE+IAERIGE++ISDLDQLRKLLS+VDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFD+QVKRIHEYKRQLLNCLHVITLYNRIK+EPNKF VPRTVMIGGKAAPGYHMAKMII+L+TAIGDVVNHDP VGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNM FMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVD+LDQRGYNAQEYYDRIPELRQ+IEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYE+Y+KCQE+VSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|2GM9|A</Hit_id>
+  <Hit_def>Structure of rabbit muscle glycogen phosphorylase in complex with thienopyrrole [Oryctolagus cuniculus] &gt;pdb|5MCB|A Glycogen phosphorylase in complex with chlorogenic acid. [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>2GM9_A</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1717.21</Hsp_bit-score>
+      <Hsp_score>4446</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>825</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>824</Hsp_identity>
+      <Hsp_positive>825</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>825</Hsp_align-len>
+      <Hsp_qseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_qseq>
+      <Hsp_hseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_hseq>
+      <Hsp_midline>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|4EJ2|A</Hit_id>
+  <Hit_def>Crystal structure of GPb in complex with DK10 [Oryctolagus cuniculus] &gt;pdb|4EKE|A Crystal structure of GPb in complex with DK11 [Oryctolagus cuniculus] &gt;pdb|4EKY|A Crystal structure of GPb in complex with DK15 [Oryctolagus cuniculus] &gt;pdb|4EL0|A Crystal structure of GPb in complex with DK16 [Oryctolagus cuniculus] &gt;pdb|4EL5|A Crystal structure of GPb in complex with DK12 [Oryctolagus cuniculus] &gt;pdb|4MHO|A Crystal structure of Gpb in complex with S3, SUGAR (N-[(BIPHENYL-4-YLOXY)ACETYL]-BETA-D-GLUCOPYRANOSYLAMINE) [Oryctolagus cuniculus] &gt;pdb|4MHS|A Crystal structure of Gpb in complex with SUGAR (N-[(2E)-3-(BIPHENYL-4-YL)PROP-2-ENOYL]-BETA-D-GLUCOPYRANOSYLAMINE [Oryctolagus cuniculus] &gt;pdb|4MI3|A Crystal structure of Gpb in complex with SUGAR (N-{(2R)-2-METHYL-3-[4-(PROPAN-2-YL)PHENYL]PROPANOYL}-BETA-D-GLUCOPYRANOSYLAMINE) (S21) [Oryctolagus cuniculus] &gt;pdb|4MI6|A Crystal structure of Gpb in complex with SUGAR (N-[4-(5,6,7,8-TETRAHYDRONAPHTHALEN-2-YL)BUTANOYL]-BETA-D-GLUCOPYRANOSYLAMINE) [Oryctolagus cuniculus] &gt;pdb|4MI9|A Crystal structure of Gpb in complex with SUGAR (N-[(3R)-3-(4-ETHYLPHENYL)BUTANOYL]-BETA-D-GLUCOPYRANOSYLAMINE) (S20) [Oryctolagus cuniculus] &gt;pdb|4MIC|A Crystal structure of Gpb in complex with SUGAR (N-{(2E)-3-[4-(PROPAN-2-YL)PHENYL]PROP-2-ENOYL}-BETA-D-GLUCOPYRANOSYLAMINE) (S6) [Oryctolagus cuniculus] &gt;pdb|4MRA|A Crystal structure of Gpb in complex with QUERCETIN [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>4EJ2_A</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1715.66</Hsp_bit-score>
+      <Hsp_score>4442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>825</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>823</Hsp_identity>
+      <Hsp_positive>824</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>825</Hsp_align-len>
+      <Hsp_qseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_qseq>
+      <Hsp_hseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMXFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_hseq>
+      <Hsp_midline>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNM FMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|2GJ4|A</Hit_id>
+  <Hit_def>Structure of rabbit muscle glycogen phosphorylase in complex with ligand [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>2GJ4_A</Hit_accession>
+  <Hit_len>824</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1715.28</Hsp_bit-score>
+      <Hsp_score>4441</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>835</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>824</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>823</Hsp_identity>
+      <Hsp_positive>824</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>824</Hsp_align-len>
+      <Hsp_qseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLP</Hsp_qseq>
+      <Hsp_hseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLP</Hsp_hseq>
+      <Hsp_midline>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|2FFR|A</Hit_id>
+  <Hit_def>Crystallographic studies on N-azido-beta-D-glucopyranosylamine, an inhibitor of glycogen phosphorylase: comparison with N-acetyl-beta-D-glucopyranosylamine [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>2FFR_A</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1711.43</Hsp_bit-score>
+      <Hsp_score>4431</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>825</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>822</Hsp_identity>
+      <Hsp_positive>823</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>825</Hsp_align-len>
+      <Hsp_qseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_qseq>
+      <Hsp_hseq>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPRVTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_hseq>
+      <Hsp_midline>QISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDP  TNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTV+PEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|5IKO|A</Hit_id>
+  <Hit_def>Crystal structure of human brain glycogen phosphorylase [Homo sapiens] &gt;pdb|5IKP|A Crystal structure of human brain glycogen phosphorylase bound to AMP [Homo sapiens]</Hit_def>
+  <Hit_accession>5IKO_A</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1468.75</Hsp_bit-score>
+      <Hsp_score>3801</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>838</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>704</Hsp_identity>
+      <Hsp_positive>782</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>838</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPD</Hsp_qseq>
+      <Hsp_hseq>AKPLTDSEKRKQISVRGLAGLGDVAEVRKSFNRHLHFTLVKDRNVATPRDYFFALAHTVRDHLVGRWIRTQQHYYERDPKRIYYLSLEFYMGRTLQNTMVNLGLQNACDEAIYQLGLDLEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKIVNGWQVEEADDWLRYGNPWEKARPEYMLPVHFYGRVEHTPDGVKWLDTQVVLAMPYDTPVPGYKNNTVNTMRLWSAKAPNDFKLQDFNVGDYIEAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTCFETFPDKVAIQLNDTHPALSIPELMRILVDVEKVDWDKAWEITKKTCAYTNHTVLPEALERWPVSMFEKLLPRHLEIIYAINQRHLDHVAALFPGDVDRLRRMSVIEEGDCKRINMAHLCVIGSHAVNGVARIHSEIVKQSVFKDFYELEPEKFQNKTNGITPRRWLLLCNPGLADTIVEKIGEEFLTDLSQLKKLLPLVSDEVFIRDVAKVKQENKLKFSAFLEKEYKVKINPSSMFDVHVKRIHEYKRQLLNCLHVVTLYNRIKRDPAKAFVPRTVMIGGKAAPGYHMAKLIIKLVTSIGDVVNHDPVVGDRLKVIFLENYRVSLAEKVIPAADLSQQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGAENLFIFGLRVEDVEALDRKGYNAREYYDHLPELKQAVDQISSGFFSPKEPDCFKDIVNMLMHHDRFKVFADYEAYMQCQAQVDQLYRNPKEWTKKVIRNIACSGKFSSDRTITEYAREIWGVEPSDLQIPPPN</Hsp_hseq>
+      <Hsp_midline>++PL+D EKRKQISVRGLAG+ +V E++K+FNRHLHFTLVKDRNVATPRDY+FALAHTVRDHLVGRWIRTQQHYYE+DPKRIYYLSLEFYMGRTLQNTMVNL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKI  GWQ+EEADDWLRYGNPWEKARPE+ LPVHFYGRVEHT  G KW+DTQVVLAMPYDTPVPGY+NN VNTMRLWSAKAPNDF L+DFNVG YI+AVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRT F+ FPDKVAIQLNDTHP+L+IPELMR+LVD+E++DWDKAWE+T KTCAYTNHTV+PEALERWPV + E LLPRHL+IIY INQR L+ VAA FPGDVDRLRRMS++EEG  KRINMAHLC+ GSHAVNGVARIHSEI+K+++FKDFYELEP KFQNKTNGITPRRWL+LCNPGLA+ I E+IGEE+++DL QL+KLL  V DE FIRDVAKVKQENKLKF+A+LE+EYKV INP+S+FDV VKRIHEYKRQLLNCLHV+TLYNRIK++P K  VPRTVMIGGKAAPGYHMAK+IIKL+T+IGDVVNHDPVVGDRL+VIFLENYRVSLAEKVIPAADLS+QISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAG EN FIFG+RVEDV+ LD++GYNA+EYYD +PEL+Q ++Q+SSGFFSPK+PD FKDIVNMLMHHDRFKVFADYE Y++CQ +V  LY+NP+EWT+ VIRNIA SGKFSSDRTI +YAREIWGVEPS  ++P P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1XOI|A</Hit_id>
+  <Hit_def>Human Liver Glycogen Phosphorylase A complexed with Chloroindoloyl glycine amide [Homo sapiens] &gt;pdb|1XOI|B Human Liver Glycogen Phosphorylase A complexed with Chloroindoloyl glycine amide [Homo sapiens]</Hit_def>
+  <Hit_accession>1XOI_A</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1405.58</Hsp_bit-score>
+      <Hsp_score>3637</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>839</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>839</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>674</Hsp_identity>
+      <Hsp_positive>761</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>839</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE</Hsp_qseq>
+      <Hsp_hseq>AKPLTDQEKRRQISIRGIVGVENVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAATVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPSDLKISLSNE</Hsp_hseq>
+      <Hsp_midline>++PL+DQEKR+QIS+RG+ GVENV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS  ++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|1EM6|A</Hit_id>
+  <Hit_def>Human Liver Glycogen Phosphorylase A Complexed With Glcnac And Cp-526, 423 [Homo sapiens] &gt;pdb|1EM6|B Human Liver Glycogen Phosphorylase A Complexed With Glcnac And Cp-526, 423 [Homo sapiens] &gt;pdb|1EXV|A Human Liver Glycogen Phosphorylase A Complexed With Glcnac And Cp-403, 700 [Homo sapiens] &gt;pdb|1EXV|B Human Liver Glycogen Phosphorylase A Complexed With Glcnac And Cp-403, 700 [Homo sapiens] &gt;pdb|1L5Q|A Human liver glycogen phosphorylase a complexed with caffeine, N-Acetyl-beta-D-glucopyranosylamine, and CP-403700 [Homo sapiens] &gt;pdb|1L5Q|B Human liver glycogen phosphorylase a complexed with caffeine, N-Acetyl-beta-D-glucopyranosylamine, and CP-403700 [Homo sapiens] &gt;pdb|1L5R|A Human liver glycogen phosphorylase a complexed with riboflavin, N-Acetyl-beta-D-Glucopyranosylamine and CP-403,700 [Homo sapiens] &gt;pdb|1L5R|B Human liver glycogen phosphorylase a complexed with riboflavin, N-Acetyl-beta-D-Glucopyranosylamine and CP-403,700 [Homo sapiens] &gt;pdb|1L5S|A Human liver glycogen phosphorylase complexed with uric acid, N-Acetyl-beta-D-glucopyranosylamine, and CP-403,700 [Homo sapiens] &gt;pdb|1L5S|B Human liver glycogen phosphorylase complexed with uric acid, N-Acetyl-beta-D-glucopyranosylamine, and CP-403,700 [Homo sapiens] &gt;pdb|1L7X|A Human liver glycogen phosphorylase b complexed with caffeine, N-acetyl-beta-D-glucopyranosylamine, and CP-403,700 [Homo sapiens] &gt;pdb|1L7X|B Human liver glycogen phosphorylase b complexed with caffeine, N-acetyl-beta-D-glucopyranosylamine, and CP-403,700 [Homo sapiens]</Hit_def>
+  <Hit_accession>1EM6_A</Hit_accession>
+  <Hit_len>847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1405.19</Hsp_bit-score>
+      <Hsp_score>3636</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>839</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>674</Hsp_identity>
+      <Hsp_positive>761</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>839</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE</Hsp_qseq>
+      <Hsp_hseq>AKPLTDQEKRRQISIRGIVGVENVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAGTVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPSDLKISLSNE</Hsp_hseq>
+      <Hsp_midline>++PL+DQEKR+QIS+RG+ GVENV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS  ++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1FC0|A</Hit_id>
+  <Hit_def>HUMAN LIVER GLYCOGEN PHOSPHORYLASE COMPLEXED WITH N-ACETYL-BETA-D-GLUCOPYRANOSYLAMINE [Homo sapiens] &gt;pdb|1FC0|B HUMAN LIVER GLYCOGEN PHOSPHORYLASE COMPLEXED WITH N-ACETYL-BETA-D-GLUCOPYRANOSYLAMINE [Homo sapiens] &gt;pdb|2ATI|A Glycogen Phosphorylase Inhibitors [Homo sapiens] &gt;pdb|2ATI|B Glycogen Phosphorylase Inhibitors [Homo sapiens]</Hit_def>
+  <Hit_accession>1FC0_A</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1404.81</Hsp_bit-score>
+      <Hsp_score>3635</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>839</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>839</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>674</Hsp_identity>
+      <Hsp_positive>761</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>839</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE</Hsp_qseq>
+      <Hsp_hseq>AKPLTDQEKRRQISIRGIVGVENVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAGTVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPSDLKISLSNE</Hsp_hseq>
+      <Hsp_midline>++PL+DQEKR+QIS+RG+ GVENV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS  ++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|2ZB2|A</Hit_id>
+  <Hit_def>Human liver glycogen phosphorylase a complexed with glcose and 5-chloro-N-[4-(1,2-dihydroxyethyl)phenyl]-1H-indole-2-carboxamide [Homo sapiens] &gt;pdb|2ZB2|B Human liver glycogen phosphorylase a complexed with glcose and 5-chloro-N-[4-(1,2-dihydroxyethyl)phenyl]-1H-indole-2-carboxamide [Homo sapiens]</Hit_def>
+  <Hit_accession>2ZB2_A</Hit_accession>
+  <Hit_len>849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1404.42</Hsp_bit-score>
+      <Hsp_score>3634</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>839</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>842</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>674</Hsp_identity>
+      <Hsp_positive>761</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>839</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE</Hsp_qseq>
+      <Hsp_hseq>AKPLTDQEKRRQISIRGIVGVENVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAGTVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPSDLKISLSNE</Hsp_hseq>
+      <Hsp_midline>++PL+DQEKR+QIS+RG+ GVENV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS  ++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|2QLL|A</Hit_id>
+  <Hit_def>Human liver glycogen phosphorylase- GL complex [Homo sapiens]</Hit_def>
+  <Hit_accession>2QLL_A</Hit_accession>
+  <Hit_len>847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1403.65</Hsp_bit-score>
+      <Hsp_score>3632</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>839</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>673</Hsp_identity>
+      <Hsp_positive>760</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>839</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE</Hsp_qseq>
+      <Hsp_hseq>AKPLTDQEKRRQIXIRGIVGVENVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAGTVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPSDLKISLSNE</Hsp_hseq>
+      <Hsp_midline>++PL+DQEKR+QI +RG+ GVENV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS  ++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1FA9|A</Hit_id>
+  <Hit_def>HUMAN LIVER GLYCOGEN PHOSPHORYLASE A COMPLEXED WITH AMP [Homo sapiens]</Hit_def>
+  <Hit_accession>1FA9_A</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.88</Hsp_bit-score>
+      <Hsp_score>3630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>839</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>839</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>673</Hsp_identity>
+      <Hsp_positive>760</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>839</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE</Hsp_qseq>
+      <Hsp_hseq>AKPLTDQEKRRQIXIRGIVGVENVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAGTVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPSDLKISLSNE</Hsp_hseq>
+      <Hsp_midline>++PL+DQEKR+QI +RG+ GVENV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS  ++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|3DD1|A</Hit_id>
+  <Hit_def>Crystal structure of glycogen phophorylase complexed with an anthranilimide based inhibitor GSK254 [Homo sapiens] &gt;pdb|3DD1|B Crystal structure of glycogen phophorylase complexed with an anthranilimide based inhibitor GSK254 [Homo sapiens] &gt;pdb|3DDS|A Crystal structure of glycogen phosphorylase complexed with an anthranilimide based inhibitor GSK261 [Homo sapiens] &gt;pdb|3DDS|B Crystal structure of glycogen phosphorylase complexed with an anthranilimide based inhibitor GSK261 [Homo sapiens] &gt;pdb|3DDW|A Crystal structure of glycogen phosphorylase complexed with an anthranilimide based inhibitor GSK055 [Homo sapiens] &gt;pdb|3DDW|B Crystal structure of glycogen phosphorylase complexed with an anthranilimide based inhibitor GSK055 [Homo sapiens]</Hit_def>
+  <Hit_accession>3DD1_A</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>3629</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>839</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>841</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>673</Hsp_identity>
+      <Hsp_positive>760</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>839</Hsp_align-len>
+      <Hsp_qseq>SRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDE</Hsp_qseq>
+      <Hsp_hseq>AKPLTDQEKRRQIXIRGIVGVENVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAGTVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPSDLKISLSNE</Hsp_hseq>
+      <Hsp_midline>++PL+DQEKR+QI +RG+ GVENV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS  ++   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|3CEH|A</Hit_id>
+  <Hit_def>Human liver glycogen phosphorylase (tense state) in complex with the allosteric inhibitor AVE5688 [Homo sapiens] &gt;pdb|3CEH|B Human liver glycogen phosphorylase (tense state) in complex with the allosteric inhibitor AVE5688 [Homo sapiens] &gt;pdb|3CEJ|A Human glycogen phosphorylase (tense state) in complex with the allosteric inhibitor AVE2865 [Homo sapiens] &gt;pdb|3CEJ|B Human glycogen phosphorylase (tense state) in complex with the allosteric inhibitor AVE2865 [Homo sapiens] &gt;pdb|3CEM|A Human glycogen phosphorylase (tense state) in complex with the allosteric inhibitor AVE9423 [Homo sapiens] &gt;pdb|3CEM|B Human glycogen phosphorylase (tense state) in complex with the allosteric inhibitor AVE9423 [Homo sapiens]</Hit_def>
+  <Hit_accession>3CEH_A</Hit_accession>
+  <Hit_len>809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1366.67</Hsp_bit-score>
+      <Hsp_score>3536</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>830</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>808</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>658</Hsp_identity>
+      <Hsp_positive>736</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>808</Hsp_align-len>
+      <Hsp_qseq>NVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPS</Hsp_qseq>
+      <Hsp_hseq>NVAELKKSFNRHLHFTLVKDRNVATTRDYYFALAHTVRDHLVGRWIRTQQHYYDKCPKRVYYLSLEFYMGRTLQNTMINLGLQNACDEAIYQLGLDIEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEYGIFNQKIRDGWQVEEADDWLRYGNPWEKSRPEFMLPVHFYGKVEHTNTGTKWIDTQVVLALPYDTPVPGYMNNTVNTMRLWSARAPNDFNLRDFNVGDYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKASKFGSTRGAGTVFDAFPDQVAIQLNDTHPALAIPELMRIFVDIEKLPWSKAWELTQKTFAYTNHTVLPEALERWPVDLVEKLLPRHLEIIYEINQKHLDRIVALFPKDVDRLRRMSLIEEEGSKRINMAHLCIVGSHAVNGVAKIHSDIVKTKVFKDFSELEPDKFQNKTNGITPRRWLLLCNPGLAELIAEKIGEDYVKDLSQLTKLHSFLGDDVFLRELAKVKQENKLKFSQFLETEYKVKINPSSMFDVQVKRIHEYKRQLLNCLHVITMYNRIKKDPKKLFVPRTVIIGGKAAPGYHMAKMIIKLITSVADVVNNDPMVGSKLKVIFLENYRVSLAEKVIPATDLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENLFIFGMRIDDVAALDKKGYEAKEYYEALPELKLVIDQIDNGFFSPKQPDLFKDIINMLFYHDRFKVFADYEAYVKCQDKVSQLYMNPKAWNTMVLKNIAASGKFSSDRTIKEYAQNIWNVEPS</Hsp_hseq>
+      <Hsp_midline>NV ELKK+FNRHLHFTLVKDRNVAT RDYYFALAHTVRDHLVGRWIRTQQHYY+K PKR+YYLSLEFYMGRTLQNTM+NL L+NACDEA YQLGLD+EELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYE+GIFNQKI  GWQ+EEADDWLRYGNPWEK+RPEF LPVHFYG+VEHT+ G KW+DTQVVLA+PYDTPVPGY NN VNTMRLWSA+APNDFNL+DFNVG YIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFK+SKFG      T FDAFPD+VAIQLNDTHP+LAIPELMR+ VD+E+L W KAWE+T KT AYTNHTV+PEALERWPV L+E LLPRHL+IIYEINQ+ L+R+ A FP DVDRLRRMSL+EE   KRINMAHLCI GSHAVNGVA+IHS+I+K  +FKDF ELEP KFQNKTNGITPRRWL+LCNPGLAE+IAE+IGE+Y+ DL QL KL S++ D+ F+R++AKVKQENKLKF+ +LE EYKV INP+S+FDVQVKRIHEYKRQLLNCLHVIT+YNRIKK+P K  VPRTV+IGGKAAPGYHMAKMIIKLIT++ DVVN+DP+VG +L+VIFLENYRVSLAEKVIPA DLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEEN FIFGMR++DV  LD++GY A+EYY+ +PEL+ +I+Q+ +GFFSPKQPDLFKDI+NML +HDRFKVFADYE YVKCQ++VS LY NP+ W  MV++NIA SGKFSSDRTI +YA+ IW VEPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|1YGP|A</Hit_id>
+  <Hit_def>Phosphorylated Form Of Yeast Glycogen Phosphorylase With Phosphate Bound In The Active Site. [Saccharomyces cerevisiae] &gt;pdb|1YGP|B Phosphorylated Form Of Yeast Glycogen Phosphorylase With Phosphate Bound In The Active Site. [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1YGP_A</Hit_accession>
+  <Hit_len>879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>741.88</Hsp_bit-score>
+      <Hsp_score>1914</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>829</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>877</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>412</Hsp_identity>
+      <Hsp_positive>552</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>847</Hsp_align-len>
+      <Hsp_qseq>ELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATY-------------QLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQG------AKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKR-INMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYEL-EPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIG---EEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLERE-------YKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKK--------EPNKFVVPRTVMI-GGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIP-ELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHH-DRFKVFADYEEYVKCQERVSALYKNPR-EWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEP</Hsp_qseq>
+      <Hsp_hseq>DFQDRFIDHVETTLARSLYNCDDMVAYEAASMSIRDNLVIDWNKTQQKFTTRDPKRVYYLSLEFLMGRALDNALINMKIEDPEDPAASKGKPREMIKGALDELGFKLEDVLDQEPDAGLGNGGLGRLAACFVDSMATEGIPAWGYGLRYEYGIFAQKIIDGYQVETPDYWLNSGNPWEIERNEVQIPVTFYGYVDRPEGGKTTLSASQWIGGERVLAVAYDFPVPGFKTSNVNNLRLWQARPTTEFDLNKFNNGDYKNSVAQQQRAESITAVLYPNDNFAQGKELRLKQQYFWCAASLHDILRRFKKSK--------RPWTEFPDQVAIQLNDTHPTLAIVELQRVLVDLEKLDWHEAWDIVTKTFAYTNHTVMQEALEKWPRRLFGHLLPRHLEIIYDINWFFLEDVAKKFPKDVDLLSRISIIEENSPERQIRMAFLAIVGSHKVNGVVELHSELIKTTIFKDFIKFYGPSKFVNVTNGITPRRWLKQANPSLAKLISETLNDPTEEYLLDMAKLTQLEKYVEDKEFLKKWNQVKLNNKIRLVDLIKKENDGVDIINREYLD-DTLFDMQVKRIHEYKRQQLNVFGIIYRYLAMKNMLKNGASIEEVARKYPRKVSIFGGKSAPGYYMAKLIIKLINCVADIVNNDESIEHLLKVVFVADYNVSKAEIIIPASDLSEHISTAGTEASGTSNMKFVMNGGLIIGTVDGANVEITREIGEDNVFLFGNLSENVEEL---RYNHQYHPQDLPSSLDSVLSYIESGQFSPENPNEFKPLVDSIKYHGDYYLVSDDFESYLATHELVDQEFHNQRSEWLKKSVLSLANVGFFSSDRCIEEYSDTIWNVEP</Hsp_hseq>
+      <Hsp_midline>+ +  F  H+  TL +          Y A + ++RD+LV  W +TQQ +  +DPKR+YYLSLEF MGR L N ++N+ +E+  D A               +LG  +E++ + E DAGLGNGGLGRLAACF+DSMAT G+ A+GYG+RYE+GIF QKI  G+Q+E  D WL  GNPWE  R E  +PV FYG V+    G      ++W+  + VLA+ YD PVPG++ + VN +RLW A+   +F+L  FN G Y  +V  +  AE+I+ VLYPNDNF +GKELRLKQ+YF  AA+L DI+RRFK SK          +  FPD+VAIQLNDTHP+LAI EL RVLVDLE+LDW +AW++  KT AYTNHTV+ EALE+WP  L   LLPRHL+IIY+IN  FL  VA  FP DVD L R+S++EE + +R I MA L I GSH VNGV  +HSE++K TIFKDF +   P KF N TNGITPRRWL   NP LA++I+E +    EEY+ D+ +L +L  YV+D+ F++   +VK  NK++    +++E        + +++ ++LFD+QVKRIHEYKRQ LN   +I  Y  +K         E      PR V I GGK+APGY+MAK+IIKLI  + D+VN+D  +   L+V+F+ +Y VS AE +IPA+DLSE ISTAGTEASGT NMKF++NG L IGT+DGANVE+  E GE+N F+FG   E+V+ L    YN Q +   +P  L  ++  + SG FSP+ P+ FK +V+ + +H D + V  D+E Y+   E V   + N R EW +  + ++A  G FSSDR I +Y+  IW VEP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|4BQE|A</Hit_id>
+  <Hit_def>Arabidopsis thaliana Cytosolic Alpha-1,4-glucan Phosphorylase (PHS2) [Arabidopsis thaliana] &gt;pdb|4BQE|B Arabidopsis thaliana Cytosolic Alpha-1,4-glucan Phosphorylase (PHS2) [Arabidopsis thaliana] &gt;pdb|4BQF|A Arabidopsis thaliana cytosolic alpha-1,4-glucan phosphorylase (PHS2) in complex with acarbose [Arabidopsis thaliana] &gt;pdb|4BQF|B Arabidopsis thaliana cytosolic alpha-1,4-glucan phosphorylase (PHS2) in complex with acarbose [Arabidopsis thaliana] &gt;pdb|4BQI|A ARABIDOPSIS THALIANA cytosolic alpha-1,4-glucan phosphorylase (PHS2) in complex with maltotriose [Arabidopsis thaliana] &gt;pdb|4BQI|B ARABIDOPSIS THALIANA cytosolic alpha-1,4-glucan phosphorylase (PHS2) in complex with maltotriose [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>4BQE_A</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>731.095</Hsp_bit-score>
+      <Hsp_score>1886</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>828</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>869</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>526</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>834</Hsp_align-len>
+      <Hsp_qseq>KQISVRGLAGVENVTELKKNFNRHL----HFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGA-KWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKA-PNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRF--KSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRI-NMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERI-GEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKK---EPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIV---NMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVE</Hsp_qseq>
+      <Hsp_hseq>EKISAKANPEADDATEIAGNIVYHAKYSPHFSPLK----FGPEQALYATAESLRDRLIQLWNETYVHFNKVDPKQTYYLSMEYLQGRALTNAIGNLNLQGPYADALRTLGYELEEIAEQEKDAALGNGGLGRLASCFLDSMATLNLPAWGYGLRYRHGLFKQIITKKGQEEIPEDWLEKFSPWEIVRHDVVFPVRFFGKVQVNPDGSRKWVDGDVVQALAYDVPIPGYGTKNTISLRLWEAKARAEDLDLFQFNEGEYELAAQLHSRAQQICTVLYPGDATENGKLLRLKQQFFLCSASLQDIISRFHERSTTEGSR-----KWSEFPSKVAVQMNDTHPTLAIPELMRLLMDDNGLGWDEAWDVTSKTVAYTNHTVLPEALEKWSQSLMWKLLPRHMEIIEEIDKRFVQTIRDTRVDLEDKISSLSILDNNPQKPVVRMANLCVVSSHTVNGVAQLHSDILKAELFADYVSIWPNKFQNKTNGITPRRWLRFCSPELSDIITKWLKTDKWITDLDLLTGLRQFADNEELQSEWASAKTANKKRLAQYIERVTGVSIDPTSLFDIQVKRIHEYKRQLMNILGVVYRFKKLKEMKPEERKKTVPRTVMIGGKAFATYTNAKRIVKLVNDVGDVVNSDPEVNEYLKVVFVPNYNVTVAEMLIPGSELSQHISTAGMEASGTSNMKFALNGCLIIGTLDGANVEIREEVGEENFFLFGATADQVPRL--RKEREDGLFKPDPRFEEAKQFVKSGVFGSYDYGPLLDSLEGNTGFGRGDYFLVGYDFPSYMDAQAKVDEAYKDRKGWLKMSILSTAGSGKFSSDRTIAQYAKEIWNIE</Hsp_hseq>
+      <Hsp_midline>++IS +     ++ TE+  N   H     HF+ +K      P    +A A ++RD L+  W  T  H+ + DPK+ YYLS+E+  GR L N + NL L+    +A   LG ++EE+ E E+DA LGNGGLGRLA+CFLDSMATL L A+GYG+RY  G+F Q I    Q E  +DWL   +PWE  R +   PV F+G+V+    G+ KWVD  VV A+ YD P+PGY      ++RLW AKA   D +L  FN G Y  A    + A+ I  VLYP D    GK LRLKQ++F+ +A+LQDII RF  +S+  G R      +  FP KVA+Q+NDTHP+LAIPELMR+L+D   L WD+AW+VT KT AYTNHTV+PEALE+W   L+  LLPRH++II EI++RF+  +        D++  +S+++    K +  MA+LC+  SH VNGVA++HS+ILK  +F D+  + P+KFQNKTNGITPRRWL  C+P L++II + +  +++I+DLD L  L  + D+E    + A  K  NK + A Y+ER   V I+P SLFD+QVKRIHEYKRQL+N L V+  + ++K+   E  K  VPRTVMIGGKA   Y  AK I+KL+  +GDVVN DP V + L+V+F+ NY V++AE +IP ++LS+ ISTAG EASGT NMKF LNG L IGT+DGANVE+ EE GEENFF+FG   + V RL  R       +   P   +  + + SG F         D +         D F V  D+  Y+  Q +V   YK+ + W +M I + A SGKFSSDRTIAQYA+EIW +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|1L5V|A</Hit_id>
+  <Hit_def>Crystal Structure of the Maltodextrin Phosphorylase complexed with Glucose-1-phosphate [Escherichia coli] &gt;pdb|1L5V|B Crystal Structure of the Maltodextrin Phosphorylase complexed with Glucose-1-phosphate [Escherichia coli] &gt;pdb|1L5W|A Crystal Structure of the Maltodextrin Phosphorylase Complexed with the Products of the Enzymatic Reaction between Glucose-1-phosphate and Maltotetraose [Escherichia coli] &gt;pdb|1L5W|B Crystal Structure of the Maltodextrin Phosphorylase Complexed with the Products of the Enzymatic Reaction between Glucose-1-phosphate and Maltotetraose [Escherichia coli] &gt;pdb|1L6I|A Crystal Structure of the Maltodextrin Phosphorylase complexed with the products of the enzymatic reaction between glucose-1-phosphate and maltopentaose [Escherichia coli] &gt;pdb|1L6I|B Crystal Structure of the Maltodextrin Phosphorylase complexed with the products of the enzymatic reaction between glucose-1-phosphate and maltopentaose [Escherichia coli] &gt;pdb|2ASV|A X-Ray studies on protein complexes: Enzymatic catalysis in Crystals of E. coli Maltodextrin Phosphorylase (MalP) [Escherichia coli] &gt;pdb|2ASV|B X-Ray studies on protein complexes: Enzymatic catalysis in Crystals of E. coli Maltodextrin Phosphorylase (MalP) [Escherichia coli] &gt;pdb|2AV6|A X-Ray studies on maltodextrin phosphorylase complexes: recognition of substrates and cathalitic mechanism of phosphorylase family [Escherichia coli] &gt;pdb|2AV6|B X-Ray studies on maltodextrin phosphorylase complexes: recognition of substrates and cathalitic mechanism of phosphorylase family [Escherichia coli] &gt;pdb|2AW3|A X-Ray studies on maltodextrin phosphorylase complexes: recognition of substrates and cathalitic mechanism of phosphorylase family [Escherichia coli] &gt;pdb|2AW3|B X-Ray studies on maltodextrin phosphorylase complexes: recognition of substrates and cathalitic mechanism of phosphorylase family [Escherichia coli] &gt;pdb|2AZD|A X-Ray studies on Maltodextrin Phosphorylase (MalP) Complexes: recognition of substrates and CATALYTIC mechanism of phosphorylase family [Escherichia coli] &gt;pdb|2AZD|B X-Ray studies on Maltodextrin Phosphorylase (MalP) Complexes: recognition of substrates and CATALYTIC mechanism of phosphorylase family [Escherichia coli]</Hit_def>
+  <Hit_accession>1L5V_A</Hit_accession>
+  <Hit_len>796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>698.353</Hsp_bit-score>
+      <Hsp_score>1801</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>825</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>499</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>785</Hsp_align-len>
+      <Hsp_qseq>TPRDYYFA----LAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHH--DRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIW</Hsp_qseq>
+      <Hsp_hseq>TPRQWWLAVSEALAEMLRAQPFAKPVANQRH--------VNYISMEFLIGRLTGNNLLNLGWYQDVQDSLKAYDINLTDLLEEEIDPALGNGGLGRLAACFLDSMATVGQSATGYGLNYQYGLFRQSFVDGKQVEAPDDWHRSNYPWFRHNEALDVQVGIGGKV---TKDGRWEPEFTITGQAWDLPVVGYRNGVAQPLRLWQATHAHPFDLTKFNDGDFLRAEQQGINAEKLTKVLYPNDNAFEGKKLRLMQQYFQCACSVADILRRHHLAG--------RKLHELADYEVIQLNDTHPTIAIPELLRVLIDEHQMSWDDAWAITSKTFAYTNHTLMPEALERWDVKLVKGLLPRHMQIINEINTRFKTLVEKTWPGDEKVWAKLAVVHD---KQVHMANLCVVGGFAVNGVAALHSDLVVKDLFPEYHQLWPNKFHNVTNGITPRRWIKQCNPALAALLDKSLQKEWANDLDQLINLEKFADDAKFRQQYREIKQANKVRLAEFVKVRTGIEINPQAIFDIQIKRLHEYKRQHLNLLHILALYKEIRENPQADRVPRVFLFGAKAAPGYYLAKNIIFAINKVADVINNDPLVGDKLKVVFLPDYCVSAAEKLIPAADISEQISTAGKEASGTGNMKLALNGALTVGTLDGANVEIAEKVGEENIFIFGHTVEQVKAILAKGYDPVKWRKKDKVLDAVLKELESGKYSDGDKHAFDQMLHSIGKQGGDPYLVMADFAAYVEAQKQVDVLYRDQEAWTRAAILNTARCGMFSSDRSIRDYQARIW</Hsp_hseq>
+      <Hsp_midline>TPR ++ A    LA  +R     + +  Q+H        + Y+S+EF +GR   N ++NL       ++     +++ +L E E D  LGNGGLGRLAACFLDSMAT+G +A GYG+ Y++G+F Q    G Q+E  DDW R   PW +      + V   G+V   ++  +W     +    +D PV GYRN V   +RLW A   + F+L  FN G +++A      AE +++VLYPNDN FEGK+LRL Q+YF  A ++ DI+RR   +                D   IQLNDTHP++AIPEL+RVL+D  ++ WD AW +T KT AYTNHT++PEALERW V L++ LLPRH+QII EIN RF   V   +PGD     ++++V +   K+++MA+LC+ G  AVNGVA +HS+++ K +F ++++L P+KF N TNGITPRRW+  CNP LA ++ + + +E+ +DLDQL  L  + DD  F +   ++KQ NK++ A +++    + INP ++FD+Q+KR+HEYKRQ LN LH++ LY  I++ P    VPR  + G KAAPGY++AK II  I  + DV+N+DP+VGD+L+V+FL +Y VS AEK+IPAAD+SEQISTAG EASGTGNMK  LNGALT+GT+DGANVE+AE+ GEEN FIFG  VE V  +  +GY+  ++  +   L  ++++L SG +S      F  +++ +     D + V AD+  YV+ Q++V  LY++   WTR  I N A  G FSSDR+I  Y   IW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|1E4O|A</Hit_id>
+  <Hit_def>Phosphorylase recognition and phosphorolysis of its oligosaccharide substrate: answers to a long outstanding question [Escherichia coli] &gt;pdb|1E4O|B Phosphorylase recognition and phosphorolysis of its oligosaccharide substrate: answers to a long outstanding question [Escherichia coli] &gt;pdb|1QM5|A Phosphorylase recognition and phosphorylysis of its oligosaccharide substrate: answers to a long outstanding question [Escherichia coli] &gt;pdb|1QM5|B Phosphorylase recognition and phosphorylysis of its oligosaccharide substrate: answers to a long outstanding question [Escherichia coli]</Hit_def>
+  <Hit_accession>1E4O_A</Hit_accession>
+  <Hit_len>796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.575</Hsp_bit-score>
+      <Hsp_score>1786</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>825</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>785</Hsp_align-len>
+      <Hsp_qseq>TPRDYYFA----LAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHH--DRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIW</Hsp_qseq>
+      <Hsp_hseq>TPRQWWLAVSEALAEMLRAQPFAKPVANQRH--------VNYISMEFLIGRLTGNNLLNLGWYQDVQDSLKAYDINLTDLLEEEIDPALGNGGLGRLAACFLDSMATVGQSATGYGLNYQYGLFRQSFVDGKQVEAPDDWHRSNYPWFRHNEALDVQVGIGGKV---TKDGRWEPEFTITGQAWDLPVVGYRNGVAQPLRLWQATHAHPFDLTKFNDGDFLRAEQQGINAEKLTKVLYPNDNHTAGKKLRLMQQYFQCACSVADILRRHHLAG--------RKLHELADYEVIQLNDTHPTIAIPELLRVLIDEHQMSWDDAWAITSKTFAYTNHTLMPEALERWDVKLVKGLLPRHMQIINEINTRFKTLVEKTWPGDEKVWAKLAVVHD---KQVHMANLCVVGGFAVNGVAALHSDLVVKDLFPEYHQLWPNKFHNVTNGITPRRWIKQCNPALAALLDKSLQKEWANDLDQLINLEKFADDAKFRDQYREIKQANKVRLAEFVKVRTGIEINPQAIFDIQIKRLHEYKRQHLNLLHILALYKEIRENPQADRVPRVFLFGAKAAPGYYLAKNIIFAINKVADVINNDPLVGDKLKVVFLPDYCVSAAEKLIPAADISEQISTAGKEASGTGNMKLALNGALTVGTLDGANVEIAEKVGEENIFIFGHTVEQVKAILAKGYDPVKWRKKDKVLDAVLKELESGKYSDGDKHAFDQMLHSIGKQGGDPYLVMADFAAYVEAQKQVDVLYRDQEAWTRAAILNTARCGMFSSDRSIRDYQARIW</Hsp_hseq>
+      <Hsp_midline>TPR ++ A    LA  +R     + +  Q+H        + Y+S+EF +GR   N ++NL       ++     +++ +L E E D  LGNGGLGRLAACFLDSMAT+G +A GYG+ Y++G+F Q    G Q+E  DDW R   PW +      + V   G+V   ++  +W     +    +D PV GYRN V   +RLW A   + F+L  FN G +++A      AE +++VLYPNDN   GK+LRL Q+YF  A ++ DI+RR   +                D   IQLNDTHP++AIPEL+RVL+D  ++ WD AW +T KT AYTNHT++PEALERW V L++ LLPRH+QII EIN RF   V   +PGD     ++++V +   K+++MA+LC+ G  AVNGVA +HS+++ K +F ++++L P+KF N TNGITPRRW+  CNP LA ++ + + +E+ +DLDQL  L  + DD  F     ++KQ NK++ A +++    + INP ++FD+Q+KR+HEYKRQ LN LH++ LY  I++ P    VPR  + G KAAPGY++AK II  I  + DV+N+DP+VGD+L+V+FL +Y VS AEK+IPAAD+SEQISTAG EASGTGNMK  LNGALT+GT+DGANVE+AE+ GEEN FIFG  VE V  +  +GY+  ++  +   L  ++++L SG +S      F  +++ +     D + V AD+  YV+ Q++V  LY++   WTR  I N A  G FSSDR+I  Y   IW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|2ECP|A</Hit_id>
+  <Hit_def>The Crystal Structure Of The E. Coli Maltodextrin Phosphorylase Complex [Escherichia coli] &gt;pdb|2ECP|B The Crystal Structure Of The E. Coli Maltodextrin Phosphorylase Complex [Escherichia coli]</Hit_def>
+  <Hit_accession>2ECP_A</Hit_accession>
+  <Hit_len>796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.871</Hsp_bit-score>
+      <Hsp_score>1766</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>825</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>497</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>786</Hsp_align-len>
+      <Hsp_qseq>TPRDYYFA----LAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKV-KQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHH--DRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIW</Hsp_qseq>
+      <Hsp_hseq>TPRQWWLAVSEALAEMLRAQPFAKPVANQRH--------VNYISMEFLIGRLTGNNLLNLGWYQDVQDSLKAYDINLTDLLEEEIDPALGNGGLGRLAACFLDSMATVGQSATGYGLNYQYGLFRQSFVDGKQVEAPDDWHRSNYPWFRHNEALDVQVGIGGAV---TKDGRWEPEFTITGQAWDLPVVGYRNGVAQPLRLWQATHAHPFDLTKFNDGDFLRAEQQGINAEKLTKVLYPNDNHTAGKKLRLMQQYFQCACSVADILRRHHLAG--------RELHELADYEVIQLNDTHPTIAIPELLRVLIDEHQMSWDDAWAITSKTFAYTNHTLMPEALERWDVKLVKGLLPRHMQIINEINTRFKTLVEKTWPGDEKVWAKLAVVHD---KQVHMANLCVVGGFAVNGVAALHSDLVVKDLFPEYHQLWPNKFHNVTNGITPRRWIKQCNPALAALLDKSLQKEWANDLDQLINLVKLADDAKF-RDLYRVIKQANKVRLAEFVKVRTGIDINPQAIFDIQIKRLHEYKRQHLNLLRILALYKEIRENPQADRVPRVFLFGAKAAPGYYLAKNIIFAINKVADVINNDPLVGDKLKVVFLPDYCVSAAEKLIPAADISEQISTAGKEASGTGNMKLALNGALTVGTLDGANVEIAEKVGEENIFIFGHTVKQVKAILAKGYDPVKWRKKDKVLDAVLKELESGKYSDGDKHAFDQMLHSIGKQGGDPYLVMADFAAYVEAQKQVDVLYRDQEAWTRAAILNTARCGMFSSDRSIRDYQARIW</Hsp_hseq>
+      <Hsp_midline>TPR ++ A    LA  +R     + +  Q+H        + Y+S+EF +GR   N ++NL       ++     +++ +L E E D  LGNGGLGRLAACFLDSMAT+G +A GYG+ Y++G+F Q    G Q+E  DDW R   PW +      + V   G V   ++  +W     +    +D PV GYRN V   +RLW A   + F+L  FN G +++A      AE +++VLYPNDN   GK+LRL Q+YF  A ++ DI+RR   +                D   IQLNDTHP++AIPEL+RVL+D  ++ WD AW +T KT AYTNHT++PEALERW V L++ LLPRH+QII EIN RF   V   +PGD     ++++V +   K+++MA+LC+ G  AVNGVA +HS+++ K +F ++++L P+KF N TNGITPRRW+  CNP LA ++ + + +E+ +DLDQL  L+   DD  F RD+ +V KQ NK++ A +++    + INP ++FD+Q+KR+HEYKRQ LN L ++ LY  I++ P    VPR  + G KAAPGY++AK II  I  + DV+N+DP+VGD+L+V+FL +Y VS AEK+IPAAD+SEQISTAG EASGTGNMK  LNGALT+GT+DGANVE+AE+ GEEN FIFG  V+ V  +  +GY+  ++  +   L  ++++L SG +S      F  +++ +     D + V AD+  YV+ Q++V  LY++   WTR  I N A  G FSSDR+I  Y   IW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|1AHP|A</Hit_id>
+  <Hit_def>Oligosaccharide Substrate Binding In Escherichia Coli Maltodextrin Phsphorylase [Escherichia coli] &gt;pdb|1AHP|B Oligosaccharide Substrate Binding In Escherichia Coli Maltodextrin Phsphorylase [Escherichia coli]</Hit_def>
+  <Hit_accession>1AHP_A</Hit_accession>
+  <Hit_len>797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.174</Hsp_bit-score>
+      <Hsp_score>1759</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>825</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>793</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>786</Hsp_align-len>
+      <Hsp_qseq>TPRDYYFA----LAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKV-KQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHH--DRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIW</Hsp_qseq>
+      <Hsp_hseq>TPRQWWLAVSEALAEMLRAQPFAKPVANQRH--------VNYISMEFLIGRLTGNNLLNLGWYQDVQDSLKAYDINLTDLLEEEIDPALGAGGLGRLAACFLDSMATVGQSATGYGLNYQYGLFRQSFVDGKQVEAPDDWHRSNYPWFRHNEALDVQVGIGGAV---TKDGRWEPEFTITGQAWDLPVVGYRNGVAQPLRLWQATHAHPFDLTKFNDGDFLRAEQQGINAEKLTKVLYPNDNHTAGKKLRLMQQYFQCACSVADILRRHHLAG--------RELHELADYEVIQLNDTHPTIAIPELLRVLIDEHQMSWDDAWAITSKTFAYTNHTLMPEALERWDVKLVKGLLPRHMQIINEINTRFKTLVEKTWPGDEKVWAKLAVVHD---KQVHMANLCVVGGFAVNGVAALHSDLVVKDLFPEYHQLWPNKFHNVTNGITPRRWIKQCNPALAALLDKSLQKEWANDLDQLINLVKLADDAKF-RDLYRVIKQANKVRLAEFVKVRTGIDINPQAIFDIQIKRLHEYKRQHLNLLRILALYKEIRENPQADRVPRVFLFGAKAAPGYYLAKNIIFAINKVADVINNDPLVGDKLKVVFLPDYCVSAAEKLIPAADISEQISTAGKEASGTGNMKLALNGALTVGTLDGANVEIAEKVGEENIFIFGHTVKQVKAILAKGYDPVKWRKKDKVLDAVLKELESGKYSDGDKHAFDQMLHSIGKQGGDPYLVMADFAAYVEAQKQVDVLYRDQEAWTRAAILNTARCGMFSSDRSIRDYQARIW</Hsp_hseq>
+      <Hsp_midline>TPR ++ A    LA  +R     + +  Q+H        + Y+S+EF +GR   N ++NL       ++     +++ +L E E D  LG GGLGRLAACFLDSMAT+G +A GYG+ Y++G+F Q    G Q+E  DDW R   PW +      + V   G V   ++  +W     +    +D PV GYRN V   +RLW A   + F+L  FN G +++A      AE +++VLYPNDN   GK+LRL Q+YF  A ++ DI+RR   +                D   IQLNDTHP++AIPEL+RVL+D  ++ WD AW +T KT AYTNHT++PEALERW V L++ LLPRH+QII EIN RF   V   +PGD     ++++V +   K+++MA+LC+ G  AVNGVA +HS+++ K +F ++++L P+KF N TNGITPRRW+  CNP LA ++ + + +E+ +DLDQL  L+   DD  F RD+ +V KQ NK++ A +++    + INP ++FD+Q+KR+HEYKRQ LN L ++ LY  I++ P    VPR  + G KAAPGY++AK II  I  + DV+N+DP+VGD+L+V+FL +Y VS AEK+IPAAD+SEQISTAG EASGTGNMK  LNGALT+GT+DGANVE+AE+ GEEN FIFG  V+ V  +  +GY+  ++  +   L  ++++L SG +S      F  +++ +     D + V AD+  YV+ Q++V  LY++   WTR  I N A  G FSSDR+I  Y   IW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|2C4M|A</Hit_id>
+  <Hit_def>Starch phosphorylase: structural studies explain oxyanion-dependent kinetic stability and regulatory control. [Corynebacterium callunae] &gt;pdb|2C4M|B Starch phosphorylase: structural studies explain oxyanion-dependent kinetic stability and regulatory control. [Corynebacterium callunae] &gt;pdb|2C4M|C Starch phosphorylase: structural studies explain oxyanion-dependent kinetic stability and regulatory control. [Corynebacterium callunae] &gt;pdb|2C4M|D Starch phosphorylase: structural studies explain oxyanion-dependent kinetic stability and regulatory control. [Corynebacterium callunae]</Hit_def>
+  <Hit_accession>2C4M_A</Hit_accession>
+  <Hit_len>796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>650.203</Hsp_bit-score>
+      <Hsp_score>1676</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>830</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>791</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>346</Hsp_identity>
+      <Hsp_positive>501</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>796</Hsp_align-len>
+      <Hsp_qseq>NVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRF-LNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIG-EEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMH------HDRFKVFADYEEYVKCQERVSALY-KNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPS</Hsp_qseq>
+      <Hsp_hseq>DLATDRKFWTGLSRAVQERIADDWERTREAY--GAARQQHYFSAEFLMGRALLNNLTNLGLVDEAAAATRELGHELTDILEIENDAALGNGGLGRLAACFLDSAVTQDYPVTGYGLLYRFGLFRQSFNEGFQVEKPDPWREEEYPFTIRRASDQLVVCF--------------DDMKTRAIPYDMPITGYGTHNVGTLRLWKAEPWEEFDYDAFNAQRFTDAIIERERVSDICRVLYPNDTTYEGKKLRVRQQYFFTSASLQAMIQDHLAH--------HKDLSNFAEFHSVQLNDTHPVLAIPELMRLLMDEHDMGWEESWAIVSKTFAYTNHTVLTEALEQWDEQIFQQLFWRVWEIIAEIDRRFRLERAADGL--DEETINRMAPIQHGTV---HMAWIACYAAYSINGVAALHTEIIKAETLADWYALWPEKFNNKTNGVTPRRWLRMINPGLSDLLTRLSGSDDWVTDLDELKKLRSYADDKSVLEELRAIKAANKQDFAEWILERQGIEIDPESIFDVQIKRLHEYKRQLMNALYVLDLYFRIKEDGLTDIPARTVIFGAKAAPGYVRAKAIIKLINSIADLVNNDPEVSPLLKVVFVENYNVSPAEHILPASDVSEQISTAGKEASGTSNMKFMMNGALTLGTMDGANVEIVDSVGEENAYIFGARVEELPAL-RESYKPYELYETVPGLKRALDALDNGTLNDNNSGLFYDLKHSLIHGYGKDASDTYYVLGDFADYRETRDRMAADYASDPLGWARMAWINICESGRFSSDRTIRDYATEIWKLEPT</Hsp_hseq>
+      <Hsp_midline>++AT R ++  L+  V++ +   W RT++ Y     ++ +Y S EF MGR L N + NL L +    AT +LG ++ ++ EIE DA LGNGGLGRLAACFLDS  T      GYG+ Y FG+F Q    G+Q+E+ D W     P+   R    L V F              D     A+PYD P+ GY  + V T+RLW A+   +F+   FN   +  A+++R    +I RVLYPND  +EGK+LR++Q+YF  +A+LQ +I+   +           +   F +  ++QLNDTHP LAIPELMR+L+D   + W+++W +  KT AYTNHTV+ EALE+W   + + L  R  +II EI++RF L R A     D + + RM+ ++ G V   +MA +    ++++NGVA +H+EI+K     D+Y L P KF NKTNG+TPRRWL + NPGL++++    G +++++DLD+L+KL SY DD++ + ++  +K  NK  FA ++     + I+P S+FDVQ+KR+HEYKRQL+N L+V+ LY RIK++    +  RTV+ G KAAPGY  AK IIKLI +I D+VN+DP V   L+V+F+ENY VS AE ++PA+D+SEQISTAG EASGT NMKFM+NGALT+GTMDGANVE+ +  GEEN +IFG RVE++  L +  Y   E Y+ +P L++ ++ L +G  +     LF D+ + L+H       D + V  D+ +Y + ++R++A Y  +P  W RM   NI  SG+FSSDRTI  YA EIW +EP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|4L22|A</Hit_id>
+  <Hit_def>Crystal structure of putative glycogen phosphorylase from Streptococcus mutans [Streptococcus mutans UA159]</Hit_def>
+  <Hit_accession>4L22_A</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.5</Hsp_bit-score>
+      <Hsp_score>1264</Hsp_score>
+      <Hsp_evalue>3.73798e-162</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>825</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>771</Hsp_align-len>
+      <Hsp_qseq>KRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTP--------------VPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRN-LAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVK------RINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKE--PNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVED-VDRLDQRGYNAQEYYDRIPELRQIIEQL-SSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIW</Hsp_qseq>
+      <Hsp_hseq>RKVYYISAEFLIGKLLSNNLINLGLYKTVKDELAAAGKSISQVEDVELEPSLGNGGLGRLASCFIDSMATLGINGEGVGLNYHCGLFKQVFRDNQQEAEPNYWI---------------------------EDDSWL---VPTAISYDVPFRDFTLKSKLDRIDILGYHKDSKNYLNLFDIDGLDYGLIKD-------GITFDKTEIKKNLTLFLYPDDSDKNGELLRIYQQYFMVSNAAQLLIDEALERG--------SNLHDLADYAYVQINDTHPSMVIPELIRLLNEKHGLDFYEAVDIVKNMIGYTNHTILAEALEKWPLEYLNEVVP-HLVTIIE---------------HLDRIVR-SQYKDDAVQIIDRDDRVHMAHMDIHFSTSVNGVAALHTDILKNSELKPFYDIYPEKFNNKTNGITFRRWLEFANQDLAAYIKELIGEGYLEDATELEKLLAFADDKTVHEQLAKIKFNNKLALKRYLKENKGINLDENSIIDTQIKRFHEYKRQQMNALYVIYKYLEIKKGNLPKRKI---TVIFGGKAAPAYTIAQDIIHLILCLSELINNDPDVSPYLNVFLVENYNVTVAEKLIPATDISEQISLASKEASGTGNMKFMLNGALTLGTMDGANVEIAELVGSDNIYIFGKDSDTIIDLYDKGTYVSKDYYTNNAVIKEAVDFIVSKDVLALGKKERLERLYHELINKDWFMTLIDLKEYIAKKEEMLADYEDQNVWNKKVIQNIAKAGFFSSDRTIQQYDKDIW</Hsp_hseq>
+      <Hsp_midline>+++YY+S EF +G+ L N ++NL L     +     G  + ++E++E +  LGNGGLGRLA+CF+DSMATLG+   G G+ Y  G+F Q      Q  E + W+                           +   W+   V  A+ YD P              + GY  +  N + L+     +   +KD           D+  + +N++  LYP+D+   G+ LR+ Q+YF+V+   Q +I               +N     D   +Q+NDTHPS+ IPEL+R+L +   LD+ +A ++      YTNHT++ EALE+WP+  L  ++P HL  I E                +DR+ R S  ++ AV+      R++MAH+ I  S +VNGVA +H++ILK +  K FY++ P KF NKTNGIT RRWL   N  LA  I E IGE Y+ D  +L KLL++ DD+     +AK+K  NKL    YL+    ++++ NS+ D Q+KR HEYKRQ +N L+VI  Y  IKK   P + +   TV+ GGKAAP Y +A+ II LI  + +++N+DP V   L V  +ENY V++AEK+IPA D+SEQIS A  EASGTGNMKFMLNGALT+GTMDGANVE+AE  G +N +IFG   +  +D  D+  Y +++YY     +++ ++ + S    +  + +  + + + L++ D F    D +EY+  +E + A Y++   W + VI+NIA +G FSSDRTI QY ++IW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|5LR8|A</Hit_id>
+  <Hit_def>Structure of plastidial phosphorylase Pho1 from Barley [Hordeum vulgare subsp. vulgare] &gt;pdb|5LR8|B Structure of plastidial phosphorylase Pho1 from Barley [Hordeum vulgare subsp. vulgare] &gt;pdb|5LRA|A Plastidial phosphorylase PhoI from barley in complex with maltotetraose [Hordeum vulgare subsp. vulgare] &gt;pdb|5LRA|B Plastidial phosphorylase PhoI from barley in complex with maltotetraose [Hordeum vulgare subsp. vulgare] &gt;pdb|5LRB|A Plastidial phosphorylase from Barley in complex with acarbose [Hordeum vulgare subsp. vulgare] &gt;pdb|5LRB|B Plastidial phosphorylase from Barley in complex with acarbose [Hordeum vulgare subsp. vulgare]</Hit_def>
+  <Hit_accession>5LR8_A</Hit_accession>
+  <Hit_len>938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>2.12965e-112</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>426</Hsp_align-len>
+      <Hsp_qseq>VRGLAGVE----------NVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAK-WVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPN-DFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVIPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAF-PGDVDRLRR</Hsp_qseq>
+      <Hsp_hseq>VRGPASTEEELSAVLTSIDSSAIASNIQHHADFTPLFSPEHSSPLKAYHATAKSVFDSLIMNWNATYDYYNKVNAKQAYYLSMEFLQGRALTNAIGNLELTGQYAEALKQLGHNLEDVASQEPDPALGNGGLGRLASCFLDSLATLNYPAWGYGLRYRYGLFKQIITKDGQEEVAENWLEMGNPWEIVRNDVSYPVKFYGKVVEGTDGRKHWIGGENIKAVAHDVPIPGYKTKTTNNLRLWSTTVPSQNFDLGAFNAGDHAKANEAHLNAEKICHVLYPGDESSEGKILRLKQQYTLCSASLQDIISRFES-----RAGDSLNWEDFPSKVAVQMNDTHPTLCIPELMRILMDIKGLSWNEAWSITERTVAYTNHTVLPEALEKWSLDIMQKLLPRHVEIIETIDEELMNNIVSKYGTADISLLKQ</Hsp_hseq>
+      <Hsp_midline>VRG A  E          + + +  N   H  FT +     ++P   Y A A +V D L+  W  T  +Y + + K+ YYLS+EF  GR L N + NL L     EA  QLG ++E++   E D  LGNGGLGRLA+CFLDS+ATL   A+GYG+RY +G+F Q I    Q E A++WL  GNPWE  R + + PV FYG+V   + G K W+  + + A+ +D P+PGY+    N +RLWS   P+ +F+L  FN G + +A      AE I  VLYP D   EGK LRLKQ+Y + +A+LQDII RF+S     R     N++ FP KVA+Q+NDTHP+L IPELMR+L+D++ L W++AW +T +T AYTNHTV+PEALE+W + +++ LLPRH++II  I++  +N + + +   D+  L++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>2.17435e-112</Hsp_evalue>
+      <Hsp_query-from>439</Hsp_query-from>
+      <Hsp_query-to>829</Hsp_query-to>
+      <Hsp_hit-from>526</Hsp_hit-from>
+      <Hsp_hit-to>922</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>INMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIG-EEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIK----KEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELR--QIIEQLSSGFFSPKQPDLFKDIVNMLMHH------DRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEP</Hsp_qseq>
+      <Hsp_hseq>VRMANLCVVGGHSVNGVAEIHSEIVKQDVFNSFYEMWPTKFQNKTNGVTPRRWIRFCNPELSTIISKWIGSDDWILNTDKLAGLKKFADDEDLQSEWRTAKRNNKMKVVSLIRDKTGYIVSPDAMFDVQVKRIHEYKRQLLNILGIVYRYKKMKEMSAKDRRKSFVPRVCIFGGKAFATYVQAKRIVKFITDVAATVNYDPDIGDLLKVVFVPDYNVSVAETLIPASELSQHISTAGMEASGTSNMKFAMNGCLLIGTLDGANVEIREEVGEENFFLFGAHAPEIAGLRQERAEGK----FVPDLRFEEVKEYVRSGVFGTSNYD---ELMGSLEGNEGYGRADYFLVGKDFPSYIECQEKVDEAYRDQKLWTRMSILNTAGSPKFSSDRTIHEYAKDIWDISP</Hsp_hseq>
+      <Hsp_midline>+ MA+LC+ G H+VNGVA IHSEI+K+ +F  FYE+ P KFQNKTNG+TPRRW+  CNP L+ II++ IG +++I + D+L  L  + DDE    +    K+ NK+K  + +  +    ++P+++FDVQVKRIHEYKRQLLN L ++  Y ++K    K+  K  VPR  + GGKA   Y  AK I+K IT +   VN+DP +GD L+V+F+ +Y VS+AE +IPA++LS+ ISTAG EASGT NMKF +NG L IGT+DGANVE+ EE GEENFF+FG    ++  L Q     +     +P+LR  ++ E + SG F     D   +++  L  +      D F V  D+  Y++CQE+V   Y++ + WTRM I N A S KFSSDRTI +YA++IW + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|5CJP|E</Hit_id>
+  <Hit_def>The Structural Basis for Cdc42-Induced Dimerization of IQGAPs [Homo sapiens] &gt;pdb|5CJP|F The Structural Basis for Cdc42-Induced Dimerization of IQGAPs [Homo sapiens]</Hit_def>
+  <Hit_accession>5CJP_E</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.44041</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>APNDFNLKDFNVGGYIQAVLDRNLAENISRVLY--PNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDP---VRTNFDAFPDKVAI</Hsp_qseq>
+      <Hsp_hseq>APDGFDIIDMTAGGQINSDQRRNLG-SVAKVLQHAASNKLFEGENEHLSSMNNYLSETYQEFRKYFKEA---CNVPEPEEKFNMDKYTDLVTV</Hsp_hseq>
+      <Hsp_midline>AP+ F++ D   GG I +   RNL  ++++VL    ++  FEG+   L      ++ T Q+  + FK +   C  P    + N D + D V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|5ZCS|E</Hit_id>
+  <Hit_def>4.9 Angstrom Cryo-EM structure of human mTOR complex 2 [Homo sapiens] &gt;pdb|5ZCS|F 4.9 Angstrom Cryo-EM structure of human mTOR complex 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>5ZCS_E</Hit_accession>
+  <Hit_len>1708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.06652</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>859</Hsp_hit-from>
+      <Hsp_hit-to>903</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>EADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLA</Hsp_qseq>
+      <Hsp_hseq>DGDNYVRRSNQ-RLQRPHVYLPIHLYGQLVHHKTGCHLLEVQNIIT</Hsp_hseq>
+      <Hsp_midline>+ D+++R  N     RP   LP+H YG++ H   G   ++ Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|6ZWM|E</Hit_id>
+  <Hit_def>cryo-EM structure of human mTOR complex 2, overall refinement [Homo sapiens] &gt;pdb|6ZWM|F cryo-EM structure of human mTOR complex 2, overall refinement [Homo sapiens] &gt;pdb|6ZWO|F cryo-EM structure of human mTOR complex 2, focused on one half [Homo sapiens]</Hit_def>
+  <Hit_accession>6ZWM_E</Hit_accession>
+  <Hit_len>1708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.50108</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>859</Hsp_hit-from>
+      <Hsp_hit-to>903</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>EADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLA</Hsp_qseq>
+      <Hsp_hseq>DGDNYVRRSN-QRLQRPHVYLPIHLYGQLVHHKTGCHLLEVQNIIT</Hsp_hseq>
+      <Hsp_midline>+ D+++R  N     RP   LP+H YG++ H   G   ++ Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|5B2A|O</Hit_id>
+  <Hit_def>Crystal structure of a mutant of OspA [Borreliella burgdorferi] &gt;pdb|6J47|O OspA variant with a short chameleon sequence from alpha B crystallin [Borreliella burgdorferi] &gt;pdb|6J5M|O OspA mutant, PSAM-VLGDV1-form3, grafted short chameleon sequence from alpha-B crystallin [Borreliella burgdorferi] &gt;pdb|6J5N|O OspA mutant, PSAM-VLGDV1-form4, grafted short chameleon sequence from alpha-B crystallin [Borreliella burgdorferi] &gt;pdb|6J5O|O OspA mutant, PSAM-VLGDV1-form5, grafted short chameleon sequence from alpha-B crystallin [Borreliella burgdorferi] &gt;pdb|6J5P|O OspA mutant, PSAM-VLGDV1-form6, grafted short chameleon sequence from alpha-B crystallin [Borreliella burgdorferi] &gt;pdb|6J5Q|O OspA mutant, PSAM-VLGDV1-form7, grafted short chameleon sequence from alpha-B crystallin [Borreliella burgdorferi] &gt;pdb|6J5R|O OspA mutant, PSAM-VLGDV1-form8, grafted short chameleon sequence from alpha-B crystallin [Borreliella burgdorferi]</Hit_def>
+  <Hit_accession>5B2A_O</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.81623</Hsp_evalue>
+      <Hsp_query-from>629</Hsp_query-from>
+      <Hsp_query-to>704</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAG</Hsp_qseq>
+      <Hsp_hseq>VTSKDKVLGD---VKFNEKGEVS--EKIITRAD-GTRLEYTGIKSDGSGKAKEVLKGYVLEGTLTAEKTTLVVKEG</Hsp_hseq>
+      <Hsp_midline>V + D V+GD   V F E   VS  EK+I  AD   ++   G ++ G+G  K +L G +  GT+      +  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>113</Statistics_hsp-len>
+      <Statistics_eff-space>14620200705</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

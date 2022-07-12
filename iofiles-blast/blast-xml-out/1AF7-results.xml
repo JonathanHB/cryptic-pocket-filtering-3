@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1AF7_1|Chain A|CHEMOTAXIS RECEPTOR METHYLTRANSFERASE CHER|Salmonella typhimurium (90371)</BlastOutput_query-def>
+  <BlastOutput_query-len>274</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1AF7_1|Chain A|CHEMOTAXIS RECEPTOR METHYLTRANSFERASE CHER|Salmonella typhimurium (90371)</Iteration_query-def>
+  <Iteration_query-len>274</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1AF7|A</Hit_id>
+  <Hit_def>Cher From Salmonella Typhimurium [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>1AF7_A</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567.77</Hsp_bit-score>
+      <Hsp_score>1462</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>SVLLQMTQRLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHARRRHGEYRVWSAAASTGEEPYSIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSLRGQTVYALS</Hsp_qseq>
+      <Hsp_hseq>SVLLQMTQRLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHARRRHGEYRVWSAAASTGEEPYSIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSLRGQTVYALS</Hsp_hseq>
+      <Hsp_midline>SVLLQMTQRLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHARRRHGEYRVWSAAASTGEEPYSIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSLRGQTVYALS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1BC5|A</Hit_id>
+  <Hit_def>Chemotaxis Receptor Recognition By Protein Methyltransferase Cher [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>1BC5_A</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.14</Hsp_bit-score>
+      <Hsp_score>1437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>MTQRLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHARRRHGEYRVWSAAASTGEEPYSIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSLRGQTVYALS</Hsp_qseq>
+      <Hsp_hseq>MTQRLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHARRRHGEYRVWSAAASTGEEPYSIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSLRGQTVYALS</Hsp_hseq>
+      <Hsp_midline>MTQRLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHARRRHGEYRVWSAAASTGEEPYSIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSLRGQTVYALS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|5XLX|A</Hit_id>
+  <Hit_def>Crystal structure of the C-terminal domain of CheR1 containing SAH [Pseudomonas aeruginosa PAO1] &gt;pdb|5XLX|B Crystal structure of the C-terminal domain of CheR1 containing SAH [Pseudomonas aeruginosa PAO1] &gt;pdb|5XLX|C Crystal structure of the C-terminal domain of CheR1 containing SAH [Pseudomonas aeruginosa PAO1] &gt;pdb|5XLX|D Crystal structure of the C-terminal domain of CheR1 containing SAH [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>5XLX_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>8.85525e-39</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>LALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHA-----RRRHGE-YRVWSAAASTGEEPYSIAITLAD----ALGMAPGRWKVFASDIDTEVLEKARSGIY-RLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNL</Hsp_qseq>
+      <Hsp_hseq>MSAANADFELFRVFLEKTCGIVLGSNKQYLVSSRLNKLMEQQGIKSLGELVQRIQ-TQRGGLREMVVDAMTTNETLWFRDTYPFEVLKQRVLPELIKANGGQRLRIWSAACSSGQEPYSLSMAIDEFEKTNLGQLKAGVQIVATDLSGSMLTAAKAGEYDTLAMGRGLSPERLQRYF-DAKGP--GRWAVKPAIRSRVEFRALNLLDS-YASLGKFDMVFCRNVLIYFSAEVKRDILLRIHGTLKPGGYLFLGASEALNNL</Hsp_hseq>
+      <Hsp_midline>++ ++A F      + +  GIVL  +K+ +V +RL + +   G+   G  +  ++  Q     +  ++A+TTN T +FR+ + F +L +       +   G+  R+WSAA S+G+EPYS+++ + +     LG      ++ A+D+   +L  A++G Y  L+  + LSP++LQRYF    GP  G   V+  + + VEF ++NLL+  Y   G FD +FCRNV+IYF    + DIL R    LKP G LF G SE  +NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|5XLY|A</Hit_id>
+  <Hit_def>Crystal structure of CheR1 in complex with c-di-GMP-bound MapZ [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>5XLY_A</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>1.21439e-38</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>LALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHA-----RRRHGE-YRVWSAAASTGEEPYSIAITLAD----ALGMAPGRWKVFASDIDTEVLEKARSGIY-RLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSL</Hsp_qseq>
+      <Hsp_hseq>MSAANADFELFRVFLEKTCGIVLGSNKQYLVSSRLNKLMEQQGIKSLGELVQRIQ-TQRGGLREMVVDAMTTNETLWFRDTYPFEVLKQRVLPELIKANGGQRLRIWSAACSSGQEPYSLSMAIDEFEKTNLGQLKAGVQIVATDLSGSMLTAAKAGEYDTLAMGRGLSPERLQRYF-DAKGP--GRWAVKPAIRSRVEFRALNLLDS-YASLGKFDMVFCRNVLIYFSAEVKRDILLRIHGTLKPGGYLFLGASEALNNLPDHYQM</Hsp_hseq>
+      <Hsp_midline>++ ++A F      + +  GIVL  +K+ +V +RL + +   G+   G  +  ++  Q     +  ++A+TTN T +FR+ + F +L +       +   G+  R+WSAA S+G+EPYS+++ + +     LG      ++ A+D+   +L  A++G Y  L+  + LSP++LQRYF    GP  G   V+  + + VEF ++NLL+  Y   G FD +FCRNV+IYF    + DIL R    LKP G LF G SE  +NL   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|5Y4R|A</Hit_id>
+  <Hit_def>Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4R|B Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|A Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|B Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|C Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|D Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|E Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|F Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|G Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|H Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|I Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1] &gt;pdb|5Y4S|J Structure of a methyltransferase complex [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>5Y4R_A</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>2.35202e-38</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>SDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHA-----RRRHGE-YRVWSAAASTGEEPYSIAITLAD----ALGMAPGRWKVFASDIDTEVLEKARSGIY-RLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSL</Hsp_qseq>
+      <Hsp_hseq>ANADFELFRVFLEKTCGIVLGSNKQYLVSSRLNKLMEQQGIKSLGELVQRIQ-TQRGGLREMVVDAMTTNETLWFRDTYPFEVLKQRVLPELIKANGGQRLRIWSAACSSGQEPYSLSMAIDEFEKTNLGQLKAGVQIVATDLSGSMLTAAKAGEYDTLAMGRGLSPERLQRYF-DAKGP--GRWAVKPAIRSRVEFRALNLLDS-YASLGKFDMVFCRNVLIYFSAEVKRDILLRIHGTLKPGGYLFLGASEALNNLPDHYQM</Hsp_hseq>
+      <Hsp_midline>++A F      + +  GIVL  +K+ +V +RL + +   G+   G  +  ++  Q     +  ++A+TTN T +FR+ + F +L +       +   G+  R+WSAA S+G+EPYS+++ + +     LG      ++ A+D+   +L  A++G Y  L+  + LSP++LQRYF    GP  G   V+  + + VEF ++NLL+  Y   G FD +FCRNV+IYF    + DIL R    LKP G LF G SE  +NL   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|5FTW|A</Hit_id>
+  <Hit_def>Crystal structure of glutamate O-methyltransferase in complex with S- adenosyl-L-homocysteine (SAH) from Bacillus subtilis [Bacillus subtilis]</Hit_def>
+  <Hit_accession>5FTW_A</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>5.91231e-30</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>QRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEHAR---RRHGEYRVWSAAASTGEEPYSIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSN</Hsp_qseq>
+      <Hsp_hseq>QLTGVDLTLYKEAQMKRRLTSLYEKKGFQSFKDFAAALEKDQ--ALLNETLDRMTINVSEFYRNYKRWEVLETAILPLIKTSRPLKIWSAACSTGEEPYTLAMLLDQQKGL-PG-YQILATDIDEKALEKAKKGVYQERSLQEVPLSVKDRYFTQNANRS---YEVKTEIKKNITFKKHNLLADRYE--QDFDLIVCRNVFIYFTESAKEELYLKMAHSLKKNGVLFVGSTEQIFN</Hsp_hseq>
+      <Hsp_midline>Q  G+ L  +K   +  RL       G   F  + + LE +Q  A     ++ +T N++ F+R    + +L        +     ++WSAA STGEEPY++A+ L    G+ PG +++ A+DID + LEKA+ G+Y+   L+ +      RYF +          V+ E+   + F   NLL  +Y     FD I CRNV IYF ++ +E++  +    LK +G+LF G +E   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|5DOO|A</Hit_id>
+  <Hit_def>The structure of PKMT2 from Rickettsia typhi [Rickettsia typhi str. Wilmington] &gt;pdb|5DOO|B The structure of PKMT2 from Rickettsia typhi [Rickettsia typhi str. Wilmington] &gt;pdb|5DPL|A The structure of PKMT2 from Rickettsia typhi in complex with AdoHcy [Rickettsia typhi str. Wilmington] &gt;pdb|5DPL|B The structure of PKMT2 from Rickettsia typhi in complex with AdoHcy [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>5DOO_A</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0560675</Hsp_evalue>
+      <Hsp_query-from>194</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>NYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSE----NFSNLVREFSL</Hsp_qseq>
+      <Hsp_hseq>NNVELKALSILDLDESY-GKFDYIVCHGVYSWVSQEVQDKILEVLNKLLNPNGIAFVSYNTLPGWNMQNTIREMMM</Hsp_hseq>
+      <Hsp_midline>N VE  ++++L+   +  G FD I C  V  +  +  Q+ IL     LL P+G+ F  ++     N  N +RE  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|4IV8|A</Hit_id>
+  <Hit_def>Crystal structure of N-methyl transferase from Plasmodium knowlesi complexed with S-adenosyl methionine [Plasmodium knowlesi strain H] &gt;pdb|4IV8|B Crystal structure of N-methyl transferase from Plasmodium knowlesi complexed with S-adenosyl methionine [Plasmodium knowlesi strain H]</Hit_def>
+  <Hit_accession>4IV8_A</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.221478</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGH--SENFSNLVREFS</Hsp_qseq>
+      <Hsp_hseq>IAKLRNKDKSKVEFEAMDILKKDF-PECTFDMIYSRDAILHLPYADKKKLFEKCYKWLKPNGILLITDYCADKIENWDEEFK</Hsp_hseq>
+      <Hsp_midline>+ ++R +  + VEF ++++L+K +     FD I+ R+ +++     ++ +  +    LKP+G+L      ++   N   EF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|3MCZ|A</Hit_id>
+  <Hit_def>The Structure of an O-methyltransferase family protein from Burkholderia thailandensis. [Burkholderia thailandensis E264] &gt;pdb|3MCZ|B The Structure of an O-methyltransferase family protein from Burkholderia thailandensis. [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>3MCZ_A</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.418971</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>QELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLF</Hsp_qseq>
+      <Hsp_hseq>HDLGGRVEFFEKNLLDARNFEGGAADVVXLNDCLHYFDAREAREVIGHAAGLVKPGGALL</Hsp_hseq>
+      <Hsp_midline> +L   VEF   NLL+ +    G  D +   + + YFD     +++     L+KP G L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|4IV0|A</Hit_id>
+  <Hit_def>Crystal structure of N-methyl transferase from Plasmodium vivax complexed with S-adenosyl methionine and phosphate [Plasmodium vivax Sal-1] &gt;pdb|4IV0|B Crystal structure of N-methyl transferase from Plasmodium vivax complexed with S-adenosyl methionine and phosphate [Plasmodium vivax Sal-1]</Hit_def>
+  <Hit_accession>4IV0_A</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.41406</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGH--SENFSNLVREF</Hsp_qseq>
+      <Hsp_hseq>IAKLRNQDKAKIEFEAKDILKKDFP-ESTFDMIYSRDSILHLSYADKKMLFEKCYKWLKPNGILLITDYCADKIENWDEEF</Hsp_hseq>
+      <Hsp_midline>+ ++R +    +EF + ++L+K +     FD I+ R+ +++     ++ +  +    LKP+G+L      ++   N   EF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4MWZ|A</Hit_id>
+  <Hit_def>Crystal structure of N-methyl transferase from Plasmodium vivax complexed with S-adenosyl methionine, phosphate and amodiaquine [Plasmodium vivax Sal-1] &gt;pdb|4MWZ|B Crystal structure of N-methyl transferase from Plasmodium vivax complexed with S-adenosyl methionine, phosphate and amodiaquine [Plasmodium vivax Sal-1]</Hit_def>
+  <Hit_accession>4MWZ_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45899</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGH--SENFSNLVREF</Hsp_qseq>
+      <Hsp_hseq>IAKLRNQDKAKIEFEAKDILKKDFP-ESTFDMIYSRDSILHLSYADKKMLFEKCYKWLKPNGILLITDYCADKIENWDEEF</Hsp_hseq>
+      <Hsp_midline>+ ++R +    +EF + ++L+K +     FD I+ R+ +++     ++ +  +    LKP+G+L      ++   N   EF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1ZTG|A</Hit_id>
+  <Hit_def>human alpha polyC binding protein KH1 [Homo sapiens] &gt;pdb|1ZTG|B human alpha polyC binding protein KH1 [Homo sapiens] &gt;pdb|1ZTG|C human alpha polyC binding protein KH1 [Homo sapiens] &gt;pdb|1ZTG|D human alpha polyC binding protein KH1 [Homo sapiens]</Hit_def>
+  <Hit_accession>1ZTG_A</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.9071</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>EGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDI</Hsp_qseq>
+      <Hsp_hseq>ESVKRIREESGARINISEGNCPERIITLTGPTNAIFKAFAMI-IDK-LEEDI</Hsp_hseq>
+      <Hsp_midline>E + R+R+E    +  S  N  E+   + GP +AIF    MI  DK  +EDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|4AN7|B</Hit_id>
+  <Hit_def>Kunitz type trypsin inhibitor complex with porcine trypsin [Tamarindus indica]</Hit_def>
+  <Hit_accession>4AN7_B</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.51369</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>SIAITLADALGMAPGRWKVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRY</Hsp_qseq>
+      <Hsp_hseq>NIEFTIAPACAPKPARWRIF----DEQSSEKGYTPVKISDDFSSAAPFQIKKF</Hsp_hseq>
+      <Hsp_midline>+I  T+A A    P RW++F    D +  EK  + +    +  + +P Q++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3VKE|A</Hit_id>
+  <Hit_def>Contribution of the first K-homology domain of poly(C)-binding protein 1 to its affinity and specificity for C-rich oligonucleotides [Homo sapiens] &gt;pdb|3VKE|B Contribution of the first K-homology domain of poly(C)-binding protein 1 to its affinity and specificity for C-rich oligonucleotides [Homo sapiens] &gt;pdb|3VKE|C Contribution of the first K-homology domain of poly(C)-binding protein 1 to its affinity and specificity for C-rich oligonucleotides [Homo sapiens] &gt;pdb|3VKE|D Contribution of the first K-homology domain of poly(C)-binding protein 1 to its affinity and specificity for C-rich oligonucleotides [Homo sapiens]</Hit_def>
+  <Hit_accession>3VKE_A</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.02689</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>EGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDI</Hsp_qseq>
+      <Hsp_hseq>ESVKRIREESGARINISEGNSPERIITLTGPTNAIFKAFAMI-IDK-LEEDI</Hsp_hseq>
+      <Hsp_midline>E + R+R+E    +  S  N  E+   + GP +AIF    MI  DK  +EDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3E23|A</Hit_id>
+  <Hit_def>Crystal structure of the RPA2492 protein in complex with SAM from Rhodopseudomonas palustris, Northeast Structural Genomics Consortium Target RpR299 [Rhodopseudomonas palustris]</Hit_def>
+  <Hit_accession>3E23_A</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.88969</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFA----GHSENFSNLVREFS</Hsp_qseq>
+      <Hsp_hseq>YDAVWAHACLLHVPRDELADVLKLIWRALKPGGLFYASYKSGEGEGRDKLARYYN</Hsp_hseq>
+      <Hsp_midline>+DA++    +++  +    D+L+     LKP GL +A    G  E    L R ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|3UJ7|A</Hit_id>
+  <Hit_def>Phosphoethanolamine methyltransferase from Plasmodium falciparum in complex with SAM and PO4 [Plasmodium falciparum] &gt;pdb|3UJ7|B Phosphoethanolamine methyltransferase from Plasmodium falciparum in complex with SAM and PO4 [Plasmodium falciparum] &gt;pdb|3UJ8|A Phosphoethanolamine methyltransferase from Plasmodium falciparum in complex with sinefungin and PO4 [Plasmodium falciparum] &gt;pdb|3UJ9|A Phosphoethanolamine methyltransferase from Plasmodium falciparum in complex with phosphocholine [Plasmodium falciparum] &gt;pdb|3UJA|A Phosphoethanolamine methyltransferase from Plasmodium falciparum in complex with phosphoethanolamine [Plasmodium falciparum] &gt;pdb|3UJB|A Phosphoethanolamine methyltransferase from Plasmodium falciparum in complex with SAH and phosphoethanolamine [Plasmodium falciparum] &gt;pdb|3UJB|B Phosphoethanolamine methyltransferase from Plasmodium falciparum in complex with SAH and phosphoethanolamine [Plasmodium falciparum] &gt;pdb|4FGZ|A Crystal Structure of Phosphoethanolamine Methyltransferase from Plasmodium falciparum in Complex with Amodiaquine [Plasmodium falciparum] &gt;pdb|4FGZ|B Crystal Structure of Phosphoethanolamine Methyltransferase from Plasmodium falciparum in Complex with Amodiaquine [Plasmodium falciparum]</Hit_def>
+  <Hit_accession>3UJ7_A</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.287</Hsp_evalue>
+      <Hsp_query-from>194</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>NYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLF-----AGHSENFSNLVREF</Hsp_qseq>
+      <Hsp_hseq>NKIIFEANDILTKEF-PENNFDLIYSRDAILHLSLENKNKLFQKCYKWLKPTGTLLITDYCATEKENWDDEFKEY</Hsp_hseq>
+      <Hsp_midline>N + F + ++L K++     FD I+ R+ +++     +  + ++    LKP G L      A   EN+ +  +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>103</Statistics_hsp-len>
+      <Statistics_eff-space>3653236305</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

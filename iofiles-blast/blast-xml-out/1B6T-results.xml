@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1B6T_1|Chains A, B|PROTEIN (PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE)|Escherichia coli (562)</BlastOutput_query-def>
+  <BlastOutput_query-len>159</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1B6T_1|Chains A, B|PROTEIN (PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE)|Escherichia coli (562)</Iteration_query-def>
+  <Iteration_query-len>159</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1B6T|A</Hit_id>
+  <Hit_def>Phosphopantetheine Adenylyltransferase In Complex With 3&apos;- Dephospho-Coa From Escherichia Coli [Escherichia coli] &gt;pdb|1B6T|B Phosphopantetheine Adenylyltransferase In Complex With 3&apos;- Dephospho-Coa From Escherichia Coli [Escherichia coli] &gt;pdb|1GN8|A PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE IN COMPLEX WITH Mn2+ATP FROM ESCHERICHIA COLI [Escherichia coli] &gt;pdb|1GN8|B PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE IN COMPLEX WITH Mn2+ATP FROM ESCHERICHIA COLI [Escherichia coli] &gt;pdb|1H1T|A PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE IN COMPLEX WITH Coenzyme A FROM ESCHERICHIA COLI [Escherichia coli] &gt;pdb|1H1T|B PHOSPHOPANTETHEINE ADENYLYLTRANSFERASE IN COMPLEX WITH Coenzyme A FROM ESCHERICHIA COLI [Escherichia coli]</Hit_def>
+  <Hit_accession>1B6T_A</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.717</Hsp_bit-score>
+      <Hsp_score>844</Hsp_score>
+      <Hsp_evalue>1.59628e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_hseq>
+      <Hsp_midline>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|6CCK|A</Hit_id>
+  <Hit_def>Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-3-(3-chlorophenyl)-3-((5-methyl-7-oxo-4,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)propanenitrile [Escherichia coli K-12] &gt;pdb|6CCK|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-3-(3-chlorophenyl)-3-((5-methyl-7-oxo-4,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)propanenitrile [Escherichia coli K-12] &gt;pdb|6CCL|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 1-benzyl-1H-imidazo[4,5-b]pyridine [Escherichia coli K-12] &gt;pdb|6CCL|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 1-benzyl-1H-imidazo[4,5-b]pyridine [Escherichia coli K-12] &gt;pdb|6CCM|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-((3-bromobenzyl)amino)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-7(4H)-one [Escherichia coli K-12] &gt;pdb|6CCM|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-((3-bromobenzyl)amino)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-7(4H)-one [Escherichia coli K-12] &gt;pdb|6CCN|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-2,4-dihydroxy-N-(2-(4-hydroxy-1H-benzo[d]imidazol-2-yl)ethyl)-3,3-dimethylbutanamide [Escherichia coli K-12] &gt;pdb|6CCN|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-2,4-dihydroxy-N-(2-(4-hydroxy-1H-benzo[d]imidazol-2-yl)ethyl)-3,3-dimethylbutanamide [Escherichia coli K-12] &gt;pdb|6CCO|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 3-((1S,2S)-2-(4-hydroxy-1H-benzo[d]imidazol-2-yl)cyclopentyl)benzoic acid [Escherichia coli K-12] &gt;pdb|6CCO|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 3-((1S,2S)-2-(4-hydroxy-1H-benzo[d]imidazol-2-yl)cyclopentyl)benzoic acid [Escherichia coli K-12] &gt;pdb|6CCQ|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-(3-chlorophenethyl)-1H-benzo[d]imidazol-4-ol [Escherichia coli K-12] &gt;pdb|6CCQ|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-(3-chlorophenethyl)-1H-benzo[d]imidazol-4-ol [Escherichia coli K-12] &gt;pdb|6CCS|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-(trifluoromethyl)-1H-benzo[d]imidazol-4-ol [Escherichia coli K-12] &gt;pdb|6CCS|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-(trifluoromethyl)-1H-benzo[d]imidazol-4-ol [Escherichia coli K-12] &gt;pdb|6CHL|A Phosphopantetheine adenylyltransferase (CoaD) in complex with (R)-3-(3-chlorophenyl)-3-((5-methyl-7-oxo-4,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)propanenitrile [Escherichia coli K-12] &gt;pdb|6CHL|B Phosphopantetheine adenylyltransferase (CoaD) in complex with (R)-3-(3-chlorophenyl)-3-((5-methyl-7-oxo-4,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)propanenitrile [Escherichia coli K-12] &gt;pdb|6CHM|A Phosphopantetheine adenylyltransferase (CoaD) in complex with N-(2-(5-methoxy-1H-indol-3-yl)ethyl)pivalamide [Escherichia coli K-12] &gt;pdb|6CHM|B Phosphopantetheine adenylyltransferase (CoaD) in complex with N-(2-(5-methoxy-1H-indol-3-yl)ethyl)pivalamide [Escherichia coli K-12] &gt;pdb|6CHN|A Phosphopantetheine adenylyltransferase (CoaD) in complex with methyl (R)-4-(3-(2-cyano-1-((5-methyl-7-oxo-4,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)ethyl)phenoxy)piperidine-1-carboxylate [Escherichia coli K-12] &gt;pdb|6CHN|B Phosphopantetheine adenylyltransferase (CoaD) in complex with methyl (R)-4-(3-(2-cyano-1-((5-methyl-7-oxo-4,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)ethyl)phenoxy)piperidine-1-carboxylate [Escherichia coli K-12] &gt;pdb|6CHO|A Phosphopantetheine adenylyltransferase (CoaD) in complex with (R)-2-((1-(3-(4-methoxyphenoxy)phenyl)ethyl)amino)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-7(4H)-one [Escherichia coli K-12] &gt;pdb|6CHO|B Phosphopantetheine adenylyltransferase (CoaD) in complex with (R)-2-((1-(3-(4-methoxyphenoxy)phenyl)ethyl)amino)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-7(4H)-one [Escherichia coli K-12] &gt;pdb|6CHP|A Phosphopantetheine adenylyltransferase (CoaD) in complex with methyl (R)-4-(3-(2-cyano-1-((5-methyl-1H-imidazo[4,5-b]pyridin-2-yl)amino)ethyl)benzyl)piperidine-1-carboxylate [Escherichia coli K-12] &gt;pdb|6CHP|B Phosphopantetheine adenylyltransferase (CoaD) in complex with methyl (R)-4-(3-(2-cyano-1-((5-methyl-1H-imidazo[4,5-b]pyridin-2-yl)amino)ethyl)benzyl)piperidine-1-carboxylate [Escherichia coli K-12] &gt;pdb|6CHQ|A Phosphopantetheine adenylyltransferase (CoaD) in complex with 2-benzyl-N-(3-chloro-4-methylphenyl)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-7-amine [Escherichia coli K-12] &gt;pdb|6CHQ|B Phosphopantetheine adenylyltransferase (CoaD) in complex with 2-benzyl-N-(3-chloro-4-methylphenyl)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-7-amine [Escherichia coli K-12] &gt;pdb|6CKW|A Phosphopantetheine adenylyltransferase (CoaD) in complex with (R)-3-((7-(((S)-2-amino-2-(2-methoxyphenyl)ethyl)amino)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)-3-(3-chlorophenyl)propanenitrile [Escherichia coli K-12] &gt;pdb|6CKW|B Phosphopantetheine adenylyltransferase (CoaD) in complex with (R)-3-((7-(((S)-2-amino-2-(2-methoxyphenyl)ethyl)amino)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-2-yl)amino)-3-(3-chlorophenyl)propanenitrile [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6CCK_A</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.717</Hsp_bit-score>
+      <Hsp_score>844</Hsp_score>
+      <Hsp_evalue>1.73045e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_hseq>
+      <Hsp_midline>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6B7A|A</Hit_id>
+  <Hit_def>Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-methyl-1H-benzo[d]imidazol-4-ol [Escherichia coli K-12] &gt;pdb|6B7A|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 2-methyl-1H-benzo[d]imidazol-4-ol [Escherichia coli K-12] &gt;pdb|6B7B|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 5-methoxy-2-methyl-1H-indole [Escherichia coli K-12] &gt;pdb|6B7B|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 5-methoxy-2-methyl-1H-indole [Escherichia coli K-12] &gt;pdb|6B7C|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with N-((1,3-dimethyl-1H-pyrazol-5-yl)methyl)-5-methyl-1H-imidazo[4,5-b]pyridin-2-amine [Escherichia coli K-12] &gt;pdb|6B7C|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with N-((1,3-dimethyl-1H-pyrazol-5-yl)methyl)-5-methyl-1H-imidazo[4,5-b]pyridin-2-amine [Escherichia coli K-12] &gt;pdb|6B7D|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 3-(4-chlorophenyl)-6-methoxy-4,5-dimethylpyridazine [Escherichia coli K-12] &gt;pdb|6B7D|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with 3-(4-chlorophenyl)-6-methoxy-4,5-dimethylpyridazine [Escherichia coli K-12] &gt;pdb|6B7E|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-4-(5-(difluoromethyl)-1H-imidazol-1-yl)-3,3-dimethylisochroman-1-one [Escherichia coli K-12] &gt;pdb|6B7E|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-4-(5-(difluoromethyl)-1H-imidazol-1-yl)-3,3-dimethylisochroman-1-one [Escherichia coli K-12] &gt;pdb|6B7F|A Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-3,3-dimethyl-4-(5-vinyl-1H-imidazol-1-yl)isochroman-1-one [Escherichia coli K-12] &gt;pdb|6B7F|B Crystal structure of E.coli Phosphopantetheine Adenylyltransferase (PPAT/CoaD) in complex with (R)-3,3-dimethyl-4-(5-vinyl-1H-imidazol-1-yl)isochroman-1-one [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6B7A_A</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>7.13516e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_hseq>
+      <Hsp_midline>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1QJC|A</Hit_id>
+  <Hit_def>Phosphopantetheine Adenylyltransferase from Escherichia coli in complex with 4&apos;-phosphopantetheine [Escherichia coli] &gt;pdb|1QJC|B Phosphopantetheine Adenylyltransferase from Escherichia coli in complex with 4&apos;-phosphopantetheine [Escherichia coli]</Hit_def>
+  <Hit_accession>1QJC_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>1.11171e-116</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>QKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_hseq>
+      <Hsp_midline>QKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|5JBN|A</Hit_id>
+  <Hit_def>Crystal Structure of Apo Phosphopantetheine Adenylyltransferase (PPAT/CoaD) from E. coli [Escherichia coli K-12] &gt;pdb|5JBN|B Crystal Structure of Apo Phosphopantetheine Adenylyltransferase (PPAT/CoaD) from E. coli [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5JBN_A</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.791</Hsp_bit-score>
+      <Hsp_score>839</Hsp_score>
+      <Hsp_evalue>1.11342e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_hseq>
+      <Hsp_midline>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|3L92|A</Hit_id>
+  <Hit_def>Phosphopantetheine adenylyltransferase from Yersinia pestis complexed with coenzyme A. [Yersinia pestis CO92] &gt;pdb|3L93|A Phosphopantetheine adenylyltransferase from Yersinia pestis. [Yersinia pestis CO92]</Hit_def>
+  <Hit_accession>3L92_A</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>5.68302e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>MITKAIYPGTFDPITNGHLDLVTRASAMFSHVILAIADSSSKKPMFTLDERVALAKKVTAPLKNVEVLGFSELMAEFAKKHNANILVRGLRSVSDFEYEWQLANMNRHLMPKLESVFLIPSEKWSFISSSLVKEVARHGGDITPFLPKPVTKALLAKLA</Hsp_hseq>
+      <Hsp_midline>M  +AIYPGTFDPITNGH+D+VTRA+ MF HVILAIA S SKKPMFTL+ERVALA++ TA L NVEV+GFS+LMA FA+  +A +L+RGLR+V+DFEYE QLA+MNRHLMP+LESVFL+PS++WSFISSSLVKEVARH GD+T FLP+ V +AL+AKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|5H16|A</Hit_id>
+  <Hit_def>Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate at 2.3 A resolution. [Acinetobacter baumannii] &gt;pdb|5H16|B Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate at 2.3 A resolution. [Acinetobacter baumannii] &gt;pdb|5H16|C Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate at 2.3 A resolution. [Acinetobacter baumannii] &gt;pdb|5H16|D Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate at 2.3 A resolution. [Acinetobacter baumannii] &gt;pdb|5H16|E Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate at 2.3 A resolution. [Acinetobacter baumannii] &gt;pdb|5H16|F Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate at 2.3 A resolution. [Acinetobacter baumannii] &gt;pdb|5YH7|A Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Coenzyme A at 2.0 A resolution [Acinetobacter baumannii ACICU] &gt;pdb|5YRR|A The crystal structure of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Coenzyme A at 2.88 A resolution [Acinetobacter baumannii] &gt;pdb|5Z1M|A Crystal structure of the complex of trimeric Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate ion at 1.87 A resolution [Acinetobacter baumannii] &gt;pdb|5Z1M|B Crystal structure of the complex of trimeric Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate ion at 1.87 A resolution [Acinetobacter baumannii] &gt;pdb|5Z1M|C Crystal structure of the complex of trimeric Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with citrate ion at 1.87 A resolution [Acinetobacter baumannii] &gt;pdb|5ZZC|A Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Dephospho Coenzyme A at 1.94A resolution [Acinetobacter baumannii ACICU] &gt;pdb|6A6D|A Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Dephospho Coenzyme A at 2.90A resolution [Acinetobacter baumannii ACICU] &gt;pdb|6A75|A Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Dephospho Coenzyme A at 2.75 A resolution [Acinetobacter baumannii ACICU] &gt;pdb|6A7D|A Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Dephospho Coenzyme A at 2.74 A resolution [Acinetobacter baumannii ACICU] &gt;pdb|6J3M|A Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Pyrophosphate at 2.30A resolution [Acinetobacter baumannii] &gt;pdb|6JNH|A Crystal structure of the complex of Phosphopantetheine adenylyltransferasefrom Acinetobacter baumannii with Ascorbic acid (Vitamin-C) at 2.0A resolution [Acinetobacter baumannii] &gt;pdb|6JOG|A Crystal structure of the complex of phospho pantetheine adenylyl transferase from Acinetobacter baumannii with two ascorbic acid (Vitamin-C) molecules. [Acinetobacter baumannii] &gt;pdb|6KKW|A Crystal structure of the complex of phosphopantetheine adenylyl transferase from Acinetobacter baumannii with Dephospho Coenzyme at 3.2 A resolution. [Acinetobacter baumannii] &gt;pdb|6KYG|A Crystal structure of the complex of phosphopantetheine adenylyltransferase from Acinetobacter baumannii with Phosphonoacetate at 2.19 A resolution. [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841]</Hit_def>
+  <Hit_accession>5H16_A</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>2.59546e-69</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAK</Hsp_qseq>
+      <Hsp_hseq>KTRVIYPGTFDPITNGHVDLVTRASRMFDEVVVAIAIGHHKNPLFSLEERVALAQSSLGHLSNVEFVGFDGLLVNFFKEQKATAVLRGLRAVSDFEYEFQLANMNRQLDPHFEAVFLTPSEQYSFISSTLIREIARLKGDVTKFVPQAVVEAFERK</Hsp_hseq>
+      <Hsp_midline>+ R IYPGTFDPITNGH+D+VTRA++MFD V++AIA    K P+F+LEERVALAQ +  HL NVE VGF  L+ NF + Q AT ++RGLRAV+DFEYE QLA+MNR L P  E+VFL PS+++SFISS+L++E+AR +GDVT F+P+ V +A   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|5H7X|A</Hit_id>
+  <Hit_def>Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with 2-hydroxy-1,2,3-propane tricarboxylate at 1.76 A resolution [Acinetobacter baumannii] &gt;pdb|5H7X|B Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with 2-hydroxy-1,2,3-propane tricarboxylate at 1.76 A resolution [Acinetobacter baumannii] &gt;pdb|5H7X|C Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with 2-hydroxy-1,2,3-propane tricarboxylate at 1.76 A resolution [Acinetobacter baumannii] &gt;pdb|5H7X|D Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with 2-hydroxy-1,2,3-propane tricarboxylate at 1.76 A resolution [Acinetobacter baumannii] &gt;pdb|5H7X|E Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with 2-hydroxy-1,2,3-propane tricarboxylate at 1.76 A resolution [Acinetobacter baumannii] &gt;pdb|5H7X|F Crystal structure of the complex of Phosphopantetheine adenylyltransferase from Acinetobacter baumannii with 2-hydroxy-1,2,3-propane tricarboxylate at 1.76 A resolution [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>5H7X_A</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>5.51766e-69</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAK</Hsp_qseq>
+      <Hsp_hseq>KTRVIYPGTFDPITNGHVDLVTRASRMFDEVVVAIAIGHHKNPLFSLEERVALAQSSLGHLSNVEFVGFDGLLVNFFKEQKATAVLRGLRAVSDFEYEFQLANMNRQLDPHFEAVFLTPSEQYSFISSTLIREIARLKGDVTKFVPQAVVEAFERK</Hsp_hseq>
+      <Hsp_midline>+ R IYPGTFDPITNGH+D+VTRA++MFD V++AIA    K P+F+LEERVALAQ +  HL NVE VGF  L+ NF + Q AT ++RGLRAV+DFEYE QLA+MNR L P  E+VFL PS+++SFISS+L++E+AR +GDVT F+P+ V +A   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|5TS2|A</Hit_id>
+  <Hit_def>Crystal structure of a phosphopantetheine adenylyltransferase (CoaD, PPAT) from Pseudomonas aeruginosa bound to dephospho coenzyme A [Pseudomonas aeruginosa LESB58] &gt;pdb|5TS2|B Crystal structure of a phosphopantetheine adenylyltransferase (CoaD, PPAT) from Pseudomonas aeruginosa bound to dephospho coenzyme A [Pseudomonas aeruginosa LESB58] &gt;pdb|5TS2|C Crystal structure of a phosphopantetheine adenylyltransferase (CoaD, PPAT) from Pseudomonas aeruginosa bound to dephospho coenzyme A [Pseudomonas aeruginosa LESB58] &gt;pdb|5TS2|D Crystal structure of a phosphopantetheine adenylyltransferase (CoaD, PPAT) from Pseudomonas aeruginosa bound to dephospho coenzyme A [Pseudomonas aeruginosa LESB58] &gt;pdb|5TS2|E Crystal structure of a phosphopantetheine adenylyltransferase (CoaD, PPAT) from Pseudomonas aeruginosa bound to dephospho coenzyme A [Pseudomonas aeruginosa LESB58] &gt;pdb|5TS2|F Crystal structure of a phosphopantetheine adenylyltransferase (CoaD, PPAT) from Pseudomonas aeruginosa bound to dephospho coenzyme A [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>5TS2_A</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.09352e-68</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>RVLYPGTFDPITKGHGDLIERASRLFDHVIIAVAASPKKNPLFSLEQRVALAQEVTKHLPNVEVVGFSTLLAHFVKEQKANVFLRGLRAVSDFEYEFQLANMNRQLAPDVESMFLTPSEKYSFISSTLVREIAALGGDISKFVHPAVADALAERF</Hsp_hseq>
+      <Hsp_midline>R +YPGTFDPIT GH D++ RA+++FDHVI+A+AASP K P+F+LE+RVALAQ+ T HL NVEVVGFS L+A+F + Q A V +RGLRAV+DFEYE QLA+MNR L P++ES+FL PS+++SFISS+LV+E+A   GD++ F+   V  AL  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|3X1J|A</Hit_id>
+  <Hit_def>Crystal Structure of Phosphopantetheine adenylyltransferase (PPAT/CoaD) with AcCoA from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1J|B Crystal Structure of Phosphopantetheine adenylyltransferase (PPAT/CoaD) with AcCoA from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1J|C Crystal Structure of Phosphopantetheine adenylyltransferase (PPAT/CoaD) with AcCoA from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1K|A crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with AMP-PNP from Pseudomonas aerugonosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1K|B crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with AMP-PNP from Pseudomonas aerugonosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1K|C crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with AMP-PNP from Pseudomonas aerugonosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1K|D crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with AMP-PNP from Pseudomonas aerugonosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1K|E crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with AMP-PNP from Pseudomonas aerugonosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1K|F crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with AMP-PNP from Pseudomonas aerugonosa [Pseudomonas aeruginosa 2192] &gt;pdb|3X1M|A Crystal structure of Phosphopantetheine adenylyltransferase/PPAT from Pseudomonas aeruginosa with CoA [Pseudomonas aeruginosa 2192] &gt;pdb|3X1M|B Crystal structure of Phosphopantetheine adenylyltransferase/PPAT from Pseudomonas aeruginosa with CoA [Pseudomonas aeruginosa 2192] &gt;pdb|3X1M|C Crystal structure of Phosphopantetheine adenylyltransferase/PPAT from Pseudomonas aeruginosa with CoA [Pseudomonas aeruginosa 2192] &gt;pdb|4RUK|A crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with CoA and pyrophosphate from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|4RUK|B crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with CoA and pyrophosphate from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|4RUK|C crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with CoA and pyrophosphate from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|4RUK|D crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with CoA and pyrophosphate from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|4RUK|E crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with CoA and pyrophosphate from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|4RUK|F crystal structure of Phosphoapantetheine adenylyltransferase PPAT/CoaD with CoA and pyrophosphate from Pseudomonas aeruginosa [Pseudomonas aeruginosa 2192] &gt;pdb|5X6F|A Crystal structure of Phosphopantetheine adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa PAO1] &gt;pdb|5X6F|B Crystal structure of Phosphopantetheine adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa PAO1] &gt;pdb|5X6F|C Crystal structure of Phosphopantetheine adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa PAO1] &gt;pdb|5X6F|D Crystal structure of Phosphopantetheine adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa PAO1] &gt;pdb|5X6F|E Crystal structure of Phosphopantetheine adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa PAO1] &gt;pdb|5X6F|F Crystal structure of Phosphopantetheine adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>3X1J_A</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>4.33074e-68</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>RVLYPGTFDPITKGHGDLIERASRLFDHVIIAVAASPKKNPLFSLEQRVALAQEVTKHLPNVEVVGFSTLLAHFVKEQKANVFLRGLRAVSDFEYEFQLANMNRQLAPDVESMFLTPSEKYSFISSTLVREIAALGGDISKFVHPAVADALAERF</Hsp_hseq>
+      <Hsp_midline>R +YPGTFDPIT GH D++ RA+++FDHVI+A+AASP K P+F+LE+RVALAQ+ T HL NVEVVGFS L+A+F + Q A V +RGLRAV+DFEYE QLA+MNR L P++ES+FL PS+++SFISS+LV+E+A   GD++ F+   V  AL  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1OD6|A</Hit_id>
+  <Hit_def>The Crystal Structure of Phosphopantetheine adenylyltransferase from Thermus Thermophilus in complex with 4&apos;-phosphopantetheine [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>1OD6_A</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.56762e-57</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>IYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKP--MFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>VYPGSFDPLTNGHLDVIQRASRLFEKVTVAVLENPSKRGQYLFSAEERLAIIREATAHLANVEAATFSGLLVDFVRRVGAQAIVKGLRAVSDYEYELQMAHLNRQLYPGLETLFILAATRYSFVSSTMVKEIARYGGDVSKLVPPATLRALKAKLG</Hsp_hseq>
+      <Hsp_midline>+YPG+FDP+TNGH+D++ RA+++F+ V +A+  +PSK+   +F+ EER+A+ ++ATAHL NVE   FS L+ +F R   A  +++GLRAV+D+EYE+Q+AH+NR L P LE++F++ +  +SF+SS++VKE+AR+ GDV+  +P    +AL AKL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|3PXU|A</Hit_id>
+  <Hit_def>Crystal structure of phosphopantetheine adenylyltransferase from Burkholderia pseudomallei bound to dephospho-coenzyme A [Burkholderia pseudomallei 1710b]</Hit_def>
+  <Hit_accession>3PXU_A</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>1.5412e-56</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>AVYPGTFDPLTRGHEDLVRRASSIFDTLVVGVADSRAKKPFFSLEERLKIANEVLGHYPNVKVMGFTGLLKDFVRANDARVIVRGLRAVSDFEYEFQMAGMNRYLLPDVETMFMTPSDQYQFISGTIVREIAQLGGDVSKFVFPSVEKWLTEKVA</Hsp_hseq>
+      <Hsp_midline>A+YPGTFDP+T GH D+V RA+ +FD +++ +A S +KKP F+LEER+ +A +   H  NV+V+GF+ L+ +F R   A V++RGLRAV+DFEYE Q+A MNR+L+P++E++F+ PS ++ FIS ++V+E+A+  GDV+ F+  +V + L  K+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3K9W|A</Hit_id>
+  <Hit_def>Crystal structure of phosphopantetheine adenylyltransferase from Burkholderia pseudomallei with hydrolyzed 3&apos;-dephospho Coenzyme A [Burkholderia pseudomallei 1710b]</Hit_def>
+  <Hit_accession>3K9W_A</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>2.48646e-56</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKLA</Hsp_qseq>
+      <Hsp_hseq>AVYPGTFDPLTRGHEDLVRRASSIFDTLVVGVADSRAKKPFFSLEERLKIANEVLGHYPNVKVMGFTGLLKDFVRANDARVIVRGLRAVSDFEYEFQMAGMNRYLLPDVETMFMTPSDQYQFISGTIVREIAQLGGDVSKFVFPSVEKWLTEKVA</Hsp_hseq>
+      <Hsp_midline>A+YPGTFDP+T GH D+V RA+ +FD +++ +A S +KKP F+LEER+ +A +   H  NV+V+GF+ L+ +F R   A V++RGLRAV+DFEYE Q+A MNR+L+P++E++F+ PS ++ FIS ++V+E+A+  GDV+ F+  +V + L  K+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3OTW|A</Hit_id>
+  <Hit_def>Structural and Functional Studies of Helicobacter pylori Wild-Type and Mutated Proteins Phosphopantetheine adenylyltransferase [Helicobacter pylori 26695] &gt;pdb|3OTW|B Structural and Functional Studies of Helicobacter pylori Wild-Type and Mutated Proteins Phosphopantetheine adenylyltransferase [Helicobacter pylori 26695] &gt;pdb|3OTW|C Structural and Functional Studies of Helicobacter pylori Wild-Type and Mutated Proteins Phosphopantetheine adenylyltransferase [Helicobacter pylori 26695] &gt;pdb|3OTW|D Structural and Functional Studies of Helicobacter pylori Wild-Type and Mutated Proteins Phosphopantetheine adenylyltransferase [Helicobacter pylori 26695] &gt;pdb|3OTW|E Structural and Functional Studies of Helicobacter pylori Wild-Type and Mutated Proteins Phosphopantetheine adenylyltransferase [Helicobacter pylori 26695] &gt;pdb|3OTW|F Structural and Functional Studies of Helicobacter pylori Wild-Type and Mutated Proteins Phosphopantetheine adenylyltransferase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>3OTW_A</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>2.09089e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVH</Hsp_qseq>
+      <Hsp_hseq>MQKIGIYPGTFDPVTNGHIDIIHRSSELFEKLIVAVAHSSAKNPMFSLDERLKMIQLATKSFKNVECVAFEGLLANLAKEYHCKVLVRGLRVVSDFEYELQMGYANKSLNHELETLYFMPTLQNAFISSSIVRSIIAHKGDASHLVPKEIY</Hsp_hseq>
+      <Hsp_midline>MQK  IYPGTFDP+TNGHIDI+ R++++F+ +I+A+A S +K PMF+L+ER+ + Q AT    NVE V F  L+AN A+  H  VL+RGLR V+DFEYE+Q+ + N+ L  ELE+++ MP+ + +FISSS+V+ +  H+GD +H +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3NV7|A</Hit_id>
+  <Hit_def>Crystal structure of H.pylori phosphopantetheine adenylyltransferase mutant I4V/N76Y [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>3NV7_A</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.41222e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVH</Hsp_qseq>
+      <Hsp_hseq>MQKVGIYPGTFDPVTNGHIDIIHRSSELFEKLIVAVAHSSAKNPMFSLDERLKMIQLATKSFKNVECVAFEGLLAYLAKEYHCKVLVRGLRVVSDFEYELQMGYANKSLNHELETLYFMPTLQNAFISSSIVRSIIAHKGDASHLVPKEIY</Hsp_hseq>
+      <Hsp_midline>MQK  IYPGTFDP+TNGHIDI+ R++++F+ +I+A+A S +K PMF+L+ER+ + Q AT    NVE V F  L+A  A+  H  VL+RGLR V+DFEYE+Q+ + N+ L  ELE+++ MP+ + +FISSS+V+ +  H+GD +H +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1VLH|A</Hit_id>
+  <Hit_def>Crystal structure of Phosphopantetheine adenylyltransferase (TM0741) from Thermotoga maritima at 2.20 A resolution [Thermotoga maritima] &gt;pdb|1VLH|B Crystal structure of Phosphopantetheine adenylyltransferase (TM0741) from Thermotoga maritima at 2.20 A resolution [Thermotoga maritima] &gt;pdb|1VLH|C Crystal structure of Phosphopantetheine adenylyltransferase (TM0741) from Thermotoga maritima at 2.20 A resolution [Thermotoga maritima] &gt;pdb|1VLH|D Crystal structure of Phosphopantetheine adenylyltransferase (TM0741) from Thermotoga maritima at 2.20 A resolution [Thermotoga maritima] &gt;pdb|1VLH|E Crystal structure of Phosphopantetheine adenylyltransferase (TM0741) from Thermotoga maritima at 2.20 A resolution [Thermotoga maritima] &gt;pdb|1VLH|F Crystal structure of Phosphopantetheine adenylyltransferase (TM0741) from Thermotoga maritima at 2.20 A resolution [Thermotoga maritima]</Hit_def>
+  <Hit_accession>1VLH_A</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>2.47752e-51</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>KAVYPGSFDPITLGHVDIIKRALSIFDELVVLVTENPRKKCMFTLEERKKLIEEVLSDLDGVKVDVHHGLLVDYLKKHGIKVLVRGLRAVTDYEYELQMALANKKLYSDLETVFLIASEKFSFISSSLVKEVALYGGDVTEWVPPEVARALNEKL</Hsp_hseq>
+      <Hsp_midline>+A+YPG+FDPIT GH+DI+ RA  +FD +++ +  +P KK MFTLEER  L ++  + L  V+V     L+ ++ +     VL+RGLRAV D+EYE+Q+A  N+ L  +LE+VFL+ S+++SFISSSLVKEVA + GDVT ++P  V +AL  KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|4NAH|A</Hit_id>
+  <Hit_def>Chain A, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAH|B Chain B, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAH|C Chain C, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAH|D Chain D, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAH|E Chain E, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAH|F Chain F, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAT|A Chain A, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAT|B Chain B, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAT|C Chain C, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAU|A Chain A, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAU|B Chain B, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2] &gt;pdb|4NAU|C Chain C, Phosphopantetheine adenylyltransferase [Staphylococcus aureus subsp. aureus MW2]</Hit_def>
+  <Hit_accession>4NAH_A</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.13364e-49</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVIPGSFDPITYGHLDIIERSTDRFDEIHVCVLKNSKKEGTFSLEERMDLIEQSVKHLPNVKVHQFSGLLVDYCEQVGAKTIIRGLRAVSDFEYELRLTSMNKKLNNEIETLYMMSSTNYSFISSSIVKEVAAYRADISEFVPPYVEKALKKKF</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDPIT GH+DI+ R+T  FD + + +  +  K+  F+LEER+ L +Q+  HL NV+V  FS L+ ++     A  +IRGLRAV+DFEYE++L  MN+ L  E+E++++M S  +SFISSS+VKEVA ++ D++ F+P  V +AL  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|3F3M|A</Hit_id>
+  <Hit_def>Six Crystal Structures of Two Phosphopantetheine Adenylyltransferases Reveal an Alternative Ligand Binding Mode and an Associated Structural Change [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>3F3M_A</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.45066e-49</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVIPGSFDPITYGHLDIIERSTDRFDEIHVCVLKNSKKEGTFSLEERMDLIEQSVKHLPNVKVHQFSGLLVDYCEQVGAKTIIRGLRAVSDFEYELRLTSMNKKLNNEIETLYMMSSTNYSFISSSIVKEVAAYRADISEFVPPYVEKALKKKF</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDPIT GH+DI+ R+T  FD + + +  +  K+  F+LEER+ L +Q+  HL NV+V  FS L+ ++     A  +IRGLRAV+DFEYE++L  MN+ L  E+E++++M S  +SFISSS+VKEVA ++ D++ F+P  V +AL  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|3ND5|A</Hit_id>
+  <Hit_def>Crystal structure of phosphopantetheine adenylyltransferase (PPAT) from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND5|B Crystal structure of phosphopantetheine adenylyltransferase (PPAT) from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND5|C Crystal structure of phosphopantetheine adenylyltransferase (PPAT) from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND5|D Crystal structure of phosphopantetheine adenylyltransferase (PPAT) from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND5|E Crystal structure of phosphopantetheine adenylyltransferase (PPAT) from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND5|F Crystal structure of phosphopantetheine adenylyltransferase (PPAT) from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND6|A Crystal structure of phosphopantetheine adenylyltransferase (PPAT) in complex with ATP from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND6|B Crystal structure of phosphopantetheine adenylyltransferase (PPAT) in complex with ATP from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND6|C Crystal structure of phosphopantetheine adenylyltransferase (PPAT) in complex with ATP from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND6|D Crystal structure of phosphopantetheine adenylyltransferase (PPAT) in complex with ATP from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND6|E Crystal structure of phosphopantetheine adenylyltransferase (PPAT) in complex with ATP from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND6|F Crystal structure of phosphopantetheine adenylyltransferase (PPAT) in complex with ATP from Enterococcus faecalis [Enterococcus faecalis] &gt;pdb|3ND7|A Crystal structure of phosphopantetheine adenylyltransferase from Enterococcus faecalis in the ligand-unbound state and in complex with ATP and pantetheine [Enterococcus faecalis] &gt;pdb|3ND7|B Crystal structure of phosphopantetheine adenylyltransferase from Enterococcus faecalis in the ligand-unbound state and in complex with ATP and pantetheine [Enterococcus faecalis] &gt;pdb|3ND7|C Crystal structure of phosphopantetheine adenylyltransferase from Enterococcus faecalis in the ligand-unbound state and in complex with ATP and pantetheine [Enterococcus faecalis] &gt;pdb|3ND7|D Crystal structure of phosphopantetheine adenylyltransferase from Enterococcus faecalis in the ligand-unbound state and in complex with ATP and pantetheine [Enterococcus faecalis] &gt;pdb|3ND7|E Crystal structure of phosphopantetheine adenylyltransferase from Enterococcus faecalis in the ligand-unbound state and in complex with ATP and pantetheine [Enterococcus faecalis] &gt;pdb|3ND7|F Crystal structure of phosphopantetheine adenylyltransferase from Enterococcus faecalis in the ligand-unbound state and in complex with ATP and pantetheine [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>3ND5_A</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>9.49656e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVV-GFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAK</Hsp_qseq>
+      <Hsp_hseq>MRKIALFPGSFDPMTNGHLNLIERSAKLFDEVIIGVFINTSKQTLFTPEEKKYLIEEATKEMPNVRVIMQETQLTVESAKSLGANFLIRGIRNVKDYEYEKDIAKMNQHLAPEIETVFLLAEEPYAHVSSSLLKEVLRFGGDVSDYLPPNIYHALKQK</Hsp_hseq>
+      <Hsp_midline>M+K A++PG+FDP+TNGH++++ R+ ++FD VI+ +  + SK+ +FT EE+  L ++AT  + NV V+   + L    A++  A  LIRG+R V D+EYE  +A MN+HL PE+E+VFL+  + ++ +SSSL+KEV R  GDV+ +LP N++ AL  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|5O06|A</Hit_id>
+  <Hit_def>Crystal structure of APO form of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O06|B Crystal structure of APO form of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O06|C Crystal structure of APO form of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O08|A Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with Dephospho-coenzyme A [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O08|B Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with Dephospho-coenzyme A [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O08|C Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with Dephospho-coenzyme A [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0A|A Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 5-methyl-1-phenyl-pyrazole-4-carboxylic acid (Fragment 1) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0A|B Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 5-methyl-1-phenyl-pyrazole-4-carboxylic acid (Fragment 1) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0A|C Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 5-methyl-1-phenyl-pyrazole-4-carboxylic acid (Fragment 1) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0B|A Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-Bromo-1H-indazole-5-carboxylic acid (Fragment 2) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0B|B Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-Bromo-1H-indazole-5-carboxylic acid (Fragment 2) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0B|C Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-Bromo-1H-indazole-5-carboxylic acid (Fragment 2) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0C|A Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-(3-methyl-1H-indol-1-yl)propanoic acid (Fragment 3) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0C|B Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-(3-methyl-1H-indol-1-yl)propanoic acid (Fragment 3) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0C|C Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-(3-methyl-1H-indol-1-yl)propanoic acid (Fragment 3) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0D|A Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-Phenoxymandelic acid (Fragment 4) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0D|B Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-Phenoxymandelic acid (Fragment 4) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0D|C Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-Phenoxymandelic acid (Fragment 4) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0F|A Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-(indol-3-yl)propanoic acid (Fragment 5) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0F|B Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-(indol-3-yl)propanoic acid (Fragment 5) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0F|C Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 3-(indol-3-yl)propanoic acid (Fragment 5) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0H|A Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 2-(4-Chloro-3-nitrobenzoyl)benzoic acid (Fragment 6) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0H|B Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 2-(4-Chloro-3-nitrobenzoyl)benzoic acid (Fragment 6) [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5O0H|C Crystal structure of Phosphopantetheine adenylyltransferase from Mycobacterium abcessus in complex with 2-(4-Chloro-3-nitrobenzoyl)benzoic acid (Fragment 6) [Mycobacteroides abscessus ATCC 19977]</Hit_def>
+  <Hit_accession>5O06_A</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>4.049e-46</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVCPGSFDPVTLGHLDVFERAAAQFDEVIVAVLINPNKAGMFTVDERIEMIRESTADLPNLRVESGQGLLVDFVRERGLNAIVKGLRTGTDFEYELQMAQMNKHI-AGVDTFFVATAPAYSFVSSSLAKEVATYGGDVSALLPASVHQRLLGKL</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDP+T GH+D+  RA   FD VI+A+  +P+K  MFT++ER+ + +++TA L N+ V     L+ +F R +    +++GLR   DFEYE+Q+A MN+H+   +++ F+  +  +SF+SSSL KEVA + GDV+  LP +VHQ L+ KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1O6B|A</Hit_id>
+  <Hit_def>Crystal structure of phosphopantetheine adenylyltransferase with ADP [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1O6B_A</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>5.83124e-46</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVCPGSFDPVTYGHLDIIKRGAHIFEQVYVCVLNNSSKKPLFSVEERCELLREVTKDIPNITVETSQGLLIDYARRKNAKAILRGLRAVSDFEYEXQGTSVNRVLDESIETFFXXANNQYSFLSSSIVKEVARYDGSVSEFVPPEVELALQQKF</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDP+T GH+DI+ R   +F+ V + +  + SKKP+F++EER  L ++ T  + N+ V     L+ ++AR ++A  ++RGLRAV+DFEYE Q   +NR L   +E+ F   + ++SF+SSS+VKEVAR+ G V+ F+P  V  AL  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|4R0N|A</Hit_id>
+  <Hit_def>Hexagonal form of phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis [Mycobacterium tuberculosis BT1] &gt;pdb|4R0N|C Hexagonal form of phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis [Mycobacterium tuberculosis BT1] &gt;pdb|4R0N|E Hexagonal form of phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis [Mycobacterium tuberculosis BT1] &gt;pdb|4R0N|G Hexagonal form of phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis [Mycobacterium tuberculosis BT1] &gt;pdb|4R0N|I Hexagonal form of phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis [Mycobacterium tuberculosis BT1] &gt;pdb|4R0N|K Hexagonal form of phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis [Mycobacterium tuberculosis BT1]</Hit_def>
+  <Hit_accession>4R0N_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.67526e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVCPGSFDPVTLGHVDIFERAAAQFDEVVVAILVNPAKTGMFDLDERIAMVKESTTHLPNLRVQVGHGLVVDFVRSCGMTAIVKGLRTGTDFEYELQMAQMNKHI-AGVDTFFVATAPRYSFVSSSLAKEVAMLGGDVSELLPEPVNRRLRDRL</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDP+T GH+DI  RA   FD V++AI  +P+K  MF L+ER+A+ +++T HL N+ V     L+ +F R+   T +++GLR   DFEYE+Q+A MN+H+   +++ F+  +  +SF+SSSL KEVA   GDV+  LPE V++ L  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1TFU|A</Hit_id>
+  <Hit_def>Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3RBA|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3RFF|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3RHS|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3UC5|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>1TFU_A</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.68952e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVCPGSFDPVTLGHVDIFERAAAQFDEVVVAILVNPAKTGMFDLDERIAMVKESTTHLPNLRVQVGHGLVVDFVRSCGMTAIVKGLRTGTDFEYELQMAQMNKHI-AGVDTFFVATAPRYSFVSSSLAKEVAMLGGDVSELLPEPVNRRLRDRL</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDP+T GH+DI  RA   FD V++AI  +P+K  MF L+ER+A+ +++T HL N+ V     L+ +F R+   T +++GLR   DFEYE+Q+A MN+H+   +++ F+  +  +SF+SSSL KEVA   GDV+  LPE V++ L  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3LCJ|A</Hit_id>
+  <Hit_def>Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|4E1A|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>3LCJ_A</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.7097e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVCPGSFDPVTLGHVDIFERAAAQFDEVVVAILVNPAKTGMFDLDERIAMVKESTTHLPNLRVQVGHGLVVDFVRSCGMTAIVKGLRTGTDFEYELQMAQMNKHI-AGVDTFFVATAPRYSFVSSSLAKEVAMLGGDVSELLPEPVNRRLRDRL</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDP+T GH+DI  RA   FD V++AI  +P+K  MF L+ER+A+ +++T HL N+ V     L+ +F R+   T +++GLR   DFEYE+Q+A MN+H+   +++ F+  +  +SF+SSSL KEVA   GDV+  LPE V++ L  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|6G6V|A</Hit_id>
+  <Hit_def>Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 4-(2-carboxybenzoyl)-2-nitrobenzoic acid at 1.9A resolution. [Mycobacterium tuberculosis H37Rv] &gt;pdb|6G7S|A Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 3-(1H-indol-1-yl)propanoic acid at 1.7A resolution. [Mycobacterium tuberculosis H37Rv] &gt;pdb|6G7T|A Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 3-(1H-indol-3-yl)propanoic acid at 1.6A resolution. [Mycobacterium tuberculosis H37Rv] &gt;pdb|6G7U|A Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 5-[3-(1H-indol-3-yl)propoxy]-1-phenyl-1H-pyrazole-4-carboxylic acid at 1.8A resolution. [Mycobacterium tuberculosis H37Rv] &gt;pdb|6G7V|A Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 5-methyl-1-phenyl-1H-pyrazole-4-carboxylic acid at 1.8A resolution. [Mycobacterium tuberculosis H37Rv] &gt;pdb|6QMF|A Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 5-[3-(1H-indol-3-yl)propoxy]-1-phenyl-1H-pyrazole-4-carboxylic acid at 1.8A resolution. [Mycobacterium tuberculosis H37Rv] &gt;pdb|6QMG|A Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 5-methyl-1-phenyl-1H-pyrazole-4-carboxylic acid at 1.8A resolution. [Mycobacterium tuberculosis H37Rv] &gt;pdb|6QMH|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|6QMI|A Phosphopantetheine adenylyltransferase from Mycobacterium tuberculosis in complex with 3-(1H-indol-1-yl)propanoic acid at 1.7A resolution. [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>6G6V_A</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.85601e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVCPGSFDPVTLGHVDIFERAAAQFDEVVVAILVNPAKTGMFDLDERIAMVKESTTHLPNLRVQVGHGLVVDFVRSCGMTAIVKGLRTGTDFEYELQMAQMNKHI-AGVDTFFVATAPRYSFVSSSLAKEVAMLGGDVSELLPEPVNRRLRDRL</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDP+T GH+DI  RA   FD V++AI  +P+K  MF L+ER+A+ +++T HL N+ V     L+ +F R+   T +++GLR   DFEYE+Q+A MN+H+   +++ F+  +  +SF+SSSL KEVA   GDV+  LPE V++ L  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|3NBA|A</Hit_id>
+  <Hit_def>Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3NBA|B Chain B, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3NBA|C Chain C, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3NBA|D Chain D, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3NBK|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3NBK|B Chain B, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3NBK|C Chain C, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3NBK|D Chain D, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3PNB|A Chain A, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3PNB|B Chain B, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3PNB|C Chain C, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|3PNB|D Chain D, Phosphopantetheine adenylyltransferase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>3NBA_A</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>3.58546e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAKL</Hsp_qseq>
+      <Hsp_hseq>AVCPGSFDPVTLGHVDIFERAAAQFDEVVVAILVNPAKTGMFDLDERIAMVKESTTHLPNLRVQVGHGLVVDFVRSCGMTAIVKGLRTGTDFEYELQMAQMNKHI-AGVDTFFVATAPRYSFVSSSLAKEVAMLGGDVSELLPEPVNRRLRDRL</Hsp_hseq>
+      <Hsp_midline>A+ PG+FDP+T GH+DI  RA   FD V++AI  +P+K  MF L+ER+A+ +++T HL N+ V     L+ +F R+   T +++GLR   DFEYE+Q+A MN+H+   +++ F+  +  +SF+SSSL KEVA   GDV+  LPE V++ L  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|4F3R|A</Hit_id>
+  <Hit_def>Structure of phosphopantetheine adenylyltransferase (CBU_0288) from Coxiella burnetii [Coxiella burnetii RSA 493] &gt;pdb|4F3R|B Structure of phosphopantetheine adenylyltransferase (CBU_0288) from Coxiella burnetii [Coxiella burnetii RSA 493] &gt;pdb|4F3R|C Structure of phosphopantetheine adenylyltransferase (CBU_0288) from Coxiella burnetii [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>4F3R_A</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>6.80923e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNRHLMPELESVFLMPSKEWSFISSSLVKEVARHQGDVTHFLPENVHQALMAK</Hsp_qseq>
+      <Hsp_hseq>AIYPGTFDPLTNGHVDIIERALPLFNKIIVACAPTSRKDPHLKLEERVNLIADVLTD-ERVEVLPLTGLLVDFAKTHQANFILRGLRAVSDFDYEFQLAHXNYQLSPEIETIFLPAREGYSYVSGTXVREIVTLGGDVSPFVPPLVARHLQKR</Hsp_hseq>
+      <Hsp_midline>AIYPGTFDP+TNGH+DI+ RA  +F+ +I+A A +  K P   LEERV L          VEV+  + L+ +FA+   A  ++RGLRAV+DF+YE QLAH N  L PE+E++FL   + +S++S + V+E+    GDV+ F+P  V + L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|2B7L|A</Hit_id>
+  <Hit_def>Crystal Structure of CTP:Glycerol-3-Phosphate Cytidylyltransferase from Staphylococcus aureus [Staphylococcus aureus] &gt;pdb|2B7L|B Crystal Structure of CTP:Glycerol-3-Phosphate Cytidylyltransferase from Staphylococcus aureus [Staphylococcus aureus] &gt;pdb|2B7L|C Crystal Structure of CTP:Glycerol-3-Phosphate Cytidylyltransferase from Staphylococcus aureus [Staphylococcus aureus] &gt;pdb|2B7L|D Crystal Structure of CTP:Glycerol-3-Phosphate Cytidylyltransferase from Staphylococcus aureus [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2B7L_A</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000357712</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>KRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAAS-----PSKKPMFTLEER</Hsp_qseq>
+      <Hsp_hseq>KRVITYGTYDLLHYGHIELLRRAREMGDYLIVALSTDEFNQIKHKKSYYDYEQR</Hsp_hseq>
+      <Hsp_midline>KR I  GT+D +  GHI+++ RA +M D++I+A++         KK  +  E+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1COZ|A</Hit_id>
+  <Hit_def>Ctp:glycerol-3-Phosphate Cytidylyltransferase From Bacillus Subtilis [Bacillus subtilis] &gt;pdb|1COZ|B Ctp:glycerol-3-Phosphate Cytidylyltransferase From Bacillus Subtilis [Bacillus subtilis] &gt;pdb|1N1D|A Glycerol-3-phosphate cytidylyltransferase complexed with CDP-glycerol [Bacillus subtilis] &gt;pdb|1N1D|B Glycerol-3-phosphate cytidylyltransferase complexed with CDP-glycerol [Bacillus subtilis] &gt;pdb|1N1D|C Glycerol-3-phosphate cytidylyltransferase complexed with CDP-glycerol [Bacillus subtilis] &gt;pdb|1N1D|D Glycerol-3-phosphate cytidylyltransferase complexed with CDP-glycerol [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1COZ_A</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.00533456</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>KRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAAS-----PSKKPMFTLEER</Hsp_qseq>
+      <Hsp_hseq>KKVITYGTFDLLHWGHIKLLERAKQLGDYLVVAISTDEFNLQKQKKAYHSYEHR</Hsp_hseq>
+      <Hsp_midline>K+ I  GTFD +  GHI ++ RA Q+ D++++AI+         KK   + E R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1F9A|A</Hit_id>
+  <Hit_def>Crystal Structure Analysis Of Nmn Adenylyltransferase From Methanococcus Jannaschii [Methanocaldococcus jannaschii] &gt;pdb|1F9A|B Crystal Structure Analysis Of Nmn Adenylyltransferase From Methanococcus Jannaschii [Methanocaldococcus jannaschii] &gt;pdb|1F9A|C Crystal Structure Analysis Of Nmn Adenylyltransferase From Methanococcus Jannaschii [Methanocaldococcus jannaschii] &gt;pdb|1F9A|D Crystal Structure Analysis Of Nmn Adenylyltransferase From Methanococcus Jannaschii [Methanocaldococcus jannaschii] &gt;pdb|1F9A|E Crystal Structure Analysis Of Nmn Adenylyltransferase From Methanococcus Jannaschii [Methanocaldococcus jannaschii] &gt;pdb|1F9A|F Crystal Structure Analysis Of Nmn Adenylyltransferase From Methanococcus Jannaschii [Methanocaldococcus jannaschii]</Hit_def>
+  <Hit_accession>1F9A_A</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.269573</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPM---FTLEERVALAQQA</Hsp_qseq>
+      <Hsp_hseq>RGFIIGRFQPFHKGHLEVIKKIAEEVDEIIIGIGSAQKSHTLENPFTAGERILMITQS</Hsp_hseq>
+      <Hsp_midline>R    G F P   GH++++ +  +  D +I+ I ++     +   FT  ER+ +  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|1K4K|A</Hit_id>
+  <Hit_def>Crystal structure of E. coli Nicotinic acid mononucleotide adenylyltransferase [Escherichia coli] &gt;pdb|1K4K|B Crystal structure of E. coli Nicotinic acid mononucleotide adenylyltransferase [Escherichia coli] &gt;pdb|1K4K|C Crystal structure of E. coli Nicotinic acid mononucleotide adenylyltransferase [Escherichia coli] &gt;pdb|1K4K|D Crystal structure of E. coli Nicotinic acid mononucleotide adenylyltransferase [Escherichia coli] &gt;pdb|1K4M|A Crystal structure of E.coli nicotinic acid mononucleotide adenylyltransferase complexed to deamido-NAD [Escherichia coli] &gt;pdb|1K4M|B Crystal structure of E.coli nicotinic acid mononucleotide adenylyltransferase complexed to deamido-NAD [Escherichia coli] &gt;pdb|1K4M|C Crystal structure of E.coli nicotinic acid mononucleotide adenylyltransferase complexed to deamido-NAD [Escherichia coli]</Hit_def>
+  <Hit_accession>1K4K_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.915877</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIV---------TRATQMFDHVI------------------LAIAASPSKKPMFTLEERVALAQQATAHLGNVE---------------VVGFSDLMANFARNQHATVLIRG-LRAVADFEYEMQLAH------MNRHLMPELESVFLMPSKE-------WSFISSSLVKEVARHQGDVTHFLPENV</Hsp_qseq>
+      <Hsp_hseq>QALFGGTFDPVHYGHLKPVETLANLIGLTRVTIIPNNVPPHRPQPEANSVQRKHMLELAIA----DKPLFTLDER-ELKRNAPSYTAQTLKEWRQEQGPDVPLAFIIGQDSLLTFPTWYEYETILDNAHLIVCRRPGYPLEMAQPQYQQWLEDHLTHNPEDLHLQPAGKIYLAETPWFNISATIIRERLQNGESCEDLLPEPV</Hsp_hseq>
+      <Hsp_midline>+A++ GTFDP+  GH+  V         TR T + ++V                   LAIA     KP+FTL+ER  L + A ++                    ++G   L+      ++ T+L    L       Y +++A       +  HL    E + L P+ +       W  IS+++++E  ++       LPE V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1YUM|A</Hit_id>
+  <Hit_def>Crystal Structure of Nicotinic Acid Mononucleotide Adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa] &gt;pdb|1YUM|B Crystal Structure of Nicotinic Acid Mononucleotide Adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa] &gt;pdb|1YUM|C Crystal Structure of Nicotinic Acid Mononucleotide Adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa] &gt;pdb|1YUM|D Crystal Structure of Nicotinic Acid Mononucleotide Adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa] &gt;pdb|1YUN|A Crystal Structure of Nicotinic Acid Mononucleotide Adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa] &gt;pdb|1YUN|B Crystal Structure of Nicotinic Acid Mononucleotide Adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>1YUM_A</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.23772</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MQKR-AIYPGTFDPITNGHIDIVTRATQMF--DHVILAIAASPSKK--PMFTLEERVALAQQATAHLGNVEV</Hsp_qseq>
+      <Hsp_hseq>MGKRIGLFGGTFDPVHIGHMRSAVEMAEQFALDELRLLPNARPPHRETPQVSAAQRLAMVERAVAGVERLTV</Hsp_hseq>
+      <Hsp_midline>M KR  ++ GTFDP+  GH+       + F  D + L   A P  +  P  +  +R+A+ ++A A +  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|4YMI|A</Hit_id>
+  <Hit_def>Crystal structure of probable nicotinate-nucleotide adenylyltransferase from Mycobacterium abcessus in complex with NADP [Mycobacteroides abscessus ATCC 19977] &gt;pdb|4YMI|B Crystal structure of probable nicotinate-nucleotide adenylyltransferase from Mycobacterium abcessus in complex with NADP [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5VIR|A Crystal structure of probable nicotinate-nucleotide adenylyltransferase from Mycobacterium abscessus in complex with NADP and compound FOL0091 [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5VIR|B Crystal structure of probable nicotinate-nucleotide adenylyltransferase from Mycobacterium abscessus in complex with NADP and compound FOL0091 [Mycobacteroides abscessus ATCC 19977]</Hit_def>
+  <Hit_accession>4YMI_A</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.28826</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMF--DHVILAIAASPSKK</Hsp_qseq>
+      <Hsp_hseq>RRLGVMGGTFDPIHNGHLVAASEVADRFALDEVIFVPTGQPWQK</Hsp_hseq>
+      <Hsp_midline>++  +  GTFDPI NGH+   +     F  D VI      P +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|5DB4|A</Hit_id>
+  <Hit_def>Mycobacterium abscessus NadD in complex with Mg-ATP, space group I41 [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5DB4|B Mycobacterium abscessus NadD in complex with Mg-ATP, space group I41 [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5DEO|A Mycobacterium abscessus NadD in complex with nicotinic acid adenine dinucleotide [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5DEO|B Mycobacterium abscessus NadD in complex with nicotinic acid adenine dinucleotide [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5DEO|C Mycobacterium abscessus NadD in complex with nicotinic acid adenine dinucleotide [Mycobacteroides abscessus ATCC 19977] &gt;pdb|5DEO|D Mycobacterium abscessus NadD in complex with nicotinic acid adenine dinucleotide [Mycobacteroides abscessus ATCC 19977]</Hit_def>
+  <Hit_accession>5DB4_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.30386</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMF--DHVILAIAASPSKK</Hsp_qseq>
+      <Hsp_hseq>RRLGVMGGTFDPIHNGHLVAASEVADRFALDEVIFVPTGQPWQK</Hsp_hseq>
+      <Hsp_midline>++  +  GTFDPI NGH+   +     F  D VI      P +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4WSO|A</Hit_id>
+  <Hit_def>X-ray crystal structure of a nicotinate nucleotide adenylyltransferase from Burkholderia thailandensis bound to NAD [Burkholderia thailandensis E264] &gt;pdb|4WSO|B X-ray crystal structure of a nicotinate nucleotide adenylyltransferase from Burkholderia thailandensis bound to NAD [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>4WSO_A</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.60018</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQM--FDHVILAIAASP-SKKPMFTLEERVALAQQATAHL</Hsp_qseq>
+      <Hsp_hseq>RRIGILGGTFDPIHDGHLALARRFADVLRLTELVLMPAGQPYQKQDVSAAEHRLAMTRAAAGSL</Hsp_hseq>
+      <Hsp_midline>++  I  GTFDPI +GH+ +  R   +     ++L  A  P  K+ +   E R+A+ + A   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|6GYE|A</Hit_id>
+  <Hit_def>Chain A, Nicotinamide-nucleotide adenylyltransferase NadR family / Ribosylnicotinamide kinase [Lactococcus cremoris] &gt;pdb|6GYE|B Chain B, Nicotinamide-nucleotide adenylyltransferase NadR family / Ribosylnicotinamide kinase [Lactococcus cremoris] &gt;pdb|6GYF|A Chain A, Nicotinamide-nucleotide adenylyltransferase NadR family / Ribosylnicotinamide kinase [Lactococcus cremoris] &gt;pdb|6GYF|B Chain B, Nicotinamide-nucleotide adenylyltransferase NadR family / Ribosylnicotinamide kinase [Lactococcus cremoris] &gt;pdb|6GZO|A Chain A, Nicotinamide-nucleotide adenylyltransferase NadR family / Ribosylnicotinamide kinase [Lactococcus cremoris] &gt;pdb|6GZO|B Chain B, Nicotinamide-nucleotide adenylyltransferase NadR family / Ribosylnicotinamide kinase [Lactococcus cremoris]</Hit_def>
+  <Hit_accession>6GYE_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.66298</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>AIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPM---FTLEERVALAQQATAHLGNVEV</Hsp_qseq>
+      <Hsp_hseq>GIYFGTFAPLHTGHQQQIYKCASLNDGVLLVVSGYDNDRGAQIGLPLEKRFRYLREAFNDEENIKV</Hsp_hseq>
+      <Hsp_midline> IY GTF P+  GH   + +   + D V+L ++   + +       LE+R    ++A     N++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|4S1O|A</Hit_id>
+  <Hit_def>Structure of Mycobacterium tuberculosis NadD in complex with NADP [Mycobacterium tuberculosis H37Rv] &gt;pdb|4S1O|B Structure of Mycobacterium tuberculosis NadD in complex with NADP [Mycobacterium tuberculosis H37Rv] &gt;pdb|4YBR|A Structure of Mycobacterium tuberculosis NadD in complex with NADP, P21212 [Mycobacterium tuberculosis H37Rv] &gt;pdb|4YBR|B Structure of Mycobacterium tuberculosis NadD in complex with NADP, P21212 [Mycobacterium tuberculosis H37Rv] &gt;pdb|5DAS|A Structure of Mycobacterium tuberculosis NadD in complex with NADP, P21212, form 2 [Mycobacterium tuberculosis H37Rv] &gt;pdb|5DAS|B Structure of Mycobacterium tuberculosis NadD in complex with NADP, P21212, form 2 [Mycobacterium tuberculosis H37Rv] &gt;pdb|5DAS|C Structure of Mycobacterium tuberculosis NadD in complex with NADP, P21212, form 2 [Mycobacterium tuberculosis H37Rv] &gt;pdb|5DAS|D Structure of Mycobacterium tuberculosis NadD in complex with NADP, P21212, form 2 [Mycobacterium tuberculosis H37Rv] &gt;pdb|6BUV|A Structure of Mycobacterium tuberculosis NadD in complex with inhibitor [(1~{R},2~{R},5~{S})-5-methyl-2-propan-2-yl-cyclohexyl] 2-[3-methyl-2-(phenoxymethyl)benzimidazol-1-yl]ethanoate [Mycobacterium tuberculosis H37Rv] &gt;pdb|6BUV|B Structure of Mycobacterium tuberculosis NadD in complex with inhibitor [(1~{R},2~{R},5~{S})-5-methyl-2-propan-2-yl-cyclohexyl] 2-[3-methyl-2-(phenoxymethyl)benzimidazol-1-yl]ethanoate [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>4S1O_A</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.35735</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMF--DHVILAIAASPSKK</Hsp_qseq>
+      <Hsp_hseq>RRLGVMGGTFDPIHYGHLVAASEVADLFDLDEVVFVPSGQPWQK</Hsp_hseq>
+      <Hsp_midline>++  +  GTFDPI  GH+   +    +F  D V+   +  P +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|4X0E|A</Hit_id>
+  <Hit_def>Structure of M. tuberculosis nicotinate mono nucleotide adenylyltransferase [Mycobacterium tuberculosis H37Rv] &gt;pdb|4X0E|B Structure of M. tuberculosis nicotinate mono nucleotide adenylyltransferase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>4X0E_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.46508</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMF--DHVILAIAASPSKK</Hsp_qseq>
+      <Hsp_hseq>RRLGVMGGTFDPIHYGHLVAASEVADLFDLDEVVFVPSGQPWQK</Hsp_hseq>
+      <Hsp_midline>++  +  GTFDPI  GH+   +    +F  D V+   +  P +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|1YUL|A</Hit_id>
+  <Hit_def>Crystal Structure of Nicotinic Acid Mononucleotide Adenylyltransferase from Pseudomonas aeruginosa [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>1YUL_A</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.64549</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MQKR-AIYPGTFDPITNGHIDIVTRATQMF--DHVILAIAASPSKK--PMFTLEERVALAQQATAHLGNVEV</Hsp_qseq>
+      <Hsp_hseq>MGKRIGLFGGTFDPVHIGHXRSAVEXAEQFALDELRLLPNARPPHRETPQVSAAQRLAXVERAVAGVERLTV</Hsp_hseq>
+      <Hsp_midline>M KR  ++ GTFDP+  GH        + F  D + L   A P  +  P  +  +R+A  ++A A +  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|4RPI|A</Hit_id>
+  <Hit_def>Chain A, nicotinate-nucleotide adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|4RPI|B Chain B, nicotinate-nucleotide adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|4RPI|C Chain C, nicotinate-nucleotide adenylyltransferase [Mycobacterium tuberculosis] &gt;pdb|4RPI|D Chain D, nicotinate-nucleotide adenylyltransferase [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>4RPI_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.79826</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>QKRAIYPGTFDPITNGHIDIVTRATQMF--DHVILAIAASPSKK</Hsp_qseq>
+      <Hsp_hseq>RRLGVMGGTFDPIHYGHLVAASEVADLFDLDEVVFVPSGQPWQK</Hsp_hseq>
+      <Hsp_midline>++  +  GTFDPI  GH+   +    +F  D V+   +  P +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|6U42|4Q</Hit_id>
+  <Hit_def>Chain 4Q, RIB43a [Chlamydomonas reinhardtii] &gt;pdb|6U42|4R Chain 4R, RIB43a [Chlamydomonas reinhardtii] &gt;pdb|6U42|4S Chain 4S, RIB43a [Chlamydomonas reinhardtii] &gt;pdb|6U42|4T Chain 4T, RIB43a [Chlamydomonas reinhardtii] &gt;pdb|6U42|4U Chain 4U, RIB43a [Chlamydomonas reinhardtii]</Hit_def>
+  <Hit_accession>6U42_4Q</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.24008</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLIRGLRAVADFEYEMQLAHMNR</Hsp_qseq>
+      <Hsp_hseq>RAAEKEAETAH---AELVKYQDLLQQTAKSEEAAVRREVARATAD--YNKRLAEEKR</Hsp_hseq>
+      <Hsp_midline>R A  +  TAH    E+V + DL+   A+++ A V     RA AD  Y  +LA   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|1KKU|A</Hit_id>
+  <Hit_def>Crystal structure of nuclear human nicotinamide mononucleotide adenylyltransferase [Homo sapiens]</Hit_def>
+  <Hit_accession>1KKU_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.4445</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GTFDPITNGHIDIVTRATQMFD---------HVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANF</Hsp_qseq>
+      <Hsp_hseq>GSFNPITNMHLRLFELAKDYMNGTGRYTVVKGIISPVGDAYKKKGLIPAYHRVIMAELATKNSKWVEVDTWESLQKEW</Hsp_hseq>
+      <Hsp_midline>G+F+PITN H+ +   A    +          +I  +  +  KK +     RV +A+ AT +   VEV  +  L   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|1KQN|A</Hit_id>
+  <Hit_def>Crystal structure of NMN/NaMN adenylyltransferase complexed with NAD [Homo sapiens] &gt;pdb|1KQN|B Crystal structure of NMN/NaMN adenylyltransferase complexed with NAD [Homo sapiens] &gt;pdb|1KQN|C Crystal structure of NMN/NaMN adenylyltransferase complexed with NAD [Homo sapiens] &gt;pdb|1KQN|D Crystal structure of NMN/NaMN adenylyltransferase complexed with NAD [Homo sapiens] &gt;pdb|1KQN|E Crystal structure of NMN/NaMN adenylyltransferase complexed with NAD [Homo sapiens] &gt;pdb|1KQN|F Crystal structure of NMN/NaMN adenylyltransferase complexed with NAD [Homo sapiens] &gt;pdb|1KQO|A Crystal structure of NMN/NaMN adenylyltransferase complexed with deamido-NAD [Homo sapiens] &gt;pdb|1KQO|B Crystal structure of NMN/NaMN adenylyltransferase complexed with deamido-NAD [Homo sapiens] &gt;pdb|1KQO|C Crystal structure of NMN/NaMN adenylyltransferase complexed with deamido-NAD [Homo sapiens] &gt;pdb|1KQO|D Crystal structure of NMN/NaMN adenylyltransferase complexed with deamido-NAD [Homo sapiens] &gt;pdb|1KQO|E Crystal structure of NMN/NaMN adenylyltransferase complexed with deamido-NAD [Homo sapiens] &gt;pdb|1KQO|F Crystal structure of NMN/NaMN adenylyltransferase complexed with deamido-NAD [Homo sapiens] &gt;pdb|1KR2|A Crystal Structure Of Human NmnNAMN ADENYLYL TRANSFERASE Complexed With Tiazofurin Adenine Dinucleotide (Tad) [Homo sapiens] &gt;pdb|1KR2|B Crystal Structure Of Human NmnNAMN ADENYLYL TRANSFERASE Complexed With Tiazofurin Adenine Dinucleotide (Tad) [Homo sapiens] &gt;pdb|1KR2|C Crystal Structure Of Human NmnNAMN ADENYLYL TRANSFERASE Complexed With Tiazofurin Adenine Dinucleotide (Tad) [Homo sapiens] &gt;pdb|1KR2|D Crystal Structure Of Human NmnNAMN ADENYLYL TRANSFERASE Complexed With Tiazofurin Adenine Dinucleotide (Tad) [Homo sapiens] &gt;pdb|1KR2|E Crystal Structure Of Human NmnNAMN ADENYLYL TRANSFERASE Complexed With Tiazofurin Adenine Dinucleotide (Tad) [Homo sapiens] &gt;pdb|1KR2|F Crystal Structure Of Human NmnNAMN ADENYLYL TRANSFERASE Complexed With Tiazofurin Adenine Dinucleotide (Tad) [Homo sapiens]</Hit_def>
+  <Hit_accession>1KQN_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.74232</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GTFDPITNGHIDIVTRATQMFD---------HVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANF</Hsp_qseq>
+      <Hsp_hseq>GSFNPITNMHLRLFELAKDYMNGTGRYTVVKGIISPVGDAYKKKGLIPAYHRVIMAELATKNSKWVEVDTWESLQKEW</Hsp_hseq>
+      <Hsp_midline>G+F+PITN H+ +   A    +          +I  +  +  KK +     RV +A+ AT +   VEV  +  L   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|3GLV|A</Hit_id>
+  <Hit_def>Chain A, Lipopolysaccharide core biosynthesis protein [Thermoplasma volcanium GSS1] &gt;pdb|3GLV|B Chain B, Lipopolysaccharide core biosynthesis protein [Thermoplasma volcanium GSS1]</Hit_def>
+  <Hit_accession>3GLV_A</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>4.74315</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPS-----KKPMFTLEERVALAQQ</Hsp_qseq>
+      <Hsp_hseq>RVMATGVFDILHLGHIHYLKESKKLGDELVVVVARDSTARNNGKIPIFDENSRLALISE</Hsp_hseq>
+      <Hsp_midline>R +  G FD +  GHI  +  + ++ D +++ +A   +     K P+F    R+AL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|6KG3|A</Hit_id>
+  <Hit_def>Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132Q/W176F from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KG3|B Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132Q/W176F from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KG3|C Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132Q/W176F from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KG3|D Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132Q/W176F from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KG3|E Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132Q/W176F from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KG3|F Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132Q/W176F from Escherichia coli [Escherichia coli NCCP15648]</Hit_def>
+  <Hit_accession>6KG3_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.96803</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIV---------TRATQMFDHVI------------------LAIAASPSKKPMFTLEER</Hsp_qseq>
+      <Hsp_hseq>QALFGGTFDPVHYGHLKKVETLANLIGLTRVTIIPNNVPPHRPQPEANSVQRKHMLELAIA----DKPLFTLDER</Hsp_hseq>
+      <Hsp_midline>+A++ GTFDP+  GH+  V         TR T + ++V                   LAIA     KP+FTL+ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|6KH2|A</Hit_id>
+  <Hit_def>Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132L/W176Y from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KH2|B Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132L/W176Y from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KH2|C Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132L/W176Y from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KH2|D Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132L/W176Y from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KH2|E Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132L/W176Y from Escherichia coli [Escherichia coli NCCP15648] &gt;pdb|6KH2|F Crystal structure of Nicotinic acid mononucleotide adenylyltransferase mutant P22K/Y84V/Y118D/C132L/W176Y from Escherichia coli [Escherichia coli NCCP15648]</Hit_def>
+  <Hit_accession>6KH2_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.96803</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>RAIYPGTFDPITNGHIDIV---------TRATQMFDHVI------------------LAIAASPSKKPMFTLEER</Hsp_qseq>
+      <Hsp_hseq>QALFGGTFDPVHYGHLKKVETLANLIGLTRVTIIPNNVPPHRPQPEANSVQRKHMLELAIA----DKPLFTLDER</Hsp_hseq>
+      <Hsp_midline>+A++ GTFDP+  GH+  V         TR T + ++V                   LAIA     KP+FTL+ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|5Z9R|A</Hit_id>
+  <Hit_def>NMNAT as a specific chaperone antagonizing pathological condensation of phosphorylated tau [Mus musculus] &gt;pdb|5Z9R|B NMNAT as a specific chaperone antagonizing pathological condensation of phosphorylated tau [Mus musculus]</Hit_def>
+  <Hit_accession>5Z9R_A</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.72003</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GTFDPITNGHIDIV---------TRATQMFDHVILAIAASPSKKPMFTLEERVALAQQA</Hsp_qseq>
+      <Hsp_hseq>GSFNPITNMHLRLFEVARDHLHQTGRYQVIEGIISPVNDSYGKKDLVASHHRVAMARLA</Hsp_hseq>
+      <Hsp_midline>G+F+PITN H+ +          T   Q+ + +I  +  S  KK +     RVA+A+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|2QJT|A</Hit_id>
+  <Hit_def>Crystal structure of a bifunctional NMN adenylyltransferase/ADP ribose pyrophosphatase complexed with AMP and MN ion from Francisella tularensis [Francisella tularensis] &gt;pdb|2QJT|B Crystal structure of a bifunctional NMN adenylyltransferase/ADP ribose pyrophosphatase complexed with AMP and MN ion from Francisella tularensis [Francisella tularensis] &gt;pdb|2R5W|A Crystal structure of a bifunctional NMN adenylyltransferase/ADP ribose pyrophosphatase from Francisella tularensis [Francisella tularensis subsp. tularensis] &gt;pdb|2R5W|B Crystal structure of a bifunctional NMN adenylyltransferase/ADP ribose pyrophosphatase from Francisella tularensis [Francisella tularensis subsp. tularensis]</Hit_def>
+  <Hit_accession>2QJT_A</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.86673</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MQKRAIYPGTFDPITNGHIDIVTRATQMFDHVILAIAA---SPSKKPMFTLEER</Hsp_qseq>
+      <Hsp_hseq>MYDISVFIGRFQPFHKGHLHNIIIALQNSKKVIINIGSCFNTPNIKNPFSFEQR</Hsp_hseq>
+      <Hsp_midline>M   +++ G F P   GH+  +  A Q    VI+ I +   +P+ K  F+ E+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|3SFW|A</Hit_id>
+  <Hit_def>Crystal structure of dihydropyrimidinase from Brevibacillus agri NCHU1002 [Brevibacillus agri] &gt;pdb|3SFW|B Crystal structure of dihydropyrimidinase from Brevibacillus agri NCHU1002 [Brevibacillus agri]</Hit_def>
+  <Hit_accession>3SFW_A</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.96252</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>IYPGTFDPITNGHIDIVTRATQMFDHVILAIAASPSKKPMFTLEERVALAQQATAHLGNVEVVGFSDLMANFARNQHATVLI-----RGLRAVADFEYEMQLAHMNRHLMPELESV</Hsp_qseq>
+      <Hsp_hseq>LLPGGIDPHT--HLDMPFGGTVTSDN-------------FFT-------GTKAAAFGGTTSIVDF--CLTSKGESLHSAIATWHEKARG-KAVIDYGFHLMVSDANDHVLEELESV</Hsp_hseq>
+      <Hsp_midline>+ PG  DP T  H+D+    T   D+              FT         +A A  G   +V F   + +   + H+ +       RG +AV D+ + + ++  N H++ ELESV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>96</Statistics_hsp-len>
+      <Statistics_eff-space>1403647686</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

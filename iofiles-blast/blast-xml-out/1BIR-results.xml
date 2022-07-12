@@ -1,0 +1,1274 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1BIR_1|Chains A, B|RIBONUCLEASE T1|Aspergillus oryzae (5062)</BlastOutput_query-def>
+  <BlastOutput_query-len>104</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1BIR_1|Chains A, B|RIBONUCLEASE T1|Aspergillus oryzae (5062)</Iteration_query-def>
+  <Iteration_query-len>104</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1BIR|A</Hit_id>
+  <Hit_def>RIBONUCLEASE T1, PHE 100 TO ALA MUTANT COMPLEXED WITH 2&apos; GMP [Aspergillus oryzae] &gt;pdb|1BIR|B RIBONUCLEASE T1, PHE 100 TO ALA MUTANT COMPLEXED WITH 2&apos; GMP [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1BIR_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>6.04279e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1BU4|A</Hit_id>
+  <Hit_def>Ribonuclease 1 Complex With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|1BVI|A Ribonuclease T1 (Wildtype) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|1BVI|B Ribonuclease T1 (Wildtype) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|1BVI|C Ribonuclease T1 (Wildtype) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|1BVI|D Ribonuclease T1 (Wildtype) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|1GSP|A Ribonuclease T1 Complexed With 2&apos;,3&apos;-Cgps, 1 Day [Aspergillus oryzae] &gt;pdb|1I0V|A Ribonuclease T1 in complex with 2&apos;GMP (form I crystal) [Aspergillus oryzae] &gt;pdb|1I0X|A Ribonuclease T1 In Complex With 2&apos;gmp (Form Ii Crystal) [Aspergillus oryzae] &gt;pdb|1I0X|B Ribonuclease T1 In Complex With 2&apos;gmp (Form Ii Crystal) [Aspergillus oryzae] &gt;pdb|1I0X|C Ribonuclease T1 In Complex With 2&apos;gmp (Form Ii Crystal) [Aspergillus oryzae] &gt;pdb|1I0X|D Ribonuclease T1 In Complex With 2&apos;gmp (Form Ii Crystal) [Aspergillus oryzae] &gt;pdb|1RGA|A CRYSTAL STRUCTURE OF RNASE T1 WITH 3&apos;-GMP AND GUANOSINE: A PRODUCT COMPLEX [Aspergillus oryzae] &gt;pdb|1RGC|A THE COMPLEX BETWEEN RIBONUCLEASE T1 AND 3&apos;-GUANYLIC ACID SUGGESTS GEOMETRY OF ENZYMATIC REACTION PATH. AN X-RAY STUDY [Aspergillus oryzae] &gt;pdb|1RGC|B THE COMPLEX BETWEEN RIBONUCLEASE T1 AND 3&apos;-GUANYLIC ACID SUGGESTS GEOMETRY OF ENZYMATIC REACTION PATH. AN X-RAY STUDY [Aspergillus oryzae] &gt;pdb|1RNT|A RESTRAINED LEAST-SQUARES REFINEMENT OF THE CRYSTAL STRUCTURE OF THE RIBONUCLEASE T1(ASTERISK)2(PRIME)-GUANYLIC ACID COMPLEX AT 1.9 ANGSTROMS RESOLUTION [Aspergillus oryzae] &gt;pdb|2BU4|A Ribonuclease T1 Complex With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|2GSP|A Ribonuclease T12&apos;,3&apos;-Cgps And 3&apos;-Gmp, 2 Days [Aspergillus oryzae] &gt;pdb|2RNT|A THREE-DIMENSIONAL STRUCTURE OF RIBONUCLEASE T1 COMPLEXED WITH GUANYLYL-2(PRIME),5(PRIME)-GUANOSINE AT 1.8 ANGSTROMS RESOLUTION [Aspergillus oryzae] &gt;pdb|3BU4|A Ribonuclease T1 Complex With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|3GSP|A Ribonuclease T1 Complexed With 2&apos;,3&apos;-Cgps + 3&apos;-Gmp, 4 Days [Aspergillus oryzae] &gt;pdb|3RNT|A CRYSTAL STRUCTURE OF GUANOSINE-FREE RIBONUCLEASE T1, COMPLEXED WITH VANADATE(V), SUGGESTS CONFORMATIONAL CHANGE UPON SUBSTRATE BINDING [Aspergillus oryzae] &gt;pdb|3URP|A Re-refinement of PDB entry 5RNT - ribonuclease T1 with guanosine-3&apos;,5&apos;-diphosphate and phosphate ion bound [Aspergillus oryzae] &gt;pdb|4BU4|A RIBONUCLEASE T1 COMPLEX WITH 2&apos;GMP [Aspergillus oryzae] &gt;pdb|4GSP|A Ribonuclease T1 Complexed With 2&apos;,3&apos;-Cgps + 3&apos;-Gmp, 7 Days [Aspergillus oryzae] &gt;pdb|5BU4|A Ribonuclease T1 Complex With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|5GSP|A Ribonuclease T13&apos;-Gmp, 9 Weeks [Aspergillus oryzae] &gt;pdb|5RNT|A X-RAY ANALYSIS OF CUBIC CRYSTALS OF THE COMPLEX FORMED BETWEEN RIBONUCLEASE T1 AND GUANOSINE-3&apos;,5&apos;-BISPHOSPHATE [Aspergillus oryzae] &gt;pdb|6GSP|A Ribonuclease T1/3&apos;-gmp, 15 Weeks [Aspergillus oryzae] &gt;pdb|6RNT|A CRYSTAL STRUCTURE OF RIBONUCLEASE T1 COMPLEXED WITH ADENOSINE 2&apos;-MONOPHOSPHATE AT 1.8-ANGSTROMS RESOLUTION [Aspergillus oryzae] &gt;pdb|7GSP|A RIBONUCLEASE T1/2&apos;,3&apos;-CGPS, NON-PRODUCTIVE [Aspergillus oryzae] &gt;pdb|7GSP|B RIBONUCLEASE T1/2&apos;,3&apos;-CGPS, NON-PRODUCTIVE [Aspergillus oryzae] &gt;pdb|8RNT|A STRUCTURE OF RIBONUCLEASE T1 COMPLEXED WITH ZINC(II) AT 1.8 ANGSTROMS RESOLUTION: A ZN2+.6H2O.CARBOXYLATE CLATHRATE [Aspergillus oryzae] &gt;pdb|9RNT|A RIBONUCLEASE T1 WITH FREE RECOGNITION AND CATALYTIC SITE: CRYSTAL STRUCTURE ANALYSIS AT 1.5 ANGSTROMS RESOLUTION [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1BU4_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>6.47443e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1RGK|A</Hit_id>
+  <Hit_def>RNASE T1 MUTANT GLU46GLN BINDS THE INHIBITORS 2&apos;GMP AND 2&apos;AMP AT THE 3&apos; SUBSITE [Aspergillus oryzae] &gt;pdb|1RGL|A RNASE T1 MUTANT GLU46GLN BINDS THE INHIBITORS 2&apos;GMP AND 2&apos;AMP AT THE 3&apos; SUBSITE [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1RGK_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.49138e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYQGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNY+GFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1B2M|A</Hit_id>
+  <Hit_def>Three-dimensional Structure Of Ribonulcease T1 Complexed With An Isosteric Phosphonate Analogue Of Gpu: Alternate Substrate Binding Modes And Catalysis. [Aspergillus oryzae] &gt;pdb|1B2M|B Three-dimensional Structure Of Ribonulcease T1 Complexed With An Isosteric Phosphonate Analogue Of Gpu: Alternate Substrate Binding Modes And Catalysis. [Aspergillus oryzae] &gt;pdb|1IYY|A NMR STRUCTURE OF Gln25-RIBONUCLEASE T1, 24 STRUCTURES [Aspergillus oryzae] &gt;pdb|1RLS|A CRYSTAL STRUCTURE OF RNASE T1 COMPLEXED WITH THE PRODUCT NUCLEOTIDE 3&apos;-GMP. STRUCTURAL EVIDENCE FOR DIRECT INTERACTION OF HISTIDINE 40 AND GLUTAMIC ACID 58 WITH THE 2&apos;-HYDROXYL GROUP OF RIBOSE [Aspergillus oryzae] &gt;pdb|1RN1|A THREE-DIMENSIONAL STRUCTURE OF GLN 25-RIBONUCLEASE T1 AT 1.84 ANGSTROMS RESOLUTION: STRUCTURAL VARIATIONS AT THE BASE RECOGNITION AND CATALYTIC SITES [Aspergillus oryzae] &gt;pdb|1RN1|B THREE-DIMENSIONAL STRUCTURE OF GLN 25-RIBONUCLEASE T1 AT 1.84 ANGSTROMS RESOLUTION: STRUCTURAL VARIATIONS AT THE BASE RECOGNITION AND CATALYTIC SITES [Aspergillus oryzae] &gt;pdb|1RN1|C THREE-DIMENSIONAL STRUCTURE OF GLN 25-RIBONUCLEASE T1 AT 1.84 ANGSTROMS RESOLUTION: STRUCTURAL VARIATIONS AT THE BASE RECOGNITION AND CATALYTIC SITES [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1B2M_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>2.23879e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYQLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGY+LHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|7RNT|A</Hit_id>
+  <Hit_def>CRYSTAL STRUCTURE OF THE TYR45TRP MUTANT OF RIBONUCLEASE T1 IN A COMPLEX WITH 2&apos;-ADENYLIC ACID [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>7RNT_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.41764e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNWEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNN+EGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|1YGW|A</Hit_id>
+  <Hit_def>NMR STRUCTURE OF RIBONUCLEASE T1, 34 STRUCTURES [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1YGW_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.7581e-71</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>CDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>CDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>CDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1I2G|A</Hit_id>
+  <Hit_def>Ribonuclease T1 V16T mutant [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1I2G_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.78855e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDTSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSD STAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1I3I|A</Hit_id>
+  <Hit_def>Ribonuclease T1 V78T mutant [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1I3I_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.78855e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRTVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADR VFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|1RHL|A</Hit_id>
+  <Hit_def>Ribonuclease T1 Complexed With 2&apos;gmpG23A MUTANT [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1RHL_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.94591e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAAYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAA YKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1HYF|A</Hit_id>
+  <Hit_def>RIBONUCLEASE T1 V16A MUTANT IN COMPLEX WITH SR2+ [Aspergillus oryzae] &gt;pdb|1HZ1|A Ribonuclease T1 V16a Mutant In Complex With Mg2+ [Aspergillus niger] &gt;pdb|1I2E|A Ribonuclease T1 V16A mutant, form I [Aspergillus oryzae] &gt;pdb|1I2F|A Ribonuclease T1 V16A mutant, form II [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1HYF_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>3.04455e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDASTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSD STAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1FZU|A</Hit_id>
+  <Hit_def>RNAse T1 V78A mutant [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1FZU_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>3.04455e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRAVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADR VFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|4HOH|A</Hit_id>
+  <Hit_def>Ribonuclease T1 (Thr93ala Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|4HOH|B Ribonuclease T1 (Thr93ala Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|4HOH|C Ribonuclease T1 (Thr93ala Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|4HOH|D Ribonuclease T1 (Thr93ala Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>4HOH_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>3.25187e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHAGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITH GASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3HOH|A</Hit_id>
+  <Hit_def>Ribonuclease T1 (Thr93gln Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|3HOH|B Ribonuclease T1 (Thr93gln Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|3HOH|C Ribonuclease T1 (Thr93gln Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|3HOH|D Ribonuclease T1 (Thr93gln Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>3HOH_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>3.7098e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHQGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITH GASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1LOV|A</Hit_id>
+  <Hit_def>X-ray structure of the E58A mutant of Ribonuclease T1 complexed with 3&apos;-guanosine monophosphate [Aspergillus oryzae] &gt;pdb|1LRA|A CRYSTALLOGRAPHIC STUDY OF GLU 58 ALA RNASE T1(ASTERISK)2&apos;-GUANOSINE MONOPHOSPHATE AT 1.9 ANGSTROMS RESOLUTION [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1LOV_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>4.52041e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYAWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYY WPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1G02|A</Hit_id>
+  <Hit_def>Ribonuclease T1 V16S mutant [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1G02_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>5.32967e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDSSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSD STAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1I3F|A</Hit_id>
+  <Hit_def>Ribonuclease T1 V89S mutant [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1I3F_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>5.32967e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGSITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAG ITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|2HOH|A</Hit_id>
+  <Hit_def>Ribonuclease T1 (n9a Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|2HOH|B Ribonuclease T1 (n9a Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|2HOH|C Ribonuclease T1 (n9a Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|2HOH|D Ribonuclease T1 (n9a Mutant) Complexed With 2&apos;gmp [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>2HOH_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>5.38851e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSACYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGS CYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|4BIR|A</Hit_id>
+  <Hit_def>RIBONUCLEASE T1: FREE HIS92GLN MUTANT [Aspergillus oryzae] &gt;pdb|5BIR|A DISECTING HISTIDINE INTERACTIONS IN RIBONUCLEASE T1 USING ASN AND GLN MUTATIONS [Aspergillus oryzae] &gt;pdb|5BIR|B DISECTING HISTIDINE INTERACTIONS IN RIBONUCLEASE T1 USING ASN AND GLN MUTATIONS [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>4BIR_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>5.63043e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITQTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVIT TGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|3BIR|A</Hit_id>
+  <Hit_def>Disecting Histidine Interactions In Ribonuclease T1 By Asn And Gln Substitutions [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>3BIR_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>6.6384e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITNTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVIT+TGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|2AAD|A</Hit_id>
+  <Hit_def>THE ROLE OF HISTIDINE-40 IN RIBONUCLEASE T1 CATALYSIS: THREE-DIMENSIONAL STRUCTURES OF THE PARTIALLY ACTIVE HIS40LYS MUTANT [Aspergillus oryzae] &gt;pdb|2AAD|B THE ROLE OF HISTIDINE-40 IN RIBONUCLEASE T1 CATALYSIS: THREE-DIMENSIONAL STRUCTURES OF THE PARTIALLY ACTIVE HIS40LYS MUTANT [Aspergillus oryzae] &gt;pdb|2AAE|A THE ROLE OF HISTIDINE-40 IN RIBONUCLEASE T1 CATALYSIS: THREE-DIMENSIONAL STRUCTURES OF THE PARTIALLY ACTIVE HIS40LYS MUTANT [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>2AAD_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>7.1687e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPKKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYP KYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1FYS|A</Hit_id>
+  <Hit_def>Ribonuclease T1 V16C mutant [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1FYS_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>7.32786e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDCSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSD STAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1TRQ|A</Hit_id>
+  <Hit_def>X-RAY CRYSTALLOGRAPHIC AND CALORIMERIC STUDIES OF THE EFFECTS OF THE MUTATION TRP 59 TYR IN RIBONUCLEASE T1 [Aspergillus oryzae] &gt;pdb|1TRQ|B X-RAY CRYSTALLOGRAPHIC AND CALORIMERIC STUDIES OF THE EFFECTS OF THE MUTATION TRP 59 TYR IN RIBONUCLEASE T1 [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1TRQ_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>9.02758e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEYPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYE+PILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1LOW|A</Hit_id>
+  <Hit_def>X-ray structure of the H40A mutant of Ribonuclease T1 complexed with 3&apos;-guanosine monophosphate [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1LOW_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.06437e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPAKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYP KYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|1RN4|A</Hit_id>
+  <Hit_def>HIS92ALA MUTATION IN RIBONUCLEASE T1 INDUCES SEGMENTAL FLEXIBILITY. AN X-RAY STUDY [Aspergillus oryzae] &gt;pdb|4RNT|A HIS 92 ALA MUTATION IN RIBONUCLEASE T1 INDUCES SEGMENTAL FLEXIBILITY. AN X-RAY STUDY [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1RN4_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.06437e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITATGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVIT TGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1DET|A</Hit_id>
+  <Hit_def>Ribonuclease T1 Carboxymethylated At Glu 58 In Complex With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|3SYU|A Re-refined coordinates for pdb entry 1det - ribonuclease T1 carboxymethylated at GLU 58 in complex with 2&apos;GMP [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>1DET_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>2.05674e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYQLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYXWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGY+LHEDGETVGSNSYPHKYNNYEGFDFSVSSPYY WPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5HOH|A</Hit_id>
+  <Hit_def>Ribonuclease T1 (Asn9alaTHR93ALA DOUBLEMUTANT) COMPLEXED With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|5HOH|B Ribonuclease T1 (Asn9alaTHR93ALA DOUBLEMUTANT) COMPLEXED With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|5HOH|C Ribonuclease T1 (Asn9alaTHR93ALA DOUBLEMUTANT) COMPLEXED With 2&apos;gmp [Aspergillus oryzae] &gt;pdb|5HOH|D Ribonuclease T1 (Asn9alaTHR93ALA DOUBLEMUTANT) COMPLEXED With 2&apos;gmp [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>5HOH_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>2.85905e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSACYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHAGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGS CYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITH GASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1TRP|A</Hit_id>
+  <Hit_def>X-RAY CRYSTALLOGRAPHIC AND CALORIMERIC STUDIES OF THE EFFECTS OF THE MUTATION TRP 59 TYR IN RIBONUCLEASE T1 [Aspergillus oryzae] &gt;pdb|1TRP|B X-RAY CRYSTALLOGRAPHIC AND CALORIMERIC STUDIES OF THE EFFECTS OF THE MUTATION TRP 59 TYR IN RIBONUCLEASE T1 [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1TRP_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>6.58554e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNWEGFDFSVSSPYYEYPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNN+EGFDFSVSSPYYE+PILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|1LOY|A</Hit_id>
+  <Hit_def>X-ray structure of the H40A/E58A mutant of Ribonuclease T1 complexed with 3&apos;-guanosine monophosphate [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1LOY_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>8.29315e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPAKYNNYEGFDFSVSSPYYAWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYP KYNNYEGFDFSVSSPYY WPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|2BIR|A</Hit_id>
+  <Hit_def>Additivity Of Substrate Binding In Ribonuclease T1 (Y42a Mutant) [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>2BIR_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>8.76112e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKANNYEGFAFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHK NNYEGF FSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1CH0|A</Hit_id>
+  <Hit_def>Rnase T1 Variant With Altered Guanine Binding Segment [Aspergillus oryzae] &gt;pdb|1CH0|B Rnase T1 Variant With Altered Guanine Binding Segment [Aspergillus oryzae] &gt;pdb|1CH0|C Rnase T1 Variant With Altered Guanine Binding Segment [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1CH0_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>3.34387e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHEFRNWQGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPH++ N++GFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|1Q9E|A</Hit_id>
+  <Hit_def>RNase T1 variant with adenine specificity [Aspergillus oryzae] &gt;pdb|1Q9E|B RNase T1 variant with adenine specificity [Aspergillus oryzae] &gt;pdb|1Q9E|C RNase T1 variant with adenine specificity [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1Q9E_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.1187e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHEFRNWNGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPH++ N+ GFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1TTO|A</Hit_id>
+  <Hit_def>Crystal structure of the Rnase T1 variant R2 [Aspergillus oryzae] &gt;pdb|1TTO|B Crystal structure of the Rnase T1 variant R2 [Aspergillus oryzae] &gt;pdb|1TTO|C Crystal structure of the Rnase T1 variant R2 [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>1TTO_A</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>3.28979e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHEFRNWNGFDFSVSSPYYEYPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNFVECT</Hsp_hseq>
+      <Hsp_midline>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPH++ N+ GFDFSVSSPYYE+PILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNN VECT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|1RDS|A</Hit_id>
+  <Hit_def>CRYSTAL STRUCTURE OF RIBONUCLEASE MS (AS RIBONUCLEASE T1 HOMOLOGUE) COMPLEXED WITH A GUANYLYL-3&apos;,5&apos;-CYTIDINE ANALOGUE [Aspergillus phoenicis] &gt;pdb|1RMS|A CRYSTAL STRUCTURES OF RIBONUCLEASE MS COMPLEXED WITH 3&apos;-GUANYLIC ACID A GP*C ANALOGUE, 2&apos;-DEOXY-2&apos;-FLUOROGUANYLYL-3&apos;,5&apos;-CYTIDINE [Aspergillus phoenicis]</Hit_def>
+  <Hit_accession>1RDS_A</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>3.78801e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>ACDYTCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>SCEYTCGSTCYWSSDVSAAKAKGYSLYESGDTI--DDYPHEYHDYEGFDFPVSGTYYEYPIMSDYDVYTGGSPGADRVIFNGDDELAGVITHTGASGDDFVACS</Hsp_hseq>
+      <Hsp_midline>+C+YTCGS CY SSDVS A+A GY L+E G+T+  + YPH+Y++YEGFDF VS  YYE+PI+S  DVY+GGSPGADRV+FN +++LAGVITHTGASG++ V C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|1FUS|A</Hit_id>
+  <Hit_def>Chain A, RIBONUCLEASE F1 [Fusarium fujikuroi] &gt;pdb|1FUT|A Chain A, RIBONUCLEASE F1 [Fusarium fujikuroi] &gt;pdb|1RCK|A Chain A, RIBONUCLEASE F1 [Fusarium fujikuroi] &gt;pdb|1RCL|A Chain A, RIBONUCLEASE F1 [Fusarium fujikuroi]</Hit_def>
+  <Hit_accession>1FUS_A</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>3.75436e-35</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAVECT</Hsp_qseq>
+      <Hsp_hseq>TCGSTNYSASQVRAAANAACQYYQNDDTAGSSTYPHTYNNYEGFDFPVDGPYQEFPI-KSGGVYTGGSPGADRVVINTNCEYAGAITHTGASGNNFVGCS</Hsp_hseq>
+      <Hsp_midline>TCGS  YS+S V  A  A  + +++ +T GS++YPH YNNYEGFDF V  PY E+PI  SG VY+GGSPGADRVV N N + AG ITHTGASGNN V C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|3WHO|A</Hit_id>
+  <Hit_def>X-ray-Crystallographic Structure of an RNase Po1 Exhibiting Anti-tumor Activity [Pleurotus ostreatus] &gt;pdb|3WHO|B X-ray-Crystallographic Structure of an RNase Po1 Exhibiting Anti-tumor Activity [Pleurotus ostreatus] &gt;pdb|3WHO|C X-ray-Crystallographic Structure of an RNase Po1 Exhibiting Anti-tumor Activity [Pleurotus ostreatus] &gt;pdb|3WR2|A RNase Po1 complexed with 3&apos;GMP [Pleurotus ostreatus] &gt;pdb|3WR2|B RNase Po1 complexed with 3&apos;GMP [Pleurotus ostreatus] &gt;pdb|3WR2|C RNase Po1 complexed with 3&apos;GMP [Pleurotus ostreatus] &gt;pdb|3WR2|D RNase Po1 complexed with 3&apos;GMP [Pleurotus ostreatus] &gt;pdb|3WR2|E RNase Po1 complexed with 3&apos;GMP [Pleurotus ostreatus] &gt;pdb|3WR2|F RNase Po1 complexed with 3&apos;GMP [Pleurotus ostreatus]</Hit_def>
+  <Hit_accession>3WHO_A</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>2.69872e-21</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGA-SGNNAVEC</Hsp_qseq>
+      <Hsp_hseq>CAGRSFTGTDVTNAI-------RSARAGGSGNYPHVYNNFEGFSFSCTPTFFEFPVFR-GSVYSGGSPGADRVIYDQSGRFCACLTHTGAPSTNGFVEC</Hsp_hseq>
+      <Hsp_midline>C    ++ +DV+ A              GS +YPH YNN+EGF FS +  ++E+P+   G VYSGGSPGADRV+++++ +    +THTGA S N  VEC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|5GY6|A</Hit_id>
+  <Hit_def>Ribonuclease from Hericium erinaceus (RNase He1) [Hericium erinaceus] &gt;pdb|6LS1|A Chain A, Ribonuclease T1 [Hericium erinaceus] &gt;pdb|6LS1|B Chain B, Ribonuclease T1 [Hericium erinaceus]</Hit_def>
+  <Hit_accession>5GY6_A</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>2.31704e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>TCGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDF-SVSSPYYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNA-VEC</Hsp_qseq>
+      <Hsp_hseq>SCAGRSYSSSNIADAI-------DQAEGRGGGDYPHQYHDYEGFSFPSCRGEFFEYPLERSG-VYTGGSPGADRVIYDEDGDFCACLTHTGASTEDGFVEC</Hsp_hseq>
+      <Hsp_midline>+C    YSSS+++ A        +  E  G   YPH+Y++YEGF F S    ++E+P+  SG VY+GGSPGADRV+++E+      +THTGAS  +  VEC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|3AGN|A</Hit_id>
+  <Hit_def>Crystal Structure of Ustilago sphaerogena Ribonuclease U2 Complexed with adenosine 3&apos;-monophosphate [Ustilago sphaerogena] &gt;pdb|3AGO|A Crystal Structure of Ustilago sphaerogena Ribonuclease U2 complexed with adenosine 3&apos;-monophosphate [Ustilago sphaerogena] &gt;pdb|3AHW|A Crystal Structure of Ustilago sphaerogena Ribonuclease U2 complexed with adenosine 2&apos;-monophosphate [Ustilago sphaerogena]</Hit_def>
+  <Hit_accession>3AGN_A</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.94633e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSV---SSPYYEWPILSSGDVYSGG----SPGADRVVFNENN-QLAGVITHTGAS</Hsp_qseq>
+      <Hsp_hseq>CGGNVYSNDDINTAIQGALDDVANGDR--PDNYPHQYYDEASEDITLCCGSGPWSEFPLVYNGPYYSSRDNYVSPGPDRVIYQTNTGEFCATVTHTGAA</Hsp_hseq>
+      <Hsp_midline>CG N YS+ D++TA         +G+    ++YPH+Y +    D ++   S P+ E+P++ +G  YS      SPG DRV++  N  +    +THTGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|3AHS|A</Hit_id>
+  <Hit_def>Crystal Structure of Ustilago sphaerogena Ribonuclease U2B [Ustilago sphaerogena] &gt;pdb|3AHS|B Crystal Structure of Ustilago sphaerogena Ribonuclease U2B [Ustilago sphaerogena] &gt;pdb|3AHS|C Crystal Structure of Ustilago sphaerogena Ribonuclease U2B [Ustilago sphaerogena]</Hit_def>
+  <Hit_accession>3AHS_A</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>5.08337e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSV---SSPYYEWPILSSGDVYSGG----SPGADRVVFNENN-QLAGVITHTGAS</Hsp_qseq>
+      <Hsp_hseq>CGGNVYSNDDINTAIQGALDDVAXGDR--PDNYPHQYYDEASEDITLCCGSGPWSEFPLVYNGPYYSSRDNYVSPGPDRVIYQTNTGEFCATVTHTGAA</Hsp_hseq>
+      <Hsp_midline>CG N YS+ D++TA          G+    ++YPH+Y +    D ++   S P+ E+P++ +G  YS      SPG DRV++  N  +    +THTGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|1RTU|A</Hit_id>
+  <Hit_def>USTILAGO SPHAEROGENA RIBONUCLEASE U2 [Ustilago sphaerogena]</Hit_def>
+  <Hit_accession>1RTU_A</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>5.30546e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>CGSNCYSSSDVSTAQAAGYKLHEDGETVGSNSYPHKYNNYEGFDFSV---SSPYYEWPILSSGDVYSGG----SPGADRVVFNENN-QLAGVITHTGAS</Hsp_qseq>
+      <Hsp_hseq>CGGNVYSNDDINTAIQGALDDVANGDR--PDNYPHQYYXEASEDITLCCGSGPWSEFPLVYNGPYYSSRDNYVSPGPDRVIYQTNTGEFCATVTHTGAA</Hsp_hseq>
+      <Hsp_midline>CG N YS+ D++TA         +G+    ++YPH+Y      D ++   S P+ E+P++ +G  YS      SPG DRV++  N  +    +THTGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|4ODK|B</Hit_id>
+  <Hit_def>Structure of SlyD from Thermus thermophilus in complex with T1 peptide [Aspergillus oryzae] &gt;pdb|4ODK|C Structure of SlyD from Thermus thermophilus in complex with T1 peptide [Aspergillus oryzae]</Hit_def>
+  <Hit_accession>4ODK_B</Hit_accession>
+  <Hit_len>16</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.00216252</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>15</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>VGSNSYPHKYNNYEG</Hsp_qseq>
+      <Hsp_hseq>VGSNSYPHKYNNYEG</Hsp_hseq>
+      <Hsp_midline>VGSNSYPHKYNNYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|7BST|A</Hit_id>
+  <Hit_def>EcoR124I-Ocr in the Intermediate State [Escherichia coli] &gt;pdb|7BTO|I EcoR124I-ArdA in the Translocation State [Escherichia coli] &gt;pdb|7BTP|E EcoR124I-Ocr in Restriction-Alleviation State [Escherichia coli] &gt;pdb|7BTQ|E EcoR124I-DNA in the Restriction-Alleviation State [Escherichia coli] &gt;pdb|7BTR|E EcoR124I-ArdA in the Restriction-Alleviation State [Escherichia coli]</Hit_def>
+  <Hit_accession>7BST_A</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.10579</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>NSYPHKYNNYEGFDFSVSSPYYEWPILSS-GDVYSGGSPGADRVVFNENNQL</Hsp_qseq>
+      <Hsp_hseq>NMRKKQYNYYRDQLLSFKEGEVEWKTLGEIGKWYGGGTPSKNKIEFWENGSI</Hsp_hseq>
+      <Hsp_midline>N    +YN Y     S      EW  L   G  Y GG+P  +++ F EN  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|3HIS|A</Hit_id>
+  <Hit_def>Crystal structure of Saporin-L1 from Saponaria officinalis [Saponaria officinalis] &gt;pdb|3HIS|B Crystal structure of Saporin-L1 from Saponaria officinalis [Saponaria officinalis] &gt;pdb|3HIT|A Crystal structure of Saporin-L1 in complex with the dinucleotide inhibitor, a transition state analogue [Saponaria officinalis] &gt;pdb|3HIT|B Crystal structure of Saporin-L1 in complex with the dinucleotide inhibitor, a transition state analogue [Saponaria officinalis] &gt;pdb|3HIV|A Crystal structure of Saporin-L1 in complex with the trinucleotide inhibitor, a transition state analogue [Saponaria officinalis] &gt;pdb|3HIV|B Crystal structure of Saporin-L1 in complex with the trinucleotide inhibitor, a transition state analogue [Saponaria officinalis] &gt;pdb|3HIW|A Crystal structure of Saporin-L1 in complex with the cyclic tetranucleotide inhibitor, a transition state analogue [Saponaria officinalis] &gt;pdb|3HIW|B Crystal structure of Saporin-L1 in complex with the cyclic tetranucleotide inhibitor, a transition state analogue [Saponaria officinalis]</Hit_def>
+  <Hit_accession>3HIS_A</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>8.05189</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YYEWPILSSGDVYSGGSPGADRVVFNENNQLAGVITHTGASGNNAV</Hsp_qseq>
+      <Hsp_hseq>YIENLVLNNFDTAKEVEPVPDRVIILENNW--GLLSRAAKTANNGV</Hsp_hseq>
+      <Hsp_midline>Y E  +L++ D      P  DRV+  ENN   G+++    + NN V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|5F0E|A</Hit_id>
+  <Hit_def>Murine endoplasmic reticulum alpha-glucosidase II [Mus musculus] &gt;pdb|5H9O|A Complex of Murine endoplasmic reticulum alpha-glucosidase II with D-Glucose [Mus musculus] &gt;pdb|5H9O|C Complex of Murine endoplasmic reticulum alpha-glucosidase II with D-Glucose [Mus musculus] &gt;pdb|5HJO|A Murine endoplasmic reticulum alpha-glucosidase II with bound substrate analogue [Mus musculus] &gt;pdb|5HJO|C Murine endoplasmic reticulum alpha-glucosidase II with bound substrate analogue [Mus musculus] &gt;pdb|5HJR|A Murine endoplasmic reticulum alpha-glucosidase II with bound covalent intermediate [Mus musculus] &gt;pdb|5HJR|C Murine endoplasmic reticulum alpha-glucosidase II with bound covalent intermediate [Mus musculus]</Hit_def>
+  <Hit_accession>5F0E_A</Hit_accession>
+  <Hit_len>857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>9.09904</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYE---------WPILSSGDVYSGGSPGADRVVFNENNQ</Hsp_qseq>
+      <Hsp_hseq>SGYRVHEELRNHGLYVKTRDGSDYEGWCWPGSASYPDFTNPRMRAWWSNMFSFDNYEGSAP--NLYVWNDMNE</Hsp_hseq>
+      <Hsp_midline>+GY++HE+    G        ++YEG+ +  S+ Y +         W  + S D Y G +P  +  V+N+ N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|5IED|A</Hit_id>
+  <Hit_def>Murine endoplasmic reticulum alpha-glucosidase II with castanospermine [Mus musculus] &gt;pdb|5IEE|A Murine endoplasmic reticulum alpha-glucosidase II with 1-deoxynojirimycin [Mus musculus]</Hit_def>
+  <Hit_accession>5IED_A</Hit_accession>
+  <Hit_len>934</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>9.8698</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>535</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AGYKLHEDGETVGSNSYPHKYNNYEGFDFSVSSPYYE---------WPILSSGDVYSGGSPGADRVVFNENNQ</Hsp_qseq>
+      <Hsp_hseq>SGYRVHEELRNHGLYVKTRDGSDYEGWCWPGSASYPDFTNPRMRAWWSNMFSFDNYEGSAP--NLYVWNDMNE</Hsp_hseq>
+      <Hsp_midline>+GY++HE+    G        ++YEG+ +  S+ Y +         W  + S D Y G +P  +  V+N+ N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>70</Statistics_hsp-len>
+      <Statistics_eff-space>873222952</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

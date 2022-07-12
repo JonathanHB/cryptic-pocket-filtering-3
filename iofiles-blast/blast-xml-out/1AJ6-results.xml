@@ -1,0 +1,2506 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1AJ6_1|Chain A|GYRASE|Escherichia coli (562)</BlastOutput_query-def>
+  <BlastOutput_query-len>219</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1AJ6_1|Chain A|GYRASE|Escherichia coli (562)</Iteration_query-def>
+  <Iteration_query-len>219</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1AJ6|A</Hit_id>
+  <Hit_def>Novobiocin-resistant Mutant (r136h) Of The N-terminal 24 Kda Fragment Of Dna Gyrase B Complexed With Novobiocin At 2.3 Angstroms Resolution [Escherichia coli]</Hit_def>
+  <Hit_accession>1AJ6_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>1.47256e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|4DUH|A</Hit_id>
+  <Hit_def>Crystal structure of 24 kDa domain of E. coli DNA gyrase B in complex with small molecule inhibitor [Escherichia coli K-12] &gt;pdb|4DUH|B Crystal structure of 24 kDa domain of E. coli DNA gyrase B in complex with small molecule inhibitor [Escherichia coli K-12] &gt;pdb|6KZV|A Crystal structure of E.coli DNA gyrase B in complex with 2-oxo-1,2-dihydroquinoline derivative [Escherichia coli] &gt;pdb|6KZX|A Crystal structure of E.coli DNA gyrase B in complex with 2-oxo-1,2-dihydroquinoline derivative [Escherichia coli] &gt;pdb|6KZZ|A Crystal structure of E.coli DNA gyrase B in complex with 2-oxo-1,2-dihydroquinoline derivative [Escherichia coli] &gt;pdb|6L01|A Crystal structure of E.coli DNA gyrase B in complex with 2-oxo-1,2-dihydroquinoline derivative [Escherichia coli] &gt;pdb|6YD9|A Chain A, DNA gyrase subunit B [Escherichia coli K-12] &gt;pdb|7C7N|A Crystal structure of E.coli DNA gyrase B in complex with 6-fluoro-8-(methylamino)-2-oxo-1,2-dihydroquinoline derivative [Escherichia coli] &gt;pdb|7C7O|A Crystal structure of E.coli DNA gyrase B in complex with 6-fluoro-8-(methylamino)-2-oxo-1,2-dihydroquinoline derivative [Escherichia coli]</Hit_def>
+  <Hit_accession>4DUH_A</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>1.61582e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6F8J|A</Hit_id>
+  <Hit_def>Crystal Structure of E. coli GyraseB 24kDa in complex with 6-[(ethylcarbamoyl)amino]-4-(1H-pyrazol-1-yl)-N-(pyridin-3-yl)pyridine-3-carboxamide [Escherichia coli O157:H7] &gt;pdb|6F94|A Crystal Structure of E. coli GyraseB 24kDa in complex with 6-[(ethylcarbamoyl)amino]-4-[(3-methyphenyl)amino]-N-(3-methyphenyl)pyridine-3-carboxamide [Escherichia coli O157:H7] &gt;pdb|6F96|A Crystal Structure of E. coli GyraseB 24kDa in complex with 6-[(ethylcarbamoyl)amino]-4-[(4-methoxyphenyl)amino]-N-(pyridin-3-yl)pyridine-3-carboxamide [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>6F8J_A</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>1.71265e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|5MMN|A</Hit_id>
+  <Hit_def>E. coli DNA Gyrase B 24 kDa ATPase domain in complex with 1-ethyl-3-[8-methyl-5-(2-methyl-pyridin-4-yl)-isoquinolin-3-yl]-urea [Escherichia coli O157:H7] &gt;pdb|5MMO|A E. coli DNA Gyrase B 24 kDa ATPase domain in complex with [3-(3-ethyl-ureido)-5-(pyridin-4-yl)-isoquinolin-8-yl-methyl]-carbamic acid prop-2-ynyl ester [Escherichia coli O157:H7] &gt;pdb|5MMP|A E. coli DNA Gyrase B 24 kDa ATPase domain in complex with 1-ethyl-3-[5-pyridin-4-yl-8-(pyridin-3-ylamino)-isoquinolin-3-yl]-urea [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>5MMN_A</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.121</Hsp_bit-score>
+      <Hsp_score>1141</Hsp_score>
+      <Hsp_evalue>1.31728e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|4WUB|A</Hit_id>
+  <Hit_def>N-terminal 43 kDa fragment of the E. coli DNA gyrase B subunit grown from 100 mM KCl condition [Escherichia coli K-12] &gt;pdb|4WUC|A N-terminal 43 kDa fragment of the E. coli DNA gyrase B subunit grown from 100 mM NaCl condition [Escherichia coli K-12] &gt;pdb|4WUD|A N-terminal 43 kDa fragment of the E. coli DNA gyrase B subunit grown from no salt condition [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>4WUB_A</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>1.65399e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4XTJ|A</Hit_id>
+  <Hit_def>N-terminal 43 kDa fragment of the E. coli DNA gyrase B subunit grown from 100 mM KCl plus 100 mM NaCl condition [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>4XTJ_A</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.514</Hsp_bit-score>
+      <Hsp_score>1155</Hsp_score>
+      <Hsp_evalue>2.12344e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|6ENG|A</Hit_id>
+  <Hit_def>Crystal structure of the 43K ATPase domain of Escherichia coli gyrase B in complex with an aminocoumarin [Escherichia coli K-12] &gt;pdb|6ENG|B Crystal structure of the 43K ATPase domain of Escherichia coli gyrase B in complex with an aminocoumarin [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6ENG_A</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.514</Hsp_bit-score>
+      <Hsp_score>1155</Hsp_score>
+      <Hsp_evalue>2.91274e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|4PRV|A</Hit_id>
+  <Hit_def>E. coli GyrB 43-kDa N-terminal fragment in complex with ADP [Escherichia coli] &gt;pdb|4PRX|A E. coli GyrB 43-kDa N-terminal fragment in complex with ADP+Pi [Escherichia coli] &gt;pdb|4PU9|A E. coli GyrB 43-kDa N-terminal fragment in complex with ADP-BeF3 [Escherichia coli]</Hit_def>
+  <Hit_accession>4PRV_A</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.743</Hsp_bit-score>
+      <Hsp_score>1153</Hsp_score>
+      <Hsp_evalue>7.01807e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|1EI1|A</Hit_id>
+  <Hit_def>Dimerization Of E. Coli Dna Gyrase B Provides A Structural Mechanism For Activating The Atpase Catalytic Center [Escherichia coli] &gt;pdb|1EI1|B Dimerization Of E. Coli Dna Gyrase B Provides A Structural Mechanism For Activating The Atpase Catalytic Center [Escherichia coli]</Hit_def>
+  <Hit_accession>1EI1_A</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.71185e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSSDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLDSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNS DSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFL+SGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|6RKS|B</Hit_id>
+  <Hit_def>E. coli DNA Gyrase - DNA binding and cleavage domain in State 1 without TOPRIM insertion [Escherichia coli K-12] &gt;pdb|6RKS|D E. coli DNA Gyrase - DNA binding and cleavage domain in State 1 without TOPRIM insertion [Escherichia coli K-12] &gt;pdb|6RKU|B E. coli DNA Gyrase - DNA binding and cleavage domain in State 1 [Escherichia coli K-12] &gt;pdb|6RKU|D E. coli DNA Gyrase - DNA binding and cleavage domain in State 1 [Escherichia coli K-12] &gt;pdb|6RKV|B E. coli DNA Gyrase - DNA binding and cleavage domain in State 2 [Escherichia coli K-12] &gt;pdb|6RKV|D E. coli DNA Gyrase - DNA binding and cleavage domain in State 2 [Escherichia coli K-12] &gt;pdb|6RKW|B CryoEM structure of the complete E. coli DNA Gyrase complex bound to a 130 bp DNA duplex [Escherichia coli K-12] &gt;pdb|6RKW|D CryoEM structure of the complete E. coli DNA Gyrase complex bound to a 130 bp DNA duplex [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6RKS_B</Hit_accession>
+  <Hit_len>804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.825</Hsp_bit-score>
+      <Hsp_score>1161</Hsp_score>
+      <Hsp_evalue>1.30984e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|5ZXM|A</Hit_id>
+  <Hit_def>Crystal Structure of GyraseB N-terminal at 1.93A Resolution [Salmonella enterica subsp. enterica] &gt;pdb|5ZXM|B Crystal Structure of GyraseB N-terminal at 1.93A Resolution [Salmonella enterica subsp. enterica] &gt;pdb|6J90|A Crystal Structure of GyraseB N-Terminal Domain complex with ATP from Salmonella Typhi at 2.2A Resolution [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>5ZXM_A</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>1.33723e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMAFEVVDNAIDEALAGHCKDIVVTIHADNSVSVTDDGRGIPTGIHPSEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQRDGKIHRQIYEHGVPQAPLAVTGDTDKTGTMVRFWPSKSTFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHM FEVVDNAIDEALAGHCK+I+VTIHADNSVSV DDGRGIPTGIHP EGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ +GKIHRQIYEHGVPQAPLAVTG+T+KTGTMVRFWPS  TFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|6F86|A</Hit_id>
+  <Hit_def>Crystal Structure of E. coli GyraseB 24kDa in complex with 4-(4-bromo-1H-pyrazol-1-yl)-6-[(ethylcarbamoyl)amino]-N-(pyridin-3-yl)pyridine-3-carboxamide [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>6F86_A</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.624</Hsp_bit-score>
+      <Hsp_score>1080</Hsp_score>
+      <Hsp_evalue>1.05716e-151</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|5Z4H|A</Hit_id>
+  <Hit_def>Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z4H|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z4O|A Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z4O|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9B|A Bacterial GyrB ATPase domain in complex with (3,4-dichlorophenyl)hydrazine [Escherichia coli K-12] &gt;pdb|5Z9B|B Bacterial GyrB ATPase domain in complex with (3,4-dichlorophenyl)hydrazine [Escherichia coli K-12] &gt;pdb|5Z9E|A Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9E|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9F|A Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9F|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9L|A Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9L|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9M|A Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9M|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9N|A S.aureus GyrB ATPase domain in complex with 4,6-dichloro-2-(methylthio)pyrimidine [Escherichia coli K-12] &gt;pdb|5Z9Q|A Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12] &gt;pdb|5Z9Q|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5Z4H_A</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>1.73746e-151</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1KZN|A</Hit_id>
+  <Hit_def>Crystal Structure of E. coli 24kDa Domain in Complex with Clorobiocin [Escherichia coli]</Hit_def>
+  <Hit_accession>1KZN_A</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>5.1163e-151</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_hseq>
+      <Hsp_midline>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|4HYP|A</Hit_id>
+  <Hit_def>Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Escherichia coli K-12] &gt;pdb|4HYP|B Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Escherichia coli K-12] &gt;pdb|4HYP|C Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Escherichia coli K-12] &gt;pdb|4HYP|D Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Escherichia coli K-12] &gt;pdb|4KFG|A The DNA Gyrase B ATP binding domain of Escherichia coli in complex with a small molecule inhibitor. [Escherichia coli K-12] &gt;pdb|4KFG|B The DNA Gyrase B ATP binding domain of Escherichia coli in complex with a small molecule inhibitor. [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>4HYP_A</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>5.16268e-151</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|5L3J|A</Hit_id>
+  <Hit_def>Escherichia Coli Dna Gyrase B In Complex With Benzothiazole-based Inhibitor [Escherichia coli]</Hit_def>
+  <Hit_accession>5L3J_A</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.246</Hsp_bit-score>
+      <Hsp_score>1092</Hsp_score>
+      <Hsp_evalue>5.54101e-151</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|4ZVI|A</Hit_id>
+  <Hit_def>Gyrase B In Complex With 4,5-dibromopyrrolamide-based Inhibitor [Escherichia coli]</Hit_def>
+  <Hit_accession>4ZVI_A</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>3.25741e-150</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>LDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>LDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_hseq>
+      <Hsp_midline>LDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|3G7E|A</Hit_id>
+  <Hit_def>Crystal structure of E. coli Gyrase B co-complexed with PROP-2-YN-1-YL {[5-(4-PIPERIDIN-1-YL-2-PYRIDIN-3-YL-1,3-THIAZOL-5-YL)-1H-PYRAZOL-3-YL]METHYL}CARBAMATE inhibitor [Escherichia coli]</Hit_def>
+  <Hit_accession>3G7E_A</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.461</Hsp_bit-score>
+      <Hsp_score>1064</Hsp_score>
+      <Hsp_evalue>2.49944e-149</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFH</Hsp_qseq>
+      <Hsp_hseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQREGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFH</Hsp_hseq>
+      <Hsp_midline>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ EGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|6M1J|A</Hit_id>
+  <Hit_def>The DNA Gyrase B ATP binding domain of PSEUDOMONAS AERUGINOSA in complex with compound 12x [Pseudomonas aeruginosa PAO1] &gt;pdb|6M1J|B The DNA Gyrase B ATP binding domain of PSEUDOMONAS AERUGINOSA in complex with compound 12x [Pseudomonas aeruginosa PAO1] &gt;pdb|6M1S|A The DNA Gyrase B ATP binding domain of PSEUDOMONAS AERUGINOSA in complex with compound 12o [Pseudomonas aeruginosa PAO1] &gt;pdb|6M1S|B The DNA Gyrase B ATP binding domain of PSEUDOMONAS AERUGINOSA in complex with compound 12o [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>6M1J_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>8.48096e-107</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNSIDEALAGYCSEISITIHTDESITVRDNGRGIPVDIHKEEGVSAAEVIMTVLHAGGKFDDNTYKVSGGLHGVGVSVVNALSHELRLTIRRHNKVWEQVYHHGVPQFPLREVGETDGSGTEVHFKPSPETFSNI-HFSWDILAKRIRELSFLNSGVGILLRDERTGKEELFKYEG</Hsp_hseq>
+      <Hsp_midline>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDN+IDEALAG+C EI +TIH D S++V+D+GRGIP  IH EEGVSAAEVIMTVLHAGGKFDDN+YKVSGGLHGVGVSVVNALS +L L I+   K+  Q+Y HGVPQ PL   GET+ +GT V F PS ETF+N+  F ++ILAKR+RELSFLNSGV I LRD+R GKE+ F YEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|6Y8O|A</Hit_id>
+  <Hit_def>Chain A, DNA gyrase subunit B [Mycolicibacterium smegmatis] &gt;pdb|6Y8O|B Chain B, DNA gyrase subunit B [Mycolicibacterium smegmatis]</Hit_def>
+  <Hit_accession>6Y8O_A</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>6.30114e-77</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>YDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>YGADSITILEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGFATRVDVKIHADGSVEVRDDGRGIPVEMHAT-GMPTIDVVMTQLHAGGKFDGETYAVSGGLHGVGVSVVNALSTRLEATVLRDGYEWFQYYDRSVP-GKLKQGGETKETGTTIRFWADPEIF-ETTDYNFETVARRLQEMAFLNKGLTIELTDERDGKHRVFHYPG</Hsp_hseq>
+      <Hsp_midline>Y + SI +L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AG    + V IHAD SV V+DDGRGIP  +H   G+   +V+MT LHAGGKFD  +Y VSGGLHGVGVSVVNALS +LE  +  +G    Q Y+  VP   L   GET++TGT +RFW   E F   T++ +E +A+RL+E++FLN G++I L D+RDGK   FHY G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|4BAE|A</Hit_id>
+  <Hit_def>Chain A, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis] &gt;pdb|4BAE|B Chain B, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis] &gt;pdb|4BAE|C Chain C, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis] &gt;pdb|4BAE|D Chain D, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis]</Hit_def>
+  <Hit_accession>4BAE_A</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>1.04915e-74</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>VLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>MLEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGFATRVDVKIHADGSVEVRDDGRGIPVEMHAT-GMPTIDVVMTQLHAGGKFDGETYAVSGGLHGVGVSVVNALSTRLEATVLRDGYEWFQYYDRSVP-GKLKQGGETKETGTTIRFWADPEIF-ETTDYNFETVARRLQEMAFLNKGLTIELTDERDGKHRVFHYPG</Hsp_hseq>
+      <Hsp_midline>+L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AG    + V IHAD SV V+DDGRGIP  +H   G+   +V+MT LHAGGKFD  +Y VSGGLHGVGVSVVNALS +LE  +  +G    Q Y+  VP   L   GET++TGT +RFW   E F   T++ +E +A+RL+E++FLN G++I L D+RDGK   FHY G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|4URM|A</Hit_id>
+  <Hit_def>Crystal Structure of Staph GyraseB 24kDa in complex with Kibdelomycin [Staphylococcus aureus] &gt;pdb|4URM|B Crystal Structure of Staph GyraseB 24kDa in complex with Kibdelomycin [Staphylococcus aureus] &gt;pdb|4URM|C Crystal Structure of Staph GyraseB 24kDa in complex with Kibdelomycin [Staphylococcus aureus] &gt;pdb|4URM|D Crystal Structure of Staph GyraseB 24kDa in complex with Kibdelomycin [Staphylococcus aureus] &gt;pdb|4URO|A Crystal Structure of Staph GyraseB 24kDa in complex with Novobiocin [Staphylococcus aureus] &gt;pdb|4URO|B Crystal Structure of Staph GyraseB 24kDa in complex with Novobiocin [Staphylococcus aureus] &gt;pdb|4URO|C Crystal Structure of Staph GyraseB 24kDa in complex with Novobiocin [Staphylococcus aureus] &gt;pdb|4URO|D Crystal Structure of Staph GyraseB 24kDa in complex with Novobiocin [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4URM_A</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>2.18414e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDG---KEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>TDNYGAGQIQVLEGLEAARKRPGMYIGSTSE-RGLHHLVWEIVDNSIDEALAGYANQIEVVIEKDNWIKVTDNGRGIPVDIQEKMGRPAVEVILTVLHAGGKFGGGGYKVSGGLHGVGSSVVNALSQDLEVYVHRNETIYHQAYKKGVPQFDLKEVGTTDKTGTVIRFKADGEIFTETTVYNYETLQQRIRELAFLNKGIQITLRDERDEENVREDSYHYEG</Hsp_hseq>
+      <Hsp_midline>+++Y +  I+VL+GL+A RKRPGMYIG T +  GLHH+V+E+VDN+IDEALAG+  +I V I  DN + V D+GRGIP  I  + G  A EVI+TVLHAGGKF    YKVSGGLHGVG SVVNALSQ LE+ +     I+ Q Y+ GVPQ  L   G T+KTGT++RF    E FT  T + YE L +R+REL+FLN G+ I LRD+RD    +ED +HYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|4EM7|A</Hit_id>
+  <Hit_def>Crystal structure of a topoisomerase ATP inhibitor [Streptococcus pneumoniae GA47373] &gt;pdb|4EMV|A Crystal structure of a topoisomerase ATP inhibitor [Streptococcus pneumoniae GA47373] &gt;pdb|4LP0|A Crystal structure of a topoisomerase ATP inhibitor [Streptococcus pneumoniae R6] &gt;pdb|4LPB|A Crystal structure of a topoisomerase ATPase inhibitor [Streptococcus pneumoniae R6] &gt;pdb|4MB9|A Structure of Streptococcus pneumonia ParE in complex with AZ13102335 [Streptococcus pneumoniae GA47373] &gt;pdb|4MBC|A Structure of Streptococcus pneumonia ParE in complex with AZ13053807 [Streptococcus pneumoniae GA47373] &gt;pdb|4MOT|A Structure of Streptococcus pneumonia pare in complex with AZ13072886 [Streptococcus pneumoniae R6] &gt;pdb|5BOC|A Crystal structure of topoisomerase ParE inhibitor [Streptococcus pneumoniae R6] &gt;pdb|5BOD|A Crystal structure of Streptococcus pneumonia ParE inhibitor [Streptococcus pneumoniae R6]</Hit_def>
+  <Hit_accession>4EM7_A</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.41499e-71</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAVTGET--EKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>NNYNDDAIQVLEGLDAVRKRPGMYIGSTD-GAGLHHLVWEIVDNAVDEALSGFGDRIDVTINKDGSLTVQDHGRGMPTGMHAM-GIPTVEVIFTILHAGGKFGQGGYKTSGGLHGVGSSVVNALSSWLEVEITRDGAVYKQRFENGGKPVTTLKKIGTALKSKTGTKVTFMPDATIFS-TTDFKYNTISERLNESAFLLKNVTLSLTDKRTDEAIEFHYE</Hsp_hseq>
+      <Hsp_midline>N+Y+  +I+VL+GLDAVRKRPGMYIG TD G GLHH+V+E+VDNA+DEAL+G    I VTI+ D S++VQD GRG+PTG+H   G+   EVI T+LHAGGKF    YK SGGLHGVG SVVNALS  LE+ I  +G +++Q +E+ G P   L   G     KTGT V F P    F+  T+F+Y  +++RL E +FL   V++ L DKR  +   FHYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|6ZT3|A</Hit_id>
+  <Hit_def>Chain A, DNA gyrase subunit B [Mycolicibacterium smegmatis MC2 155] &gt;pdb|6ZT5|C Chain C, DNA gyrase subunit B [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>6ZT3_A</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>9.89899e-70</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>YDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKR</Hsp_qseq>
+      <Hsp_hseq>YGADSITILEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGFATRVDVKIHADGSVEVRDDGRGIPVEMHAT-GMPTIDVVMTQLHAGGKFDGETYAVSGGLHGVGVSVVNALSTRLEATVLRDGYEWFQYYDRSVP-GKLKQGGETKETGTTIRFWADPEIF-ETTDYNFETVARRLQEMAFLNKGLTIELTDER</Hsp_hseq>
+      <Hsp_midline>Y + SI +L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AG    + V IHAD SV V+DDGRGIP  +H   G+   +V+MT LHAGGKFD  +Y VSGGLHGVGVSVVNALS +LE  +  +G    Q Y+  VP   L   GET++TGT +RFW   E F   T++ +E +A+RL+E++FLN G++I L D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|5J5P|A</Hit_id>
+  <Hit_def>AMP-PNP-stabilized ATPase domain of topoisomerase IV from Streptococcus pneumoniae, complex type I [Streptococcus pneumoniae] &gt;pdb|5J5P|B AMP-PNP-stabilized ATPase domain of topoisomerase IV from Streptococcus pneumoniae, complex type I [Streptococcus pneumoniae] &gt;pdb|5J5Q|A AMP-PNP-stabilized ATPase domain of topoisomerase IV from Streptococcus pneumoniae, complex type II [Streptococcus pneumoniae] &gt;pdb|5J5Q|B AMP-PNP-stabilized ATPase domain of topoisomerase IV from Streptococcus pneumoniae, complex type II [Streptococcus pneumoniae] &gt;pdb|5J5Q|C AMP-PNP-stabilized ATPase domain of topoisomerase IV from Streptococcus pneumoniae, complex type II [Streptococcus pneumoniae] &gt;pdb|5J5Q|D AMP-PNP-stabilized ATPase domain of topoisomerase IV from Streptococcus pneumoniae, complex type II [Streptococcus pneumoniae]</Hit_def>
+  <Hit_accession>5J5P_A</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.42463e-69</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAVTGET--EKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>NNYNDDAIQVLEGLDAVRKRPGMYIGSTD-GAGLHHLVWEIVDNAVDEALSGFGDRIDVTINKDGSLTVQDHGRGMPTGMHAM-GIPTVEVIFTILHAGGKFGQGGYKTSGGLHGVGSSVVNALSSWLEVEITRDGAVYKQRFENGGKPVTTLKKIGTAPKSKTGTKVTFMPDATIFS-TTDFKYNTISERLNESAFLLKNVTLSLTDKRTDEAIEFHYE</Hsp_hseq>
+      <Hsp_midline>N+Y+  +I+VL+GLDAVRKRPGMYIG TD G GLHH+V+E+VDNA+DEAL+G    I VTI+ D S++VQD GRG+PTG+H   G+   EVI T+LHAGGKF    YK SGGLHGVG SVVNALS  LE+ I  +G +++Q +E+ G P   L   G     KTGT V F P    F+  T+F+Y  +++RL E +FL   V++ L DKR  +   FHYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|4URN|A</Hit_id>
+  <Hit_def>Crystal Structure of Staph ParE 24kDa in complex with Novobiocin [Staphylococcus aureus] &gt;pdb|4URN|B Crystal Structure of Staph ParE 24kDa in complex with Novobiocin [Staphylococcus aureus] &gt;pdb|4URN|C Crystal Structure of Staph ParE 24kDa in complex with Novobiocin [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4URN_A</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>9.30604e-69</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKE--DHFHYE</Hsp_qseq>
+      <Hsp_hseq>NNYSDDSIQVLEGLEAVRKRPGMYIGSTDK-RGLHHLVYEIVDNSVDEVLNGYGNEIDVTINKDGSISIEDNGRGMPTGIH-KSGKPTVEVIFTVLHAGGKFGQGGYKTSGGLHGVGASVVNALSEWLEVEIHRDGNIYHQSFKNGGSPSSGLVKKGKTKKTGTKVTFKPDDTIFKASTSFNFDVLSERLQESAFLLKNLKITLNDLRSGKERQEHYHYE</Hsp_hseq>
+      <Hsp_midline>N+Y   SI+VL+GL+AVRKRPGMYIG TD   GLHH+V+E+VDN++DE L G+  EI VTI+ D S+S++D+GRG+PTGIH + G    EVI TVLHAGGKF    YK SGGLHGVG SVVNALS+ LE+ I  +G I+ Q +++ G P + L   G+T+KTGT V F P    F   T F +++L++RL+E +FL   + I L D R GKE  +H+HYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|5YIG|A</Hit_id>
+  <Hit_def>Crystal structure of Streptococcus pneumonia ParE with inhibitor [Streptococcus pneumoniae GA47502] &gt;pdb|5YIG|B Crystal structure of Streptococcus pneumonia ParE with inhibitor [Streptococcus pneumoniae GA47502]</Hit_def>
+  <Hit_accession>5YIG_A</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>9.94156e-69</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAVTGET--EKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>QVLEGLDAVRKRPGMYIGSTD-GAGLHHLVWEIVDNAVDEALSGFGDRIDVTINKDGSLTVQDHGRGMPTGMHAM-GIPTVEVIFTILHAGGKFGQGGYKTSGGLHGVGSSVVNALSSWLEVEITRDGAVYKQRFENGGKPVTTLKKIGTALKSKTGTKVTFMPDATIFS-TTDFKYNTISERLNESAFLLKNVTLSLTDKRTDEAIEFHYE</Hsp_hseq>
+      <Hsp_midline>+VL+GLDAVRKRPGMYIG TD G GLHH+V+E+VDNA+DEAL+G    I VTI+ D S++VQD GRG+PTG+H   G+   EVI T+LHAGGKF    YK SGGLHGVG SVVNALS  LE+ I  +G +++Q +E+ G P   L   G     KTGT V F P    F+  T+F+Y  +++RL E +FL   V++ L DKR  +   FHYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|3ZKB|A</Hit_id>
+  <Hit_def>Chain A, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|B Chain B, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|C Chain C, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|D Chain D, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|E Chain E, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|F Chain F, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|G Chain G, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|H Chain H, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|I Chain I, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|J Chain J, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|K Chain K, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|L Chain L, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|M Chain M, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|N Chain N, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|O Chain O, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKB|P Chain P, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|A Chain A, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|B Chain B, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|C Chain C, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|D Chain D, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|E Chain E, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|F Chain F, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|G Chain G, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZKD|H Chain H, Dna Gyrase Subunit B [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>3ZKB_A</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>2.48471e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKR</Hsp_qseq>
+      <Hsp_hseq>DEYGAASITILEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGYATTVNVVLLEDGGVEVADDGRGIPVATHAS-GIPTVDVVMTQLHAGGKFDSDAYAISGGLHGVGVSVVNALSTRLEVEIKRDGYEWSQVYEKSEPLG-LKQGAPTKKTGSTVRFWADPAVF-ETTEYDFETVARRLQEMAFLNKGLTINLTDER</Hsp_hseq>
+      <Hsp_midline>+ Y ++SI +L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AG+   + V +  D  V V DDGRGIP   H   G+   +V+MT LHAGGKFD ++Y +SGGLHGVGVSVVNALS +LE+ I+ +G    Q+YE   P   L     T+KTG+ VRFW     F   TE+++E +A+RL+E++FLN G++I L D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|3ZM7|A</Hit_id>
+  <Hit_def>Chain A, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZM7|B Chain B, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZM7|C Chain C, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZM7|D Chain D, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZM7|E Chain E, Dna Gyrase Subunit B [Mycobacterium tuberculosis] &gt;pdb|3ZM7|F Chain F, Dna Gyrase Subunit B [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>3ZM7_A</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>2.62758e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKR</Hsp_qseq>
+      <Hsp_hseq>DEYGAASITILEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGYATTVNVVLLEDGGVEVADDGRGIPVATHAS-GIPTVDVVMTQLHAGGKFDSDAYAISGGLHGVGVSVVNALSTRLEVEIKRDGYEWSQVYEKSEPLG-LKQGAPTKKTGSTVRFWADPAVF-ETTEYDFETVARRLQEMAFLNKGLTINLTDER</Hsp_hseq>
+      <Hsp_midline>+ Y ++SI +L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AG+   + V +  D  V V DDGRGIP   H   G+   +V+MT LHAGGKFD ++Y +SGGLHGVGVSVVNALS +LE+ I+ +G    Q+YE   P   L     T+KTG+ VRFW     F   TE+++E +A+RL+E++FLN G++I L D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|4JUO|C</Hit_id>
+  <Hit_def>A low-resolution three-gate structure of topoisomerase IV from Streptococcus pneumoniae in space group H32 [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>4JUO_C</Hit_accession>
+  <Hit_len>670</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>5.87339e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAVTGET--EKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>NNYNDDAIQVLEGLDAVRKRPGMYIGSTD-GAGLHHLVWEIVDNAVDEALSGFGDRIDVTINKDGSLTVQDHGRGMPTGMHAM-GIPTVEVIFTILHAGGKFGQGGYKTSGGLHGVGSSVVNALSSWLEVEITRDGAVYKQRFENGGKPVTTLKKIGTAPKSKTGTKVTFMPDATIFS-TTDFKYNTISERLNESAFLLKNVTLSLTDKRTDEAIEFHYE</Hsp_hseq>
+      <Hsp_midline>N+Y+  +I+VL+GLDAVRKRPGMYIG TD G GLHH+V+E+VDNA+DEAL+G    I VTI+ D S++VQD GRG+PTG+H   G+   EVI T+LHAGGKF    YK SGGLHGVG SVVNALS  LE+ I  +G +++Q +E+ G P   L   G     KTGT V F P    F+  T+F+Y  +++RL E +FL   V++ L DKR  +   FHYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|4URL|A</Hit_id>
+  <Hit_def>Crystal Structure of Staph ParE43kDa in complex with KBD [Staphylococcus aureus] &gt;pdb|4URL|B Crystal Structure of Staph ParE43kDa in complex with KBD [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4URL_A</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>5.96303e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKE--DHFHYE</Hsp_qseq>
+      <Hsp_hseq>NNYSDDSIQVLEGLEAVRKRPGMYIGSTDK-RGLHHLVYEIVDNSVDEVLNGYGNEIDVTINKDGSISIEDNGRGMPTGIH-KSGKPTVEVIFTVLHAGGKFGQGGYKTSGGLHGVGASVVNALSEWLEVEIHRDGNIYHQSFKNGGSPSSGLVKKGKTKKTGTKVTFKPDDTIFKASTSFNFDVLSERLQESAFLLKNLKITLNDLRSGKERQEHYHYE</Hsp_hseq>
+      <Hsp_midline>N+Y   SI+VL+GL+AVRKRPGMYIG TD   GLHH+V+E+VDN++DE L G+  EI VTI+ D S+S++D+GRG+PTGIH + G    EVI TVLHAGGKF    YK SGGLHGVG SVVNALS+ LE+ I  +G I+ Q +++ G P + L   G+T+KTGT V F P    F   T F +++L++RL+E +FL   + I L D R GKE  +H+HYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|4HZ5|A</Hit_id>
+  <Hit_def>Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|B Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|C Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|D Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|E Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|F Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|G Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|H Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HZ5|J Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>4HZ5_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>1.42437e-65</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAVTGETEK-TGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKR--DGKEDHF</Hsp_qseq>
+      <Hsp_hseq>GLEAVRKRPGMYIGSTDS-RGLHHLVYEIVDNAVDEALSGYGNEINVTIQKDNSICVADSGRGMPTGMHA-SGIPTVEVIFTVLHAGGKFGQGGYKTSGGLHGVGASVVNALSKWLEVHIVRDGVEYMERFEDGGKPVGTLKKIGKTKKRNGTSVTFLPD-DTIFSTTNFSYEILAERLRESAFLLKGVKITLTDERGEEPKEEVF</Hsp_hseq>
+      <Hsp_midline>GL+AVRKRPGMYIG TD   GLHH+V+E+VDNA+DEAL+G+  EI VTI  DNS+ V D GRG+PTG+H   G+   EVI TVLHAGGKF    YK SGGLHGVG SVVNALS+ LE+ I  +G  + + +E  G P   L   G+T+K  GT V F P  +T  + T F YEILA+RLRE +FL  GV I L D+R  + KE+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|4I3H|A</Hit_id>
+  <Hit_def>A three-gate structure of topoisomerase IV from Streptococcus pneumoniae [Streptococcus pneumoniae TIGR4] &gt;pdb|4I3H|B A three-gate structure of topoisomerase IV from Streptococcus pneumoniae [Streptococcus pneumoniae TIGR4]</Hit_def>
+  <Hit_accession>4I3H_A</Hit_accession>
+  <Hit_len>1144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>5.26243e-65</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEH-GVPQAPLAV--TGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>NNYNDDAIQVLEGLDAVRKRPGMYIGSTD-GAGLHHLVWEIVDNAVDEALSGFGDRIDVTINKDGSLTVQDHGRGMPTGMHAM-GIPTVEVIFTILHAGGKFGQGGYKTSGGLHGVGSSVVNALSSWLEVEITRDGAVYKQRFENGGKPVTTLKKIGTAPKSKTGTKVTFMPDATIFS-TTDFKYNTISERLNESAFLLKNVTLSLTDKRTDEAIEFHYE</Hsp_hseq>
+      <Hsp_midline>N+Y+  +I+VL+GLDAVRKRPGMYIG TD G GLHH+V+E+VDNA+DEAL+G    I VTI+ D S++VQD GRG+PTG+H   G+   EVI T+LHAGGKF    YK SGGLHGVG SVVNALS  LE+ I  +G +++Q +E+ G P   L    T    KTGT V F P    F+  T+F+Y  +++RL E +FL   V++ L DKR  +   FHYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|6ENH|A</Hit_id>
+  <Hit_def>Crystal structure of the 43K ATPase domain of Thermus thermophilus gyrase B in complex with an aminocoumarin [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>6ENH_A</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>5.3676e-65</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>SYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETE--KTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHF</Hsp_qseq>
+      <Hsp_hseq>SYDASAIRVLKGLEGVRHRPAMYIGGTGV-EGYHHLFKEILDNAVDEALAGYATEILVRLNEDGSLTVEDNGRGIPVDLMPEEGKPAVEVIYTTLHSGGKFEQGAYKVSGGLHGVGASVVNALSEWTVVEVFREGKHHRIAFSRGEVTEPLRVVGEAPRGKTGTRVTFKPDPEIFGNL-RFDPSKIRARLREVAYLVAGLKLVFQDRQHGKEEVF</Hsp_hseq>
+      <Hsp_midline>SYD+S+I+VLKGL+ VR RP MYIG T    G HH+  E++DNA+DEALAG+  EI+V ++ D S++V+D+GRGIP  + PEEG  A EVI T LH+GGKF+  +YKVSGGLHGVG SVVNALS+   + +  EGK HR  +  G    PL V GE    KTGT V F P  E F N+  F+   +  RLRE+++L +G+ +  +D++ GKE+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|1KIJ|A</Hit_id>
+  <Hit_def>Crystal structure of the 43K ATPase domain of Thermus thermophilus gyrase B in complex with novobiocin [Thermus thermophilus] &gt;pdb|1KIJ|B Crystal structure of the 43K ATPase domain of Thermus thermophilus gyrase B in complex with novobiocin [Thermus thermophilus]</Hit_def>
+  <Hit_accession>1KIJ_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>2.41963e-64</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>SYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETE--KTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHF</Hsp_qseq>
+      <Hsp_hseq>SYDASAIRVLKGLEGVRHRPAMYIGGTGV-EGYHHLFKEILDNAVDEALAGYATEILVRLNEDGSLTVEDNGRGIPVDLMPEEGKPAVEVIYNTLHSGGKFEQGAYKVSGGLHGVGASVVNALSEWTVVEVFREGKHHRIAFSRGEVTEPLRVVGEAPRGKTGTRVTFKPDPEIFGNL-RFDPSKIRARLREVAYLVAGLKLVFQDRQHGKEEVF</Hsp_hseq>
+      <Hsp_midline>SYD+S+I+VLKGL+ VR RP MYIG T    G HH+  E++DNA+DEALAG+  EI+V ++ D S++V+D+GRGIP  + PEEG  A EVI   LH+GGKF+  +YKVSGGLHGVG SVVNALS+   + +  EGK HR  +  G    PL V GE    KTGT V F P  E F N+  F+   +  RLRE+++L +G+ +  +D++ GKE+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4GEE|A</Hit_id>
+  <Hit_def>Pyrrolopyrimidine inhibitors of DNA gyrase B and topoisomerase IV, part I: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Enterococcus faecalis V583] &gt;pdb|4GFN|A Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic [Enterococcus faecalis V583] &gt;pdb|4GGL|A Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity [Enterococcus faecalis V583] &gt;pdb|4HXW|A Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Enterococcus faecalis V583] &gt;pdb|4K4O|A The DNA Gyrase B ATP binding domain of Enterococcus faecalis in complex with a small molecule inhibitor [Enterococcus faecalis V583] &gt;pdb|4KSG|A Dna gyrase atp binding domain of enterococcus faecalis in complex with a small molecule inhibitor (4-[(1S,5R,6R)-6-AMINO-1-METHYL-3-AZABICYCLO[3.2.0]HEPT-3-YL]-6-FLUORO-N-METHYL-2-[(2-METHYLPYRIMIDIN-5-YL)OXY]-9H-PYRIMIDO[4,5-B]INDOL-8-AMINE) [Enterococcus faecalis V583] &gt;pdb|4KSH|A Dna gyrase atp binding domain of enterococcus faecalis in complex with a small molecule inhibitor (7-({4-[(3R)-3-AMINOPYRROLIDIN-1-YL]-5-CHLORO-6-ETHYL-7H-PYRROLO[2,3-D]PYRIMIDIN-2-YL}SULFANYL)-1,5-NAPHTHYRIDIN-1(4H)-OL) [Enterococcus faecalis V583] &gt;pdb|4KTN|A Dna gyrase atp binding domain of enterococcus faecalis in complex with a small molecule inhibitor ((3S)-1-[2-(PYRIDO[2,3-B]PYRAZIN-7-YLSULFANYL)-9H-PYRIMIDO[4,5-B]INDOL-4-YL]PYRROLIDIN-3-AMINE) [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>4GEE_A</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>3.91484e-64</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKED--HFHYEG</Hsp_qseq>
+      <Hsp_hseq>GLEAVRKRPGMYIGSTS-GEGLHHLVWEIVDNSIDEALAGFAKSIQVIIEPDDSITVIDDGRGIPVGIQAKTGRPAVETVFTVLHAGGKFGGGGYKVSGGLHGVGSSVVNALSTSLDVRVYKDGKVYYQEYRRGAVVDDLKVIEETDRHGTTVHFIPDPEIFTETTVYDFDKLATRVRELAFLNRGLHISIEDRREGQEDKKEYHYEG</Hsp_hseq>
+      <Hsp_midline>GL+AVRKRPGMYIG T  G GLHH+V+E+VDN+IDEALAG  K I V I  D+S++V DDGRGIP GI  + G  A E + TVLHAGGKF    YKVSGGLHGVG SVVNALS  L++ +  +GK++ Q Y  G     L V  ET++ GT V F P  E FT  T ++++ LA R+REL+FLN G+ I + D+R+G+ED   +HYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|5CPH|A</Hit_id>
+  <Hit_def>Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CPH|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTU|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTU|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTW|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTW|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTX|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTX|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTY|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5CTY|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a fragment [Staphylococcus aureus] &gt;pdb|5D6P|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D6P|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D6Q|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D6Q|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D7C|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D7C|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D7D|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D7D|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D7R|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|5D7R|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with a ligand [Staphylococcus aureus] &gt;pdb|6TCK|A Chain A, DNA gyrase subunit B [Staphylococcus aureus] &gt;pdb|6TCK|B Chain B, DNA gyrase subunit B [Staphylococcus aureus] &gt;pdb|6TTG|A Crystal structure of the ATP binding domain of S. aureus GyrB complexed with LMD62 [Staphylococcus aureus] &gt;pdb|6TTG|B Crystal structure of the ATP binding domain of S. aureus GyrB complexed with LMD62 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5CPH_A</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>1.43645e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDG---KEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>TDNYGAGQIQVLEGLEAVRKRPGMYIGSTSE-RGLHHLVWEIVDNSIDEALAGYANQIEVVIEKDNWIKVTDNGRGIPVDIQEKMGRPAVEVILTS-----------------------SVVNALSQDLEVYVHRNETIYHQAYKKGVPQFDLKEVGTTDKTGTVIRFKADGEIFTETTVYNYETLQQRIRELAFLNKGIQITLRDERDEENVREDSYHYEG</Hsp_hseq>
+      <Hsp_midline>+++Y +  I+VL+GL+AVRKRPGMYIG T +  GLHH+V+E+VDN+IDEALAG+  +I V I  DN + V D+GRGIP  I  + G  A EVI+T                        SVVNALSQ LE+ +     I+ Q Y+ GVPQ  L   G T+KTGT++RF    E FT  T + YE L +R+REL+FLN G+ I LRD+RD    +ED +HYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|6GAU|A</Hit_id>
+  <Hit_def>Chain A, DNA gyrase subunit B,DNA gyrase subunit A [Mycobacterium tuberculosis] &gt;pdb|6GAU|B Chain B, DNA gyrase subunit B,DNA gyrase subunit A [Mycobacterium tuberculosis] &gt;pdb|6GAV|A Chain A, DNA gyrase subunit B,DNA gyrase subunit A [Mycobacterium tuberculosis] &gt;pdb|6GAV|B Chain B, DNA gyrase subunit B,DNA gyrase subunit A [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>6GAU_A</Hit_accession>
+  <Hit_len>1179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.34483e-63</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>NSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKR</Hsp_qseq>
+      <Hsp_hseq>DEYGAASITILEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGYATTVNVVLLEDGGVEVADDGRGIPVATHAS-GIPTVDVVMTQLHAGGKFDSDAYAISGGLHGVGVSVVNALSTRLEVEIKRDGYEWSQVYEKSEPLG-LKQGAPTKKTGSTVRFWADPAVF-ETTEYDFETVARRLQEMAFLNKGLTINLTDER</Hsp_hseq>
+      <Hsp_midline>+ Y ++SI +L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AG+   + V +  D  V V DDGRGIP   H   G+   +V+MT LHAGGKFD ++Y +SGGLHGVGVSVVNALS +LE+ I+ +G    Q+YE   P   L     T+KTG+ VRFW     F   TE+++E +A+RL+E++FLN G++I L D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|5Z9P|A</Hit_id>
+  <Hit_def>Bacterial GyrB ATPase domain in complex with a chemical fragment [Staphylococcus aureus] &gt;pdb|5Z9P|B Bacterial GyrB ATPase domain in complex with a chemical fragment [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5Z9P_A</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>5.39439e-63</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>YDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDG---KEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>YGAGQIQVLEGLEAVRKRPGMYIGSTSE-RGLHHLVWEIVDNSIDEALAGYANQIEVVIEKDNWIKVTDNGRGIPVDIQEKMGRPAVEVILTS-----------------------SVVNALSQDLEVYVHRNETIYHQAYKKGVPQFDLKEVGTTDKTGTVIRFKADGEIFTETTVYNYETLQQRIRELAFLNKGIQITLRDERDEENVREDSYHYEG</Hsp_hseq>
+      <Hsp_midline>Y +  I+VL+GL+AVRKRPGMYIG T +  GLHH+V+E+VDN+IDEALAG+  +I V I  DN + V D+GRGIP  I  + G  A EVI+T                        SVVNALSQ LE+ +     I+ Q Y+ GVPQ  L   G T+KTGT++RF    E FT  T + YE L +R+REL+FLN G+ I LRD+RD    +ED +HYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|3TTZ|A</Hit_id>
+  <Hit_def>Crystal structure of a topoisomerase ATPase inhibitor [Staphylococcus aureus] &gt;pdb|3TTZ|B Crystal structure of a topoisomerase ATPase inhibitor [Staphylococcus aureus] &gt;pdb|3U2D|A S. aureus GyrB ATPase domain in complex with small molecule inhibitor [Staphylococcus aureus] &gt;pdb|3U2D|B S. aureus GyrB ATPase domain in complex with small molecule inhibitor [Staphylococcus aureus] &gt;pdb|3U2K|A S. aureus GyrB ATPase domain in complex with a small molecule inhibitor [Staphylococcus aureus] &gt;pdb|3U2K|B S. aureus GyrB ATPase domain in complex with a small molecule inhibitor [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>3TTZ_A</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>5.62963e-63</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>YDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDG---KEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>YGAGQIQVLEGLEAVRKRPGMYIGSTSE-RGLHHLVWEIVDNSIDEALAGYANQIEVVIEKDNWIKVTDNGRGIPVDIQEKMGRPAVEVILTS-----------------------SVVNALSQDLEVYVHRNETIYHQAYKKGVPQFDLKEVGTTDKTGTVIRFKADGEIFTETTVYNYETLQQRIRELAFLNKGIQITLRDERDEENVREDSYHYEG</Hsp_hseq>
+      <Hsp_midline>Y +  I+VL+GL+AVRKRPGMYIG T +  GLHH+V+E+VDN+IDEALAG+  +I V I  DN + V D+GRGIP  I  + G  A EVI+T                        SVVNALSQ LE+ +     I+ Q Y+ GVPQ  L   G T+KTGT++RF    E FT  T + YE L +R+REL+FLN G+ I LRD+RD    +ED +HYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|3LNU|A</Hit_id>
+  <Hit_def>Crystal structure of ParE subunit [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;pdb|3LPS|A Crystal structure of parE [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;pdb|7CMP|A Chain A, DNA topoisomerase 4 subunit B [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;pdb|7CMP|B Chain B, DNA topoisomerase 4 subunit B [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;pdb|7CMP|C Chain C, DNA topoisomerase 4 subunit B [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;pdb|7CMP|D Chain D, DNA topoisomerase 4 subunit B [Xanthomonas oryzae pv. oryzae KACC 10331]</Hit_def>
+  <Hit_accession>3LNU_A</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>2.55877e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEK--TGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>NTRYNAADIEVLSGLDPVKRRPGMYT----DTARPNHLAQEVIDNSVDEALAGHAKQIEVTLYKDGSCEVSDDGRGMPVDIHPEEKIPGVELILTRLHAGGKFNNRNYTFSGGLHGVGVSVVNALSTKVELFIKREGSEHRMEFRDGNAASKLEVVGTVGKKNTGTRLRFWADPKYF-DTPKFNVRALRHLLRAKAVLCPGLTVKLHDEATGEQDSWYFE</Hsp_hseq>
+      <Hsp_midline>+  Y+++ I+VL GLD V++RPGMY     D    +H+  EV+DN++DEALAGH K+I VT++ D S  V DDGRG+P  IHPEE +   E+I+T LHAGGKF++ +Y  SGGLHGVGVSVVNALS K+EL I+ EG  HR  +  G   + L V G   K  TGT +RFW   + F +  +F    L   LR  + L  G++++L D+  G++D +++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|1S16|A</Hit_id>
+  <Hit_def>Crystal Structure of E. coli Topoisomerase IV ParE 43kDa subunit complexed with ADPNP [Escherichia coli] &gt;pdb|1S16|B Crystal Structure of E. coli Topoisomerase IV ParE 43kDa subunit complexed with ADPNP [Escherichia coli]</Hit_def>
+  <Hit_accession>1S16_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.82629e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEK--TGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>TQTYNADAIEVLTGLEPVRRRPGMYT----DTTRPNHLGQEVIDNSVDEALAGHAKRVDVILHADQSLEVIDDGRGMPVDIHPEEGVPAVELILCRLHAGGKFSNKNYQFSGGLHGVGISVVNALSKRVEVNVRRDGQVYNIAFENGEKVQDLQVVGTCGKRNTGTSVHFWPD-ETFFDSPRFSVSRLTHVLKAKAVLCPGVEITFKDEINNTEQRWCYQ</Hsp_hseq>
+      <Hsp_midline>+ +Y++ +I+VL GL+ VR+RPGMY     D T  +H+  EV+DN++DEALAGH K + V +HAD S+ V DDGRG+P  IHPEEGV A E+I+  LHAGGKF + +Y+ SGGLHGVG+SVVNALS+++E+ ++ +G+++   +E+G     L V G   K  TGT V FWP  ETF +   F    L   L+  + L  GV I  +D+ +  E  + Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|4P8O|A</Hit_id>
+  <Hit_def>S. aureus gyrase bound to an aminobenzimidazole urea inhibitor [Staphylococcus aureus 04-02981] &gt;pdb|4P8O|B S. aureus gyrase bound to an aminobenzimidazole urea inhibitor [Staphylococcus aureus 04-02981]</Hit_def>
+  <Hit_accession>4P8O_A</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>1.59316e-60</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDG---KEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>MEGLEAVRKRPGMYIGSTSE-RGLHHLVWEIVDNSIDEALAGYANQIEVVIEKDNWIKVTDNGRGIPVDIQEKMGRPAVEVILTS-----------------------SVVNALSQDLEVYVHRNETIYHQAYKKGVPQFDLKEVGTTDKTGTVIRFKADGEIFTETTVYNYETLQQRIRELAFLNKGIQITLRDERDEENVREDSYHYEG</Hsp_hseq>
+      <Hsp_midline>++GL+AVRKRPGMYIG T +  GLHH+V+E+VDN+IDEALAG+  +I V I  DN + V D+GRGIP  I  + G  A EVI+T                        SVVNALSQ LE+ +     I+ Q Y+ GVPQ  L   G T+KTGT++RF    E FT  T + YE L +R+REL+FLN G+ I LRD+RD    +ED +HYEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|4B6C|A</Hit_id>
+  <Hit_def>Chain A, DNA gyrase subunit B,DNA gyrase subunit B,DNA gyrase subunit B [Mycolicibacterium smegmatis] &gt;pdb|4B6C|B Chain B, DNA gyrase subunit B,DNA gyrase subunit B,DNA gyrase subunit B [Mycolicibacterium smegmatis]</Hit_def>
+  <Hit_accession>4B6C_A</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>1.23691e-59</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>YDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>YGADSITILEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGFATRVDVKIHADGSVEVRDDGRGIPVEMHA-TGMPTIDVVMT--------------------QVGVSVVNALSTRLEATVLRDGYEWFQYYDRSVP-GKLKQGGETKETGTTIRFWADPEIF-ETTDYNFETVARRLQEMAFLNKGLTIELTDERDGKHRVFHYPG</Hsp_hseq>
+      <Hsp_midline>Y + SI +L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AG    + V IHAD SV V+DDGRGIP  +H   G+   +V+MT                     VGVSVVNALS +LE  +  +G    Q Y+  VP   L   GET++TGT +RFW   E F   T++ +E +A+RL+E++FLN G++I L D+RDGK   FHY G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|4HZ0|A</Hit_id>
+  <Hit_def>Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Escherichia coli K-12] &gt;pdb|4HZ0|B Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>4HZ0_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.50121e-59</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>VLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEK--TGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>VLTGLEPVRRRPGMYT----DTTRPNHLGQEVIDNSVDEALAGHAKRVDVILHADQSLEVIDDGRGMPVDIHPEEGVPAVELILCRLHAGGKFSNKNYQFSGGLHGVGISVVNALSKRVEVNVRRDGQVYNIAFENGEKVQDLQVVGTCGKRNTGTSVHFWPD-ETFFDSPRFSVSRLTHVLKAKAVLCPGVEITFKDEINNTEQRWCYQ</Hsp_hseq>
+      <Hsp_midline>VL GL+ VR+RPGMY     D T  +H+  EV+DN++DEALAGH K + V +HAD S+ V DDGRG+P  IHPEEGV A E+I+  LHAGGKF + +Y+ SGGLHGVG+SVVNALS+++E+ ++ +G+++   +E+G     L V G   K  TGT V FWP  ETF +   F    L   L+  + L  GV I  +D+ +  E  + Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|3G75|A</Hit_id>
+  <Hit_def>Crystal structure of Staphylococcus aureus Gyrase B co-complexed with 4-METHYL-5-[3-(METHYLSULFANYL)-1H-PYRAZOL-5-YL]-2-THIOPHEN-2-YL-1,3-THIAZOLE inhibitor [Staphylococcus aureus] &gt;pdb|3G75|B Crystal structure of Staphylococcus aureus Gyrase B co-complexed with 4-METHYL-5-[3-(METHYLSULFANYL)-1H-PYRAZOL-5-YL]-2-THIOPHEN-2-YL-1,3-THIAZOLE inhibitor [Staphylococcus aureus] &gt;pdb|3G7B|A Staphylococcus aureus Gyrase B co-complex with METHYL ({5-[4-(4-HYDROXYPIPERIDIN-1-YL)-2-PHENYL-1,3-THIAZOL-5-YL]-1H-PYRAZOL-3-YL}METHYL)CARBAMATE inhibitor [Staphylococcus aureus] &gt;pdb|3G7B|B Staphylococcus aureus Gyrase B co-complex with METHYL ({5-[4-(4-HYDROXYPIPERIDIN-1-YL)-2-PHENYL-1,3-THIAZOL-5-YL]-1H-PYRAZOL-3-YL}METHYL)CARBAMATE inhibitor [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>3G75_A</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>3.60717e-59</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDG---KEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>GLEAVRKRPGMYIGSTSE-RGLHHLVWEIVDNSIDEALAGYANQIEVVIEKDNWIKVTDNGRGIPVDIQEKMGRPAVEVILTS-----------------------SVVNALSQDLEVYVHRNETIYHQAYKKGVPQFDLKEVGTTDKTGTVIRFKADGEIFTETTVYNYETLQQRIRELAFLNKGIQITLRDERDEENVREDSYHYE</Hsp_hseq>
+      <Hsp_midline>GL+AVRKRPGMYIG T +  GLHH+V+E+VDN+IDEALAG+  +I V I  DN + V D+GRGIP  I  + G  A EVI+T                        SVVNALSQ LE+ +     I+ Q Y+ GVPQ  L   G T+KTGT++RF    E FT  T + YE L +R+REL+FLN G+ I LRD+RD    +ED +HYE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|3FV5|A</Hit_id>
+  <Hit_def>Crystal Structure of E. coli Topoisomerase IV co-complexed with inhibitor [Escherichia coli K-12] &gt;pdb|3FV5|B Crystal Structure of E. coli Topoisomerase IV co-complexed with inhibitor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>3FV5_A</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>3.71159e-58</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEK--TGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHY</Hsp_qseq>
+      <Hsp_hseq>GLEPVRRRPGMYT----DTTRPNHLGQEVIDNSVDEALAGHAKRVDVILHADQSLEVIDDGRGMPVDIHPEEGVPAVELILCRLHAGGKFSNKNYQFSGGLHGVGISVVNALSKRVEVNVRRDGQVYNIAFENGEKVQDLQVVGTCGKRNTGTSVHFWPD-ETFFDSPRFSVSRLTHVLKAKAVLCPGVEITFKDEINNTEQRWCY</Hsp_hseq>
+      <Hsp_midline>GL+ VR+RPGMY     D T  +H+  EV+DN++DEALAGH K + V +HAD S+ V DDGRG+P  IHPEEGV A E+I+  LHAGGKF + +Y+ SGGLHGVG+SVVNALS+++E+ ++ +G+++   +E+G     L V G   K  TGT V FWP  ETF +   F    L   L+  + L  GV I  +D+ +  E  + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|6Y8L|A</Hit_id>
+  <Hit_def>Chain A, DNA gyrase subunit B [Mycolicibacterium thermoresistibile] &gt;pdb|6Y8L|B Chain B, DNA gyrase subunit B [Mycolicibacterium thermoresistibile] &gt;pdb|6Y8N|A Chain A, DNA gyrase subunit B [Mycolicibacterium thermoresistibile] &gt;pdb|6Y8N|B Chain B, DNA gyrase subunit B [Mycolicibacterium thermoresistibile]</Hit_def>
+  <Hit_accession>6Y8L_A</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>2.45289e-56</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>VLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>MLEGLEAVRKRPGMYIGSTGE-RGLHHLIWEVVDNAVDEAMAGHATKVRVRLLADGGVEVSDDGRGIPVEMH-ESGVPTVDVVMT--------------------QVGVSVVNALSTRMEVEICRDGYQWFQTYDKSVP-GTLKQGEKTRKTGTVVRFWPDPDVFETTT-FDFETVARRLQEQAFLNKGLTIELIDERDGKHRTFYYPG</Hsp_hseq>
+      <Hsp_midline>+L+GL+AVRKRPGMYIG T +  GLHH+++EVVDNA+DEA+AGH  ++ V + AD  V V DDGRGIP  +H E GV   +V+MT                     VGVSVVNALS ++E+ I  +G    Q Y+  VP   L    +T KTGT+VRFWP  + F   T F++E +A+RL+E +FLN G++I L D+RDGK   F+Y G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|4HXZ|A</Hit_id>
+  <Hit_def>Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Francisella tularensis subsp. holarctica LVS] &gt;pdb|4HXZ|B Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Francisella tularensis subsp. holarctica LVS] &gt;pdb|4HY1|A Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Francisella tularensis subsp. holarctica LVS] &gt;pdb|4HY1|B Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Francisella tularensis subsp. holarctica LVS] &gt;pdb|4HYM|A Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Francisella tularensis subsp. holarctica LVS] &gt;pdb|4HYM|B Pyrrolopyrimidine inhibitors of dna gyrase b and topoisomerase iv, part i: structure guided discovery and optimization of dual targeting agents with potent, broad-spectrum enzymatic activity. [Francisella tularensis subsp. holarctica LVS] &gt;pdb|4KQV|A Topoisomerase iv atp binding domain of francisella tularensis in complex with a small molecule inhibitor [Francisella tularensis subsp. holarctica LVS] &gt;pdb|4KQV|B Topoisomerase iv atp binding domain of francisella tularensis in complex with a small molecule inhibitor [Francisella tularensis subsp. holarctica LVS]</Hit_def>
+  <Hit_accession>4HXZ_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>2.23147e-54</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>SYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEK--TGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>NYNAKSIEVLTGLDPVKKRPGMYTNIENP----NHLIQEIIDNSVDEVLAGFASKINITLYEDNSIEVADDGRGMPVDIHPEHKMSGIELIMTKLHSGGKFSNKNYTHSGGLHGVGVSVVNALSTRLEAEIKRDGNVYHIVFEDGFKTKDLEIIDNVGKKNTGTKIRFWPNKKYFDDI-KVNFKALKNLLEAKAILCKALTIKYSNEIKKEKLTWHFE</Hsp_hseq>
+      <Hsp_midline>+Y++ SI+VL GLD V+KRPGMY    +     +H++ E++DN++DE LAG   +I +T++ DNS+ V DDGRG+P  IHPE  +S  E+IMT LH+GGKF + +Y  SGGLHGVGVSVVNALS +LE  I+ +G ++  ++E G     L +     K  TGT +RFWP+ + F ++ +  ++ L   L   + L   ++I+  ++   ++  +H+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|1S14|A</Hit_id>
+  <Hit_def>Crystal structure of Escherichia coli Topoisomerase IV ParE 24kDa subunit [Escherichia coli] &gt;pdb|1S14|B Crystal structure of Escherichia coli Topoisomerase IV ParE 24kDa subunit [Escherichia coli]</Hit_def>
+  <Hit_accession>1S14_A</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.78523e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>SNSYDSSSIKVLKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEK--TGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYE</Hsp_qseq>
+      <Hsp_hseq>TQTYNADAIEVLTGLEPVRRRPGMYT----DTTRPNHLGQEVIDNSVDEALAGHAKRVDVILHADQSLEVIDDGRGMPVDIHPEEGVPAVELILC-----------------------ISVVNALSKRVEVNVRRDGQVYNIAFENGEKVQDLQVVGTCGKRNTGTSVHFWPD-ETFFDSPRFSVSRLTHVLKAKAVLCPGVEITFKDEINNTEQRWCYQ</Hsp_hseq>
+      <Hsp_midline>+ +Y++ +I+VL GL+ VR+RPGMY     D T  +H+  EV+DN++DEALAGH K + V +HAD S+ V DDGRG+P  IHPEEGV A E+I+                        +SVVNALS+++E+ ++ +G+++   +E+G     L V G   K  TGT V FWP  ETF +   F    L   L+  + L  GV I  +D+ +  E  + Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>pdb|3CWV|A</Hit_id>
+  <Hit_def>Crystal structure of B-subunit of the DNA gyrase from Myxococcus xanthus [Myxococcus xanthus DK 1622] &gt;pdb|3CWV|B Crystal structure of B-subunit of the DNA gyrase from Myxococcus xanthus [Myxococcus xanthus DK 1622]</Hit_def>
+  <Hit_accession>3CWV_A</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.79059e-17</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>LDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAG--GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQA------PLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGVSIRLRDKRDGKEDHFHYEG</Hsp_qseq>
+      <Hsp_hseq>VENVRKRPGMYCGDVGE-YGLHHLVYFLLDVAYEEARRGECRDVVLEVGGDGSIALFCTSR----------TVTAENLVRVATGAGFLGRPPGDGWGWDSML-----VVSLALSSRYQVDIWADGRQWRVMGEHGHPQGEGAAVTPMEPMPVSAERGVRVHFVPDATIF-EVLAFDRARLSRRCNELAALAPGLRVSFADLQRGERTLWHLPG</Hsp_hseq>
+      <Hsp_midline>++ VRKRPGMY GD  +  GLHH+V+ ++D A +EA  G C+++++ +  D S+++    R           V+A  ++     AG  G+   + +     L      V  ALS + ++ I  +G+  R + EHG PQ       P+     + + G  V F P    F  V  F+   L++R  EL+ L  G+ +   D + G+   +H  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>pdb|4GFH|A</Hit_id>
+  <Hit_def>Topoisomerase II-DNA-AMPPNP complex [Saccharomyces cerevisiae S288C] &gt;pdb|4GFH|F Topoisomerase II-DNA-AMPPNP complex [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>4GFH_A</Hit_accession>
+  <Hit_len>1177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>8.09036e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>SSSIKVLKGLDAVRKRPGMYIGDT----------DDGT------------GLHHMVFEVVDNAIDEALAG-HCKEIIVTIHAD-NSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQK--LELVIQHEGKIHRQIYEH--GVPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGV</Hsp_qseq>
+      <Hsp_hseq>SDKYQKISQLEHILKRPDTYIGSVETQEQLQWIYDEETDCMIEKNVTIVPGLFKIFDEILVNAADNKVRDPSMKRIDVNIHAEEHTIEVKNDGKGIPIEIHNKENIYIPEMIFGHLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTEFILETADLNVGQKYVQKWENNMSICHPPKITSYKKGPSYTKVTFKPDLTRF-GMKELDNDILGVMRRRVYDINGSV</Hsp_hseq>
+      <Hsp_midline>S   + +  L+ + KRP  YIG            D+ T            GL  +  E++ NA D  +     K I V IHA+ +++ V++DG+GIP  IH +E +   E+I   L     +DD+  KV+GG +G G  + N  S +  LE    + G+ + Q +E+   +   P   + +   + T V F P L  F  + E + +IL    R +  +N  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>pdb|1QZR|A</Hit_id>
+  <Hit_def>Crystal Structure Of The Atpase Region Of Saccharomyces Cerevisiae Topoisomerase Ii Bound To Icrf-187 (Dexrazoxane) [Saccharomyces cerevisiae] &gt;pdb|1QZR|B Crystal Structure Of The Atpase Region Of Saccharomyces Cerevisiae Topoisomerase Ii Bound To Icrf-187 (Dexrazoxane) [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1QZR_A</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>9.49671e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>SSSIKVLKGLDAVRKRPGMYIGDT----------DDGT------------GLHHMVFEVVDNAIDEALAG-HCKEIIVTIHAD-NSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQK--LELVIQHEGKIHRQIYEHG--VPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGV</Hsp_qseq>
+      <Hsp_hseq>SDKYQKISQLEHILKRPDTYIGSVETQEQLQWIYDEETDCMIEKNVTIVPGLFKIFDEILVNAADNKVRDPSMKRIDVNIHAEEHTIEVKNDGKGIPIEIHNKENIYIPEMIFGHLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTEFILETADLNVGQKYVQKWENNMSICHPPKITSYKKGPSYTKVTFKPDLTRF-GMKELDNDILGVMRRRVYDINGSV</Hsp_hseq>
+      <Hsp_midline>S   + +  L+ + KRP  YIG            D+ T            GL  +  E++ NA D  +     K I V IHA+ +++ V++DG+GIP  IH +E +   E+I   L     +DD+  KV+GG +G G  + N  S +  LE    + G+ + Q +E+   +   P   + +   + T V F P L  F  + E + +IL    R +  +N  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>pdb|1PVG|A</Hit_id>
+  <Hit_def>Crystal Structure of the ATPase region of Saccharomyces Cerevisiae topoisomerase II [Saccharomyces cerevisiae] &gt;pdb|1PVG|B Crystal Structure of the ATPase region of Saccharomyces Cerevisiae topoisomerase II [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1PVG_A</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.69664e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>SSSIKVLKGLDAVRKRPGMYIGDT----------DDGT------------GLHHMVFEVVDNAIDEALAGHC-KEIIVTIHAD-NSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQK--LELVIQHEGKIHRQIYEHG--VPQAPLAVTGETEKTGTMVRFWPSLETFTNVTEFEYEILAKRLRELSFLNSGV</Hsp_qseq>
+      <Hsp_hseq>SDKYQKISQLEHILKRPDTYIGSVETQEQLQWIYDEETDCXIEKNVTIVPGLFKIFDEILVNAADNKVRDPSXKRIDVNIHAEEHTIEVKNDGKGIPIEIHNKENIYIPEXIFGHLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTEFILETADLNVGQKYVQKWENNXSICHPPKITSYKKGPSYTKVTFKPDLTRF-GXKELDNDILGVXRRRVYDINGSV</Hsp_hseq>
+      <Hsp_midline>S   + +  L+ + KRP  YIG            D+ T            GL  +  E++ NA D  +     K I V IHA+ +++ V++DG+GIP  IH +E +   E I   L     +DD+  KV+GG +G G  + N  S +  LE    + G+ + Q +E+   +   P   + +   + T V F P L  F    E + +IL    R +  +N  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>pdb|7L6S|A</Hit_id>
+  <Hit_def>Chain A, DNA topoisomerase II [Balamuthia mandrillaris]</Hit_def>
+  <Hit_accession>7L6S_A</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.85458e-11</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>PGMYIGDTDDG----------TGLHHMVFEVVDNAID-EALAGHCKEIIVTIHAD-NSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKL--ELVIQHEGKIHRQIYEHG--VPQAPLAVTGETEKTG----TMVRFWPSLETFTNVTEFE----YEILAKRLRELSFLNSGVSIRL</Hsp_qseq>
+      <Hsp_hseq>PGMWVYDPDSRRMVERECTYVPALYKIFDEILVNAADNKQRDPNTSTIEVNIDADTNTISVFNDGRGIPVHVHKTEGMYLPEMLFGHLLTSSNYDDSEAKVTGGRNGYGAKLTNIYSKEFTVETVDCERGLRFQQTWRDNMSVREEPLITPLSPEEKAHGDYTKITFRPDLSRLDSMHSLRDGDIIGVMSRRAFDVAACNEGLDVYL</Hsp_hseq>
+      <Hsp_midline>PGM++ D D              L+ +  E++ NA D +    +   I V I AD N++SV +DGRGIP  +H  EG+   E++   L     +DD+  KV+GG +G G  + N  S++   E V    G   +Q +     V + PL      E+      T + F P L    ++          ++++R  +++  N G+ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>pdb|6ZY5|A</Hit_id>
+  <Hit_def>Chain A, DNA topoisomerase 2-alpha [Homo sapiens] &gt;pdb|6ZY5|B Chain B, DNA topoisomerase 2-alpha [Homo sapiens] &gt;pdb|6ZY6|A Chain A, DNA topoisomerase 2-alpha [Homo sapiens] &gt;pdb|6ZY6|B Chain B, DNA topoisomerase 2-alpha [Homo sapiens] &gt;pdb|6ZY7|A Chain A, DNA topoisomerase 2-alpha [Homo sapiens] &gt;pdb|6ZY7|B Chain B, DNA topoisomerase 2-alpha [Homo sapiens] &gt;pdb|6ZY8|A Chain A, DNA topoisomerase 2-alpha [Homo sapiens] &gt;pdb|6ZY8|B Chain B, DNA topoisomerase 2-alpha [Homo sapiens]</Hit_def>
+  <Hit_accession>6ZY5_A</Hit_accession>
+  <Hit_len>1531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>5.18249e-08</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MYIGDTDDG---------TGLHHMVFEVVDNAIDEALAGHCKEII-VTIHADNS-VSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKL--ELVIQHEGKIHRQIYEHGVPQAPLAVTGETE------KTGTMVRFWPSLETFTNVTEFEYEILAKRLR</Hsp_qseq>
+      <Hsp_hseq>MWVYDEDVGINYREVTFVPGLYKIFDEILVNAADNKQRDPKMSCIRVTIDPENNLISIWNNGKGIPVVEHKVEKMYVPALIFGQLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTKFTVETASREYKKMFKQTWMDNMGRA-----GEMELKPFNGEDYTCITFQPDLSKF-KMQSLDKDIVALMVR</Hsp_hseq>
+      <Hsp_midline>M++ D D G          GL+ +  E++ NA D          I VTI  +N+ +S+ ++G+GIP   H  E +    +I   L     +DD+  KV+GG +G G  + N  S K   E   +   K+ +Q +   + +A     GE E      +  T + F P L  F  +   + +I+A  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>pdb|1ZXM|A</Hit_id>
+  <Hit_def>Human Topo IIa ATPase/AMP-PNP [Homo sapiens] &gt;pdb|1ZXM|B Human Topo IIa ATPase/AMP-PNP [Homo sapiens] &gt;pdb|1ZXN|A Human DNA topoisomerase IIa ATPase/ADP [Homo sapiens] &gt;pdb|1ZXN|B Human DNA topoisomerase IIa ATPase/ADP [Homo sapiens] &gt;pdb|1ZXN|C Human DNA topoisomerase IIa ATPase/ADP [Homo sapiens] &gt;pdb|1ZXN|D Human DNA topoisomerase IIa ATPase/ADP [Homo sapiens] &gt;pdb|4R1F|A Re-refined Human DNA topoisomerase IIa (ATPase and transducer domains) in complex with ADP and SO4 [Homo sapiens] &gt;pdb|4R1F|B Re-refined Human DNA topoisomerase IIa (ATPase and transducer domains) in complex with ADP and SO4 [Homo sapiens] &gt;pdb|4R1F|C Re-refined Human DNA topoisomerase IIa (ATPase and transducer domains) in complex with ADP and SO4 [Homo sapiens] &gt;pdb|4R1F|D Re-refined Human DNA topoisomerase IIa (ATPase and transducer domains) in complex with ADP and SO4 [Homo sapiens]</Hit_def>
+  <Hit_accession>1ZXM_A</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>7.10733e-08</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MYIGDTDDGT---------GLHHMVFEVVDNAIDEALAGHCKEII-VTIHADNS-VSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKL--ELVIQHEGKIHRQIYEHGVPQAPLAVTGETE------KTGTMVRFWPSLETFTNVTEFEYEILAKRLR</Hsp_qseq>
+      <Hsp_hseq>MWVYDEDVGINYREVTFVPGLYKIFDEILVNAADNKQRDPKMSCIRVTIDPENNLISIWNNGKGIPVVEHKVEKMYVPALIFGQLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTKFTVETASREYKKMFKQTWMDNMGRA-----GEMELKPFNGEDYTCITFQPDLSKF-KMQSLDKDIVALMVR</Hsp_hseq>
+      <Hsp_midline>M++ D D G          GL+ +  E++ NA D          I VTI  +N+ +S+ ++G+GIP   H  E +    +I   L     +DD+  KV+GG +G G  + N  S K   E   +   K+ +Q +   + +A     GE E      +  T + F P L  F  +   + +I+A  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>pdb|4R3D|A</Hit_id>
+  <Hit_def>Crystal structure of MERS Coronavirus papain like protease [Betacoronavirus England 1] &gt;pdb|4R3D|B Crystal structure of MERS Coronavirus papain like protease [Betacoronavirus England 1]</Hit_def>
+  <Hit_accession>4R3D_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.645202</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQIVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQI EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>pdb|4R3A|A</Hit_id>
+  <Hit_def>Chain A, Blue-light-activated histidine kinase 2 [Erythrobacter litoralis HTCC2594] &gt;pdb|4R3A|B Chain B, Blue-light-activated histidine kinase 2 [Erythrobacter litoralis HTCC2594]</Hit_def>
+  <Hit_accession>4R3A_A</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.764404</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MVFEVVDNAIDEALAGHCKEII-----VTIHADNSVSVQDDGRGIPTGIH-PEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGK</Hsp_qseq>
+      <Hsp_hseq>LVSEVLTNALQHAFSDRASGVVQLRSSVMSGEQLRVTVEDDGRGIPEDCDWPNEGNLGSRIVRQLVQGLGA----ELNVTRGGTGTIVNIDIPLSQQKTLIADERTK</Hsp_hseq>
+      <Hsp_midline>+V EV+ NA+  A +     ++     V       V+V+DDGRGIP     P EG   + ++  ++   G        V+ G  G  V++   LSQ+  L+     K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>pdb|7CCH|A</Hit_id>
+  <Hit_def>Chain A, AdeS [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>7CCH_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.06139</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>KVLKG----LDAVRKRPGMYIGDTD---DGTGLHHMVFEVVDNAIDEALAGHCKEIIVTIHADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIY</Hsp_qseq>
+      <Hsp_hseq>KVLKAFEDRLDQAKLVPELDLTSTPVYCDRRRIEQVLIALIDNAIRYSHAGKLKISSEVVSQNWILKIEDEGPGIATEFQDD-----------LFKPFFRLEESRNKEFGG-TGLGLAVVHAIIVALKGTIQYSNQGSKSIF</Hsp_hseq>
+      <Hsp_midline>KVLK     LD  +  P + +  T    D   +  ++  ++DNAI  + AG  K     +  +  + ++D+G GI T    +           +     + +++  K  GG  G+G++VV+A+   L+  IQ+  +  + I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>pdb|6BI8|A</Hit_id>
+  <Hit_def>X-ray structure of MERS coronavirus papain-like protease in complex with human ISG15 [Human betacoronavirus 2c EMC/2012] &gt;pdb|6BI8|B X-ray structure of MERS coronavirus papain-like protease in complex with human ISG15 [Human betacoronavirus 2c EMC/2012]</Hit_def>
+  <Hit_accession>6BI8_A</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.15963</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQLVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQ+ EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>pdb|4P16|A</Hit_id>
+  <Hit_def>Crystal structure of the papain-like protease of Middle-East Respiratory Syndrome coronavirus [Human betacoronavirus 2c EMC/2012]</Hit_def>
+  <Hit_accession>4P16_A</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.23313</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQLVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQ+ EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>pdb|5W8T|A</Hit_id>
+  <Hit_def>Crystal structure of MERS-CoV papain-like protease in complex with the C-terminal domain of human ISG15 [Human betacoronavirus 2c EMC/2012] &gt;pdb|5W8T|C Crystal structure of MERS-CoV papain-like protease in complex with the C-terminal domain of human ISG15 [Human betacoronavirus 2c EMC/2012] &gt;pdb|5W8U|A Crystal structure of MERS-CoV papain-like protease in complex with the C-terminal domain of human ISG15 [Human betacoronavirus 2c EMC/2012] &gt;pdb|5W8U|C Crystal structure of MERS-CoV papain-like protease in complex with the C-terminal domain of human ISG15 [Human betacoronavirus 2c EMC/2012]</Hit_def>
+  <Hit_accession>5W8T_A</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.23874</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQLVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQ+ EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>pdb|4WUR|A</Hit_id>
+  <Hit_def>The crystal structure of the MERS-CoV papain-like protease (C111S) with human ubiquitin [Betacoronavirus England 1]</Hit_def>
+  <Hit_accession>4WUR_A</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.25557</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQLVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQ+ EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>pdb|2Q8F|A</Hit_id>
+  <Hit_def>Structure of pyruvate dehydrogenase kinase isoform 1 [Homo sapiens] &gt;pdb|2Q8G|A Structure of pyruvate dehydrogenase kinase isoform 1 in complex with glucose-lowering drug AZD7545 [Homo sapiens] &gt;pdb|2Q8H|A Structure of pyruvate dehydrogenase kinase isoform 1 in complex with dichloroacetate (DCA) [Homo sapiens]</Hit_def>
+  <Hit_accession>2Q8F_A</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.26348</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LKGLDAVRKRPGMYIGDTDDGTGLHHMVFEVVDNAIDEALAGHCK-------EIIVTI-HADNSVSVQDDGRGIP</Hsp_qseq>
+      <Hsp_hseq>LEELNA--KSPGQPIQVVYVPSHLYHMVFELFKNAMRATMEHHANRGVYPPIQVHVTLGNEDLTVKMSDRGGGVP</Hsp_hseq>
+      <Hsp_midline>L+ L+A  K PG  I      + L+HMVFE+  NA+   +  H         ++ VT+ + D +V + D G G+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>pdb|4REZ|A</Hit_id>
+  <Hit_def>Crystal structure of the Middle-East respiratory syndrome coronavirus papain-like protease [Human betacoronavirus 2c Jordan-N3/2012] &gt;pdb|4RF0|A Crystal structure of the Middle-East respiratory syndrome coronavirus papain-like protease in complex with ubiquitin (space group P6522) [Human betacoronavirus 2c Jordan-N3/2012] &gt;pdb|4RF1|A Crystal structure of the Middle-East respiratory syndrome coronavirus papain-like protease in complex with ubiquitin (space group P63) [Human betacoronavirus 2c Jordan-N3/2012] &gt;pdb|5V69|A Crystal structure of the Middle East respiratory syndrome coronavirus papain-like protease bound to ubiquitin variant ME.4 [Human betacoronavirus 2c EMC/2012] &gt;pdb|5V6A|A Crystal structure of the Middle East respiratory syndrome coronavirus papain-like protease bound to ubiquitin variant ME.2 [Human betacoronavirus 2c EMC/2012]</Hit_def>
+  <Hit_accession>4REZ_A</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.26414</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQLVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQ+ EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>pdb|5KO3|A</Hit_id>
+  <Hit_def>Structure of a Core Papain-like Protease of MERS Coronavirus with utility for structure-based drug design [Middle East respiratory syndrome-related coronavirus]</Hit_def>
+  <Hit_accession>5KO3_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.26496</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQLVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQ+ EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>pdb|4PT5|A</Hit_id>
+  <Hit_def>Crystal structure of PLpro from Middle East Respiratory Syndrome (MERS) coronavirus [Human betacoronavirus 2c EMC/2012] &gt;pdb|4RNA|A Crystal structure of PLpro from Middle East Respiratory Syndrome (MERS) coronavirus [Human betacoronavirus 2c EMC/2012]</Hit_def>
+  <Hit_accession>4PT5_A</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.32245</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>VGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVT</Hsp_qseq>
+      <Hsp_hseq>VGVQTVEDLRARMTYVCQCGGERHRQLVEHTTPWLLLSGT</Hsp_hseq>
+      <Hsp_midline>VGV  V  L  ++  V Q  G+ HRQ+ EH  P   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>pdb|4R39|A</Hit_id>
+  <Hit_def>Chain A, Blue-light-activated histidine kinase 2 [Erythrobacter litoralis HTCC2594] &gt;pdb|4R39|B Chain B, Blue-light-activated histidine kinase 2 [Erythrobacter litoralis HTCC2594] &gt;pdb|4R39|C Chain C, Blue-light-activated histidine kinase 2 [Erythrobacter litoralis HTCC2594] &gt;pdb|4R39|D Chain D, Blue-light-activated histidine kinase 2 [Erythrobacter litoralis HTCC2594]</Hit_def>
+  <Hit_accession>4R39_A</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.46248</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MVFEVVDNAIDEALAGHCKEII-----VTIHADNSVSVQDDGRGIPTGIH-PEEGVSAAEVIMTVLHAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGK</Hsp_qseq>
+      <Hsp_hseq>LVSEVLTNALQHAFSDRASGVVQLRSSVMSGEQLRVTVEDDGRGIPEDCDWPNEGNLGSRIVRQLVQGLGA----ELNVTRGGTGTIVNIDIPLSQQKTLIADERTK</Hsp_hseq>
+      <Hsp_midline>+V EV+ NA+  A +     ++     V       V+V+DDGRGIP     P EG   + ++  ++   G        V+ G  G  V++   LSQ+  L+     K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>pdb|6JW6|A</Hit_id>
+  <Hit_def>The crystal structure of KanD2 in complex with NAD [Streptomyces kanamyceticus] &gt;pdb|6JW6|B The crystal structure of KanD2 in complex with NAD [Streptomyces kanamyceticus] &gt;pdb|6JW7|A The crystal structure of KanD2 in complex with NADH and 3&apos;-deamino-3&apos;-hydroxykanamycin A [Streptomyces kanamyceticus] &gt;pdb|6JW7|B The crystal structure of KanD2 in complex with NADH and 3&apos;-deamino-3&apos;-hydroxykanamycin A [Streptomyces kanamyceticus] &gt;pdb|6JW8|A The crystal structure of KanD2 in complex with NADH and 3&apos;-deamino-3&apos;-hydroxykanamycin B [Streptomyces kanamyceticus] &gt;pdb|6JW8|B The crystal structure of KanD2 in complex with NADH and 3&apos;-deamino-3&apos;-hydroxykanamycin B [Streptomyces kanamyceticus]</Hit_def>
+  <Hit_accession>6JW6_A</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.31194</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>HADNSVSVQDDGRGIPTGIHPEEGVSAAEVIMTVL--HAGGKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQ</Hsp_qseq>
+      <Hsp_hseq>HQDGTV-IEAVGQGIPLTHGPAEALASARVLATGYRSHAEGRV----LRLSGAPVGPGASTTAAGSEKLAAALE</Hsp_hseq>
+      <Hsp_midline>H D +V ++  G+GIP    P E +++A V+ T    HA G+      ++SG   G G S   A S+KL   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>pdb|7M40|A</Hit_id>
+  <Hit_def>Chain A, Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|7M40|B Chain B, Histone-binding protein RBBP4 [Homo sapiens]</Hit_def>
+  <Hit_accession>7M40_A</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.61614</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>pdb|5VTB|A</Hit_id>
+  <Hit_def>Crystal structure of RBBP4 bound to BCL11a peptide [Homo sapiens]</Hit_def>
+  <Hit_accession>5VTB_A</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.69305</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>pdb|2XU7|A</Hit_id>
+  <Hit_def>Structural basis for RbAp48 binding to FOG-1 [Homo sapiens] &gt;pdb|2XU7|B Structural basis for RbAp48 binding to FOG-1 [Homo sapiens] &gt;pdb|3GFC|A Crystal Structure of Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|4PBY|A Structure of the human RbAp48-MTA1(656-686) complex [Homo sapiens] &gt;pdb|4PBY|B Structure of the human RbAp48-MTA1(656-686) complex [Homo sapiens] &gt;pdb|4PBZ|A Structure of the human RbAp48-MTA1(670-695) complex [Homo sapiens] &gt;pdb|4PC0|A Structure of the human RbAp48-MTA1(670-711) complex [Homo sapiens] &gt;pdb|4PC0|B Structure of the human RbAp48-MTA1(670-711) complex [Homo sapiens] &gt;pdb|4R7A|B Crystal Structure of RBBP4 bound to PHF6 peptide [Homo sapiens] &gt;pdb|5FXY|A Structure of the human RBBP4:MTA1(464-546) complex [Homo sapiens] &gt;pdb|5FXY|C Structure of the human RBBP4:MTA1(464-546) complex [Homo sapiens] &gt;pdb|5FXY|E Structure of the human RBBP4:MTA1(464-546) complex [Homo sapiens] &gt;pdb|5FXY|G Structure of the human RBBP4:MTA1(464-546) complex [Homo sapiens] &gt;pdb|6C23|N Cryo-EM structure of PRC2 bound to cofactors AEBP2 and JARID2 in the Compact Active State [Homo sapiens] &gt;pdb|6C24|N Cryo-EM structure of PRC2 bound to cofactors AEBP2 and JARID2 in the Extended Active State [Homo sapiens] &gt;pdb|6G16|A Structure of the human RBBP4:MTA1(464-546) complex showing loop exchange [Homo sapiens] &gt;pdb|6G16|C Structure of the human RBBP4:MTA1(464-546) complex showing loop exchange [Homo sapiens] &gt;pdb|6G16|E Structure of the human RBBP4:MTA1(464-546) complex showing loop exchange [Homo sapiens] &gt;pdb|6G16|G Structure of the human RBBP4:MTA1(464-546) complex showing loop exchange [Homo sapiens] &gt;pdb|6WKR|N Chain N, Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|6ZRD|A Chain A, Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|6ZRD|B Chain B, Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|7AOA|F Structure of the extended MTA1/HDAC1/MBD2/RBBP4 NURD deacetylase complex [Homo sapiens] &gt;pdb|7AOA|G Structure of the extended MTA1/HDAC1/MBD2/RBBP4 NURD deacetylase complex [Homo sapiens] &gt;pdb|7KSO|D Chain D, Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|7KSR|D Chain D, Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|7KTP|D Chain D, Histone-binding protein RBBP4 [Homo sapiens]</Hit_def>
+  <Hit_accession>2XU7_A</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.74528</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>pdb|6BW3|A</Hit_id>
+  <Hit_def>Crystal structure of RBBP4 in complex with PRDM3 N-terminal peptide [Homo sapiens] &gt;pdb|6BW3|C Crystal structure of RBBP4 in complex with PRDM3 N-terminal peptide [Homo sapiens] &gt;pdb|6BW4|A Crystal structure of RBBP4 in complex with PRDM16 N-terminal peptide [Homo sapiens] &gt;pdb|6BW4|C Crystal structure of RBBP4 in complex with PRDM16 N-terminal peptide [Homo sapiens]</Hit_def>
+  <Hit_accession>6BW3_A</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.85147</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>pdb|5XWR|A</Hit_id>
+  <Hit_def>Crystal Structure of RBBP4-peptide complex [Homo sapiens] &gt;pdb|5XWR|B Crystal Structure of RBBP4-peptide complex [Homo sapiens]</Hit_def>
+  <Hit_accession>5XWR_A</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.88433</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>pdb|5WAI|A</Hit_id>
+  <Hit_def>Crystal Structure of a Suz12-Rbbp4-Jarid2-Aebp2 Heterotetrameric Complex [Homo sapiens] &gt;pdb|5WAI|E Crystal Structure of a Suz12-Rbbp4-Jarid2-Aebp2 Heterotetrameric Complex [Homo sapiens] &gt;pdb|5WAK|A Crystal Structure of a Suz12-Rbbp4 Binary Complex [Homo sapiens] &gt;pdb|6NQ3|A Crystal Structure of a SUZ12-RBBP4-PHF19-JARID2 Heterotetrameric Complex [Homo sapiens] &gt;pdb|6NQ3|E Crystal Structure of a SUZ12-RBBP4-PHF19-JARID2 Heterotetrameric Complex [Homo sapiens]</Hit_def>
+  <Hit_accession>5WAI_A</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.91117</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>pdb|6ZRC|A</Hit_id>
+  <Hit_def>Chain A, Histone-binding protein RBBP4 [Homo sapiens] &gt;pdb|6ZRC|B Chain B, Histone-binding protein RBBP4 [Homo sapiens]</Hit_def>
+  <Hit_accession>6ZRC_A</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.95625</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>pdb|5XXQ|A</Hit_id>
+  <Hit_def>Crystal structure of RBBP4: ZNF827 and its function in telomere [Homo sapiens] &gt;pdb|5XXQ|B Crystal structure of RBBP4: ZNF827 and its function in telomere [Homo sapiens] &gt;pdb|5Y1U|A Crystal structure of RBBP4 bound to AEBP2 RRK motif [Homo sapiens] &gt;pdb|5Y1U|B Crystal structure of RBBP4 bound to AEBP2 RRK motif [Homo sapiens]</Hit_def>
+  <Hit_accession>5XXQ_A</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.05163</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKFDDNSYKVSGGLHGVGVSVVNALSQKLELVIQHEGKIHRQIYEHGVPQAPLAVTGETEKTGTMV</Hsp_qseq>
+      <Hsp_hseq>AQFDASHYDSEKGEFGGFGSVSGKI--EIEIKINHEGEVNRARY---MPQNPCIIATKTPSSDVLV</Hsp_hseq>
+      <Hsp_midline> +FD + Y    G  G   SV   +  ++E+ I HEG+++R  Y   +PQ P  +  +T  +  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>pdb|3HPE|A</Hit_id>
+  <Hit_def>Crystal structure of yceI (HP1286) from Helicobacter pylori [Helicobacter pylori] &gt;pdb|3HPE|B Crystal structure of yceI (HP1286) from Helicobacter pylori [Helicobacter pylori]</Hit_def>
+  <Hit_accession>3HPE_A</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.07883</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>VSAAEVIMTVLHAGGKFDDNSY---KVSGGL--HGVGVSVV----------NALSQKLELVIQHEGKIHRQIY</Hsp_qseq>
+      <Hsp_hseq>LKTAEFFDVVKYPKGSFKMTKYEDGKIHGDLTLHGVTKPVVLEAKIQAPLQNPMNKKEFMVLQAEGKINRKDF</Hsp_hseq>
+      <Hsp_midline>+  AE    V +  G F    Y   K+ G L  HGV   VV          N +++K  +V+Q EGKI+R+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>pdb|4V25|A</Hit_id>
+  <Hit_def>VER-246608, a novel pan-isoform ATP competitive inhibitor of pyruvate dehydrogenase kinase, disrupts Warburg metabolism and induces context- dependent cytostasis in cancer cells [Homo sapiens] &gt;pdb|5M4K|A Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of Pyruvate Dehydrogenase Kinase [Homo sapiens] &gt;pdb|5M4M|A Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of Pyruvate Dehydrogenase Kinase [Homo sapiens] &gt;pdb|5M4N|A Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of Pyruvate Dehydrogenase Kinase [Homo sapiens] &gt;pdb|5M4P|A Application of Off-Rate Screening in the Identification of Novel Pan-Isoform Inhibitors of Pyruvate Dehydrogenase Kinase [Homo sapiens]</Hit_def>
+  <Hit_accession>4V25_A</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.51875</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCKEIIVTI--------HADNSVSVQDDGRGIP</Hsp_qseq>
+      <Hsp_hseq>LYHMLFELFKNAMRATVESHESSLILPPIKVMVALGEEDLSIKMSDRGGGVP</Hsp_hseq>
+      <Hsp_midline>L+HM+FE+  NA+   +  H   +I+            D S+ + D G G+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>pdb|6LIL|A</Hit_id>
+  <Hit_def>Crystal structure of human PDK2 complexed with an allosteric inhibitor compound 8c [Homo sapiens] &gt;pdb|6LIL|B Crystal structure of human PDK2 complexed with an allosteric inhibitor compound 8c [Homo sapiens] &gt;pdb|6LIN|A Crystal structure of human PDK2 complexed with GM10030 [Homo sapiens] &gt;pdb|6LIN|B Crystal structure of human PDK2 complexed with GM10030 [Homo sapiens] &gt;pdb|6LIN|C Crystal structure of human PDK2 complexed with GM10030 [Homo sapiens] &gt;pdb|6LIN|D Crystal structure of human PDK2 complexed with GM10030 [Homo sapiens] &gt;pdb|6LIO|A Crystal structure of human PDK2 complexed with GM67520 [Homo sapiens] &gt;pdb|6LIO|B Crystal structure of human PDK2 complexed with GM67520 [Homo sapiens]</Hit_def>
+  <Hit_accession>6LIL_A</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.59945</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCKEIIVTI--------HADNSVSVQDDGRGIP</Hsp_qseq>
+      <Hsp_hseq>LYHMLFELFKNAMRATVESHESSLILPPIKVMVALGEEDLSIKMSDRGGGVP</Hsp_hseq>
+      <Hsp_midline>L+HM+FE+  NA+   +  H   +I+            D S+ + D G G+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>pdb|4MP2|A</Hit_id>
+  <Hit_def>Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PA1 [Homo sapiens] &gt;pdb|4MP7|A Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PA7 [Homo sapiens] &gt;pdb|4MPC|A Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS2 [Homo sapiens] &gt;pdb|4MPE|A Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS8 [Homo sapiens] &gt;pdb|4MPN|A Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS10 [Homo sapiens] &gt;pdb|5J6A|A Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS46 [Homo sapiens] &gt;pdb|5J71|A Crystal structure of pyruvate dehydrogenase kinase isoform 2 in complex with inhibitor PS35 [Homo sapiens]</Hit_def>
+  <Hit_accession>4MP2_A</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.75549</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCKEIIVTI--------HADNSVSVQDDGRGIP</Hsp_qseq>
+      <Hsp_hseq>LYHMLFELFKNAMRATVESHESSLILPPIKVMVALGEEDLSIKMSDRGGGVP</Hsp_hseq>
+      <Hsp_midline>L+HM+FE+  NA+   +  H   +I+            D S+ + D G G+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>pdb|4V26|A</Hit_id>
+  <Hit_def>VER-246608, a novel pan-isoform ATP competitive inhibitor of pyruvate dehydrogenase kinase, disrupts Warburg metabolism and induces context- dependent cytostasis in cancer cells [Homo sapiens]</Hit_def>
+  <Hit_accession>4V26_A</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.85788</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCKEIIVTI--------HADNSVSVQDDGRGIP</Hsp_qseq>
+      <Hsp_hseq>LYHMLFELFKNAMRATVESHESSLILPPIKVMVALGEEDLSIKMSDRGGGVP</Hsp_hseq>
+      <Hsp_midline>L+HM+FE+  NA+   +  H   +I+            D S+ + D G G+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>pdb|2BTZ|A</Hit_id>
+  <Hit_def>crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands [Homo sapiens] &gt;pdb|2BU2|A crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands [Homo sapiens] &gt;pdb|2BU5|A crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands [Homo sapiens] &gt;pdb|2BU6|A crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands [Homo sapiens] &gt;pdb|2BU7|A crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands [Homo sapiens] &gt;pdb|2BU8|A crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands [Homo sapiens] &gt;pdb|6TMP|AAA Chain AAA [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens] &gt;pdb|6TMQ|AAA Chain AAA [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens] &gt;pdb|6TMZ|AAA Chain AAA [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens] &gt;pdb|6TN0|AAA Chain AAA [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens] &gt;pdb|6TN2|AAA Chain AAA [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens] &gt;pdb|7EA0|A Chain A [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens] &gt;pdb|7EAS|A Chain A [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens] &gt;pdb|7EBH|A Chain A [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial [Homo sapiens]</Hit_def>
+  <Hit_accession>2BTZ_A</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.86623</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCKEIIVTI--------HADNSVSVQDDGRGIP</Hsp_qseq>
+      <Hsp_hseq>LYHMLFELFKNAMRATVESHESSLILPPIKVMVALGEEDLSIKMSDRGGGVP</Hsp_hseq>
+      <Hsp_midline>L+HM+FE+  NA+   +  H   +I+            D S+ + D G G+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>pdb|2ZKJ|A</Hit_id>
+  <Hit_def>Crystal structure of human PDK4-ADP complex [Homo sapiens] &gt;pdb|2ZKJ|B Crystal structure of human PDK4-ADP complex [Homo sapiens] &gt;pdb|3D2R|A Crystal structure of pyruvate dehydrogenase kinase isoform 4 in complex with ADP [Homo sapiens] &gt;pdb|3D2R|B Crystal structure of pyruvate dehydrogenase kinase isoform 4 in complex with ADP [Homo sapiens]</Hit_def>
+  <Hit_accession>2ZKJ_A</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.57663</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCK--------EIIVTI-HADNSVSVQDDGRGIPTGI</Hsp_qseq>
+      <Hsp_hseq>LHHMLFELFKNAM-RATVEHQENQPSLTPIEVIVVLGKEDLTIKISDRGGGVPLRI</Hsp_hseq>
+      <Hsp_midline>LHHM+FE+  NA+  A   H +        E+IV +   D ++ + D G G+P  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>pdb|2E0A|A</Hit_id>
+  <Hit_def>Crystal structure of human pyruvate dehydrogenase kinase 4 in complex with AMPPNP [Homo sapiens] &gt;pdb|2E0A|B Crystal structure of human pyruvate dehydrogenase kinase 4 in complex with AMPPNP [Homo sapiens] &gt;pdb|2ZDX|A Inhibitor-bound structures of human pyruvate dehydrogenase kinase 4 [Homo sapiens] &gt;pdb|2ZDX|B Inhibitor-bound structures of human pyruvate dehydrogenase kinase 4 [Homo sapiens] &gt;pdb|2ZDY|A Inhibitor-bound structures of human pyruvate dehydrogenase kinase 4 [Homo sapiens] &gt;pdb|2ZDY|B Inhibitor-bound structures of human pyruvate dehydrogenase kinase 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>2E0A_A</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.66264</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCK--------EIIVTI-HADNSVSVQDDGRGIPTGI</Hsp_qseq>
+      <Hsp_hseq>LHHMLFELFKNAM-RATVEHQENQPSLTPIEVIVVLGKEDLTIKISDRGGGVPLRI</Hsp_hseq>
+      <Hsp_midline>LHHM+FE+  NA+  A   H +        E+IV +   D ++ + D G G+P  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>pdb|7EAT|A</Hit_id>
+  <Hit_def>Chain A [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial [Homo sapiens] &gt;pdb|7EAT|B Chain B [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial [Homo sapiens] &gt;pdb|7EBB|A Chain A [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial [Homo sapiens] &gt;pdb|7EBB|B Chain B [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial [Homo sapiens] &gt;pdb|7EBG|A Chain A [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial [Homo sapiens] &gt;pdb|7EBG|B Chain B [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial [Homo sapiens]</Hit_def>
+  <Hit_accession>7EAT_A</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.72095</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>LHHMVFEVVDNAIDEALAGHCK--------EIIVTI-HADNSVSVQDDGRGIPTGI</Hsp_qseq>
+      <Hsp_hseq>LHHMLFELFKNAM-RATVEHQENQPSLTPIEVIVVLGKEDLTIKISDRGGGVPLRI</Hsp_hseq>
+      <Hsp_midline>LHHM+FE+  NA+  A   H +        E+IV +   D ++ + D G G+P  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>pdb|3BNG|A</Hit_id>
+  <Hit_def>W. succinogenes NrfA Y218F [Wolinella succinogenes] &gt;pdb|3BNH|A W. succinogenes NrfA Y218F Nitrite Complex [Wolinella succinogenes] &gt;pdb|3BNJ|A W. succinogenes NrfA Y218F Sulfite Complex [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>3BNG_A</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.83805</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>TGIHPEEGVSAAEVIMTVLHAGG-KFDDNSYKVSGGLHGVGVSVVNA---LSQKLELVIQHE</Hsp_qseq>
+      <Hsp_hseq>TGIHGQKGVSCADCHMPYTQEGAVKYSD--HKVGNPLDNMDKSCMNCHRESEQKLKDIVKQK</Hsp_hseq>
+      <Hsp_midline>TGIH ++GVS A+  M     G  K+ D  +KV   L  +  S +N      QKL+ +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>101</Statistics_hsp-len>
+      <Statistics_eff-space>2551834606</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

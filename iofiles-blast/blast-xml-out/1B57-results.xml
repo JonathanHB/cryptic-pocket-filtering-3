@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1B57_1|Chains A, B|PROTEIN (FRUCTOSE-BISPHOSPHATE ALDOLASE II)|Escherichia coli (562)</BlastOutput_query-def>
+  <BlastOutput_query-len>358</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1B57_1|Chains A, B|PROTEIN (FRUCTOSE-BISPHOSPHATE ALDOLASE II)|Escherichia coli (562)</Iteration_query-def>
+  <Iteration_query-len>358</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|5GK3|A</Hit_id>
+  <Hit_def>Native structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.8 Angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK3|B Native structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.8 Angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK4|A Native structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 2.0 Angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK4|B Native structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 2.0 Angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|A Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|B Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|C Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|D Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|E Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|F Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|G Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK5|H Apo structure of fructose 1,6-bisphosphate aldolase from Escherichia coli at 1.9 angstrom resolution [Escherichia coli K-12] &gt;pdb|5GK6|A Structure of E.Coli fructose 1,6-bisphosphate aldolase, Citrate bound form [Escherichia coli K-12] &gt;pdb|5GK6|B Structure of E.Coli fructose 1,6-bisphosphate aldolase, Citrate bound form [Escherichia coli K-12] &gt;pdb|5GK7|A Structure of E.Coli fructose 1,6-bisphosphate aldolase bound to Tris [Escherichia coli K-12] &gt;pdb|5GK7|B Structure of E.Coli fructose 1,6-bisphosphate aldolase bound to Tris [Escherichia coli K-12] &gt;pdb|5GK8|A Structure of E.Coli fructose 1,6-bisphosphate aldolase, Acetate bound form [Escherichia coli K-12] &gt;pdb|5GK8|B Structure of E.Coli fructose 1,6-bisphosphate aldolase, Acetate bound form [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5GK3_A</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>745.347</Hsp_bit-score>
+      <Hsp_score>1923</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_qseq>
+      <Hsp_hseq>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_hseq>
+      <Hsp_midline>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1B57|A</Hit_id>
+  <Hit_def>Class Ii Fructose-1,6-Bisphosphate Aldolase In Complex With Phosphoglycolohydroxamate [Escherichia coli] &gt;pdb|1B57|B Class Ii Fructose-1,6-Bisphosphate Aldolase In Complex With Phosphoglycolohydroxamate [Escherichia coli] &gt;pdb|1GYN|A Class II fructose 1,6-bisphosphate aldolase with Cadmium (not Zinc) in the active site [Escherichia coli] &gt;pdb|1ZEN|A Class Ii Fructose-1,6-Bisphosphate Aldolase [Escherichia coli] &gt;pdb|5VJD|A Class II fructose-1,6-bisphosphate aldolase of Escherichia coli with DHAP [Escherichia coli K-12] &gt;pdb|5VJD|B Class II fructose-1,6-bisphosphate aldolase of Escherichia coli with DHAP [Escherichia coli K-12] &gt;pdb|5VJE|A Class II fructose-1,6-bisphosphate aldolase of Escherichia coli with D-glucitol 1,6-bisphosphate [Escherichia coli K-12] &gt;pdb|5VJE|B Class II fructose-1,6-bisphosphate aldolase of Escherichia coli with D-glucitol 1,6-bisphosphate [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>1B57_A</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.577</Hsp_bit-score>
+      <Hsp_score>1921</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_qseq>
+      <Hsp_hseq>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_hseq>
+      <Hsp_midline>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1DOS|A</Hit_id>
+  <Hit_def>STRUCTURE OF FRUCTOSE-BISPHOSPHATE ALDOLASE [Escherichia coli] &gt;pdb|1DOS|B STRUCTURE OF FRUCTOSE-BISPHOSPHATE ALDOLASE [Escherichia coli]</Hit_def>
+  <Hit_accession>1DOS_A</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>741.88</Hsp_bit-score>
+      <Hsp_score>1914</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_qseq>
+      <Hsp_hseq>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKAGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_hseq>
+      <Hsp_midline>SKIFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYK GNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAIDVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|3QM3|A</Hit_id>
+  <Hit_def>1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni] &gt;pdb|3QM3|B 1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni] &gt;pdb|3QM3|C 1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni] &gt;pdb|3QM3|D 1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni] &gt;pdb|3QM3|E 1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni] &gt;pdb|3QM3|F 1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni] &gt;pdb|3QM3|G 1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni] &gt;pdb|3QM3|H 1.85 Angstrom Resolution Crystal Structure of Fructose-bisphosphate Aldolase (Fba) from Campylobacter jejuni [Campylobacter jejuni]</Hit_def>
+  <Hit_accession>3QM3_A</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.174</Hsp_bit-score>
+      <Hsp_score>1232</Hsp_score>
+      <Hsp_evalue>4.11448e-170</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>IFDFVKPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNS-LNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNAID</Hsp_qseq>
+      <Hsp_hseq>VLDIVKAGVISGDELNKIYDYAKAEGFAIPAVNVVGTDSINAVLEAAKKVNSPVIIQFSNGGAKFYAGK----NCPNGE-VLGAISGAKHVHLLAKAYGVPVILHTDHAARKLLPWIDGLIEANAQYKKTHGQALFSSHMLDLSEESLEENLSTCEVYLQKLDALGVALEIELGCTGGEEDGVDNTGIDNSKLYTQPEDVALAYERLGKISDKFSIAASFGNVHGVYKPGNVSLQPEILKNSQKFVKDKFALNSDKPINFVFHGGSGSELKDIKNAVSYGVIKMNIDTDTQWAFWDGVREYELKNRAYLQGQIGNPEGDDKPNKKYYDPRVWLRSGEESMIKRLEIAFEDLNCIN</Hsp_hseq>
+      <Hsp_midline>+ D VK GVI+GD++ K++  AK   FA+PAVN VGTDSINAVLE A KV +PVI+QFSNGGA F AGK    + P G  +LGAISGA HVH +A+ YGVPVILHTDH A+KLLPWIDGL++A  ++    G+ LFSSHM+DLSEESL+EN+  C  YL+++  +G+ LEIELGCTGGEEDGVDN+ +D S LYTQPEDV  AY  L KIS +F+IAASFGNVHGVYKPGNV L P IL++SQ++V  K  L  +  +NFVFHGGSGS  ++IK++VSYGV+KMNIDTDTQWA W+GV  Y   N AYLQGQ+GNP+G+D+PNKKYYDPRVWLR+G+ SMI RLE AF++LN I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|7RGN|A</Hit_id>
+  <Hit_def>Chain A, Fructose-bisphosphate aldolase [[Candida] auris]</Hit_def>
+  <Hit_accession>7RGN_A</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.045</Hsp_bit-score>
+      <Hsp_score>1011</Hsp_score>
+      <Hsp_evalue>1.40027e-136</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>KPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNS-LNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQ</Hsp_qseq>
+      <Hsp_hseq>KSGVIYGDDVRKLFDYAQEKGFAIPAINVTSSSTVVAALESARDNKSPIILQTSQGGAAYFAGKGV-SNSDQTASIQGSIAAAHYIRAISPVYGIPVILHTDHCAKKLLPWFDGMLKADEEFFAKTGQPLFSSHMLDLSEETDDENIATCVKYFERMSKMNQWLEMEIGITGGEEDGVNNEHVEKESLYTQPETVFAVYKALAPISPNFSIAAAFGNVHGVYKPGNVQLRPSILGEHQKYAKEQIGTDNKKPLYLVFHGGSGSSQEEFDTAIASGVVKVNLDTDCQYAYLTGIRDYILNKKEYLMTPVGNPDGEDKPNKKYFDPRVWVREGEKSMSARIAEALE</Hsp_hseq>
+      <Hsp_midline>K GVI GDDV+K+F  A+E  FA+PA+N   + ++ A LE+A   K+P+I+Q S GGA++ AGKGV S+  Q A+I G+I+ AH++  ++  YG+PVILHTDHCAKKLLPW DG+L A E+ FA TG+PLFSSHM+DLSEE+  ENI  C KY ERMSK+   LE+E+G TGGEEDGV+N H++  +LYTQPE V   Y  L+ ISP F+IAA+FGNVHGVYKPGNV L P+IL + Q+Y  ++    +   L  VFHGGSGS+ +E   +++ GVVK+N+DTD Q+A   G+ +Y    + YL   +GNP GED+PNKKY+DPRVW+R G+ SM AR+ +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|6LNK|A</Hit_id>
+  <Hit_def>Candida albicans Fructose-1,6-bisphosphate aldolase [Candida albicans SC5314] &gt;pdb|6LNK|B Candida albicans Fructose-1,6-bisphosphate aldolase [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>6LNK_A</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>1.95817e-128</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>KPGVITGDDVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNL-PHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAF</Hsp_qseq>
+      <Hsp_hseq>KSGVIYGKDVKDLFDYAQEKGFAIPAINVTSSSTVVAALEAARDNKAPIILQTSQGGAAYFAGKGVDNK-DQAASIAGSIAAAHYIRAIAPTYGIPVVLHTDHCAKKLLPWFDGMLKADEEFFAKTGTPLFSSHMLDLSEETDDENIATCAKYFERMAKMGQWLEMEIGITGGEEDGVNNEHVEKDALYTSPETVFAVYESLHKISPNFSIAAAFGNVHGVYKPGNVQLRPEILGDHQVYAKKQIGTDAKHPLYLVFHGGSGSTQEEFNTAIKNGVVKVNLDTDCQYAYLTGIRDYVTNKIEYLKAPVGNPEGADKPNKKYFDPRVWVREGEKTMSKRIAEAL</Hsp_hseq>
+      <Hsp_midline>K GVI G DV+ +F  A+E  FA+PA+N   + ++ A LE A   KAP+I+Q S GGA++ AGKGV +   Q A+I G+I+ AH++  +A  YG+PV+LHTDHCAKKLLPW DG+L A E+ FA TG PLFSSHM+DLSEE+  ENI  C+KY ERM+K+G  LE+E+G TGGEEDGV+N H++  ALYT PE V   Y  L KISP F+IAA+FGNVHGVYKPGNV L P IL D Q Y  K+      + L  VFHGGSGST +E   ++  GVVK+N+DTD Q+A   G+ +Y      YL+  +GNP+G D+PNKKY+DPRVW+R G+ +M  R+ +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4A21|A</Hit_id>
+  <Hit_def>Chain A, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis] &gt;pdb|4A21|B Chain B, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis] &gt;pdb|4A21|C Chain C, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis] &gt;pdb|4A21|D Chain D, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis] &gt;pdb|4A22|A Chain A, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis] &gt;pdb|4A22|B Chain B, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis] &gt;pdb|4A22|C Chain C, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis] &gt;pdb|4A22|D Chain D, FRUCTOSE-BISPHOSPHATE ALDOLASE [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>4A21_A</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>3.47033e-69</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAK-KLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTEL-SKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNS--LNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKAN-EAYLQ--GQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELN</Hsp_qseq>
+      <Hsp_hseq>AKQNSYAFPAINCTSSETVNAAIKGFADAGSDGIIQFSTGGAEFGSGLGVKD------MVTGAVALAEFTHVIAAKYPVNVALHTDHCPKDKLDSYVRPLLAISAQRVSKGGNPLFQSHMWDGSAVPIDENLAIAQELLKAAAAAKIILEIEIGVVGGEEDGVANEINEK--LYTSPEDFEKTIEALGAGEHGKYLLAATFGNVHGVYKPGNVKLRPDILAQGQQVAAAKLGLPADAKPFDFVFHGGSGSLKSEIEEALRYGVVKMNVDTDTQYAFTRPIAGHMFTNYDGVLKVDGEVG--------VKKVYDPRSYLKKAEASMSQRVVQACNDLH</Hsp_hseq>
+      <Hsp_midline>AK+N++A PA+NC  ++++NA ++  A   +  I+QFS GGA F +G GVK        + GA++ A   H +A  Y V V LHTDHC K KL  ++  LL    +  +  G PLF SHM D S   + EN+ I  + L+  +   + LEIE+G  GGEEDGV N   +   LYT PED +     L +    ++ +AA+FGNVHGVYKPGNV L P IL   Q+  + K  LP ++   +FVFHGGSGS   EI++++ YGVVKMN+DTDTQ+A    +  +   N +  L+  G++G         KK YDPR +L+  + SM  R+ +A  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|3EKL|A</Hit_id>
+  <Hit_def>Chain A, Fructose-bisphosphate aldolase [Mycobacterium tuberculosis] &gt;pdb|3EKZ|A Chain A, Fructose-bisphosphate aldolase [Mycobacterium tuberculosis] &gt;pdb|3ELF|A Chain A, Fructose-bisphosphate aldolase [Mycobacterium tuberculosis] &gt;pdb|4DEF|A Chain A, Fructose-bisphosphate aldolase [Mycobacterium tuberculosis] &gt;pdb|4DEL|A Chain A, Fructose-bisphosphate aldolase [Mycobacterium tuberculosis] &gt;pdb|4LV4|A A noncompetitive inhibitor for M. tuberculosis&apos;s class IIa fructose 1,6-bisphosphate aldolase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>3EKL_A</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>3.59677e-69</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAK-KLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKIS-PRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNS--LNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKAN-EAYLQ--GQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELN</Hsp_qseq>
+      <Hsp_hseq>AKQNSYAFPAINCTSSETVNAAIKGFADAGSDGIIQFSTGGAEFGSGLGVKD------MVTGAVALAEFTHVIAAKYPVNVALHTDHCPKDKLDSYVRPLLAISAQRVSKGGNPLFQSHMWDGSAVPIDENLAIAQELLKAAAAAKIILEIEIGVVGGEEDGVANEINEK--LYTSPEDFEKTIEALGAGEHGKYLLAATFGNVHGVYKPGNVKLRPDILAQGQQVAAAKLGLPADAKPFDFVFHGGSGSLKSEIEEALRYGVVKMNVDTDTQYAFTRPIAGHMFTNYDGVLKVDGEVG--------VKKVYDPRSYLKKAEASMSQRVVQACNDLH</Hsp_hseq>
+      <Hsp_midline>AK+N++A PA+NC  ++++NA ++  A   +  I+QFS GGA F +G GVK        + GA++ A   H +A  Y V V LHTDHC K KL  ++  LL    +  +  G PLF SHM D S   + EN+ I  + L+  +   + LEIE+G  GGEEDGV N   +   LYT PED +     L      ++ +AA+FGNVHGVYKPGNV L P IL   Q+  + K  LP ++   +FVFHGGSGS   EI++++ YGVVKMN+DTDTQ+A    +  +   N +  L+  G++G         KK YDPR +L+  + SM  R+ +A  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|4TO8|A</Hit_id>
+  <Hit_def>Methicillin-Resistant Staphylococcus Aureus Class IIb Fructose 1,6-Bisphosphate Aldolase [Staphylococcus aureus] &gt;pdb|4TO8|B Methicillin-Resistant Staphylococcus Aureus Class IIb Fructose 1,6-Bisphosphate Aldolase [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4TO8_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.00413e-22</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQEL</Hsp_qseq>
+      <Hsp_hseq>AKENGYAVGQYNINNLEFTQAILEASQEENAPVILGVSEGAARYMSGF---------YTIVKMVEGLMHDLNIT----IPVAIHLDHGSS--FEKCKEAIDAG-----------FTSVMIDASHSPFEENVATTKKVVEYAHEKGVSVEAELGTVGGQEDDV----VADGIIYADPKECQ----ELVEKTGIDALAPALGSVHGPYKG-----EPKLGFKEMEEIGLSTGLP-----LVLHGGTGIPTKDIQKAIPFGTAKINVNTENQIASAKAVRDV-----------LNN-------DKEVYDPRKYLGPAREAIKETVKGKIKEF</Hsp_hseq>
+      <Hsp_midline>AKEN +A+   N    +   A+LE + +  APVI+  S G A +++G            I+  + G  H   +     +PV +H DH +          +DAG           F+S MID S    +EN+    K +E   + G+++E ELG  GG+ED V    +    +Y  P++      EL + +    +A + G+VHG YK       P +     E +     LP      V HGG+G   ++I+ ++ +G  K+N++T+ Q A+ + V +            L N       +K+ YDPR +L   + ++   ++   +E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|7NCC|A</Hit_id>
+  <Hit_def>Chain A, Putative class II fructose-1,6-bisphosphate aldolase [Bacillus methanolicus MGA3] &gt;pdb|7NCC|B Chain B, Putative class II fructose-1,6-bisphosphate aldolase [Bacillus methanolicus MGA3]</Hit_def>
+  <Hit_accession>7NCC_A</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.93795e-22</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>KENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGV--PVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNA</Hsp_qseq>
+      <Hsp_hseq>KENGYAVGQFNINNLEFGQAILQAAEEEKSPVIIGVSVGAANYMGGFKLIVDM---------------VKSSMDSYNVTVPVAIHLDHG-----PSLEKCVQA--IHAG------FTSVMIDGSHLPLEENIELTKRVVEIAHSVGVSVEAELGRIGGQEDDV-----VAESFYAIPSECE----QLVRETGVDCFAPALGSVHGPYKG-----EPKLGFDRMEEIMKLTGVP-----LVLHGGTGIPTKDIQKAISLGTAKINVNTESQIAATKAVREVLN-NDA-----------------KLFDPRKFLAPAREAIKETIKGKMREFGS</Hsp_hseq>
+      <Hsp_midline>KEN +A+   N    +   A+L+ A + K+PVI+  S G A+++ G  +  D+               V    + Y V  PV +H DH      P ++  + A   H        F+S MID S   L+ENIE+  + +E    +G+++E ELG  GG+ED V      A + Y  P + +    +L + +     A + G+VHG YK       P +  D  E + K   +P      V HGG+G   ++I+ ++S G  K+N++T++Q A  + V      N+A                 K +DPR +L   + ++   ++   +E  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|7NC7|A</Hit_id>
+  <Hit_def>Chain A, Fructose-bisphosphate aldolase [Bacillus methanolicus MGA3] &gt;pdb|7NC7|B Chain B, Fructose-bisphosphate aldolase [Bacillus methanolicus MGA3]</Hit_def>
+  <Hit_accession>7NC7_A</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>4.28132e-22</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWL</Hsp_qseq>
+      <Hsp_hseq>AKAEGYAVGQFNLNNLEFTQAILLAAEEEKSPVILGVSEGAGRYMGGF---------KTVVNMVKGLMEDYKIT----VPVAIHLDHGSS--FEKCKEVIDAG-----------FTSVMIDASHHPFEENVEVTKKVVEYAHARGVSVEAELGTVGGQEDDV----IADGVIYADPKECE----ELVKRTGIDCLAPALGSVHGPYKG-----EPNLGFKEMEEIGRITGVP-----LVLHGGTGIPTKDIQRAISLGTAKINVNTENQIASAKKVREVLAEN----------------PN--MYDPRKYL</Hsp_hseq>
+      <Hsp_midline>AK   +A+   N    +   A+L  A + K+PVI+  S G   ++ G            ++  + G    +++     VPV +H DH +         ++DAG           F+S MID S    +EN+E+  K +E     G+++E ELG  GG+ED V    +    +Y  P++ +    EL K +    +A + G+VHG YK       P +     E + +   +P      V HGG+G   ++I+ ++S G  K+N++T+ Q A+ + V      N                PN   YDPR +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1GVF|A</Hit_id>
+  <Hit_def>Structure of tagatose-1,6-bisphosphate aldolase [Escherichia coli] &gt;pdb|1GVF|B Structure of tagatose-1,6-bisphosphate aldolase [Escherichia coli]</Hit_def>
+  <Hit_accession>1GVF_A</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>7.27818e-17</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>VFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSM</Hsp_qseq>
+      <Hsp_hseq>LLQDAQANGYAVPAFNIHNAETIQAILEVCSEMRSPVILAGTPGTFKHIALEEIY-------ALCSAYSTT---------YNMPLALHLDH--HESLDDIRRKVHAGVR-----------SAMIDGSHFPFAENVKLVKSVVDFCHSQDCSVEAELGRLGGVED--DMSVDAESAFLTDPQEAKR-FVELTGVD---SLAVAIGTAHGLYSK-----TPKIDFQRLAEIREVVDVP-----LVLHGASDVPDEFVRRTIELGVTKVNVATELKIA-FAGAVKAWFAE---------NPQGN--------DPRYYMRVGMDAM</Hsp_hseq>
+      <Hsp_midline>+ Q A+ N +A+PA N    ++I A+LE  +++++PVI+  + G    IA + +        A+  A S           Y +P+ LH DH   + L  I   + AG +           S MID S     EN+++    ++       ++E ELG  GG ED  D S    SA  T P++    + EL+ +    ++A + G  HG+Y       TP I       + +  ++P      V HG S    + ++ ++  GV K+N+ T+ + A + G +  + A          NP+G         DPR ++R G  +M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3Q94|A</Hit_id>
+  <Hit_def>The crystal structure of fructose 1,6-bisphosphate aldolase from Bacillus anthracis str. &apos;Ames Ancestor&apos; [Bacillus anthracis str. &apos;Ames Ancestor&apos;] &gt;pdb|3Q94|B The crystal structure of fructose 1,6-bisphosphate aldolase from Bacillus anthracis str. &apos;Ames Ancestor&apos; [Bacillus anthracis str. &apos;Ames Ancestor&apos;]</Hit_def>
+  <Hit_accession>3Q94_A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>4.40724e-16</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQTSMIARLEKAFQELNA</Hsp_qseq>
+      <Hsp_hseq>ALEGKYAVGQFNXNNLEWTQAILAAAEEEKSPVILGVSEGAARHXTG--FKTVVAXVKALI-----------EEXNITVPVAIHLDHGSS--FEKCKEAIDAG-----------FTSVXIDASHHPFEENVETTKKVVEYAHARNVSVEAELGTVGGQEDDV----IAEGVIYADPAECKH-LVEATGID---CLAPALGSVHGPYKG-----EPNLGFAEXEQVRDFTGVP-----LVLHGGTGIPTADIEKAISLGTSKINVNTENQ-------IEFTKAVREVLN--------KDQ---EVYDPRKFIGPGRDAIKATVIGKIREFGS</Hsp_hseq>
+      <Hsp_midline>A E  +A+   N    +   A+L  A + K+PVI+  S G A    G   K+ V    A++              +  VPV +H DH +          +DAG           F+S  ID S    +EN+E   K +E      +++E ELG  GG+ED V    +    +Y  P +  +   E + I     +A + G+VHG YK       P +     E V     +P      V HGG+G    +I+ ++S G  K+N++T+ Q       + + KA    L         +DQ   + YDPR ++  G+ ++ A +    +E  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1RV8|A</Hit_id>
+  <Hit_def>Class II fructose-1,6-bisphosphate aldolase from Thermus aquaticus in complex with cobalt [Thermus aquaticus] &gt;pdb|1RV8|B Class II fructose-1,6-bisphosphate aldolase from Thermus aquaticus in complex with cobalt [Thermus aquaticus] &gt;pdb|1RV8|C Class II fructose-1,6-bisphosphate aldolase from Thermus aquaticus in complex with cobalt [Thermus aquaticus] &gt;pdb|1RV8|D Class II fructose-1,6-bisphosphate aldolase from Thermus aquaticus in complex with cobalt [Thermus aquaticus] &gt;pdb|1RVG|A crystal structure of class II fructose-bisphosphate aldolase from Thermus aquaticus in complex with Y [Thermus aquaticus] &gt;pdb|1RVG|B crystal structure of class II fructose-bisphosphate aldolase from Thermus aquaticus in complex with Y [Thermus aquaticus] &gt;pdb|1RVG|C crystal structure of class II fructose-bisphosphate aldolase from Thermus aquaticus in complex with Y [Thermus aquaticus] &gt;pdb|1RVG|D crystal structure of class II fructose-bisphosphate aldolase from Thermus aquaticus in complex with Y [Thermus aquaticus]</Hit_def>
+  <Hit_accession>1RV8_A</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>2.06633e-15</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>83</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>KVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGS---------------------GSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWL</Hsp_qseq>
+      <Hsp_hseq>EILKKAREEGYGVGAFNVNNMEFLQAVLEAAEEQRSPVILALSEGAMKY-GGR---------ALTLMAV-------ELAKEARVPVAVHLDHGSS--YESVLRALRAG-----------FTSVMIDKSHEDFETNVRETRRVVEAAHAVGVTVEAELGRLAGIEEHVAVDEKD--ALLTNPEE---ARIFMERTGADY-LAVAIGTSHGAYKGKG---RPFIDHARLERIARLVPAP-----LVLHGASAVPPELVERFRASGGEIGEAAGIHPEDIKKAISLGIAKINTDTDLRLAFT-----------ALIREALNK-------NPKEFDPRKYL</Hsp_hseq>
+      <Hsp_midline>++ + A+E  + + A N    + + AVLE A + ++PVI+  S G   +  G+         A  L A+       ++A+   VPV +H DH +      +   L AG           F+S MID S E  + N+    + +E    +G+T+E ELG   G E+ V     D  AL T PE+   A   + +    + +A + G  HG YK       P I     E +++    P      V HG S                     G   ++IK ++S G+ K+N DTD + A             A ++  L         N K +DPR +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3PM6|A</Hit_id>
+  <Hit_def>Crystal structure of a putative fructose-1,6-biphosphate aldolase from Coccidioides immitis solved by combined SAD MR [Coccidioides immitis] &gt;pdb|3PM6|B Crystal structure of a putative fructose-1,6-biphosphate aldolase from Coccidioides immitis solved by combined SAD MR [Coccidioides immitis]</Hit_def>
+  <Hit_accession>3PM6_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.02555e-15</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>VFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDV-DYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNID</Hsp_qseq>
+      <Hsp_hseq>LLTFARTHSFAIPAICVYNLEGILAIIRAAEHKRSPAMILLFPWAIQYADSLLVRT----AASACRAAS-------------VPITLHLDHAQD---PEI--IKRAADLSRSETHEPGFDSIMVDMSHFSKEENLRLTRELVAYCNARGIATEAEPGRIEGGEDGVQDT-VDLEGVLTTPEESEEFVATGINWLAP------AFGNVHGNYGPRGVQLDYERLQRINEAVGER-------VGLVLHGADPFTKEIFEKCIERGVAKVNVN</Hsp_hseq>
+      <Hsp_midline>+   A+ ++FA+PA+     + I A++  A   ++P ++        +     V++     A+   A S             VP+ LH DH      P I  +  A +   + T +P F S M+D+S  S +EN+ +  + +   +  G+  E E G   G EDGV ++ +D   + T PE+  ++  T ++ ++P      +FGNVHG Y P  V L    L+   E V ++       +  V HG    T +  +  +  GV K+N++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|3GAK|A</Hit_id>
+  <Hit_def>Structure of Giardia fructose-1,6-biphosphate aldolase [Giardia intestinalis] &gt;pdb|3GAK|B Structure of Giardia fructose-1,6-biphosphate aldolase [Giardia intestinalis] &gt;pdb|3GAY|A Structure of Giardia fructose-1,6-biphosphate aldolase in complex with tagatose-1,6-biphosphate [Giardia intestinalis] &gt;pdb|3GAY|B Structure of Giardia fructose-1,6-biphosphate aldolase in complex with tagatose-1,6-biphosphate [Giardia intestinalis]</Hit_def>
+  <Hit_accession>3GAK_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.66246e-14</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>VQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKD----------------------SVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQ---TSMIARLEKAF</Hsp_qseq>
+      <Hsp_hseq>LRQMLGEARKHKYGVGAFNVNNMEQIQGIMKAVVQLKSPVILQCSRGALKY-------SDMIYLKKLCEA--------ALEKHPDIPICIHLDH--GDTLESVKMAIDLG-----------FSSVMIDASHHPFDENVRITKEVVAYAHARGVSVEAELGTLGGIEEDVQN-----TVQLTEPQDAK-KFVELTGVD---ALAVAIGTSHGAYK----FKSESDIRLAIDRVKTISDL--TGIPLVMH-GSSSVPKDVKDMINKYGGKMPDAVGVPIESIVHAIGEGVCKINVDSDSRMAMTGAIRKVFV----------------EHPEK--FDPRDYLGPGRDAITEMLIPKIKAF</Hsp_hseq>
+      <Hsp_midline>++++   A+++ + + A N    + I  +++   ++K+PVI+Q S G   +       SD+     +  A         + +H  +P+ +H DH     L  +   +D G           FSS MID S     EN+ I  + +      G+++E ELG  GG E+ V N     +   T+P+D    + EL+ +     +A + G  HG YK      + + +R + + V    +L    +  V H GS S  +++KD                      ++  GV K+N+D+D++ A    +   +                 + P K  +DPR +L  G+   T M+    KAF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|2FJK|A</Hit_id>
+  <Hit_def>Crystal structure of Fructose-1,6-Bisphosphate Aldolase in Thermus caldophilus [Thermus caldophilus] &gt;pdb|2FJK|B Crystal structure of Fructose-1,6-Bisphosphate Aldolase in Thermus caldophilus [Thermus caldophilus] &gt;pdb|2FJK|C Crystal structure of Fructose-1,6-Bisphosphate Aldolase in Thermus caldophilus [Thermus caldophilus] &gt;pdb|2FJK|D Crystal structure of Fructose-1,6-Bisphosphate Aldolase in Thermus caldophilus [Thermus caldophilus]</Hit_def>
+  <Hit_accession>2FJK_A</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.39014e-14</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>KVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKP--------------GNVVLTPTILRDS----QEYVSKKHNLPHNSLNFVFHGG-----SGSTAQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWL</Hsp_qseq>
+      <Hsp_hseq>EILRKARAEGYGVGAFNTNNXEFTQAILEAAEEXKSPVILALSEGAXKY-----------------GGRALTRXVVALAQEARVPVAVHLDHGSS-----YESVLKALREGF--------TSVXIDKSHEDFETNVRETKRVVEAAHAVGVTVEAELGRLAGIEEHVAVDEKD--ALLTNPEEARI-FXERTGAD---YLAVAIGTSHGAYKGKGRPFIDHPRLARIAKLVPAPLVLHGASAVPQELVER----------FRAAGGEIGEASGIHPEDIKKAISLGIAKINTDTDLRLAFT-----------ALVRETLGK-------NPKEFDPRKYL</Hsp_hseq>
+      <Hsp_midline>++ + A+   + + A N    +   A+LE A + K+PVI+  S G   +                 G  +    V  +A+   VPV +H DH +       + +L A  + F        +S  ID S E  + N+    + +E    +G+T+E ELG   G E+ V     D  AL T PE+    + E +       +A + G  HG YK                 +V  P +L  +    QE V +          F   GG     SG   ++IK ++S G+ K+N DTD + A             A ++  LG        N K +DPR +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|5U4N|A</Hit_id>
+  <Hit_def>Crystal structure of a fructose-bisphosphate aldolase from Neisseria gonorrhoeae [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>5U4N_A</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>4.0865e-14</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>VQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLS-------EESLQENIEICSKYLERMSKIGMTLEIELGCTG-------GEEDGVDNS-HMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYK----PGNVVLTPTILRDSQEYVSKKHNLPHNS-------LNFV--FHGGSGST----AQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKAN</Hsp_qseq>
+      <Hsp_hseq>MRQLLDHAAENSYGLPAFNVNNLEQMRAIMEAADQVNAPVIVQASAGARKYAGAPFLRH------LILAAVEEFPH---------IPVVMHQDHGASP---------DVCQRSIQLG----FSSVMMDGSLLEDGKTPSSYEYNVNATRTVVNFSHACGVSVEGEIGVLGNLETGEAGEEDGVGAAGKLSHDQMLTSVEDA----VRFVKDTGVDALAIAVGTSHGAYKFTRPPTGDVLRIDRIKEIHQALPNTHIVMHGSSSVPQEWLKVINEYGGNIGETYGVPVEEIVEGIKHGVRKVNIDTDLRLASTGAVRRYLAEN</Hsp_hseq>
+      <Hsp_midline>++++   A EN++ LPA N    + + A++E A +V APVIVQ S G   +     ++        IL A+    H         +PV++H DH A           D  ++         FSS M+D S         S + N+      +      G+++E E+G  G       GEEDGV  +  +    + T  ED         K +    +A + G  HG YK    P   VL    +++  + +   H + H S       L  +  + G  G T     +EI + + +GV K+NIDTD + A+   V  Y   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|2ISV|A</Hit_id>
+  <Hit_def>Structure of Giardia fructose-1,6-biphosphate aldolase in complex with phosphoglycolohydroxamate [Giardia intestinalis] &gt;pdb|2ISV|B Structure of Giardia fructose-1,6-biphosphate aldolase in complex with phosphoglycolohydroxamate [Giardia intestinalis] &gt;pdb|2ISW|A Structure of Giardia fructose-1,6-biphosphate aldolase in complex with phosphoglycolohydroxamate [Giardia intestinalis] &gt;pdb|2ISW|B Structure of Giardia fructose-1,6-biphosphate aldolase in complex with phosphoglycolohydroxamate [Giardia intestinalis] &gt;pdb|3OHI|A Structure of Giardia fructose-1,6-biphosphate aldolase in complex with 3-hydroxy-2-pyridone [Giardia intestinalis] &gt;pdb|3OHI|B Structure of Giardia fructose-1,6-biphosphate aldolase in complex with 3-hydroxy-2-pyridone [Giardia intestinalis]</Hit_def>
+  <Hit_accession>2ISV_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.32171e-13</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>VQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKD----------------------SVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQ---TSMIARLEKAF</Hsp_qseq>
+      <Hsp_hseq>LRQMLGEARKHKYGVGAFNVNNMEQIQGIMKAVVQLKSPVILQCSRGALKY-------SDMIYLKKLCEA--------ALEKHPDIPICIHLDH--GDTLESVKMAIDLG-----------FSSVMIDASHHPFDENVRITKEVVAYAHARSVSVEAELGTLGGIEEDVQN-----TVQLTEPQDAK-KFVELTGVD---ALAVAIGTSHGAYK----FKSESDIRLAIDRVKTISDL--TGIPLVMH-GSSSVPKDVKDMINKYGGKMPDAVGVPIESIVHAIGEGVCKINVDSDSRMAMTGAIRKVFV----------------EHPEK--FDPRDYLGPGRDAITEMLIPKIKAF</Hsp_hseq>
+      <Hsp_midline>++++   A+++ + + A N    + I  +++   ++K+PVI+Q S G   +       SD+     +  A         + +H  +P+ +H DH     L  +   +D G           FSS MID S     EN+ I  + +       +++E ELG  GG E+ V N     +   T+P+D    + EL+ +     +A + G  HG YK      + + +R + + V    +L    +  V H GS S  +++KD                      ++  GV K+N+D+D++ A    +   +                 + P K  +DPR +L  G+   T M+    KAF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|3GB6|A</Hit_id>
+  <Hit_def>Structure of Giardia fructose-1,6-biphosphate aldolase D83A mutant in complex with fructose-1,6-bisphosphate [Giardia intestinalis] &gt;pdb|3GB6|B Structure of Giardia fructose-1,6-biphosphate aldolase D83A mutant in complex with fructose-1,6-bisphosphate [Giardia intestinalis]</Hit_def>
+  <Hit_accession>3GB6_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>2.20968e-13</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>VQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKD----------------------SVSYGVVKMNIDTDTQWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKYYDPRVWLRAGQ---TSMIARLEKAF</Hsp_qseq>
+      <Hsp_hseq>LRQMLGEARKHKYGVGAFNVNNMEQIQGIMKAVVQLKSPVILQCSRGALKY-------SDMIYLKKLCEA--------ALEKHPDIPICIHLAH--GDTLESVKMAIDLG-----------FSSVMIDASHHPFDENVRITKEVVAYAHARGVSVEAELGTLGGIEEDVQN-----TVQLTEPQDAK-KFVELTGVD---ALAVAIGTSHGAYK----FKSESDIRLAIDRVKTISDL--TGIPLVMH-GSSSVPKDVKDMINKYGGKMPDAVGVPIESIVHAIGEGVCKINVDSDSRMAMTGAIRKVFV----------------EHPEK--FDPRDYLGPGRDAITEMLIPKIKAF</Hsp_hseq>
+      <Hsp_midline>++++   A+++ + + A N    + I  +++   ++K+PVI+Q S G   +       SD+     +  A         + +H  +P+ +H  H     L  +   +D G           FSS MID S     EN+ I  + +      G+++E ELG  GG E+ V N     +   T+P+D    + EL+ +     +A + G  HG YK      + + +R + + V    +L    +  V H GS S  +++KD                      ++  GV K+N+D+D++ A    +   +                 + P K  +DPR +L  G+   T M+    KAF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|5U7S|A</Hit_id>
+  <Hit_def>Crystal structure of a fructose-bisphosphate aldolase, class II, Calvin cycle subtype from Acinetobacter baumannii [Acinetobacter baumannii] &gt;pdb|5U7S|B Crystal structure of a fructose-bisphosphate aldolase, class II, Calvin cycle subtype from Acinetobacter baumannii [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>5U7S_A</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>6.58468e-13</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>VQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDH------CAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTG-------GEEDGVD-NSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYK----PGNVVLTPTILRDSQEYVSKKHNLPHNS-------LNFV--FHGGSGST----AQEIKDSVSYGVVKMNIDTDTQWATWEGVLNYYKANEA</Hsp_qseq>
+      <Hsp_hseq>MRQLLDHAAEHNYGVPAFNVNNLEQMRAIMLAADATNSPVIVQASAGARKYAGAPFLRH------LILAAIEEWPH---------IPVVMHQDHGTSPDVCQRSIQLGFSSVMMDGS--LGADGK----------TPTTYDYNVDVTRQVVAMAHACGVSVEGEIGCLGSLETGMAGEEDGVGAEGVLDHSQLLTSVEEAKQFVADTNVDA----LAIAVGTSHGAYKFTRPPTGDILAIDRIKEIHAALPNTHLVMHGSSSVPQEWLKVINEFGGNIGETYGVPVEQLVEAIKHGVRKINIDTDLRLASTGAIRRFMAENPA</Hsp_hseq>
+      <Hsp_midline>++++   A E+N+ +PA N    + + A++  A    +PVIVQ S G   +     ++        IL AI    H         +PV++H DH      C + +      ++  G     A GK          +  +   N+++  + +      G+++E E+GC G       GEEDGV     +D S L T  E+      + +  +    +A + G  HG YK    P   +L    +++    +   H + H S       L  +  F G  G T     +++ +++ +GV K+NIDTD + A+   +  +   N A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|6OFU|A</Hit_id>
+  <Hit_def>X-ray crystal structure of the YdjI aldolase from Escherichia coli K12 [Escherichia coli K-12] &gt;pdb|6OFU|B X-ray crystal structure of the YdjI aldolase from Escherichia coli K12 [Escherichia coli K-12] &gt;pdb|6OFU|C X-ray crystal structure of the YdjI aldolase from Escherichia coli K12 [Escherichia coli K-12] &gt;pdb|6OFU|D X-ray crystal structure of the YdjI aldolase from Escherichia coli K12 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6OFU_A</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.48682e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLL---PWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGE---EDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTD</Hsp_qseq>
+      <Hsp_hseq>ATNKHYAIAHFNVWNAEMLMGVIDAAEEAKSPVIISFGTG---FVGNTSFED-------------FSHMMVSMAQKATVPVITHWDHGRSMEIIHNAWTHGM----------------NSLMRDASAFDFEENIRLTKEAVDFFHPLGIPVEAELGHVGNETVYEEALAGYH------YTDPDQA----AEFVERTGCDSLAVAIGNQHGVYTS-----EPQLNFEVVKRVRDAVSVP-----LVLHGASGISDADIKTAISLGIAKINIHTE</Hsp_hseq>
+      <Hsp_midline>A   ++A+   N    + +  V++ A + K+PVI+ F  G   F+     +               +H +  MA+   VPVI H DH     +    W  G+                +S M D S    +ENI +  + ++    +G+ +E ELG  G E   E+ +   H      YT P+       E  + +   ++A + GN HGVY        P +  +  + V    ++P      V HG SG +  +IK ++S G+ K+NI T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|3C4U|A</Hit_id>
+  <Hit_def>Structure of class II fructose-biphosphate aldolase from helicobacter pylori [Helicobacter pylori] &gt;pdb|3C4U|B Structure of class II fructose-biphosphate aldolase from helicobacter pylori [Helicobacter pylori] &gt;pdb|3C52|A Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori] &gt;pdb|3C52|B Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori] &gt;pdb|3C56|A Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(3-Hydroxypropyl)-glycolohydroxamic acid bisphosphate, a competitive inhibitor [Helicobacter pylori] &gt;pdb|3C56|B Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(3-Hydroxypropyl)-glycolohydroxamic acid bisphosphate, a competitive inhibitor [Helicobacter pylori] &gt;pdb|3N9R|A Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9R|B Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9R|K Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9R|P Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9R|U Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9R|Z Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9R|e Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9R|j Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)-phosphoglycolohydroxamic acid, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9S|A Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)- glycolohydroxamic acid bis-phosphate, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|3N9S|B Class II fructose-1,6-bisphosphate aldolase from helicobacter pylori in complex with N-(4-hydroxybutyl)- glycolohydroxamic acid bis-phosphate, a competitive inhibitor [Helicobacter pylori 51] &gt;pdb|5UCK|A Class II fructose-1,6-bisphosphate aldolase of Helicobacter pylori with cleavage products [Helicobacter pylori 26695] &gt;pdb|5UCK|B Class II fructose-1,6-bisphosphate aldolase of Helicobacter pylori with cleavage products [Helicobacter pylori 26695] &gt;pdb|5VJF|A Class II fructose-1,6-bisphosphate aldolase of Helicobacter pylori with DHAP [Helicobacter pylori 26695] &gt;pdb|5VJF|B Class II fructose-1,6-bisphosphate aldolase of Helicobacter pylori with DHAP [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>3C4U_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.8092e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHY-GVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGS---------------------GSTAQEIKDSVSYGVVKMNIDTDTQWA</Hsp_qseq>
+      <Hsp_hseq>AHKEGYGVGAFNFVNFEMLNAIFEAGNEENSPLFIQASEGAIKY----------------MGIDMAVGMVKIMCERYPHIPVALHLDHGTT---------FESCEKAVKAG----FTSVMIDASHHAFEENLELTSKVVKMAHNAGVSVEAELGRLMGIEDNISVDEKD--AVLVNPKEAE----QFVKESQVDYLAPAIGTSHGAFKFKG---EPKLDFERLQEVKRLTNIP-----LVLHGASAIPDNVRKSYLDAGGDLKGSKGVPFEFLQESVKGGINKVNTDTDLRIA</Hsp_hseq>
+      <Hsp_midline>A +  + + A N V  + +NA+ E   +  +P+ +Q S G   +                +G       V  M E Y  +PV LH DH             ++ EK   A     F+S MID S  + +EN+E+ SK ++     G+++E ELG   G ED +     D  A+   P++ +    +  K S    +A + G  HG +K       P +  +  + V +  N+P      V HG S                     G   + +++SV  G+ K+N DTD + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|5UCS|A</Hit_id>
+  <Hit_def>Class II fructose-1,6-bisphosphate aldolase E149A variant of Helicobacter pylori [Helicobacter pylori 26695] &gt;pdb|5UCS|B Class II fructose-1,6-bisphosphate aldolase E149A variant of Helicobacter pylori [Helicobacter pylori 26695] &gt;pdb|5UCZ|A Class II fructose-1,6-bisphosphate aldolase E149A variant of Helicobacter pylori with DHAP [Helicobacter pylori 26695] &gt;pdb|5UCZ|B Class II fructose-1,6-bisphosphate aldolase E149A variant of Helicobacter pylori with DHAP [Helicobacter pylori 26695] &gt;pdb|5UD0|A Class II fructose-1,6-bisphosphate aldolase E149A variant of Helicobacter pylori with cleavage products [Helicobacter pylori 26695] &gt;pdb|5UD0|B Class II fructose-1,6-bisphosphate aldolase E149A variant of Helicobacter pylori with cleavage products [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>5UCS_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>8.24279e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYG-VPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGS---------------------GSTAQEIKDSVSYGVVKMNIDTDTQWA</Hsp_qseq>
+      <Hsp_hseq>AHKEGYGVGAFNFVNFEMLNAIFEAGNEENSPLFIQASEGAIKY----------------MGIDMAVGMVKIMCERYPHIPVALHLDHGTT---------FESCEKAVKAG----FTSVMIDASHHAFEENLELTSKVVKMAHNAGVSVEAELGRLMGIEDNISVDAKD--AVLVNPKEAE----QFVKESQVDYLAPAIGTSHGAFKFKG---EPKLDFERLQEVKRLTNIP-----LVLHGASAIPDNVRKSYLDAGGDLKGSKGVPFEFLQESVKGGINKVNTDTDLRIA</Hsp_hseq>
+      <Hsp_midline>A +  + + A N V  + +NA+ E   +  +P+ +Q S G   +                +G       V  M E Y  +PV LH DH             ++ EK   A     F+S MID S  + +EN+E+ SK ++     G+++E ELG   G ED +     D  A+   P++ +    +  K S    +A + G  HG +K       P +  +  + V +  N+P      V HG S                     G   + +++SV  G+ K+N DTD + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|5UCN|A</Hit_id>
+  <Hit_def>Class II fructose-1,6-bisphosphate aldolase E142A variant of Helicobacter pylori with DHAP [Helicobacter pylori 26695] &gt;pdb|5UCN|B Class II fructose-1,6-bisphosphate aldolase E142A variant of Helicobacter pylori with DHAP [Helicobacter pylori 26695] &gt;pdb|5UCP|A Class II fructose-1,6-bisphosphate aldolase E142A variant of Helicobacter pylori with FBP and cleavage products [Helicobacter pylori 26695] &gt;pdb|5UCP|B Class II fructose-1,6-bisphosphate aldolase E142A variant of Helicobacter pylori with FBP and cleavage products [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>5UCN_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>3.27781e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYG-VPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGS---------------------GSTAQEIKDSVSYGVVKMNIDTDTQWA</Hsp_qseq>
+      <Hsp_hseq>AHKEGYGVGAFNFVNFEMLNAIFEAGNEENSPLFIQASEGAIKY----------------MGIDMAVGMVKIMCERYPHIPVALHLDHGTT---------FESCEKAVKAG----FTSVMIDASHHAFEENLELTSKVVKMAHNAGVSVEAELGRLMGIADNISVDEKD--AVLVNPKEAE----QFVKESQVDYLAPAIGTSHGAFKFKG---EPKLDFERLQEVKRLTNIP-----LVLHGASAIPDNVRKSYLDAGGDLKGSKGVPFEFLQESVKGGINKVNTDTDLRIA</Hsp_hseq>
+      <Hsp_midline>A +  + + A N V  + +NA+ E   +  +P+ +Q S G   +                +G       V  M E Y  +PV LH DH             ++ EK   A     F+S MID S  + +EN+E+ SK ++     G+++E ELG   G  D +     D  A+   P++ +    +  K S    +A + G  HG +K       P +  +  + V +  N+P      V HG S                     G   + +++SV  G+ K+N DTD + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5UD1|A</Hit_id>
+  <Hit_def>Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori [Helicobacter pylori 26695] &gt;pdb|5UD1|B Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori [Helicobacter pylori 26695] &gt;pdb|5UD2|A Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori with DHAP [Helicobacter pylori 26695] &gt;pdb|5UD2|B Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori with DHAP [Helicobacter pylori 26695] &gt;pdb|5UD3|A Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori with FBP [Helicobacter pylori 26695] &gt;pdb|5UD3|B Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori with FBP [Helicobacter pylori 26695] &gt;pdb|5UD4|A Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori with TBP [Helicobacter pylori 26695] &gt;pdb|5UD4|B Class II fructose-1,6-bisphosphate aldolase H180Q variant of Helicobacter pylori with TBP [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>5UD1_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>4.28549e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>AKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYG-VPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGCTGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYKPGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGS---------------------GSTAQEIKDSVSYGVVKMNIDTDTQWA</Hsp_qseq>
+      <Hsp_hseq>AHKEGYGVGAFNFVNFEMLNAIFEAGNEENSPLFIQASEGAIKY----------------MGIDMAVGMVKIMCERYPHIPVALHLDHGTT---------FESCEKAVKAG----FTSVMIDASHHAFEENLELTSKVVKMAHNAGVSVEAELGRLMGIEDNISVDEKD--AVLVNPKEAE----QFVKESQVDYLAPAIGTSQGAFKFKG---EPKLDFERLQEVKRLTNIP-----LVLHGASAIPDNVRKSYLDAGGDLKGSKGVPFEFLQESVKGGINKVNTDTDLRIA</Hsp_hseq>
+      <Hsp_midline>A +  + + A N V  + +NA+ E   +  +P+ +Q S G   +                +G       V  M E Y  +PV LH DH             ++ EK   A     F+S MID S  + +EN+E+ SK ++     G+++E ELG   G ED +     D  A+   P++ +    +  K S    +A + G   G +K       P +  +  + V +  N+P      V HG S                     G   + +++SV  G+ K+N DTD + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|6DGS|A</Hit_id>
+  <Hit_def>Crystal Structure of Leishmania major dihydroorotate dehydrogenase mutant Y142A [Leishmania major] &gt;pdb|6DGS|B Crystal Structure of Leishmania major dihydroorotate dehydrogenase mutant Y142A [Leishmania major]</Hit_def>
+  <Hit_accession>6DGS_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.39753</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSMRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|3MHU|A</Hit_id>
+  <Hit_def>Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with 5-Nitroorotic acid [Leishmania major strain Friedlin] &gt;pdb|3MHU|B Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with 5-Nitroorotic acid [Leishmania major strain Friedlin] &gt;pdb|3MJY|A Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with 5-Aminoorotic acid [Leishmania major] &gt;pdb|3MJY|B Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with 5-Aminoorotic acid [Leishmania major] &gt;pdb|3TQ0|A Crystal structure of Leishmania major dihydroorotate dehydrogenase in complex with fumarate [Leishmania major strain Friedlin] &gt;pdb|3TQ0|B Crystal structure of Leishmania major dihydroorotate dehydrogenase in complex with fumarate [Leishmania major strain Friedlin]</Hit_def>
+  <Hit_accession>3MHU_A</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.437383</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSMRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|6DWG|A</Hit_id>
+  <Hit_def>Crystal structure of Leishmania major dihydroorotate dehydrogenase mutant Q139A [Leishmania major] &gt;pdb|6DWG|B Crystal structure of Leishmania major dihydroorotate dehydrogenase mutant Q139A [Leishmania major]</Hit_def>
+  <Hit_accession>6DWG_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.441794</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSMRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|3GYE|A</Hit_id>
+  <Hit_def>Didydroorotate dehydrogenase from Leishmania major [Leishmania major] &gt;pdb|3GYE|B Didydroorotate dehydrogenase from Leishmania major [Leishmania major] &gt;pdb|3GZ3|A Leishmania major Dihydroorotate Dehydrogenase in complex with orotate [Leishmania major] &gt;pdb|3GZ3|B Leishmania major Dihydroorotate Dehydrogenase in complex with orotate [Leishmania major] &gt;pdb|4EF8|A Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with Phenyl isothiocyanate [Leishmania major] &gt;pdb|4EF8|B Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with Phenyl isothiocyanate [Leishmania major] &gt;pdb|4EF9|A Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with 4-Nitrophenyl isothiocyanate [Leishmania major] &gt;pdb|4EF9|B Crystal structure of dihydroorotate dehydrogenase from Leishmania major in complex with 4-Nitrophenyl isothiocyanate [Leishmania major]</Hit_def>
+  <Hit_accession>3GYE_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.449636</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSMRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|6EBS|A</Hit_id>
+  <Hit_def>Crystal structure of Leishmania major dihydroorotate dehydrogenase mutant H174A in complex with orotate [Leishmania major] &gt;pdb|6EBS|B Crystal structure of Leishmania major dihydroorotate dehydrogenase mutant H174A in complex with orotate [Leishmania major]</Hit_def>
+  <Hit_accession>6EBS_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.513056</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSMRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|3TJX|A</Hit_id>
+  <Hit_def>Crystal Structure of Leishmania major dihydroorotate dehydrogenase mutant H174A [Leishmania major] &gt;pdb|3TJX|B Crystal Structure of Leishmania major dihydroorotate dehydrogenase mutant H174A [Leishmania major]</Hit_def>
+  <Hit_accession>3TJX_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.531428</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSMRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|3TRO|A</Hit_id>
+  <Hit_def>Crystal Structure of Leishmania major dihydroorotate dehydrogenase mutant D171A [Leishmania major strain Friedlin] &gt;pdb|3TRO|B Crystal Structure of Leishmania major dihydroorotate dehydrogenase mutant D171A [Leishmania major strain Friedlin]</Hit_def>
+  <Hit_accession>3TRO_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.531428</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSMRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|3C61|A</Hit_id>
+  <Hit_def>Crystal structure of dihydroorotate dehydrogenase from Leishmania donovani [Leishmania donovani] &gt;pdb|3C61|B Crystal structure of dihydroorotate dehydrogenase from Leishmania donovani [Leishmania donovani] &gt;pdb|3C61|C Crystal structure of dihydroorotate dehydrogenase from Leishmania donovani [Leishmania donovani] &gt;pdb|3C61|D Crystal structure of dihydroorotate dehydrogenase from Leishmania donovani [Leishmania donovani]</Hit_def>
+  <Hit_accession>3C61_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.655123</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSVRENVEMCKRLAAVATEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++EN+E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|3ZYM|A</Hit_id>
+  <Hit_def>Structure of CALM (PICALM) in complex with VAMP8 [Rattus norvegicus] &gt;pdb|3ZYM|B Structure of CALM (PICALM) in complex with VAMP8 [Rattus norvegicus] &gt;pdb|3ZYM|C Structure of CALM (PICALM) in complex with VAMP8 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>3ZYM_A</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.94337</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>DGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEI--ELGCTGGEEDGVDNSHMD</Hsp_qseq>
+      <Hsp_hseq>EGIINLLEKYF-------------DMKKNQCKEGLDIYKKFLTRMTRISEFLKVAEQVGIDRGDISGSGSGHMD</Hsp_hseq>
+      <Hsp_midline>+G+++  EK+F             D+ +   +E ++I  K+L RM++I   L++  ++G   G+  G  + HMD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4WZH|A</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase from Leishmania Viannia braziliensis [Leishmania braziliensis] &gt;pdb|4WZH|B Dihydroorotate dehydrogenase from Leishmania Viannia braziliensis [Leishmania braziliensis]</Hit_def>
+  <Hit_accession>4WZH_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.983997</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC</Hsp_qseq>
+      <Hsp_hseq>FDFYLAYSARHHDYSRKPLF----ISISGFSAEENAEMCKRLAPVAAEKGVILELNLSC</Hsp_hseq>
+      <Hsp_midline> D  L    +H   + KPLF    I +S  S +EN E+C +     ++ G+ LE+ L C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|2B4G|A</Hit_id>
+  <Hit_def>dihydroorotate dehydrogenase [Trypanosoma brucei] &gt;pdb|2B4G|B dihydroorotate dehydrogenase [Trypanosoma brucei] &gt;pdb|2B4G|C dihydroorotate dehydrogenase [Trypanosoma brucei] &gt;pdb|2B4G|D dihydroorotate dehydrogenase [Trypanosoma brucei]</Hit_def>
+  <Hit_accession>2B4G_A</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.52201</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC---TGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIA</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSVEESVEMVKKLVPITKEKGTILELNLSCPNVPGKPQVGYD---FDTTRTYLQKVSEAYGLPFGVKMPPYFDIA</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++E++E+  K +    + G  LE+ L C    G  + G D    D +  Y Q     Y      K+ P F IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|5XFV|A</Hit_id>
+  <Hit_def>Crystal structures of FMN-bound form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927] &gt;pdb|5XFV|B Crystal structures of FMN-bound form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927] &gt;pdb|5XFV|C Crystal structures of FMN-bound form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927] &gt;pdb|5XFV|D Crystal structures of FMN-bound form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927] &gt;pdb|5XFW|A Crystal structures of FMN-free form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927] &gt;pdb|5XFW|B Crystal structures of FMN-free form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927] &gt;pdb|5XFW|C Crystal structures of FMN-free form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927] &gt;pdb|5XFW|D Crystal structures of FMN-free form of dihydroorotate dehydrogenase from Trypanosoma brucei [Trypanosoma brucei brucei TREU927]</Hit_def>
+  <Hit_accession>5XFV_A</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.7308</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>KPLFSSHMIDLSEESLQENIEICSKYLERMSKIGMTLEIELGC---TGGEEDGVDNSHMDASALYTQPEDVDYAYTELSKISPRFTIA</Hsp_qseq>
+      <Hsp_hseq>KPLF----LSMSGLSVEESVEMVKKLVPITKEKGTILELNLSCPNVPGKPQVGYD---FDTTRTYLQKVSEAYGLPFGVKMPPYFDIA</Hsp_hseq>
+      <Hsp_midline>KPLF    + +S  S++E++E+  K +    + G  LE+ L C    G  + G D    D +  Y Q     Y      K+ P F IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|6GJF|A</Hit_id>
+  <Hit_def>Ancestral endocellulase Cel5A [synthetic construct] &gt;pdb|6GJF|B Ancestral endocellulase Cel5A [synthetic construct] &gt;pdb|6GJF|C Ancestral endocellulase Cel5A [synthetic construct] &gt;pdb|6GJF|D Ancestral endocellulase Cel5A [synthetic construct] &gt;pdb|6GJF|E Ancestral endocellulase Cel5A [synthetic construct] &gt;pdb|6GJF|F Ancestral endocellulase Cel5A [synthetic construct]</Hit_def>
+  <Hit_accession>6GJF_A</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.27674</Hsp_evalue>
+      <Hsp_query-from>231</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>PGNVVL--TPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVVKMNIDTDTQWAT</Hsp_qseq>
+      <Hsp_hseq>PDNIIIVGTPTWSQDVHD--AADNPLPYSNIMYALHFYAGTHGQSLRDKIDYALSKGVAIFVTEWGT</Hsp_hseq>
+      <Hsp_midline>P N+++  TPT  +D  +  +  + LP++++ +  H  +G+  Q ++D + Y + K      T+W T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|6FKV|A</Hit_id>
+  <Hit_def>Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Recombinant protein with shortened C-terminal, ADH508) [Thermus thermophilus HB27] &gt;pdb|6FKV|B Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Recombinant protein with shortened C-terminal, ADH508) [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>6FKV_A</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.9486</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>KKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVV-KMNIDTDTQWATWEG</Hsp_qseq>
+      <Hsp_hseq>EEAGLPPGVLNVVFGGGKGSTGQWMVELMDEGLFQKFAFTGSTQVGRWIG</Hsp_hseq>
+      <Hsp_midline>++  LP   LN VF GG GST Q + + +  G+  K      TQ   W G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|6FKU|A</Hit_id>
+  <Hit_def>Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Recombinant protein with shortened C-terminal, in complex with NADP) [Thermus thermophilus HB27] &gt;pdb|6FKU|B Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Recombinant protein with shortened C-terminal, in complex with NADP) [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>6FKU_A</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.16939</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>KKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVV-KMNIDTDTQWATWEG</Hsp_qseq>
+      <Hsp_hseq>EEAGLPPGVLNVVFGGGKGSTGQWMVELMDEGLFQKFAFTGSTQVGRWIG</Hsp_hseq>
+      <Hsp_midline>++  LP   LN VF GG GST Q + + +  G+  K      TQ   W G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|6FJX|A</Hit_id>
+  <Hit_def>Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Native protein) [Thermus thermophilus HB27] &gt;pdb|6FJX|B Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Native protein) [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>6FJX_A</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.3004</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>KKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVV-KMNIDTDTQWATWEG</Hsp_qseq>
+      <Hsp_hseq>EEAGLPPGVLNVVFGGGKGSTGQWMVELMDEGLFQKFAFTGSTQVGRWIG</Hsp_hseq>
+      <Hsp_midline>++  LP   LN VF GG GST Q + + +  G+  K      TQ   W G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|6FK3|A</Hit_id>
+  <Hit_def>Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Recombinant full-length protein in complex with propanal) [Thermus thermophilus HB27] &gt;pdb|6FK3|B Structure and function of aldehyde dehydrogenase from Thermus thermophilus: An enzyme with an evolutionarily-distinct C-terminal arm (Recombinant full-length protein in complex with propanal) [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>6FK3_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.31517</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>KKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYGVV-KMNIDTDTQWATWEG</Hsp_qseq>
+      <Hsp_hseq>EEAGLPPGVLNVVFGGGKGSTGQWMVELMDEGLFQKFAFTGSTQVGRWIG</Hsp_hseq>
+      <Hsp_midline>++  LP   LN VF GG GST Q + + +  G+  K      TQ   W G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|1E0T|A</Hit_id>
+  <Hit_def>R292D mutant of E. coli pyruvate kinase [Escherichia coli] &gt;pdb|1E0T|B R292D mutant of E. coli pyruvate kinase [Escherichia coli] &gt;pdb|1E0T|C R292D mutant of E. coli pyruvate kinase [Escherichia coli] &gt;pdb|1E0T|D R292D mutant of E. coli pyruvate kinase [Escherichia coli]</Hit_def>
+  <Hit_accession>1E0T_A</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.49233</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>LETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGV</Hsp_qseq>
+      <Hsp_hseq>VETAEKLDAPLIVVATQGGKS---ARAVRKYFPD-ATILALTTNEKTAHQLVLSKGV</Hsp_hseq>
+      <Hsp_midline>+ETA K+ AP+IV  + GG S    + V+   P  A IL   +     HQ+    GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|1PKY|A</Hit_id>
+  <Hit_def>Pyruvate Kinase From E. Coli In The T-State [Escherichia coli] &gt;pdb|1PKY|B Pyruvate Kinase From E. Coli In The T-State [Escherichia coli] &gt;pdb|1PKY|C Pyruvate Kinase From E. Coli In The T-State [Escherichia coli] &gt;pdb|1PKY|D Pyruvate Kinase From E. Coli In The T-State [Escherichia coli]</Hit_def>
+  <Hit_accession>1PKY_A</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.624</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>LETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGV</Hsp_qseq>
+      <Hsp_hseq>VETAEKLDAPLIVVATQGGKS---ARAVRKYFPD-ATILALTTNEKTAHQLVLSKGV</Hsp_hseq>
+      <Hsp_midline>+ETA K+ AP+IV  + GG S    + V+   P  A IL   +     HQ+    GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|1E0U|A</Hit_id>
+  <Hit_def>Structure R271L mutant of E. coli pyruvate kinase [Escherichia coli] &gt;pdb|1E0U|B Structure R271L mutant of E. coli pyruvate kinase [Escherichia coli] &gt;pdb|1E0U|C Structure R271L mutant of E. coli pyruvate kinase [Escherichia coli] &gt;pdb|1E0U|D Structure R271L mutant of E. coli pyruvate kinase [Escherichia coli]</Hit_def>
+  <Hit_accession>1E0U_A</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.69069</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>LETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGV</Hsp_qseq>
+      <Hsp_hseq>VETAEKLDAPLIVVATQGGKS---ARAVRKYFPD-ATILALTTNEKTAHQLVLSKGV</Hsp_hseq>
+      <Hsp_midline>+ETA K+ AP+IV  + GG S    + V+   P  A IL   +     HQ+    GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|1YBF|A</Hit_id>
+  <Hit_def>Crystal structure of AMP nucleosidase from Bacteroides thetaiotaomicron VPI-5482 [Bacteroides thetaiotaomicron VPI-5482] &gt;pdb|1YBF|B Crystal structure of AMP nucleosidase from Bacteroides thetaiotaomicron VPI-5482 [Bacteroides thetaiotaomicron VPI-5482] &gt;pdb|1YBF|C Crystal structure of AMP nucleosidase from Bacteroides thetaiotaomicron VPI-5482 [Bacteroides thetaiotaomicron VPI-5482]</Hit_def>
+  <Hit_accession>1YBF_A</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.73809</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>AHHVHQMAEHYGVPVI</Hsp_qseq>
+      <Hsp_hseq>SHYLHVFAEHYGVPIV</Hsp_hseq>
+      <Hsp_midline>+H++H  AEHYGVP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|4YNG|A</Hit_id>
+  <Hit_def>Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli] &gt;pdb|4YNG|B Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli] &gt;pdb|4YNG|C Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli] &gt;pdb|4YNG|D Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli] &gt;pdb|4YNG|E Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli] &gt;pdb|4YNG|F Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli] &gt;pdb|4YNG|G Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli] &gt;pdb|4YNG|H Twinned pyruvate kinase from E. coli in the T-state [Escherichia coli]</Hit_def>
+  <Hit_accession>4YNG_A</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.03302</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>LETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGV</Hsp_qseq>
+      <Hsp_hseq>VETAEKLDAPLIVVATQGGKS---ARAVRKYFPD-ATILALTTNEKTAHQLVLSKGV</Hsp_hseq>
+      <Hsp_midline>+ETA K+ AP+IV  + GG S    + V+   P  A IL   +     HQ+    GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|3IJT|A</Hit_id>
+  <Hit_def>Structural Characterization of SMU.440, a Hypothetical Protein from Streptococcus mutans [Streptococcus mutans] &gt;pdb|3IJT|B Structural Characterization of SMU.440, a Hypothetical Protein from Streptococcus mutans [Streptococcus mutans]</Hit_def>
+  <Hit_accession>3IJT_A</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.73436</Hsp_evalue>
+      <Hsp_query-from>292</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>QWATWEGVLNYYKANEAYLQGQLGNPKGEDQPNKKY</Hsp_qseq>
+      <Hsp_hseq>QWFVWEGDLEQISLEGEFTTGQKGKMKMEDMPELAF</Hsp_hseq>
+      <Hsp_midline>QW  WEG L        +  GQ G  K ED P   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>106</Statistics_hsp-len>
+      <Statistics_eff-space>5284770624</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

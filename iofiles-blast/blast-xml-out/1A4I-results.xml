@@ -1,0 +1,1078 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1A4I_1|Chains A, B|METHYLENETETRAHYDROFOLATE DEHYDROGENASE / METHENYLTETRAHYDROFOLATE CYCLOHYDROLASE|Homo sapiens (9606)</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1A4I_1|Chains A, B|METHYLENETETRAHYDROFOLATE DEHYDROGENASE / METHENYLTETRAHYDROFOLATE CYCLOHYDROLASE|Homo sapiens (9606)</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1A4I|A</Hit_id>
+  <Hit_def>Human Tetrahydrofolate Dehydrogenase CYCLOHYDROLASE [Homo sapiens] &gt;pdb|1A4I|B Human Tetrahydrofolate Dehydrogenase CYCLOHYDROLASE [Homo sapiens]</Hit_def>
+  <Hit_accession>1A4I_A</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>617.461</Hsp_bit-score>
+      <Hsp_score>1591</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLEKFKPG</Hsp_qseq>
+      <Hsp_hseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLEKFKPG</Hsp_hseq>
+      <Hsp_midline>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLEKFKPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1DIA|A</Hit_id>
+  <Hit_def>HUMAN METHYLENETETRAHYDROFOLATE DEHYDROGENASE / CYCLOHYDROLASE COMPLEXED WITH NADP AND INHIBITOR LY249543 [Homo sapiens] &gt;pdb|1DIA|B HUMAN METHYLENETETRAHYDROFOLATE DEHYDROGENASE / CYCLOHYDROLASE COMPLEXED WITH NADP AND INHIBITOR LY249543 [Homo sapiens] &gt;pdb|1DIB|A HUMAN METHYLENETETRAHYDROFOLATE DEHYDROGENASE / CYCLOHYDROLASE COMPLEXED WITH NADP AND INHIBITOR LY345899 [Homo sapiens] &gt;pdb|1DIB|B HUMAN METHYLENETETRAHYDROFOLATE DEHYDROGENASE / CYCLOHYDROLASE COMPLEXED WITH NADP AND INHIBITOR LY345899 [Homo sapiens] &gt;pdb|1DIG|A HUMAN METHYLENETETRAHYDROFOLATE DEHYDROGENASE / CYCLOHYDROLASE COMPLEXED WITH NADP AND INHIBITOR LY374571 [Homo sapiens] &gt;pdb|1DIG|B HUMAN METHYLENETETRAHYDROFOLATE DEHYDROGENASE / CYCLOHYDROLASE COMPLEXED WITH NADP AND INHIBITOR LY374571 [Homo sapiens] &gt;pdb|6ECP|A The human methylenetetrahydrofolate dehydrogenase/cyclohydrolase (FolD) complexed with NADP and inhibitor LY249543 [Homo sapiens] &gt;pdb|6ECP|B The human methylenetetrahydrofolate dehydrogenase/cyclohydrolase (FolD) complexed with NADP and inhibitor LY249543 [Homo sapiens]</Hit_def>
+  <Hit_accession>1DIA_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>617.076</Hsp_bit-score>
+      <Hsp_score>1590</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLEKFKPG</Hsp_qseq>
+      <Hsp_hseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLEKFKPG</Hsp_hseq>
+      <Hsp_midline>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLEKFKPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6ECQ|A</Hit_id>
+  <Hit_def>The human methylenetetrahydrofolate dehydrogenase/cyclohydrolase (FolD) complexed with NADP and inhibitor LY345899 [Homo sapiens] &gt;pdb|6ECQ|B The human methylenetetrahydrofolate dehydrogenase/cyclohydrolase (FolD) complexed with NADP and inhibitor LY345899 [Homo sapiens] &gt;pdb|6ECR|A The human methylenetetrahydrofolate dehydrogenase/cyclohydrolase (FolD) complexed with NADP [Homo sapiens] &gt;pdb|6ECR|B The human methylenetetrahydrofolate dehydrogenase/cyclohydrolase (FolD) complexed with NADP [Homo sapiens]</Hit_def>
+  <Hit_accession>6ECQ_A</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.675</Hsp_bit-score>
+      <Hsp_score>1563</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>296</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLE</Hsp_qseq>
+      <Hsp_hseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLE</Hsp_hseq>
+      <Hsp_midline>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|4A26|A</Hit_id>
+  <Hit_def>The crystal structure of Leishmania major N5,N10- methylenetetrahydrofolate dehydrogenase/cyclohydrolase [Leishmania major] &gt;pdb|4A26|B The crystal structure of Leishmania major N5,N10- methylenetetrahydrofolate dehydrogenase/cyclohydrolase [Leishmania major]</Hit_def>
+  <Hit_accession>4A26_A</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>1.76326e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLD--EEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFL</Hsp_qseq>
+      <Hsp_hseq>MPSAQIIDGKAIAAAIRSELKDKVAALRELYGGRVPGLASIIVGQRMDSKKYVQLKHKAAAEVGMASFNVELPEDISQEVLEVNVEKLNNDPNCHGIIVQLPLPKH--LNENRAIEKIHPHKDADALLPVNVGLLHYKGREPPFTPCTAKGVIVLLKRCGIEMAGKRAVVLGRSNIVGAPVAALLMKENATVTIVHSGTSTEDMIDYLRTADIVIAAMGQPGYVKGEWIKEGAAVVDVGTTPVPDPSRKDGYRLVGDVCFEEAAARAAWISPVPGGVGPMTIAMLLENTLEAFKAAL</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+A IR+ LK++V  L+E   G  P LA + VG R DS  Y+ +K KAA E+G+ + +++LP   ++  +   +  LN D   HG +VQLPL     +N    I  I P KD D L  +N G L        F PCT KG + L+K  G+ +AG+ AVV+GRS IVGAP+  LL+  NATVT  HS T+  D  + +   DI++ A GQP  VKGEWIK GA V+D G   VPD  + +G ++VGDV ++EA  RA++I+PVPGGVGPMT+AML+++T+E+ K  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|3L07|A</Hit_id>
+  <Hit_def>Methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase, putative bifunctional protein folD from Francisella tularensis. [Francisella tularensis subsp. tularensis SCHU S4] &gt;pdb|3L07|B Methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase, putative bifunctional protein folD from Francisella tularensis. [Francisella tularensis subsp. tularensis SCHU S4]</Hit_def>
+  <Hit_accession>3L07_A</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.23896e-76</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>ILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>LIDGKSLSKDLKERLATQVQEYKHHT-AITPKLVAIIVGNDPASKTYVASKEKACAQVGIDSQVITLPEHTTESELLELIDQLNNDSSVHAILVQLPLPAH--INKNNVIYSIKPEKDVDGFHPTNVGRLQLRD-KKCLESCTPKGIMTMLREYGIKTEGAYAVVVGASNVVGKPVSQLLLNAKATVTTCHRFTTDLKSHTTKADILIVAVGKPNFITADMVKEGAVVIDVGINHVDG-------KIVGDVDFAAVKDKVAAITPVPGGVGPMTITELLYNTFQCAQEL</Hsp_hseq>
+      <Hsp_midline>+++GK +S  ++ RL  QV + K      TP+L  + VGN   S  Y+  K KA  ++GI +  I LP  TTESE+++ I  LN DS+VH  LVQLPL +   IN   VI +I PEKDVDG    N GRL   D   C   CTPKG + +++E G+   G +AVVVG S +VG P+  LLL   ATVTTCH  T  L     K DIL+VA G+P  +  + +K GA+VID GIN+V         K+VGDV +   K++ + ITPVPGGVGPMT+  L+ +T + A+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|5NHS|A</Hit_id>
+  <Hit_def>The crystal structure of Xanthomonas albilineans N5, N10-methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) [Xanthomonas albilineans GPE PC73] &gt;pdb|5NHS|B The crystal structure of Xanthomonas albilineans N5, N10-methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) [Xanthomonas albilineans GPE PC73]</Hit_def>
+  <Hit_accession>5NHS_A</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>3.47522e-72</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>PAEILNGKEISAQIRARLKNQV-TQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAH--LDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFLEK</Hsp_qseq>
+      <Hsp_hseq>PARILDGRRIAEDLLDELKTRVDARLAAGQP--RPGLAVVLVGGDPASTVYVRNKRRAAEKVGIEAFDYDLPAGTGEAELLSLIDQLNADPKIHGILVQLPL--PGIADASRLIHRIDPRKDVDGFHPQNVGHLALREFG--LRPCTPRGIVTLLAHTDQPVRGRNATIVGVSNHVGRPMALELLIAGCTVSXCHKFTPADVLQTHVRDADILVVAVGRPGLIPGDWVKPGAVVIDVGINRLDDGR------LVGDVGFEAAAQRASWITPVPGGVGPMTVATLMQNTIEAADAALRR</Hsp_hseq>
+      <Hsp_midline>PA IL+G+ I+  +   LK +V  +L    P   P LA++ VG    S +Y+  K +AAE++GI+A    LP  T E+E++  I  LN D  +HG LVQLPL      +   +I+ I P KDVDG    N G LA  +      PCTP+G + L+  T  P+ GR+A +VG S  VG PM   LL    TV+ CH  T    L   V   DILVVA G+P ++ G+W+KPGA+VID GIN + D +      +VGDV ++ A +RAS+ITPVPGGVGPMTVA LMQ+T+E+A   L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4A5O|A</Hit_id>
+  <Hit_def>Crystal structure of Pseudomonas aeruginosa N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) [Pseudomonas aeruginosa PAO1] &gt;pdb|4A5O|B Crystal structure of Pseudomonas aeruginosa N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) [Pseudomonas aeruginosa PAO1] &gt;pdb|4A5O|C Crystal structure of Pseudomonas aeruginosa N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) [Pseudomonas aeruginosa PAO1] &gt;pdb|4A5O|D Crystal structure of Pseudomonas aeruginosa N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>4A5O_A</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>8.99651e-72</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>AEILNGKEISAQIRARLKNQVTQLKEQ---VPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>AQLIDGKAIAANLRQQIAQRVTERRQQGLRVPG----LAVILVGTDPASQVYVAHKRKDCEEVGFLSQAYDLPAETSQDDLLALIDRLNDDPAIDGILVQLPLPAH--LDASLLLERIHPDKDVDGFHPYNIGRLAQ--RMPLLRPCTPKGIMTLLASTGADLYGMDAVVVGASNIVGRPMALELLLGGCTVTVTHRFTRDLADHVSRADLVVVAAGKPGLVKGEWIKEGAIVIDVGIN-----RQADGR-LVGDVEYEVAAQRASWITPVPGGVGPMTRACLLENTLHAAEHL</Hsp_hseq>
+      <Hsp_midline>A++++GK I+A +R ++  +VT+ ++Q   VPG    LA++ VG    S +Y+  K K  EE+G  +    LP  T++ +++  I  LN+D  + G LVQLPL +   ++   ++  I P+KDVDG    N GRLA+        PCTPKG + L+  TG  + G  AVVVG S IVG PM   LL    TVT  H  T  L + V++ D++VVA G+P +VKGEWIK GAIVID GIN     ++ +GR +VGDV Y+ A +RAS+ITPVPGGVGPMT A L+++T+ +A+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|5O22|D</Hit_id>
+  <Hit_def>E. coli FolD in complex with carolacton [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O22_D</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>2.97884e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAKIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVQLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTKNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LVQLPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|5O22|C</Hit_id>
+  <Hit_def>E. coli FolD in complex with carolacton [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O22_C</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>3.28397e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAKIIDGKTIAQQVRSEVA-QXVQARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVQLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTKNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+ Q+R+ +  Q  Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LVQLPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|5O28|A</Hit_id>
+  <Hit_def>E. coli FolD apo [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O28_A</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>4.35255e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAXIIDGKTIAQQVRSEVA-QXVQARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVQLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTXNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A I++GK I+ Q+R+ +  Q  Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LVQLPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|5O28|C</Hit_id>
+  <Hit_def>E. coli FolD apo [Escherichia coli K-12] &gt;pdb|5O28|D E. coli FolD apo [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O28_C</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>4.79837e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAXIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVQLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTKNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LVQLPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|6DEB|A</Hit_id>
+  <Hit_def>Crystal Structure of Bifunctional Enzyme FolD-Methylenetetrahydrofolate Dehydrogenase/Cyclohydrolase in the Complex with Methotrexate from Campylobacter jejuni [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819] &gt;pdb|6DEB|B Crystal Structure of Bifunctional Enzyme FolD-Methylenetetrahydrofolate Dehydrogenase/Cyclohydrolase in the Complex with Methotrexate from Campylobacter jejuni [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>6DEB_A</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>8.1344e-71</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFL</Hsp_qseq>
+      <Hsp_hseq>LLDGKALSAKIKEELKEKNQFLKSK--GIESCLAVILVGDNPASQTYVKSKAKACEECGIKSLVYHLNENITQNELLALINTLNHDDSVHGILVQLPL--PDHICKDLILESIISSKDVDGFHPINVGYLNLG-LESGFLPCTPLGVMKLLKAYEIDLEGKDAVIIGASNIVGRPMATMLLNAGATVSVCHIKTKDLSLYTRQADLIIVAAGCVNLLRSDMVKEGVIVVDVGIN------RLESGKIVGDVDFEEVSKKSSYITPVPGGVGPMTIAMLLENTVKSAKNRL</Hsp_hseq>
+      <Hsp_midline>+L+GK +SA+I+  LK +   LK +  G    LA++ VG+   S  Y+  K KA EE GIK+    L    T++E++  I +LN D +VHG LVQLPL   + I  + ++ +I   KDVDG   IN G L  G L   F+PCTP G ++L+K   + + G+ AV++G S IVG PM  +LL   ATV+ CH KT  L     + D+++VA G   +++ + +K G IV+D GIN      +    K+VGDV ++E  +++S+ITPVPGGVGPMT+AML+++TV+SAK  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|1B0A|A</Hit_id>
+  <Hit_def>5,10, Methylene-Tetrahydropholate DehydrogenaseCYCLOHYDROLASE FROM E COLI. [Escherichia coli]</Hit_def>
+  <Hit_accession>1B0A_A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.4053e-70</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>AEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>AKIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVQLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTKNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>A+I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LVQLPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|5O2A|A</Hit_id>
+  <Hit_def>FolD Q98H [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O2A_A</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.64992e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAKIIDGKTIAQQVRSEVA-QXVQARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVHLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTXNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+ Q+R+ +  Q  Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LV LPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|5O2A|D</Hit_id>
+  <Hit_def>FolD Q98H [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O2A_D</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.68606e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAKIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVHLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTKNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LV LPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|5O22|A</Hit_id>
+  <Hit_def>E. coli FolD in complex with carolacton [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O22_A</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>1.87896e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAKIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVQLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTXNLRHHVENADLLIVAVGKPGFIPGDWIXEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LVQLPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WI  GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5O22|B</Hit_id>
+  <Hit_def>E. coli FolD in complex with carolacton [Escherichia coli K-12] &gt;pdb|5O28|B E. coli FolD apo [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O22_B</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>2.83584e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAKIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVQLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTXNLRHHVENADLLIVAVGXPGFIPGDWIXEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LVQLPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G P  + G+WI  GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|5O2A|C</Hit_id>
+  <Hit_def>FolD Q98H [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O2A_C</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>3.44632e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAXIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVHLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTKNLRHHVENADLLIVAVGKPGFIPGDWIKEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LV LPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G+P  + G+WIK GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|4CJX|A</Hit_id>
+  <Hit_def>The crystal structure of Trypanosoma brucei N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor and inhibitor [Trypanosoma brucei brucei TREU927] &gt;pdb|4CJX|B The crystal structure of Trypanosoma brucei N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor and inhibitor [Trypanosoma brucei brucei TREU927]</Hit_def>
+  <Hit_accession>4CJX_A</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>7.5173e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLD--EEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKR</Hsp_qseq>
+      <Hsp_hseq>MPEAVVIDGRAVAKAIQKELTEEVALLERRYKGRRPGLSTIICGKRKDSQTYVRLKRKAAAACGFRNFSVELPANVTQEALEREVIRLNEEEACHSIVVQLPLPPH--IDKVAALSKIKPEKDADCLLPVNVGQLHIRERNPAIVPCTASAVMELLRCSGVEICGKRVVVLGRGDIAGLPVATLLANEDATVTVVHSATPLCDIADIVRASDIVVSAAGQPGLVRGEWIKLGAAVIDVGTTPVADPSKVPGYRLVGDVCFDVARKRAAYITPVPGGVGPVTVSMLLKNTLTMFKR</Hsp_hseq>
+      <Hsp_midline>M  A +++G+ ++  I+  L  +V  L+ +  G  P L+ +  G R DS  Y+ +K KAA   G +   ++LP   T+  + + +  LNE+   H  +VQLPL     I+    ++ I PEKD D L  +N G+L   + N   +PCT    +EL++ +GV I G+  VV+GR  I G P+  LL   +ATVT  HS T   D  + V   DI+V A GQP +V+GEWIK GA VID G   V D  K  G ++VGDV +D A++RA++ITPVPGGVGP+TV+ML+++T+   KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|5O2A|B</Hit_id>
+  <Hit_def>FolD Q98H [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5O2A_B</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.29319e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MAPAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRF</Hsp_qseq>
+      <Hsp_hseq>MGAAKIIDGKTIAQQVRSEVAQKV-QARIAAGLRAPGLAVVLVGSNPASQIYVASKRKACEEVGFVSRSYDLPETTSEAELLELIDTLNADNTIDGILVHLPLPA--GIDNVKVLERIHPDKDVDGFHPYNVGRLCQRAPR--LRPCTPRGIVTLLERYNIDTFGLNAVVIGASNIVGRPMSMELLLAGCTTTVTHRFTKNLRHHVENADLLIVAVGXPGFIPGDWIXEGAIVIDVGIN-----RLENG-KVVGDVVFEDAAKRASYITPVPGGVGPMTVATLIENTLQACVEY</Hsp_hseq>
+      <Hsp_midline>M  A+I++GK I+ Q+R+ +  +V Q +       P LA++ VG+   S +Y+  K KA EE+G  +    LP TT+E+E+++ I +LN D+T+ G LV LPL +   I+  +V+  I P+KDVDG    N GRL +        PCTP+G + L++   +   G +AVV+G S IVG PM   LL    T T  H  T +L   V   D+L+VA G P  + G+WI  GAIVID GIN     +  NG KVVGDV +++A +RAS+ITPVPGGVGPMTVA L+++T+++   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|6V6Y|A</Hit_id>
+  <Hit_def>Crystal Structure of T. thermophilus methylenetetrahydrofolate dehydrogenase (MTHFD) [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>6V6Y_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>1.45585e-67</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>AEILNGKE----ISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESA</Hsp_qseq>
+      <Hsp_hseq>AQVLSGHEAAEAVYEEIRARLRSL---------SFTPSLRVIRLGEDPASVAYVRLKDKRARALGYRSQVEVYPEDLPEEALLERIAALNADEEVDGILVQLPLPPH--IRTQRVLEAIHPLKDVDGFHPLNVGRLWSG--GKGLFPCTPLGVVRLLKHYGVDLRGKEVVVVGRSNIVGKPLAGLLLREDATVTLAHSKTQDLPEVTRRAQVLVVAVGRPHLVRKEWVREGAIVVDVGVNRV------EGR-LLGDV-HPEVAEVAFALTPVPGGVGPMTVAMLMGNTLEAA</Hsp_hseq>
+      <Hsp_midline>A++L+G E    +  +IRARL++           FTP L ++++G    S  Y+ +K K A  +G ++     P    E  +++ I +LN D  V G LVQLPL     I T+ V+ AI P KDVDG   +N GRL  G       PCTP G + L+K  GV + G+  VVVGRS IVG P+  LLL  +ATVT  HSKT  L E   +  +LVVA G+P +V+ EW++ GAIV+D G+N V       GR ++GDV + E  E A  +TPVPGGVGPMTVAMLM +T+E+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|4B4U|A</Hit_id>
+  <Hit_def>Crystal structure of Acinetobacter baumannii N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|4B4U|B Crystal structure of Acinetobacter baumannii N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|4B4V|A Crystal structure of Acinetobacter baumannii N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor and inhibitor LY354899 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|4B4V|B Crystal structure of Acinetobacter baumannii N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor and inhibitor LY354899 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|4B4W|A Crystal structure of Acinetobacter baumannii N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor and an inhibitor [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|4B4W|B Crystal structure of Acinetobacter baumannii N5, N10- methylenetetrahydrofolate dehydrogenase-cyclohydrolase (FolD) complexed with NADP cofactor and an inhibitor [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841]</Hit_def>
+  <Hit_accession>4B4U_A</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>7.46477e-67</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>AEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFL</Hsp_qseq>
+      <Hsp_hseq>ALVLDGRALAKQIEENLLVRVEALKAKT-GRTPILATILVGDDGASATYVRMKGNACRRVGMDSLKIELPQETTTEQLLAEIEKLNANPDVHGILLQHPVPAQ--IDERACFDAISLAKDVDGVTCLGFGRMAMGE--AAYGSATPAGIMTILKENNIEIAGKHAVVVGRSAILGKPMAMMLLQANATVTICHSRTQNLPELVKQADIIVGAVGKAELIQKDWIKQGAVVVDAGFH-------PRDGGGVGDIQLQGIEEIASAYTPVPGGVGPMTITTLIRQTVEAAEKAL</Hsp_hseq>
+      <Hsp_midline>A +L+G+ ++ QI   L  +V  LK +  G TP LA + VG+   S  Y+ +K  A   +G+ +  I+LP+ TT  +++  I  LN +  VHG L+Q P+ ++  I+     +AI+  KDVDG+T +  GR+A G+    +   TP G + ++KE  + IAG+HAVVVGRS I+G PM  +LL  NATVT CHS+T +L E V + DI+V A G+ E+++ +WIK GA+V+D G +       P     VGD+     +E AS  TPVPGGVGPMT+  L++ TVE+A++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|3P2O|A</Hit_id>
+  <Hit_def>Crystal Structure of FolD Bifunctional Protein from Campylobacter jejuni [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819] &gt;pdb|3P2O|B Crystal Structure of FolD Bifunctional Protein from Campylobacter jejuni [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819] &gt;pdb|6DE8|A Crystal Structure of Bifunctional Enzyme FolD-Methylenetetrahydrofolate Dehydrogenase/Cyclohydrolase from Campylobacter jejuni [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819] &gt;pdb|6DE8|B Crystal Structure of Bifunctional Enzyme FolD-Methylenetetrahydrofolate Dehydrogenase/Cyclohydrolase from Campylobacter jejuni [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>3P2O_A</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>2.16348e-66</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFL</Hsp_qseq>
+      <Hsp_hseq>LLDGKALSAKIKEELKEKNQFLKSK--GIESCLAVILVGDNPASQTYVKSKAKACEECGIKSLVYHLNENITQNELLALINTLNHDDSVHGILVQLPL--PDHICKDLILESIISSKDVDGFHPINVGYLNLG-LESGFLPCTPLGVXKLLKAYEIDLEGKDAVIIGASNIVGRPXATXLLNAGATVSVCHIKTKDLSLYTRQADLIIVAAGCVNLLRSDXVKEGVIVVDVGIN------RLESGKIVGDVDFEEVSKKSSYITPVPGGVGPXTIAXLLENTVKSAKNRL</Hsp_hseq>
+      <Hsp_midline>+L+GK +SA+I+  LK +   LK +  G    LA++ VG+   S  Y+  K KA EE GIK+    L    T++E++  I +LN D +VHG LVQLPL   + I  + ++ +I   KDVDG   IN G L  G L   F+PCTP G  +L+K   + + G+ AV++G S IVG P    LL   ATV+ CH KT  L     + D+++VA G   +++ + +K G IV+D GIN      +    K+VGDV ++E  +++S+ITPVPGGVGP T+A L+++TV+SAK  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|5ZF1|A</Hit_id>
+  <Hit_def>Molecular structure of a novel 5,10-methylenetetrahydrofolate dehydrogenase from the silkworm, Bombyx mori [Bombyx mori] &gt;pdb|5ZF1|B Molecular structure of a novel 5,10-methylenetetrahydrofolate dehydrogenase from the silkworm, Bombyx mori [Bombyx mori]</Hit_def>
+  <Hit_accession>5ZF1_A</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>1.02976e-62</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>AEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPM---------HDLLLWNNATVTTCHSKTAH--LDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGR-KVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAK</Hsp_qseq>
+      <Hsp_hseq>ARILDGKALAMEIKKELKQKIAQWV-SLGNRAPTIRCIIVGDDPASHTYVRNKVEAAKFVGIDALTINRDSDITEEQLLSEIQNLNEDNSVDGILVQLPV--PDTINERRVCDAIAPEKDIDGFHIINIGRLCV-DL-PTIVPATALAVVEMLKRFNIDTFGRNAVVIGRSKNVGMPIAMMLHSDKRHESGLGMDATVTICHRYTPKDKLEAYCRNADIIITATGLPKLIKADMVKPGATIIDVGITTRTDE---NGKSRLVGDVDYEEVSKIAGAITPVPGGVGPMTVAMLMHNTFQAAQ</Hsp_hseq>
+      <Hsp_midline>A IL+GK ++ +I+  LK ++ Q    +    P +  + VG+   S+ Y+  K++AA+ +GI A  I      TE +++  I +LNED++V G LVQLP+   ++IN   V +AIAPEKD+DG   IN GRL   DL    +P T    +E++K   +   GR+AVV+GRSK VG P+         H+  L  +ATVT CH  T    L+      DI++ ATG P+++K + +KPGA +ID GI    D+   NG+ ++VGDV Y+E  + A  ITPVPGGVGPMTVAMLM +T ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|6APE|A</Hit_id>
+  <Hit_def>Crystal Structure of Bifunctional protein FolD from Helicobacter pylori [Helicobacter pylori G27]</Hit_def>
+  <Hit_accession>6APE_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>9.69488e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>ILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTV</Hsp_qseq>
+      <Hsp_hseq>LLDGQALAYSIEKDLKNKIQIITVQVHK-RPKLAVILVGKDPASITYVNMKIKACERVGMDFDLKTLQENVTEAELLSLIKDYNTDQNISGVLVQLPL--PRHIDSKMVLEAIDPSKDVDGFHPLNIGKLCTQ--KESFLPATPMGVMRLLKHYHIEIKGKDVAIIGASNIIGKPLSMLMLNAGASVSVCHILTKDISFYTQNADIVCVGVGKPDLIKASMLKKGAVVVDIGINHLND-----GR-IVGDVDFTNAQKVAGFITPVPKGVGPMTIVSLLENTL</Hsp_hseq>
+      <Hsp_midline>+L+G+ ++  I   LKN++  +  QV    P+LA++ VG    S  Y+N+K+KA E +G+      L    TE+E++  I   N D  + G LVQLPL     I+++ V+ AI P KDVDG   +N G+L      + F+P TP G + L+K   + I G+   ++G S I+G P+  L+L   A+V+ CH  T  +       DI+ V  G+P+++K   +K GA+V+D GIN++ D     GR +VGDV +  A++ A FITPVP GVGPMT+  L+++T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5TC4|A</Hit_id>
+  <Hit_def>Crystal structure of human mitochondrial methylenetetrahydrofolate dehydrogenase-cyclohydrolase (MTHFD2) in complex with LY345899 and cofactors [Homo sapiens] &gt;pdb|6S4A|A Chain A, Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial [Homo sapiens] &gt;pdb|6S4A|B Chain B, Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial [Homo sapiens] &gt;pdb|6S4E|A Chain A, Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial [Homo sapiens] &gt;pdb|6S4F|A Chain A, Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial [Homo sapiens] &gt;pdb|6S4F|B Chain B, Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial [Homo sapiens]</Hit_def>
+  <Hit_accession>5TC4_A</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>4.51489e-57</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>AEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWN--------NATVTTCHSKT--AHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPD--DKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFL</Hsp_qseq>
+      <Hsp_hseq>AVVISGRKLAQQIKQEVRQEVEEWVAS-GNKRPHLSVILVGENPASHSYVLNKTRAAAVVGINSETIMKPASISEEELLNLINKLNNDDNVDGLLVQLPLPEH--IDERRICNAVSPDKDVDGFHVINVGRMCLDQYS--MLPATPWGVWEIIKRTGIPTLGKNVVVAGRSKNVGMPIAMLLHTDGAHERPGGDATVTISHRYTPKEQLKKHTILADIVISAAGIPNLITADMIKEGAAVIDVGINRVHDPVTAKP---KLVGDVDFEGVRQKAGYITPVPGGVGPMTVAMLMKNTIIAAKKVL</Hsp_hseq>
+      <Hsp_midline>A +++G++++ QI+  ++ +V +         P L+++ VG    S+ Y+  K +AA  +GI +  I  P + +E E++  I  LN D  V G LVQLPL     I+   + NA++P+KDVDG   IN GR+     +   +P TP G  E+IK TG+P  G++ VV GRSK VG P+  LL  +        +ATVT  H  T    L +     DI++ A G P ++  + IK GA VID GIN V D    KP   K+VGDV ++  +++A +ITPVPGGVGPMTVAMLM++T+ +AK+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|6JIB|A</Hit_id>
+  <Hit_def>Human MTHFD2 in complex with DS44960156 [Homo sapiens] &gt;pdb|6JIB|B Human MTHFD2 in complex with DS44960156 [Homo sapiens] &gt;pdb|6JID|A Human MTHFD2 in complex with Compound 1 [Homo sapiens] &gt;pdb|6JID|B Human MTHFD2 in complex with Compound 1 [Homo sapiens] &gt;pdb|6KG2|A Human MTHFD2 in complex with Compound 18 [Homo sapiens] &gt;pdb|6KG2|B Human MTHFD2 in complex with Compound 18 [Homo sapiens]</Hit_def>
+  <Hit_accession>6JIB_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>6.84957e-57</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>AEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWN--------NATVTTCHSKT--AHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPD--DKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKRFL</Hsp_qseq>
+      <Hsp_hseq>AVVISGRKLAQQIKQEVRQEVEEWVAS-GNKRPHLSVILVGENPASHSYVLNKTRAAAVVGINSETIMKPASISEEELLNLINKLNNDDNVDGLLVQLPLPEH--IDERRICNAVSPDKDVDGFHVINVGRMCLDQYS--MLPATPWGVWEIIKRTGIPTLGKNVVVAGRSKNVGMPIAMLLHTDGAHERPGGDATVTISHRYTPKEQLKKHTILADIVISAAGIPNLITADMIKEGAAVIDVGINRVHDPVTAKP---KLVGDVDFEGVRQKAGYITPVPGGVGPMTVAMLMKNTIIAAKKVL</Hsp_hseq>
+      <Hsp_midline>A +++G++++ QI+  ++ +V +         P L+++ VG    S+ Y+  K +AA  +GI +  I  P + +E E++  I  LN D  V G LVQLPL     I+   + NA++P+KDVDG   IN GR+     +   +P TP G  E+IK TG+P  G++ VV GRSK VG P+  LL  +        +ATVT  H  T    L +     DI++ A G P ++  + IK GA VID GIN V D    KP   K+VGDV ++  +++A +ITPVPGGVGPMTVAMLM++T+ +AK+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|2C2X|A</Hit_id>
+  <Hit_def>Three dimensional structure of bifunctional methylenetetrahydrofolate dehydrogenase-cyclohydrolase from Mycobacterium tuberculosis [Mycobacterium tuberculosis H37Rv] &gt;pdb|2C2X|B Three dimensional structure of bifunctional methylenetetrahydrofolate dehydrogenase-cyclohydrolase from Mycobacterium tuberculosis [Mycobacterium tuberculosis H37Rv] &gt;pdb|2C2Y|A Three Dimensional Structure of bifunctional methylenetetrahydrofolate dehydrogenase-cyclohydrolase from Mycobacterium tuberculosis [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>2C2X_A</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.85116e-46</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>AEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCFIPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWN--NATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAKR</Hsp_qseq>
+      <Hsp_hseq>AIMLDGKATRDEIFGDLKQRVAALDAA--GRTPGLGTILVGDDPGSQAYVRGKHADCAKVGITSIRRDLPADISTATLNETIDELNANPDCTGYIVQLPL--PKHLDENAALERVDPAKDADGLHPTNLGRLVLG--TPAPLPCTPRGIVHLLRRYDISIAGAHVVVIGRGVTVGRPLGLLLTRRSENATVTLCHTGTRDLPALTRQADIVVAAVGVAHLLTADMVRPGAAVIDVGVSRTDD-------GLVGDV-HPDVWELAGHVSPNPGGVGPLTRAFLLTNVVELAER</Hsp_hseq>
+      <Hsp_midline>A +L+GK    +I   LK +V  L     G TP L  + VG+   S  Y+  K     ++GI +    LP   + + + + I  LN +    G++VQLPL     ++    +  + P KD DGL   N GRL  G      +PCTP+G + L++   + IAG H VV+GR   VG P+  LL     NATVT CH+ T  L     + DI+V A G   ++  + ++PGA VID G++   D        +VGDV + +  E A  ++P PGGVGP+T A L+ + VE A+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|3NGL|A</Hit_id>
+  <Hit_def>Chain A, Bifunctional protein folD [Thermoplasma acidophilum] &gt;pdb|3NGL|C Chain C, Bifunctional protein folD [Thermoplasma acidophilum] &gt;pdb|3NGX|A Chain A, Bifunctional protein folD [Thermoplasma acidophilum] &gt;pdb|3NGX|B Chain B, Bifunctional protein folD [Thermoplasma acidophilum]</Hit_def>
+  <Hit_accession>3NGL_A</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.67214e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>EILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMKYITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSINAGRLARGDLNDCF-IPCTPKGCLELIKETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTVESAK</Hsp_qseq>
+      <Hsp_hseq>KILRGEEIAEKKAENLHGIIER-----SGLEPSLKLIQIGDNEAASIYARAKIRRGKKIGI-AVDLEKYDDISMKDLLKRIDDLAKDPQINGIMIENPL--PKGFDYYEIVRNIPYYKDVDALSPYNQGLIA---LNREFLVPATPRAVIDIMDYYGY--HENTVTIVNRSPVVGRPLSMMLLNRNYTVSVCHSKTKDIGSMTRSSKIVVVAVGRPGFLNREMVTPGSVVIDVGINYVND-------KVVGDANFEDLSEYVEAITPVPGGVGPITATNILENVVKAAE</Hsp_hseq>
+      <Hsp_midline>+IL G+EI+ +    L   + +      G  P L ++Q+G+ + +++Y   K++  ++IGI A  ++     +  +++K I  L +D  ++G +++ PL      +  E++  I   KDVD L+  N G +A   LN  F +P TP+  ++++   G         +V RS +VG P+  +LL  N TV+ CHSKT  +        I+VVA G+P  +  E + PG++VID GINYV D       KVVGD  +++  E    ITPVPGGVGP+T   ++++ V++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1EDZ|A</Hit_id>
+  <Hit_def>Structure Of The Nad-Dependent 5,10- Methylenetetrahydrofolate Dehydrogenase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|1EE9|A Crystal Structure Of The Nad-dependent 5,10-methylenetetrahydrofolate Dehydrogenase From Saccharomyces Cerevisiae Complexed With Nad [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1EDZ_A</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>4.57551e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>PAEILNGKEISAQIRARLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTESEVMK-YITSLNEDSTVHGFLVQLPLDSENSINTEEVINAIAPEKDVDGLTSI-------NAGRLARGDLNDCFIPCTPKGC---LELIK------ETGVPIAGRHAVVVGRSKIVGAPMHDLLLWNNATVTTCHSK-------------TAHLDEEVNKG--DIL--------VVATGQP-EMVK--GEWIKPGAIVID--CGINYVPDDKKPNGRKVVGDVAYDEAKERASFITPVPGGVGPMTVAMLMQSTV</Hsp_qseq>
+      <Hsp_hseq>PGRTILASKVAETFNTEIINNVEEYKKTHNGQGPLLVGFLANNDPAAKMYATWTQKTSESMGFRYD----LRVIEDKDFLEEAIIQANGDDSVNGIMVYFPVFG--NAQDQYLQQVVCKEKDVEGLNHVYYQNLYHNVRYLDKENRLKSILPCTPLAIVKILEFLKIYNNLLPEGNRLYGKKCIVINRSEIVGRPLAALLANDGATVYSVDVNNIQKFTRGESLKLNKHHVEDLGEYSEDLLKKCSLDSDVVITGVPSENYKFPTEYIKEGAVCINFACTKNFS-----------------DDVKEKASLYVPMTGKV---TIAMLLRNML</Hsp_hseq>
+      <Hsp_midline>P   +   +++      + N V + K+   G  P L      N   + +Y     K +E +G +       R   + + ++  I   N D +V+G +V  P+    +   + +   +  EKDV+GL  +       N   L + +     +PCTP      LE +K        G  + G+  +V+ RS+IVG P+  LL  + ATV +                   H  E++ +   D+L        VV TG P E  K   E+IK GA+ I+  C  N+                  D+ KE+AS   P+ G V   T+AML+++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|7BL1|BBB</Hit_id>
+  <Hit_def>Chain BBB, Phosphatidylinositol 3-kinase catalytic subunit type 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>7BL1_BBB</Hit_accession>
+  <Hit_len>887</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.35619</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>GVPIAGRHAVVVGRSKIVGAPMHDLLLWNNA-------TVTTCHSKTAHLDEEVNKGDILVVATGQPEMVKGEWI</Hsp_qseq>
+      <Hsp_hseq>AVPVGGTTVSLFGKYGMFRQGMHDLKVWPNVEADGSEPTKTPGRTSSTLSEDQMSRLAKLTKAHRQGHMVKVDWL</Hsp_hseq>
+      <Hsp_midline> VP+ G    + G+  +    MHDL +W N        T T   + +   ++++++   L  A  Q  MVK +W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|4BV8|A</Hit_id>
+  <Hit_def>Crystal structure of the apo form of mouse Mu-crystallin. [Mus musculus] &gt;pdb|4BV8|B Crystal structure of the apo form of mouse Mu-crystallin. [Mus musculus] &gt;pdb|4BV9|A Crystal structure of the NADPH form of mouse Mu-crystallin. [Mus musculus] &gt;pdb|4BV9|B Crystal structure of the NADPH form of mouse Mu-crystallin. [Mus musculus] &gt;pdb|4BVA|A Crystal structure of the NADPH-T3 form of mouse Mu-crystallin. [Mus musculus] &gt;pdb|4BVA|B Crystal structure of the NADPH-T3 form of mouse Mu-crystallin. [Mus musculus]</Hit_def>
+  <Hit_accession>4BV8_A</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.92295</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>VTTCHSKTAHLDEEVNKGDILVVATGQPE-MVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERA</Hsp_qseq>
+      <Hsp_hseq>VRVCSS----VQEAVTGADVIITVTMATEPILFGEWVKPGAHINAVGASR-PDWRELDDELMRQAVLYVDSREAA</Hsp_hseq>
+      <Hsp_midline>V  C S    + E V   D+++  T   E ++ GEW+KPGA +   G +  PD ++ +   +   V Y +++E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|5SVA|T</Hit_id>
+  <Hit_def>Mediator-RNA Polymerase II Pre-Initiation Complex [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>5SVA_T</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.37343</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RLKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIKATHIKLPRTTTE--SEVMKYITSLNEDSTVHGFLVQLPL</Hsp_qseq>
+      <Hsp_hseq>RYEDTLSKLVESVDRFKPNLDIAKDLIRTDEALFENVKL-LAEYDNIYRNLQKIDKDSEELDSKTRKILEILNE---CHDELKALPM</Hsp_hseq>
+      <Hsp_midline>R ++ +++L E V  F P L I +   R D  L+ NVKL  AE   I     K+ + + E  S+  K +  LNE    H  L  LP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|2I99|A</Hit_id>
+  <Hit_def>Crystal structure of human Mu_crystallin at 2.6 Angstrom [Homo sapiens] &gt;pdb|2I99|B Crystal structure of human Mu_crystallin at 2.6 Angstrom [Homo sapiens]</Hit_def>
+  <Hit_accession>2I99_A</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.67726</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>VTTCHSKTAHLDEEVNKGDILVVATGQPE-MVKGEWIKPGAIVIDCGINYVPDDKKPNGRKVVGDVAYDEAKERA</Hsp_qseq>
+      <Hsp_hseq>VRVCSS----VQEAVAGADVIITVTLATEPILFGEWVKPGAHINAVGASR-PDWRELDDELMKEAVLYVDSQEAA</Hsp_hseq>
+      <Hsp_midline>V  C S    + E V   D+++  T   E ++ GEW+KPGA +   G +  PD ++ +   +   V Y +++E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5FCI|L3</Hit_id>
+  <Hit_def>Chain L3, 60S ribosomal protein L3 [Saccharomyces cerevisiae S288C] &gt;pdb|5FCI|l3 Chain l3, 60S ribosomal protein L3 [Saccharomyces cerevisiae S288C] &gt;pdb|5FCJ|L3 Chain L3, 60S ribosomal protein L3 [Saccharomyces cerevisiae S288C] &gt;pdb|5FCJ|l3 Chain l3, 60S ribosomal protein L3 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>5FCI_L3</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.06325</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIK----ATHIKLPRTTTESEVMKYITSLNED</Hsp_qseq>
+      <Hsp_hseq>IKNDFIMVKGCIPGNRKRIVTLR------KSLYTNTSRKALEEVSLKWIDTASKFGKGRFQTPAEKHAFMGTLKKD</Hsp_hseq>
+      <Hsp_midline>+KN    +K  +PG   R+  L+       +LY N   KA EE+ +K    A+     R  T +E   ++ +L +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4V6I|BC</Hit_id>
+  <Hit_def>Chain BC, 60S ribosomal protein rpL3 (L3p) [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>4V6I_BC</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.6531</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LKNQVTQLKEQVPGFTPRLAILQVGNRDDSNLYINVKLKAAEEIGIK----ATHIKLPRTTTESEVMKYITSLNED</Hsp_qseq>
+      <Hsp_hseq>IKNDFIMVKGCIPGNRKRIVTLR------KSLYTNTSRKALEEVSLKWIDTASKFGKGRFQTPAEKHAFMGTLKKD</Hsp_hseq>
+      <Hsp_midline>+KN    +K  +PG   R+  L+       +LY N   KA EE+ +K    A+     R  T +E   ++ +L +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|6K7G|A</Hit_id>
+  <Hit_def>Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E1 state class1) [Homo sapiens] &gt;pdb|6K7H|A Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E1 state class2) [Homo sapiens] &gt;pdb|6K7I|A Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E1-ATP state class2) [Homo sapiens] &gt;pdb|6K7J|A Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E1-ATP state class1) [Homo sapiens] &gt;pdb|6K7K|A Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E1-ADP-Pi state) [Homo sapiens] &gt;pdb|6K7L|A Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E2P state class2) [Homo sapiens] &gt;pdb|6K7M|A Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E2Pi-PL state) [Homo sapiens] &gt;pdb|6K7N|A Cryo-EM structure of the human P4-type flippase ATP8A1-CDC50 (E1P state) [Homo sapiens]</Hit_def>
+  <Hit_accession>6K7G_A</Hit_accession>
+  <Hit_len>1154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.97417</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>DEEVNKGDILVVATGQPEMVKGEWIKPGAIVIDCGINYVPDD</Hsp_qseq>
+      <Hsp_hseq>DNAVNKKQTQVLRNGAWEIVHWEKVNVGDIVIIKGKEYIPAD</Hsp_hseq>
+      <Hsp_midline>D  VNK    V+  G  E+V  E +  G IVI  G  Y+P D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>104</Statistics_hsp-len>
+      <Statistics_eff-space>4182915578</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

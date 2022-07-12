@@ -1,0 +1,1134 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1AN9_1|Chains A, B|D-AMINO ACID OXIDASE|Sus scrofa (9823)</BlastOutput_query-def>
+  <BlastOutput_query-len>340</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1AN9_1|Chains A, B|D-AMINO ACID OXIDASE|Sus scrofa (9823)</Iteration_query-def>
+  <Iteration_query-len>340</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1AN9|A</Hit_id>
+  <Hit_def>D-Amino Acid Oxidase Complex With O-Aminobenzoate [Sus scrofa] &gt;pdb|1AN9|B D-Amino Acid Oxidase Complex With O-Aminobenzoate [Sus scrofa] &gt;pdb|1EVI|A Three-dimensional Structure Of The Purple Intermediate Of Porcine Kidney D-amino Acid Oxidase [Sus scrofa] &gt;pdb|1EVI|B Three-dimensional Structure Of The Purple Intermediate Of Porcine Kidney D-amino Acid Oxidase [Sus scrofa]</Hit_def>
+  <Hit_accession>1AN9_A</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.516</Hsp_bit-score>
+      <Hsp_score>1817</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>340</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1DAO|A</Hit_id>
+  <Hit_def>Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DAO|B Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DAO|C Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DAO|D Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DAO|E Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DAO|F Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DAO|G Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DAO|H Covalent Adduct Of D-Amino Acid Oxidase From Pig Kidney With 3-Methyl-2-Oxo-Valeric Acid [Sus scrofa] &gt;pdb|1DDO|A Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1DDO|B Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1DDO|C Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1DDO|D Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1DDO|E Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1DDO|F Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1DDO|G Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1DDO|H Reduced D-Amino Acid Oxidase From Pig Kidney In Complex With Imino-Trp [Sus scrofa] &gt;pdb|1KIF|A D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1KIF|B D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1KIF|C D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1KIF|D D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1KIF|E D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1KIF|F D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1KIF|G D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1KIF|H D-Amino Acid Oxidase From Pig Kidney [Sus scrofa] &gt;pdb|1VE9|A Porcine kidney D-amino acid oxidase [Sus scrofa] &gt;pdb|1VE9|B Porcine kidney D-amino acid oxidase [Sus scrofa]</Hit_def>
+  <Hit_accession>1DAO_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.131</Hsp_bit-score>
+      <Hsp_score>1816</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>340</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|5WWV|A</Hit_id>
+  <Hit_def>Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WWV|B Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WWV|C Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WWV|D Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WWV|E Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WWV|F Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WWV|G Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WWV|H Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|A Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|B Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|C Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|D Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|E Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|F Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|G Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa] &gt;pdb|5WX2|H Crystal structure of porcine kidney D-amino acid oxidase mutant (I230A/R283G) [Sus scrofa]</Hit_def>
+  <Hit_accession>5WWV_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>699.508</Hsp_bit-score>
+      <Hsp_score>1804</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIAPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFGPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYI PGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGF PVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|4YJG|B</Hit_id>
+  <Hit_def>Crystal structure of DAAO(Y228L/R283G) variant (R-3-amino 1-phenylbutane binding form) [Sus scrofa] &gt;pdb|4YJH|B Crystal structure of DAAO(Y228L/R283G) variant (R-2-phenylpyrrolidine binding form) [Sus scrofa]</Hit_def>
+  <Hit_accession>4YJG_B</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>698.738</Hsp_bit-score>
+      <Hsp_score>1802</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPLIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFGPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSP IIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGF PVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|4YJD|A</Hit_id>
+  <Hit_def>Crystal structure of DAAO(Y228L/R283G) variant (apo form) [Sus scrofa] &gt;pdb|4YJD|B Crystal structure of DAAO(Y228L/R283G) variant (apo form) [Sus scrofa] &gt;pdb|4YJH|A Crystal structure of DAAO(Y228L/R283G) variant (R-2-phenylpyrrolidine binding form) [Sus scrofa]</Hit_def>
+  <Hit_accession>4YJD_A</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>698.738</Hsp_bit-score>
+      <Hsp_score>1802</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPLIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFGPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSP IIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGF PVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4YJF|A</Hit_id>
+  <Hit_def>Crystal structure of DAAO(Y228L/R283G) variant (S-methylbenzylamine binding form) [Sus scrofa] &gt;pdb|4YJG|A Crystal structure of DAAO(Y228L/R283G) variant (R-3-amino 1-phenylbutane binding form) [Sus scrofa]</Hit_def>
+  <Hit_accession>4YJF_A</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>698.738</Hsp_bit-score>
+      <Hsp_score>1802</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPLIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFGPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSP IIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGF PVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|3WGT|A</Hit_id>
+  <Hit_def>Crystal structure of D-amino acid oxidase mutant [Sus scrofa] &gt;pdb|3WGT|B Crystal structure of D-amino acid oxidase mutant [Sus scrofa]</Hit_def>
+  <Hit_accession>3WGT_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>698.353</Hsp_bit-score>
+      <Hsp_score>1801</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPLIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFGPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSP IIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGF PVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|4YJF|B</Hit_id>
+  <Hit_def>Crystal structure of DAAO(Y228L/R283G) variant (S-methylbenzylamine binding form) [Sus scrofa]</Hit_def>
+  <Hit_accession>4YJF_B</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>697.197</Hsp_bit-score>
+      <Hsp_score>1798</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPLIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFGPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSP IIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGF PVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|6KBP|A</Hit_id>
+  <Hit_def>Crystal structure of human D-amino acid oxidase mutant (P219L) complexed with benzoate [Homo sapiens] &gt;pdb|6KBP|B Crystal structure of human D-amino acid oxidase mutant (P219L) complexed with benzoate [Homo sapiens] &gt;pdb|6KBP|C Crystal structure of human D-amino acid oxidase mutant (P219L) complexed with benzoate [Homo sapiens] &gt;pdb|6KBP|D Crystal structure of human D-amino acid oxidase mutant (P219L) complexed with benzoate [Homo sapiens]</Hit_def>
+  <Hit_accession>6KBP_A</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.69</Hsp_bit-score>
+      <Hsp_score>1589</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERN</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDIKVYADRFTPLTTTDVAAGLWQPYLSDPNNPQEADWSQQTFDYLLSHVHSPNAENLGLFLISGYNLFHEAIPDPSWKDTVLGFRKLTPRELDMFPDYGYGWFHTSLILEGKNYLQWLTERLTERGVKFFQRKVESFEEVAREGADVIVNCTGVWAGALQRDPLLQPGRGQIMKVDAPWMKHFILTHDLERGIYNSPYIIPGTQTVTLGGIFQLGNWSELNNIQDHNTIWEGCCRLEPTLKNARIIGERTGFRPVRPQIRLEREQLRTGPSNTEVIHNYGHGGYGLTIHWGCALEAAKLFGRILEEKK</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLD+KVYADRFTP TTTDVAAGLWQPY S+P+NPQEA+W+QQTF+YLLSH+ SPNA N+GL  +SGYNLF EA+PDP WKD VLGFRKLTPRELDMFPDY YGWF+TSLILEG+ YLQWLTERLTERGVKFF RKVESFEEVAR GADVI+NCTGVWAG LQ DPLLQPGRGQI+KVDAPW+K+FI+THDLERGIYNSPYIIPG Q VTLGG FQ+GNW+E+NNIQDHNTIWEGCCRLEPTLK+A+I+GE TGFRPVRPQ+RLEREQLR G SNTEVIHNYGHGGYGLTIHWGCALE AKLFG++LEE+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|2DU8|A</Hit_id>
+  <Hit_def>Crystal structure of human D-amino acid oxidase [Homo sapiens] &gt;pdb|2DU8|B Crystal structure of human D-amino acid oxidase [Homo sapiens] &gt;pdb|2DU8|G Crystal structure of human D-amino acid oxidase [Homo sapiens] &gt;pdb|2DU8|J Crystal structure of human D-amino acid oxidase [Homo sapiens] &gt;pdb|2E48|A Crystal Structure of Human D-Amino Acid Oxidase: Substrate-Free Holoenzyme [Homo sapiens] &gt;pdb|2E48|B Crystal Structure of Human D-Amino Acid Oxidase: Substrate-Free Holoenzyme [Homo sapiens] &gt;pdb|2E48|C Crystal Structure of Human D-Amino Acid Oxidase: Substrate-Free Holoenzyme [Homo sapiens] &gt;pdb|2E48|D Crystal Structure of Human D-Amino Acid Oxidase: Substrate-Free Holoenzyme [Homo sapiens] &gt;pdb|2E49|A Crystal Structure of Human D-Amino Acid Oxidase in Complex with Imino-Serine [Homo sapiens] &gt;pdb|2E49|B Crystal Structure of Human D-Amino Acid Oxidase in Complex with Imino-Serine [Homo sapiens] &gt;pdb|2E49|C Crystal Structure of Human D-Amino Acid Oxidase in Complex with Imino-Serine [Homo sapiens] &gt;pdb|2E49|D Crystal Structure of Human D-Amino Acid Oxidase in Complex with Imino-Serine [Homo sapiens] &gt;pdb|2E4A|A Crystal Structure of Human D-Amino Acid Oxidase in complex with o-aminobenzoate [Homo sapiens] &gt;pdb|2E4A|B Crystal Structure of Human D-Amino Acid Oxidase in complex with o-aminobenzoate [Homo sapiens] &gt;pdb|2E4A|C Crystal Structure of Human D-Amino Acid Oxidase in complex with o-aminobenzoate [Homo sapiens] &gt;pdb|2E4A|D Crystal Structure of Human D-Amino Acid Oxidase in complex with o-aminobenzoate [Homo sapiens] &gt;pdb|2E82|A Crystal structure of human D-amino acid oxidase complexed with imino-DOPA [Homo sapiens] &gt;pdb|2E82|B Crystal structure of human D-amino acid oxidase complexed with imino-DOPA [Homo sapiens] &gt;pdb|2E82|C Crystal structure of human D-amino acid oxidase complexed with imino-DOPA [Homo sapiens] &gt;pdb|2E82|D Crystal structure of human D-amino acid oxidase complexed with imino-DOPA [Homo sapiens] &gt;pdb|3CUK|A Crystal structure of human D-amino acid oxidase: bound to an inhibitor [Homo sapiens] &gt;pdb|3CUK|B Crystal structure of human D-amino acid oxidase: bound to an inhibitor [Homo sapiens] &gt;pdb|3CUK|C Crystal structure of human D-amino acid oxidase: bound to an inhibitor [Homo sapiens] &gt;pdb|3CUK|D Crystal structure of human D-amino acid oxidase: bound to an inhibitor [Homo sapiens] &gt;pdb|3W4I|A Crystal Structure of human DAAO in complex with coumpound 8 [Homo sapiens] &gt;pdb|3W4I|B Crystal Structure of human DAAO in complex with coumpound 8 [Homo sapiens] &gt;pdb|3W4I|C Crystal Structure of human DAAO in complex with coumpound 8 [Homo sapiens] &gt;pdb|3W4I|D Crystal Structure of human DAAO in complex with coumpound 8 [Homo sapiens] &gt;pdb|3W4J|A Crystal Structure of human DAAO in complex with coumpound 12 [Homo sapiens] &gt;pdb|3W4J|B Crystal Structure of human DAAO in complex with coumpound 12 [Homo sapiens] &gt;pdb|3W4J|C Crystal Structure of human DAAO in complex with coumpound 12 [Homo sapiens] &gt;pdb|3W4J|D Crystal Structure of human DAAO in complex with coumpound 12 [Homo sapiens] &gt;pdb|3W4K|A Crystal Structure of human DAAO in complex with coumpound 13 [Homo sapiens] &gt;pdb|3W4K|B Crystal Structure of human DAAO in complex with coumpound 13 [Homo sapiens] &gt;pdb|3W4K|C Crystal Structure of human DAAO in complex with coumpound 13 [Homo sapiens] &gt;pdb|3W4K|D Crystal Structure of human DAAO in complex with coumpound 13 [Homo sapiens] &gt;pdb|3ZNN|A In Vitro And In Vivo Inhibition Of Human D-amino Acid Oxidase: Regulation Of D-serine Concentration In The Brain [Homo sapiens] &gt;pdb|3ZNN|B In Vitro And In Vivo Inhibition Of Human D-amino Acid Oxidase: Regulation Of D-serine Concentration In The Brain [Homo sapiens] &gt;pdb|3ZNO|A In Vitro And In Vivo Inhibition Of Human D-amino Acid Oxidase: Regulation Of D-serine Concentration In The Brain [Homo sapiens] &gt;pdb|3ZNO|B In Vitro And In Vivo Inhibition Of Human D-amino Acid Oxidase: Regulation Of D-serine Concentration In The Brain [Homo sapiens] &gt;pdb|3ZNP|A In Vitro And In Vivo Inhibition Of Human D-amino Acid Oxidase: Regulation Of D-serine Concentration In The Brain [Homo sapiens] &gt;pdb|3ZNP|B In Vitro And In Vivo Inhibition Of Human D-amino Acid Oxidase: Regulation Of D-serine Concentration In The Brain [Homo sapiens] &gt;pdb|3ZNQ|A IN VITRO AND IN VIVO INHIBITION OF HUMAN D-AMINO ACID OXIDASE: REGULATION OF D-SERINE CONCENTRATION IN THE BRAIN [Homo sapiens] &gt;pdb|3ZNQ|B IN VITRO AND IN VIVO INHIBITION OF HUMAN D-AMINO ACID OXIDASE: REGULATION OF D-SERINE CONCENTRATION IN THE BRAIN [Homo sapiens] &gt;pdb|4QFC|A Co-crystal structure of compound 3 (4-hydroxy-6-[2-(7-hydroxy-2-oxo-4-phenyl-2h-chromen-6-yl)ethyl]pyridazin-3(2h)-one) and FAD bound to human DAAO at 2.4A [Homo sapiens] &gt;pdb|4QFC|B Co-crystal structure of compound 3 (4-hydroxy-6-[2-(7-hydroxy-2-oxo-4-phenyl-2h-chromen-6-yl)ethyl]pyridazin-3(2h)-one) and FAD bound to human DAAO at 2.4A [Homo sapiens] &gt;pdb|4QFD|A Co-crystal structure of compound 2 (3-(7-hydroxy-2-oxo-4-phenyl-2H-chromen-6-yl)propanoic acid) and FAD bound to human DAAO at 2.85A [Homo sapiens] &gt;pdb|4QFD|B Co-crystal structure of compound 2 (3-(7-hydroxy-2-oxo-4-phenyl-2H-chromen-6-yl)propanoic acid) and FAD bound to human DAAO at 2.85A [Homo sapiens]</Hit_def>
+  <Hit_accession>2DU8_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.92</Hsp_bit-score>
+      <Hsp_score>1587</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDIKVYADRFTPLTTTDVAAGLWQPYLSDPNNPQEADWSQQTFDYLLSHVHSPNAENLGLFLISGYNLFHEAIPDPSWKDTVLGFRKLTPRELDMFPDYGYGWFHTSLILEGKNYLQWLTERLTERGVKFFQRKVESFEEVAREGADVIVNCTGVWAGALQRDPLLQPGRGQIMKVDAPWMKHFILTHDPERGIYNSPYIIPGTQTVTLGGIFQLGNWSELNNIQDHNTIWEGCCRLEPTLKNARIIGERTGFRPVRPQIRLEREQLRTGPSNTEVIHNYGHGGYGLTIHWGCALEAAKLFGRILEEKKL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLD+KVYADRFTP TTTDVAAGLWQPY S+P+NPQEA+W+QQTF+YLLSH+ SPNA N+GL  +SGYNLF EA+PDP WKD VLGFRKLTPRELDMFPDY YGWF+TSLILEG+ YLQWLTERLTERGVKFF RKVESFEEVAR GADVI+NCTGVWAG LQ DPLLQPGRGQI+KVDAPW+K+FI+THD ERGIYNSPYIIPG Q VTLGG FQ+GNW+E+NNIQDHNTIWEGCCRLEPTLK+A+I+GE TGFRPVRPQ+RLEREQLR G SNTEVIHNYGHGGYGLTIHWGCALE AKLFG++LEE+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|5ZJ9|A</Hit_id>
+  <Hit_def>human D-amino acid oxidase complexed with 5-chlorothiophene-3-carboxylic acid [Homo sapiens] &gt;pdb|5ZJ9|B human D-amino acid oxidase complexed with 5-chlorothiophene-3-carboxylic acid [Homo sapiens] &gt;pdb|5ZJ9|C human D-amino acid oxidase complexed with 5-chlorothiophene-3-carboxylic acid [Homo sapiens] &gt;pdb|5ZJ9|D human D-amino acid oxidase complexed with 5-chlorothiophene-3-carboxylic acid [Homo sapiens] &gt;pdb|5ZJA|A human D-amino acid oxidase complexed with 5-chlorothiophene-2-carboxylic acid [Homo sapiens] &gt;pdb|5ZJA|B human D-amino acid oxidase complexed with 5-chlorothiophene-2-carboxylic acid [Homo sapiens] &gt;pdb|5ZJA|C human D-amino acid oxidase complexed with 5-chlorothiophene-2-carboxylic acid [Homo sapiens] &gt;pdb|5ZJA|D human D-amino acid oxidase complexed with 5-chlorothiophene-2-carboxylic acid [Homo sapiens]</Hit_def>
+  <Hit_accession>5ZJ9_A</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.535</Hsp_bit-score>
+      <Hsp_score>1586</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDIKVYADRFTPLTTTDVAAGLWQPYLSDPNNPQEADWSQQTFDYLLSHVHSPNAENLGLFLISGYNLFHEAIPDPSWKDTVLGFRKLTPRELDMFPDYGYGWFHTSLILEGKNYLQWLTERLTERGVKFFQRKVESFEEVAREGADVIVNCTGVWAGALQRDPLLQPGRGQIMKVDAPWMKHFILTHDPERGIYNSPYIIPGTQTVTLGGIFQLGNWSELNNIQDHNTIWEGCCRLEPTLKNARIIGERTGFRPVRPQIRLEREQLRTGPSNTEVIHNYGHGGYGLTIHWGCALEAAKLFGRILEEKKL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLD+KVYADRFTP TTTDVAAGLWQPY S+P+NPQEA+W+QQTF+YLLSH+ SPNA N+GL  +SGYNLF EA+PDP WKD VLGFRKLTPRELDMFPDY YGWF+TSLILEG+ YLQWLTERLTERGVKFF RKVESFEEVAR GADVI+NCTGVWAG LQ DPLLQPGRGQI+KVDAPW+K+FI+THD ERGIYNSPYIIPG Q VTLGG FQ+GNW+E+NNIQDHNTIWEGCCRLEPTLK+A+I+GE TGFRPVRPQ+RLEREQLR G SNTEVIHNYGHGGYGLTIHWGCALE AKLFG++LEE+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|3G3E|A</Hit_id>
+  <Hit_def>Crystal structure of human D-amino acid oxidase in complex with hydroxyquinolin-2(1H) [Homo sapiens] &gt;pdb|3G3E|B Crystal structure of human D-amino acid oxidase in complex with hydroxyquinolin-2(1H) [Homo sapiens] &gt;pdb|3G3E|C Crystal structure of human D-amino acid oxidase in complex with hydroxyquinolin-2(1H) [Homo sapiens] &gt;pdb|3G3E|D Crystal structure of human D-amino acid oxidase in complex with hydroxyquinolin-2(1H) [Homo sapiens]</Hit_def>
+  <Hit_accession>3G3E_A</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.535</Hsp_bit-score>
+      <Hsp_score>1586</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEERNL</Hsp_qseq>
+      <Hsp_hseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDIKVYADRFTPLTTTDVAAGLWQPYLSDPNNPQEADWSQQTFDYLLSHVHSPNAENLGLFLISGYNLFHEAIPDPSWKDTVLGFRKLTPRELDMFPDYGYGWFHTSLILEGKNYLQWLTERLTERGVKFFQRKVESFEEVAREGADVIVNCTGVWAGALQRDPLLQPGRGQIMKVDAPWMKHFILTHDPERGIYNSPYIIPGTQTVTLGGIFQLGNWSELNNIQDHNTIWEGCCRLEPTLKNARIIGERTGFRPVRPQIRLEREQLRTGPSNTEVIHNYGHGGYGLTIHWGCALEAAKLFGRILEEKKL</Hsp_hseq>
+      <Hsp_midline>MRVVVIGAGVIGLSTALCIHERYHSVLQPLD+KVYADRFTP TTTDVAAGLWQPY S+P+NPQEA+W+QQTF+YLLSH+ SPNA N+GL  +SGYNLF EA+PDP WKD VLGFRKLTPRELDMFPDY YGWF+TSLILEG+ YLQWLTERLTERGVKFF RKVESFEEVAR GADVI+NCTGVWAG LQ DPLLQPGRGQI+KVDAPW+K+FI+THD ERGIYNSPYIIPG Q VTLGG FQ+GNW+E+NNIQDHNTIWEGCCRLEPTLK+A+I+GE TGFRPVRPQ+RLEREQLR G SNTEVIHNYGHGGYGLTIHWGCALE AKLFG++LEE+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|6RKF|A</Hit_id>
+  <Hit_def>Structure of human DASPO [Homo sapiens] &gt;pdb|6RKF|B Structure of human DASPO [Homo sapiens] &gt;pdb|6RKF|C Structure of human DASPO [Homo sapiens] &gt;pdb|6RKF|D Structure of human DASPO [Homo sapiens] &gt;pdb|6RKF|E Structure of human DASPO [Homo sapiens] &gt;pdb|6RKF|F Structure of human DASPO [Homo sapiens]</Hit_def>
+  <Hit_accession>6RKF_A</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>1.98581e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>RVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNP--QEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPD--PYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLE</Hsp_qseq>
+      <Hsp_hseq>RIAVVGAGVVGLSTAVCISK----LVPRCSVTIISDKFTPDTTSDVAAGMLIPHTY-PDTPIHTQKQWFRETFNHLFAIANSAEAGDAGVHLVSGWQIFQSTPTEEVPFWADVVLGFRKMTEAELKKFPQYVFGQAFTTLKYEGPAYLPWLEKRIKGSGGWTLTRRIEDLWEL-HPSFDIVVNCSGLGSRQLAGDSKIFPVRGQVLQVQAPWVEHFI------RDGSGLTYIYPGTSHVTLGGTRQKGDWNLSPDAENSREILSRCCALEPSLHGACNIREKVGLRPYRPGVRLQTELLARDGQRLPVVHHYGHGSGGISVHWGTALEAARLVSECVH</Hsp_hseq>
+      <Hsp_midline>R+ V+GAGV+GLSTA+CI +    ++    V + +D+FTP TT+DVAAG+  P+T  P  P   +  W ++TFN+L +   S  A + G+  VSG+ +F+    +  P+W D+VLGFRK+T  EL  FP Y +G   T+L  EG  YL WL +R+   G     R++E   E+     D+++NC+G+ +  L  D  + P RGQ+++V APW+++FI      R      YI PG   VTLGGT Q G+WN   + ++   I   CC LEP+L  A  + E  G RP RP VRL+ E L        V+H+YGHG  G+++HWG ALE A+L  + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1C0I|A</Hit_id>
+  <Hit_def>CRYSTAL STRUCTURE OF D-AMINO ACID OXIDASE IN COMPLEX WITH TWO ANTHRANYLATE MOLECULES [Rhodotorula toruloides] &gt;pdb|1C0K|A Crystal Structure Analysis Of D-amino Acid Oxidase In Complex With L- Lactate [Rhodotorula toruloides] &gt;pdb|1C0L|A D-AMINO ACID OXIDASE: STRUCTURE OF SUBSTRATE COMPLEXES AT VERY HIGH RESOLUTION REVEAL THE CHEMICAL REACTTION MECHANISM OF FLAVIN DEHYDROGENATION [Rhodotorula toruloides] &gt;pdb|1C0P|A D-AMINO ACIC OXIDASE IN COMPLEX WITH D-ALANINE AND A PARTIALLY OCCUPIED BIATOMIC SPECIES [Rhodotorula toruloides]</Hit_def>
+  <Hit_accession>1C0I_A</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>2.37454e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>RVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNLFREAVPDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVIINCTGVWAGVLQ--PDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTL-KDAKIVG-----EYTGFRPVR---PQVRLER---------EQLRFGSSNTE--------VIHNYGHGGYGLTIHWGCALEVAKLFGKVLE</Hsp_qseq>
+      <Hsp_hseq>RVVVLGSGVIGLSSALILARKGYSV-HILARDLPEDVSSQTFASPWAGANWTPFMTLTDGPRQAKWEESTFKKWVELV--PTGHAMWLKGTRRFAQNEDGLLGHWYKDITPNYRPLPSSEC---PPGAIGVTYDTLSVHAPKYCQYLARELQKLGATFERRTVTSLEQ-AFDGADLVVNATGLGAKSIAGIDDQAAEPIRGQTVLVKSPCKRCTMDSSDPASPAYIIPR--PGGE-VICGGTYGVGDWDLSVNPETVQRILKHCLRLDPTISSDGTIEGIEVLRHNVGLRPARRGGPRVEAERIVLPLDRTKSPLSLGRGSARAAKEKEVTLVHAYGFSSAGYQQSWGAAEDVAQLVDEAFQ</Hsp_hseq>
+      <Hsp_midline>RVVV+G+GVIGLS+AL +  + +SV   L   +  D  +    +  A   W P+ +    P++A W + TF   +  +  P    M L     +    + +   ++KD+   +R L   E    P    G    +L +   KY Q+L   L + G  F  R V S E+ A  GAD+++N TG+ A  +    D   +P RGQ + V +P  +  + + D     Y  P   PG + V  GGT+ VG+W+   N +    I + C RL+PT+  D  I G        G RP R   P+V  ER           L  G  +          ++H YG    G    WG A +VA+L  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|7CT4|A</Hit_id>
+  <Hit_def>Chain A, D-amino acid oxidase [Rasamsonia emersonii] &gt;pdb|7CT4|B Chain B, D-amino acid oxidase [Rasamsonia emersonii] &gt;pdb|7CT4|C Chain C, D-amino acid oxidase [Rasamsonia emersonii] &gt;pdb|7CT4|D Chain D, D-amino acid oxidase [Rasamsonia emersonii]</Hit_def>
+  <Hit_accession>7CT4_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>3.97301e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>VVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQEANWNQQTFNYLLSHIGSPNAANMGLTPVSGYNL-----------FREAV-PDPYWKDMVLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGG--------ADVIINCTGVWA---GVLQPDPLLQPGRGQIIKV-DAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTL-------KDAKIVGEYTGFRPVRPQ-VRLEREQLRFGSSNTEVIHNYGHGGYGLTIHWGCALEVAKLFGKVLEER</Hsp_qseq>
+      <Hsp_hseq>IVVLGAGVSGLTTAWLLSKDPSNKITVAAKHMPGDYDIEYCSPWAGAN-YLPVGAE--NSRVGQWERATWPHLRDIAQNHPEAGIHFQDTVVYNRTKDQGSTTGQWFSELVKPNPWYGKVLPNFRELSKDELP--PGIDNANRFTSVCINTAVYLPWLVGQCRKNGVVF---KRAVFKHVAEAANAHHSGQKADLVVNCTGLSSRKLGGVQDNTLL-PARGQIVVVRNDPGLMCSISGTDDGDDEVTYMMTRAAGGGTILGGTYQKHNWDSLPDPNLAVRIMKRCIELCPSLVAPGQGIEGLDIIRHGVGLRPVREDGPRIEKELI----DGVWVVHNYGHGGYGYQTSFGCATTAVEVVREALQQQ</Hsp_hseq>
+      <Hsp_midline>+VV+GAGV GL+TA  + +   + +      +  D    + +    A  + P  +E  N +   W + T+ +L     +   A +       YN            F E V P+P++  ++  FR+L+  EL   P        TS+ +    YL WL  +  + GV F   K   F+ VA           AD+++NCTG+ +   G +Q + LL P RGQI+ V + P L   I   D                   LGGT+Q  NW+ + +      I + C  L P+L       +   I+    G RPVR    R+E+E +        V+HNYGHGGYG    +GCA    ++  + L+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|5EWU|A</Hit_id>
+  <Hit_def>Crystal structure of the Arabidopsis thaliana C-terminal Chlh at 1.25A [Arabidopsis thaliana] &gt;pdb|5EWU|B Crystal structure of the Arabidopsis thaliana C-terminal Chlh at 1.25A [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>5EWU_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0172605</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>SFEEVARGGADVIINCTGVWAGV-LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERG</Hsp_qseq>
+      <Hsp_hseq>SLEELGRPRIDVVVNCSGVFRDLFINQMNLLDRAIKMVAELDEPVEQNFVRKHALEQA</Hsp_hseq>
+      <Hsp_midline>S EE+ R   DV++NC+GV+  + +    LL      + ++D P  +NF+  H LE+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|6YS9|A</Hit_id>
+  <Hit_def>T_926 truncate of ChlH from Thermosynechococcus elongatus at 1.64 A resolution [Thermosynechococcus elongatus BP-1] &gt;pdb|6YS9|B T_926 truncate of ChlH from Thermosynechococcus elongatus at 1.64 A resolution [Thermosynechococcus elongatus BP-1] &gt;pdb|6YS9|C T_926 truncate of ChlH from Thermosynechococcus elongatus at 1.64 A resolution [Thermosynechococcus elongatus BP-1] &gt;pdb|6YS9|D T_926 truncate of ChlH from Thermosynechococcus elongatus at 1.64 A resolution [Thermosynechococcus elongatus BP-1]</Hit_def>
+  <Hit_accession>6YS9_A</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0200176</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FEEVARGGADVIINCTGVWAGV-LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLE</Hsp_qseq>
+      <Hsp_hseq>LEELGRPRIDVVVNCSGVFRDLFINQMALIDRAIKMAAEADEPLELNFIRKHALQQA---SELGIDLRQAATRVFTNASGSYAANVNLAVENSSWEQESELQ</Hsp_hseq>
+      <Hsp_midline> EE+ R   DV++NC+GV+  + +    L+        + D P   NFI  H L++    S   I   QA T   T   G++    N+   N+ WE    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|3IF9|A</Hit_id>
+  <Hit_def>Crystal structure of Glycine Oxidase G51S/A54R/H244A mutant in complex with inhibitor glycolate [Bacillus subtilis] &gt;pdb|3IF9|B Crystal structure of Glycine Oxidase G51S/A54R/H244A mutant in complex with inhibitor glycolate [Bacillus subtilis] &gt;pdb|3IF9|C Crystal structure of Glycine Oxidase G51S/A54R/H244A mutant in complex with inhibitor glycolate [Bacillus subtilis] &gt;pdb|3IF9|D Crystal structure of Glycine Oxidase G51S/A54R/H244A mutant in complex with inhibitor glycolate [Bacillus subtilis]</Hit_def>
+  <Hit_accession>3IF9_A</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0209887</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>ADVIINCTGVWAGV----LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQA-VTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRP</Hsp_qseq>
+      <Hsp_hseq>ANHVVVASGVWSGMFFKQLGLNNAFLPVKGECLSV---WNDDIPLTKTL---YHDACYIVPRKSGRLVVGATMKPGDWSETPDLGGLESVMKKAKTMLPAIQNMKVDRFWAGLRP</Hsp_hseq>
+      <Hsp_midline>A+ ++  +GVW+G+    L  +    P +G+ + V   W  +  +T  L    +++ YI+P     + +G T + G+W+E  ++    ++ +    + P +++ K+   + G RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|1RYI|A</Hit_id>
+  <Hit_def>Structure Of Glycine Oxidase With Bound Inhibitor Glycolate [Bacillus subtilis] &gt;pdb|1RYI|B Structure Of Glycine Oxidase With Bound Inhibitor Glycolate [Bacillus subtilis] &gt;pdb|1RYI|C Structure Of Glycine Oxidase With Bound Inhibitor Glycolate [Bacillus subtilis] &gt;pdb|1RYI|D Structure Of Glycine Oxidase With Bound Inhibitor Glycolate [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1RYI_A</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0410297</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>ADVIINCTGVWAGV----LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQA-VTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRP</Hsp_qseq>
+      <Hsp_hseq>ANHVVVASGVWSGMFFKQLGLNNAFLPVKGECLSV---WNDDIPLTKTL---YHDHCYIVPRKSGRLVVGATMKPGDWSETPDLGGLESVMKKAKTMLPAIQNMKVDRFWAGLRP</Hsp_hseq>
+      <Hsp_midline>A+ ++  +GVW+G+    L  +    P +G+ + V   W  +  +T  L    ++  YI+P     + +G T + G+W+E  ++    ++ +    + P +++ K+   + G RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|1NG3|A</Hit_id>
+  <Hit_def>Complex of ThiO (glycine oxidase) with acetyl-glycine [Bacillus subtilis] &gt;pdb|1NG3|B Complex of ThiO (glycine oxidase) with acetyl-glycine [Bacillus subtilis] &gt;pdb|1NG4|A Structure of ThiO (glycine oxidase) from Bacillus subtilis [Bacillus subtilis] &gt;pdb|1NG4|B Structure of ThiO (glycine oxidase) from Bacillus subtilis [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1NG3_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0684169</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>ADVIINCTGVWAGV----LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQA-VTLGGTFQVGNWNEINNIQDHNTIWEGCCRLEPTLKDAKIVGEYTGFRP</Hsp_qseq>
+      <Hsp_hseq>ANHVVVASGVWSGMFFKQLGLNNAFLPVKGECLSV---WNDDIPLTKTL---YHDHCYIVPRKSGRLVVGATMKPGDWSETPDLGGLESVMKKAKTMLPPIQNMKVDRFWAGLRP</Hsp_hseq>
+      <Hsp_midline>A+ ++  +GVW+G+    L  +    P +G+ + V   W  +  +T  L    ++  YI+P     + +G T + G+W+E  ++    ++ +    + P +++ K+   + G RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1X1W|D</Hit_id>
+  <Hit_def>Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens] &gt;pdb|1X1W|E Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens] &gt;pdb|1X1W|F Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1X1W_D</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.087193</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDALTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAAGADITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    GAD+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|6YTJ|AAA</Hit_id>
+  <Hit_def>Chain AAA, Mg-chelatase subunit ChlH [Synechocystis sp. PCC 6803] &gt;pdb|6YTJ|BBB Chain BBB, Mg-chelatase subunit ChlH [Synechocystis sp. PCC 6803]</Hit_def>
+  <Hit_accession>6YTJ_AAA</Hit_accession>
+  <Hit_len>1351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.167719</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1044</Hsp_hit-from>
+      <Hsp_hit-to>1142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FEEVARGGADVIINCTGVWAGV-LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLE</Hsp_qseq>
+      <Hsp_hseq>LEELGRPRIDVVVNCSGVFRDLFINQMNLLDQAVKLAAEADEPLEMNFVRKHALEQA---EEMGIGVREAATRIFSNASGSYSSNVNLAVENSSWEDESELQ</Hsp_hseq>
+      <Hsp_midline> EE+ R   DV++NC+GV+  + +    LL        + D P   NF+  H LE+        I   +A T   +   G+++   N+   N+ WE    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|6YT0|A</Hit_id>
+  <Hit_def>Magnesium chelatase H subunit (ChlH) E660D variant from Synechocystis sp.PCC6803 [Synechocystis sp. PCC 6803 substr. Kazusa] &gt;pdb|6YT0|B Magnesium chelatase H subunit (ChlH) E660D variant from Synechocystis sp.PCC6803 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>6YT0_A</Hit_accession>
+  <Hit_len>1351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.170649</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1044</Hsp_hit-from>
+      <Hsp_hit-to>1142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FEEVARGGADVIINCTGVWAGV-LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLE</Hsp_qseq>
+      <Hsp_hseq>LEELGRPRIDVVVNCSGVFRDLFINQMNLLDQAVKLAAEADEPLEMNFVRKHALEQA---EEMGIGVREAATRIFSNASGSYSSNVNLAVENSSWEDESELQ</Hsp_hseq>
+      <Hsp_midline> EE+ R   DV++NC+GV+  + +    LL        + D P   NF+  H LE+        I   +A T   +   G+++   N+   N+ WE    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|4ZHJ|A</Hit_id>
+  <Hit_def>Crystal Structure of the Catalytic Subunit of Magnesium Chelatase [Synechocystis sp. PCC 6803 substr. Kazusa] &gt;pdb|4ZHJ|B Crystal Structure of the Catalytic Subunit of Magnesium Chelatase [Synechocystis sp. PCC 6803 substr. Kazusa] &gt;pdb|6YSG|A Magnesium chelatase H subunit (ChlH) from Synechocystis sp.PCC6803 to 2.54 A resolution [Synechocystis sp. PCC 6803 substr. Kazusa] &gt;pdb|6YSG|B Magnesium chelatase H subunit (ChlH) from Synechocystis sp.PCC6803 to 2.54 A resolution [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>4ZHJ_A</Hit_accession>
+  <Hit_len>1351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.17363</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1044</Hsp_hit-from>
+      <Hsp_hit-to>1142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FEEVARGGADVIINCTGVWAGV-LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLE</Hsp_qseq>
+      <Hsp_hseq>LEELGRPRIDVVVNCSGVFRDLFINQMNLLDQAVKLAAEADEPLEMNFVRKHALEQA---EEMGIGVREAATRIFSNASGSYSSNVNLAVENSSWEDESELQ</Hsp_hseq>
+      <Hsp_midline> EE+ R   DV++NC+GV+  + +    LL        + D P   NF+  H LE+        I   +A T   +   G+++   N+   N+ WE    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|6YTN|AAA</Hit_id>
+  <Hit_def>Chain AAA, Mg-chelatase subunit ChlH [Synechocystis sp. PCC 6803] &gt;pdb|6YTN|BBB Chain BBB, Mg-chelatase subunit ChlH [Synechocystis sp. PCC 6803]</Hit_def>
+  <Hit_accession>6YTN_AAA</Hit_accession>
+  <Hit_len>1351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.17975</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1044</Hsp_hit-from>
+      <Hsp_hit-to>1142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FEEVARGGADVIINCTGVWAGV-LQPDPLLQPGRGQIIKVDAPWLKNFIITHDLERGIYNSPYIIPGLQAVTLGGTFQVGNWNEINNIQDHNTIWEGCCRLE</Hsp_qseq>
+      <Hsp_hseq>LEELGRPRIDVVVNCSGVFRDLFINQMNLLDQAVKLAAEADEPLEMNFVRKHALEQA---EEMGIGVREAATRIFSNASGSYSSNVNLAVENSSWEDESELQ</Hsp_hseq>
+      <Hsp_midline> EE+ R   DV++NC+GV+  + +    LL        + D P   NF+  H LE+        I   +A T   +   G+++   N+   N+ WE    L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|1B27|D</Hit_id>
+  <Hit_def>Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens] &gt;pdb|1B27|E Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens] &gt;pdb|1B27|F Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1B27_D</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.198232</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDALTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAEGADITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    GAD+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1AB7|A</Hit_id>
+  <Hit_def>NMR 15N RELAXATION AND STRUCTURAL STUDIES REVEAL CONFORMATIONAL EXCHANGE IN BARSTAR C40/82A, 30 STRUCTURES [Bacillus amyloliquefaciens] &gt;pdb|1BGS|E Recognition Between A Bacterial Ribonuclease, Barnase, And Its Natural Inhibitor, Barstar [Bacillus amyloliquefaciens] &gt;pdb|1BGS|F Recognition Between A Bacterial Ribonuclease, Barnase, And Its Natural Inhibitor, Barstar [Bacillus amyloliquefaciens] &gt;pdb|1BGS|G Recognition Between A Bacterial Ribonuclease, Barnase, And Its Natural Inhibitor, Barstar [Bacillus amyloliquefaciens] &gt;pdb|1BRS|D PROTEIN-PROTEIN RECOGNITION: CRYSTAL STRUCTURAL ANALYSIS OF A BARNASE-BARSTAR COMPLEX AT 2.0-A RESOLUTION [Bacillus amyloliquefaciens] &gt;pdb|1BRS|E PROTEIN-PROTEIN RECOGNITION: CRYSTAL STRUCTURAL ANALYSIS OF A BARNASE-BARSTAR COMPLEX AT 2.0-A RESOLUTION [Bacillus amyloliquefaciens] &gt;pdb|1BRS|F PROTEIN-PROTEIN RECOGNITION: CRYSTAL STRUCTURAL ANALYSIS OF A BARNASE-BARSTAR COMPLEX AT 2.0-A RESOLUTION [Bacillus amyloliquefaciens] &gt;pdb|1X1U|D Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens] &gt;pdb|1X1U|E Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens] &gt;pdb|1X1U|F Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1AB7_A</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.210237</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDALTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAEGADITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    GAD+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|1A19|A</Hit_id>
+  <Hit_def>Barstar (Free), C82a Mutant [Bacillus amyloliquefaciens] &gt;pdb|1A19|B Barstar (Free), C82a Mutant [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1A19_A</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.22731</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDCLTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAEGADITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    GAD+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|6PQK|B</Hit_id>
+  <Hit_def>Cryogenic crystal structure of barnase A43C/S80C bound to barstar C40A/S59C/A67C/C82A [Bacillus amyloliquefaciens] &gt;pdb|6PQK|D Cryogenic crystal structure of barnase A43C/S80C bound to barstar C40A/S59C/A67C/C82A [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>6PQK_B</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.408672</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDALTGWVEYPLVLEWRQFEQ--CKQLTENGCESVL---QVFREAKAEGADITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q   ++LTE G +  L   + F E    GAD+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|6PXS|A</Hit_id>
+  <Hit_def>Crystal structure of iminodiacetate oxidase (IdaA) from Chelativorans sp. BNC1 [Chelativorans sp. BNC1] &gt;pdb|6PXS|B Crystal structure of iminodiacetate oxidase (IdaA) from Chelativorans sp. BNC1 [Chelativorans sp. BNC1] &gt;pdb|6PXS|C Crystal structure of iminodiacetate oxidase (IdaA) from Chelativorans sp. BNC1 [Chelativorans sp. BNC1] &gt;pdb|6PXS|D Crystal structure of iminodiacetate oxidase (IdaA) from Chelativorans sp. BNC1 [Chelativorans sp. BNC1]</Hit_def>
+  <Hit_accession>6PXS_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.544217</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MRVVVIGAGVIGLSTALCIHERYHSVLQPLDVKVYADRFTPFTTTDVAAGLWQPYTSEPSNPQ</Hsp_qseq>
+      <Hsp_hseq>MRVLIIGAGILGASAA------YHLARLGAQVEII-DQNHPGKATLAGAGVVCPWATEADDPD</Hsp_hseq>
+      <Hsp_midline>MRV++IGAG++G S A      YH       V++  D+  P   T   AG+  P+ +E  +P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|1B3S|D</Hit_id>
+  <Hit_def>Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens] &gt;pdb|1B3S|E Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens] &gt;pdb|1B3S|F Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1B3S_D</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.77149</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDCLTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAEGCDITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    G D+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1B2S|D</Hit_id>
+  <Hit_def>Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens] &gt;pdb|1B2S|E Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens] &gt;pdb|1B2S|F Structural Response To Mutation At A Protein-Protein Interface [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1B2S_D</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.810133</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDCLAGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAEGCDITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    G D+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|3DA7|C</Hit_id>
+  <Hit_def>A conformationally strained, circular permutant of barnase [Bacillus amyloliquefaciens] &gt;pdb|3DA7|D A conformationally strained, circular permutant of barnase [Bacillus amyloliquefaciens] &gt;pdb|3DA7|F A conformationally strained, circular permutant of barnase [Bacillus amyloliquefaciens] &gt;pdb|3DA7|H A conformationally strained, circular permutant of barnase [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>3DA7_C</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.842436</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDCLTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAEGCDITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    G D+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|1AY7|B</Hit_id>
+  <Hit_def>Ribonuclease Sa Complex With Barstar [Bacillus amyloliquefaciens] &gt;pdb|1BTA|A THREE-DIMENSIONAL SOLUTION STRUCTURE AND 13C ASSIGNMENTS OF BARSTAR USING NUCLEAR MAGNETIC RESONANCE SPECTROSCOPY [Bacillus amyloliquefaciens] &gt;pdb|1BTB|A THREE-DIMENSIONAL SOLUTION STRUCTURE AND 13C ASSIGNMENTS OF BARSTAR USING NUCLEAR MAGNETIC RESONANCE SPECTROSCOPY [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1AY7_B</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.948199</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDCLTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFREAKAEGCDITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F E    G D+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|1X1X|D</Hit_id>
+  <Hit_def>Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens] &gt;pdb|1X1X|E Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens] &gt;pdb|1X1X|F Water-mediate interaction at aprotein-protein interface [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>1X1X_D</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.32223</Hsp_evalue>
+      <Hsp_query-from>122</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVARGGADVII</Hsp_qseq>
+      <Hsp_hseq>LDALWDALTGWVEYPLVLEWRQFEQ--SKQLTENGAESVL---QVFRAAKAEGADITI</Hsp_hseq>
+      <Hsp_midline>LD   D   GW    L+LE R++ Q  +++LTE G +  L   + F      GAD+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|2HB6|A</Hit_id>
+  <Hit_def>Structure of Caenorhabditis elegans leucine aminopeptidase (LAP1) [Caenorhabditis elegans] &gt;pdb|2HB6|B Structure of Caenorhabditis elegans leucine aminopeptidase (LAP1) [Caenorhabditis elegans] &gt;pdb|2HC9|A Structure of Caenorhabditis elegans leucine aminopeptidase-zinc complex (LAP1) [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>2HB6_A</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.30986</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>FNYLLSH-IGSPNAANMGLTPVSGYNLFREAVPDPYWKDM-------------VLGFRKLTPRELDMFPDYRYGWFNTSLILEGRKYLQWLTERLTERGVKFFLRKVESFEEVAR--------GGADVII-------NCTGVWAGVLQPDPLLQPGRGQIIKV</Hsp_qseq>
+      <Hsp_hseq>LHYELAHLITVPDASSRGNTPTNAHSIYKELKPINYPEDTKNVHFVLFAEYPDVLSHVAAIARTFCKFS------MKTSGIRELNVNIDVVCDKLTNEDAVFLTDLSESVRETARLIDTPANILTTDALVDEAVKVGNATGSKITVIRGEELLKAGFGGIYHV</Hsp_hseq>
+      <Hsp_midline> +Y L+H I  P+A++ G TP + +++++E  P  Y +D              VL       R    F         TS I E    +  + ++LT     F     ES  E AR           D ++       N TG    V++ + LL+ G G I  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|6GMF|A</Hit_id>
+  <Hit_def>Structure of Cytochrome P450 CYP109Q5 from Chondromyces apiculatus [Chondromyces apiculatus DSM 436]</Hit_def>
+  <Hit_accession>6GMF_A</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.31071</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>CRLEPTLKDAKIVGEYTGFRPVRPQV--RLEREQLRFGSSNTEVIH--NYGHGGYGLTIHWGCALEVAKLFGKVLEE</Hsp_qseq>
+      <Hsp_hseq>CIFRQTMTDVEIGDERIPARSVVLPLLASANRDESRFPDPDRFDIHRDTKGHLAFGLDIHFCIGAPLARLEAKVMLE</Hsp_hseq>
+      <Hsp_midline>C    T+ D +I  E    R V   +     R++ RF   +   IH    GH  +GL IH+     +A+L  KV+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|7AIH|Am</Hit_id>
+  <Hit_def>Chain Am, mL75 [Leishmania major] &gt;pdb|7AM2|Am Chain Am, mL75 [Leishmania tarentolae] &gt;pdb|7ANE|Am Chain Am, mL75 [Leishmania major]</Hit_def>
+  <Hit_accession>7AIH_Am</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.98348</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>PSNPQEANWNQQTFNYLLSHIGSPNAA-NMGLTPVSGYNLFREAVPDPYWKDM--------VLGFRKLTPRE-----LDMFPDY--RYG</Hsp_qseq>
+      <Hsp_hseq>PNNWQERQFNALGYTKWPKDIGFYNAGDNFEVTPEAAWRLYVHARDEPYWGKLHCEKTIITLLPVVEKAPKENMERVLDVFRHYLKRYG</Hsp_hseq>
+      <Hsp_midline>P+N QE  +N   +      IG  NA  N  +TP + + L+  A  +PYW  +        +L   +  P+E     LD+F  Y  RYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|5I39|A</Hit_id>
+  <Hit_def>High resolution structure of L-amino acid deaminase from Proteus vulgaris with the deletion of the specific insertion sequence [Proteus vulgaris]</Hit_def>
+  <Hit_accession>5I39_A</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.4709</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>VVVIGAGVIGLSTALCIHERYHSVL</Hsp_qseq>
+      <Hsp_hseq>VVVVGAGILGIXTAINLVERGLSVV</Hsp_hseq>
+      <Hsp_midline>VVV+GAG++G+ TA+ + ER  SV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>106</Statistics_hsp-len>
+      <Statistics_eff-space>4907287008</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

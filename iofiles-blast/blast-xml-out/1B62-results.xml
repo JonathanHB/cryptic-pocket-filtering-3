@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/project/bowmanlab/borowsky.jonathan/installations/pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1B62_1|Chain A|PROTEIN (MUTL)|Escherichia coli K12 (83333)</BlastOutput_query-def>
+  <BlastOutput_query-len>355</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1B62_1|Chain A|PROTEIN (MUTL)|Escherichia coli K12 (83333)</Iteration_query-def>
+  <Iteration_query-len>355</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1B62|A</Hit_id>
+  <Hit_def>Mutl Complexed With Adp [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>1B62_A</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>731.095</Hsp_bit-score>
+      <Hsp_score>1886</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>355</Hsp_identity>
+      <Hsp_positive>355</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>HHHHHHMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_qseq>
+      <Hsp_hseq>HHHHHHMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_hseq>
+      <Hsp_midline>HHHHHHMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1BKN|A</Hit_id>
+  <Hit_def>Crystal Structure Of An N-Terminal 40kd Fragment Of E. Coli Dna Mismatch Repair Protein Mutl [Escherichia coli] &gt;pdb|1BKN|B Crystal Structure Of An N-Terminal 40kd Fragment Of E. Coli Dna Mismatch Repair Protein Mutl [Escherichia coli]</Hit_def>
+  <Hit_accession>1BKN_A</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.153</Hsp_bit-score>
+      <Hsp_score>1855</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_qseq>
+      <Hsp_hseq>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_hseq>
+      <Hsp_midline>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|5AKB|C</Hit_id>
+  <Hit_def>MutS in complex with the N-terminal domain of MutL - crystal form 1 [Escherichia coli K-12] &gt;pdb|5AKB|D MutS in complex with the N-terminal domain of MutL - crystal form 1 [Escherichia coli K-12] &gt;pdb|5AKB|F MutS in complex with the N-terminal domain of MutL - crystal form 1 [Escherichia coli K-12] &gt;pdb|5AKC|C MutS in complex with the N-terminal domain of MutL - crystal form 2 [Escherichia coli K-12] &gt;pdb|5AKC|D MutS in complex with the N-terminal domain of MutL - crystal form 2 [Escherichia coli K-12] &gt;pdb|5AKC|G MutS in complex with the N-terminal domain of MutL - crystal form 2 [Escherichia coli K-12] &gt;pdb|5AKC|H MutS in complex with the N-terminal domain of MutL - crystal form 2 [Escherichia coli K-12] &gt;pdb|5AKC|K MutS in complex with the N-terminal domain of MutL - crystal form 2 [Escherichia coli K-12] &gt;pdb|5AKC|L MutS in complex with the N-terminal domain of MutL - crystal form 2 [Escherichia coli K-12] &gt;pdb|5AKD|C MutS in complex with the N-terminal domain of MutL - crystal form 3 [Escherichia coli K-12] &gt;pdb|5AKD|D MutS in complex with the N-terminal domain of MutL - crystal form 3 [Escherichia coli K-12] &gt;pdb|5AKD|G MutS in complex with the N-terminal domain of MutL - crystal form 3 [Escherichia coli K-12] &gt;pdb|5AKD|H MutS in complex with the N-terminal domain of MutL - crystal form 3 [Escherichia coli K-12] &gt;pdb|5AKD|K MutS in complex with the N-terminal domain of MutL - crystal form 3 [Escherichia coli K-12] &gt;pdb|5AKD|L MutS in complex with the N-terminal domain of MutL - crystal form 3 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5AKB_C</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>706.057</Hsp_bit-score>
+      <Hsp_score>1821</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>HHHHH---------HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_qseq>
+      <Hsp_hseq>HHHHHSSGLVPRGSHMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGSGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMCVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAILGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYFYVNGRMMRDRLINHAIRQAYEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_hseq>
+      <Hsp_midline>HHHHH         HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNG GIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDM VTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAI GTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQY YVNGRMMRDRLINHAIRQA EDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLPLDDEPQPAPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1B63|A</Hit_id>
+  <Hit_def>Mutl Complexed With Adpnp [Escherichia coli K-12] &gt;pdb|1NHH|A Crystal structure of N-terminal 40KD MutL protein (LN40) complex with ADPnP and one Rubidium [Escherichia coli K-12] &gt;pdb|1NHI|A Crystal structure of N-terminal 40KD MutL (LN40) complex with ADPnP and one potassium [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>1B63_A</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_qseq>
+      <Hsp_hseq>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_hseq>
+      <Hsp_midline>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1NHJ|A</Hit_id>
+  <Hit_def>Crystal structure of N-terminal 40KD MutL/A100P mutant protein complex with ADPnP and one sodium [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>1NHJ_A</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.093</Hsp_bit-score>
+      <Hsp_score>1751</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_qseq>
+      <Hsp_hseq>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALPSISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_hseq>
+      <Hsp_midline>HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEAL SISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|7AIB|C</Hit_id>
+  <Hit_def>Chain C, DNA mismatch repair protein MutL [Escherichia coli K-12] &gt;pdb|7AIC|C Chain C, DNA mismatch repair protein MutL [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>7AIB_C</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.307</Hsp_bit-score>
+      <Hsp_score>1723</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>HHHHH---------HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_qseq>
+      <Hsp_hseq>HHHHHSSGLVPRGSHMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGSGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMCVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAILGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYFYVNGRMMRDRLINHAIRQAYEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_hseq>
+      <Hsp_midline>HHHHH         HMPIQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNG GIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDM VTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAI GTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQY YVNGRMMRDRLINHAIRQA EDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4P7A|A</Hit_id>
+  <Hit_def>Crystal Structure of human MLH1 [Homo sapiens]</Hit_def>
+  <Hit_accession>4P7A_A</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>7.30849e-66</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>IQVLPPQLANQIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQA-YAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLR--GWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPL</Hsp_qseq>
+      <Hsp_hseq>IRRLDETVVNRIAAGEVIQRPANAIKEMIENCLDAKSTSIQVIVKEGGLKLIQIQDNGTGIRKEDLDIVCERFTTSKLQSFEDLASISTYGFRGEALASISHVAHVTITTKTADGKCAYRASYSDGK-LKAPPKPCAGNQGTQITVEDLFYNIATRRKALKNPSEEYGKILEVVGRYSVHNAGISFSVKKQGETVADVRTLPNASTVD-NIRSIFGNAVSRELIEIGCEDKTLAFKMNGYISNANYSVKKC--IFLLFINHRLVESTSLRKAIETVYAAYLPKNTHPFLYLSLEISPQNVDVNVHPTKHEVHF-----LHE---ESILERVQQHIESKL</Hsp_hseq>
+      <Hsp_midline>I+ L   + N+IAAGEV++RPA+ +KE++EN LDA +T I + ++ GG KLI+I+DNG GI+K++L +   R  TSK+ S +DL +I + GFRGEALASIS V+ +T+T++TA+ + A++A Y++G+ +    KP A   GT + V DLFYN   RRK L+    E+  I E++ R ++    ++ ++   G+ V   R +P     +  + +I G A   + + I  +   L  +  G++++ N++      I   ++N R++    +  AI       L  +  P   L LEI P  VDVNVHP KHEV F     +H+   + +L  +QQ +E+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|5X9Y|A</Hit_id>
+  <Hit_def>Crystal structure of the ATPase domain from bacterial mismatch repair endonuclease Aquifex aeolicus MutL. [Aquifex aeolicus VF5] &gt;pdb|5X9Y|B Crystal structure of the ATPase domain from bacterial mismatch repair endonuclease Aquifex aeolicus MutL. [Aquifex aeolicus VF5] &gt;pdb|5X9Y|C Crystal structure of the ATPase domain from bacterial mismatch repair endonuclease Aquifex aeolicus MutL. [Aquifex aeolicus VF5] &gt;pdb|6LZI|A Aquifex aeolicus MutL ATPase domain complexed with ADP [Aquifex aeolicus VF5] &gt;pdb|6LZJ|A Aquifex aeolicus MutL ATPase domain complexed with AMPPCP [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>5X9Y_A</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>7.22499e-57</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>IAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSR</Hsp_qseq>
+      <Hsp_hseq>IAAGEVIESPVDVVKELVENSLDAKATKVEVEIVKGGKRLIRVKDNGTGIHPEDVEKVVLQGATSKIETEKDLMNISTYGFRGEALYSISSVSKFKLRSRFFQEKEGKEIEVEAGNI-LGTRRVGMPVGTEVEVRDLFFNLPVRRKFLKKEDTERRKVLELIKEYALTNPEVEFTLFSEG---RETLKLKKSSLKER-----VEEVFQTKTEELYAEREGITLRAFVSRNQRQGKY-----YVFINKRPIQNKNLKEFLRKVF------GYKTLVVLYAELPPFMVDFNVHPKKKEVNILKER</Hsp_hseq>
+      <Hsp_midline>IAAGEV+E P  VVKELVENSLDA AT+++++I +GG +LIR++DNG GI  +++   + + ATSKI +  DL  I + GFRGEAL SISSVS+  L SR  +++E  +   E  ++ +  +    PVGT +EV DLF+N P RRKFL+ E TE   + E+I+  AL   +V   L   G   R+   + +   KER         F  +   +  +   +TLR +V+             Y ++N R ++++ +   +R+          +   VLY E+ P  VD NVHP K EV   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|6LZK|A</Hit_id>
+  <Hit_def>Aquifex aeolicus MutL ATPase domain with K252N mutation [Aquifex aeolicus VF5] &gt;pdb|6LZK|B Aquifex aeolicus MutL ATPase domain with K252N mutation [Aquifex aeolicus VF5] &gt;pdb|6LZK|C Aquifex aeolicus MutL ATPase domain with K252N mutation [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>6LZK_A</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.93403e-56</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>IAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQYCYVNGRMMRDRLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSR</Hsp_qseq>
+      <Hsp_hseq>IAAGEVIESPVDVVKELVENSLDAKATKVEVEIVKGGKRLIRVKDNGTGIHPEDVEKVVLQGATSKIETEKDLMNISTYGFRGEALYSISSVSKFKLRSRFFQEKEGKEIEVEAGNI-LGTRRVGMPVGTEVEVRDLFFNLPVRRKFLKKEDTERRKVLELIKEYALTNPEVEFTLFSEG---RETLKLKKSSLKER-----VEEVFQTKTEELYAEREGITLRAFVSRNQRQGKY-----YVFINKRPIQNNNLKEFLRKVF------GYKTLVVLYAELPPFMVDFNVHPKKKEVNILKER</Hsp_hseq>
+      <Hsp_midline>IAAGEV+E P  VVKELVENSLDA AT+++++I +GG +LIR++DNG GI  +++   + + ATSKI +  DL  I + GFRGEAL SISSVS+  L SR  +++E  +   E  ++ +  +    PVGT +EV DLF+N P RRKFL+ E TE   + E+I+  AL   +V   L   G   R+   + +   KER         F  +   +  +   +TLR +V+             Y ++N R +++  +   +R+          +   VLY E+ P  VD NVHP K EV   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|6MFQ|A</Hit_id>
+  <Hit_def>Crystal structure of a PMS2 variant [Homo sapiens] &gt;pdb|6MFQ|B Crystal structure of a PMS2 variant [Homo sapiens]</Hit_def>
+  <Hit_accession>6MFQ_A</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.35652e-33</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>QIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRK-FLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQK--ERRLGAICGTAFLEQALAI------------------EWQHGDLTLRGWVADPNHTTP-ALAEIQYCYVNGRMMRD----RLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLV</Hsp_qseq>
+      <Hsp_hseq>QICSGQVVLSLSTAVKELVENSLDAGATNIDLKLKDYGVDLIEVSDNGCGVEEENFEGLTLKHHTSKIQEFADLTQVETFGFRGEALSSLCALSDVTISTCHASAKVGTRLMFDHNGKIIQKTPYPRPRGTTVSVQQLFSTLPVRHKEFQRNIKKEYAKMVQVLHAYCIISAGIRVSCTNQLEQGKRQPVVCTGGSPSIKENIGSVFGQKQLQSLIPFVQLPPSDSVCEEYGLSCSDALHNLFYISGFISQCTHGVGRSSTDRQFFFINRRPCDPAKVCRLVNEVYHM-----YNRHQYPFVVLNISVDSECVDINVTPDKRQILLQEEKLL</Hsp_hseq>
+      <Hsp_midline>QI +G+VV   ++ VKELVENSLDAGAT ID+ ++  G  LI + DNGCG++++       +H TSKI    DL  + + GFRGEAL+S+ ++S +T+++  A  +   +   +     +   P   P GTT+ V  LF   P R K F R  K E+  + +++    +    + ++ ++  +  ++   V  GG    +  +G++ G   L+  +                    +  H    + G+++   H    +  + Q+ ++N R        RL+N              Q P  VL + +D   VD+NV P K ++   + +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1EA6|A</Hit_id>
+  <Hit_def>N-terminal 40kDa fragment of NhPMS2 complexed with ADP [Homo sapiens] &gt;pdb|1EA6|B N-terminal 40kDa fragment of NhPMS2 complexed with ADP [Homo sapiens]</Hit_def>
+  <Hit_accession>1EA6_A</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.43966e-33</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>QIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRK-FLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQK--ERRLGAICGTAFLEQALAI------------------EWQHGDLTLRGWVADPNHTTP-ALAEIQYCYVNGRMMRD----RLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLV</Hsp_qseq>
+      <Hsp_hseq>QICSGQVVLSLSTAVKELVENSLDAGATNIDLKLKDYGVDLIEVSDNGCGVEEENFEGLTLKHHTSKIQEFADLTQVETFGFRGEALSSLCALSDVTISTCHASAKVGTRLMFDHNGKIIQKTPYPRPRGTTVSVQQLFSTLPVRHKEFQRNIKKEYAKMVQVLHAYCIISAGIRVSCTNQLGQGKRQPVVCTGGSPSIKENIGSVFGQKQLQSLIPFVQLPPSDSVCEEYGLSCSDALHNLFYISGFISQCTHGVGRSSTDRQFFFINRRPCDPAKVCRLVNEVYHM-----YNRHQYPFVVLNISVDSECVDINVTPDKRQILLQEEKLL</Hsp_hseq>
+      <Hsp_midline>QI +G+VV   ++ VKELVENSLDAGAT ID+ ++  G  LI + DNGCG++++       +H TSKI    DL  + + GFRGEAL+S+ ++S +T+++  A  +   +   +     +   P   P GTT+ V  LF   P R K F R  K E+  + +++    +    + ++ ++     ++   V  GG    +  +G++ G   L+  +                    +  H    + G+++   H    +  + Q+ ++N R        RL+N              Q P  VL + +D   VD+NV P K ++   + +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1H7U|A</Hit_id>
+  <Hit_def>hPMS2-ATPgS [Homo sapiens] &gt;pdb|1H7U|B hPMS2-ATPgS [Homo sapiens]</Hit_def>
+  <Hit_accession>1H7U_A</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.72425e-33</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>QIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRK-FLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQK--ERRLGAICGTAFLEQALAI------------------EWQHGDLTLRGWVADPNHTTP-ALAEIQYCYVNGRMMRD----RLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLV</Hsp_qseq>
+      <Hsp_hseq>QICSGQVVLSLSTAVKELVENSLDAGATNIDLKLKDYGVDLIEVSDNGCGVEEENFEGLTLKHHTSKIQEFADLTQVETFGFRGEALSSLCALSDVTISTCHASAKVGTRLMFDHNGKIIQKTPYPRPRGTTVSVQQLFSTLPVRHKEFQRNIKKEYAKMVQVLHAYCIISAGIRVSCTNQLGQGKRQPVVCTGGSPSIKENIGSVFGQKQLQSLIPFVQLPPSDSVCEEYGLSCSDALHNLFYISGFISQCTHGVGRSSTDRQFFFINRRPCDPAKVCRLVNEVYHM-----YNRHQYPFVVLNISVDSECVDINVTPDKRQILLQEEKLL</Hsp_hseq>
+      <Hsp_midline>QI +G+VV   ++ VKELVENSLDAGAT ID+ ++  G  LI + DNGCG++++       +H TSKI    DL  + + GFRGEAL+S+ ++S +T+++  A  +   +   +     +   P   P GTT+ V  LF   P R K F R  K E+  + +++    +    + ++ ++     ++   V  GG    +  +G++ G   L+  +                    +  H    + G+++   H    +  + Q+ ++N R        RL+N              Q P  VL + +D   VD+NV P K ++   + +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|1H7S|A</Hit_id>
+  <Hit_def>N-terminal 40kDa fragment of human PMS2 [Homo sapiens] &gt;pdb|1H7S|B N-terminal 40kDa fragment of human PMS2 [Homo sapiens]</Hit_def>
+  <Hit_accession>1H7S_A</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>9.12688e-33</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>QIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRK-FLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYRAVPEGGQK--ERRLGAICGTAFLEQALAI------------------EWQHGDLTLRGWVADPNHTTP-ALAEIQYCYVNGRMMRD----RLINHAIRQACEDKLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLV</Hsp_qseq>
+      <Hsp_hseq>QICSGQVVLSLSTAVKELVENSLDAGATNIDLKLKDYGVDLIEVSDNGCGVEEENFEGLTLKHHTSKIQEFADLTQVETFGFRGEALSSLCALSDVTISTCHASAKVGTRLXFDHNGKIIQKTPYPRPRGTTVSVQQLFSTLPVRHKEFQRNIKKEYAKXVQVLHAYCIISAGIRVSCTNQLGQGKRQPVVCTGGSPSIKENIGSVFGQKQLQSLIPFVQLPPSDSVCEEYGLSCSDALHNLFYISGFISQCTHGVGRSSTDRQFFFINRRPCDPAKVCRLVNEVYH-----XYNRHQYPFVVLNISVDSECVDINVTPDKRQILLQEEKLL</Hsp_hseq>
+      <Hsp_midline>QI +G+VV   ++ VKELVENSLDAGAT ID+ ++  G  LI + DNGCG++++       +H TSKI    DL  + + GFRGEAL+S+ ++S +T+++  A  +   +   +     +   P   P GTT+ V  LF   P R K F R  K E+    +++    +    + ++ ++     ++   V  GG    +  +G++ G   L+  +                    +  H    + G+++   H    +  + Q+ ++N R        RL+N              Q P  VL + +D   VD+NV P K ++   + +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3H4L|A</Hit_id>
+  <Hit_def>Crystal Structure of N terminal domain of a DNA repair protein [Saccharomyces cerevisiae] &gt;pdb|3H4L|B Crystal Structure of N terminal domain of a DNA repair protein [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>3H4L_A</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.95154e-26</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>QIAAGEVVERPASVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAYAEGRDM--NVTVK-PAAHPVGTTLEVLDLFYNTPARRK-FLRTEKTEFNHIDEIIRRIAL----ARFDVTINLSHNGK---IVRQYRAVPEGGQKERRLGAICGTAFLEQALAIEWQHGDLTLRGWVADPNHTTPALAEIQY-----CYVN------GRMMRDR---LINH------AIRQACED---KLGADQQPAFVLYLEIDPHQVDVNVHPAKHEVRFHQSRLVHDFIYQGVLSVLQQQLETPLP</Hsp_qseq>
+      <Hsp_hseq>RITSGQVITDLTTAVKELVDNSIDANANQIEIIFKDYGLESIECSDNGDGIDPSNYEFLALKHYTSKIAKFQDVAKVQTLGFRGEALSSLCGIAKLSVITTTSPPKADKLEY----DMVGHITSKTTTSRNKGTTVLVSQLFHNLPVRQKEFSKTFKRQFTKCLTVIQGYAIINAAIKFSV-WNITPKGKKNLILSTMRNSSMRKNISSVFGAGGMRGLEEVDLVLDLNPFKNRMLGKYTDD----PDFLDLDYKIRVKGYISQNSFGCGRNSKDRQFIYVNKRPVEYSTLLKCCNEVYKTFNNVQFPAVFLNLELPMSLIDVNVTPDKRVILLHNERAVID-IFKTTLSDYYNRQELALP</Hsp_hseq>
+      <Hsp_midline>+I +G+V+    + VKELV+NS+DA A +I+I  +  G + I   DNG GI          +H TSKIA   D+  + +LGFRGEAL+S+  +++L++ + T+  +     Y    DM  ++T K   +   GTT+ V  LF+N P R+K F +T K +F     +I+  A+     +F V  N++  GK   I+   R            GA       E  L ++       + G   D     P   ++ Y      Y++      GR  +DR    +N        + + C +        Q PA  L LE+    +DVNV P K  +  H  R V D I++  LS    + E  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|4BAE|A</Hit_id>
+  <Hit_def>Chain A, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis] &gt;pdb|4BAE|B Chain B, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis] &gt;pdb|4BAE|C Chain C, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis] &gt;pdb|4BAE|D Chain D, DNA GYRASE SUBUNIT B [Mycolicibacterium smegmatis]</Hit_def>
+  <Hit_accession>4BAE_A</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.187246</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VVKELVENSLD---AG-ATRIDIDIERGGAKLIRIRDNGCGIKKDELALALAR--------HATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAY-----------AEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARR</Hsp_qseq>
+      <Hsp_hseq>LIWEVVDNAVDEAMAGFATRVDVKIHADGS--VEVRDDGRGIPVEMHATGMPTIDVVMTQLHAGGK---FDGETYAVSGGLHGVGVSVVNALSTRLEATVLRDGYEWFQYYDRSVPGKLKQGGETKETGTTIRFWADP--EIFETTDYNFETVARR</Hsp_hseq>
+      <Hsp_midline>++ E+V+N++D   AG ATR+D+ I   G+  + +RD+G GI  +  A  +          HA  K    D     +S G  G  ++ ++++S     +   +  E +Q Y            E ++   T++  A P     E  D  + T ARR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|6ZT3|A</Hit_id>
+  <Hit_def>Chain A, DNA gyrase subunit B [Mycolicibacterium smegmatis MC2 155] &gt;pdb|6ZT5|C Chain C, DNA gyrase subunit B [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>6ZT3_A</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.503085</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VVKELVENSLD---AG-ATRIDIDIERGGAKLIRIRDNGCGIKKDELALALAR--------HATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAY-----------AEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARR</Hsp_qseq>
+      <Hsp_hseq>LIWEVVDNAVDEAMAGFATRVDVKIHADGS--VEVRDDGRGIPVEMHATGMPTIDVVMTQLHAGGK---FDGETYAVSGGLHGVGVSVVNALSTRLEATVLRDGYEWFQYYDRSVPGKLKQGGETKETGTTIRFWADP--EIFETTDYNFETVARR</Hsp_hseq>
+      <Hsp_midline>++ E+V+N++D   AG ATR+D+ I   G+  + +RD+G GI  +  A  +          HA  K    D     +S G  G  ++ ++++S     +   +  E +Q Y            E ++   T++  A P     E  D  + T ARR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5OF9|A</Hit_id>
+  <Hit_def>Crystal structure of human MORC2 (residues 1-603) [Homo sapiens] &gt;pdb|5OF9|B Crystal structure of human MORC2 (residues 1-603) [Homo sapiens]</Hit_def>
+  <Hit_accession>5OF9_A</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.46081</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ELVENSLDAGATRIDIDIER----GGAKLIRIRDNGCGIKKDELALALARHATSK</Hsp_qseq>
+      <Hsp_hseq>ELVDNARDADATRIDIYAERREDLRGGFMLCFLDDGAGMDPSDAASVIQFGKSAK</Hsp_hseq>
+      <Hsp_midline>ELV+N+ DA ATRIDI  ER     G  ++   D+G G+   + A  +    ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|5OFA|A</Hit_id>
+  <Hit_def>Crystal structure of human MORC2 (residues 1-603) with spinal muscular atrophy mutation T424R [Homo sapiens] &gt;pdb|5OFA|B Crystal structure of human MORC2 (residues 1-603) with spinal muscular atrophy mutation T424R [Homo sapiens]</Hit_def>
+  <Hit_accession>5OFA_A</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.46081</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ELVENSLDAGATRIDIDIER----GGAKLIRIRDNGCGIKKDELALALARHATSK</Hsp_qseq>
+      <Hsp_hseq>ELVDNARDADATRIDIYAERREDLRGGFMLCFLDDGAGMDPSDAASVIQFGKSAK</Hsp_hseq>
+      <Hsp_midline>ELV+N+ DA ATRIDI  ER     G  ++   D+G G+   + A  +    ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|5OFB|A</Hit_id>
+  <Hit_def>Crystal structure of human MORC2 (residues 1-603) with spinal muscular atrophy mutation S87L [Homo sapiens] &gt;pdb|5OFB|B Crystal structure of human MORC2 (residues 1-603) with spinal muscular atrophy mutation S87L [Homo sapiens]</Hit_def>
+  <Hit_accession>5OFB_A</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.53898</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>ELVENSLDAGATRIDIDIER----GGAKLIRIRDNGCGI</Hsp_qseq>
+      <Hsp_hseq>ELVDNARDADATRIDIYAERREDLRGGFMLCFLDDGAGM</Hsp_hseq>
+      <Hsp_midline>ELV+N+ DA ATRIDI  ER     G  ++   D+G G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|1Z5A|A</Hit_id>
+  <Hit_def>Topoisomerase VI-B, ADP-bound dimer form [Saccharolobus shibatae] &gt;pdb|1Z5A|B Topoisomerase VI-B, ADP-bound dimer form [Saccharolobus shibatae] &gt;pdb|1Z5B|A Topoisomerase VI-B, ADP AlF4- bound dimer form [Saccharolobus shibatae] &gt;pdb|1Z5B|B Topoisomerase VI-B, ADP AlF4- bound dimer form [Saccharolobus shibatae] &gt;pdb|2HKJ|A Topoisomerase VI-B bound to radicicol [Saccharolobus shibatae]</Hit_def>
+  <Hit_accession>1Z5A_A</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.78767</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VKELVENSLDAGAT-------RIDIDIERGGAKLIRIR--DNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALAS</Hsp_qseq>
+      <Hsp_hseq>VRELIENSLDATDVHGILPNIKITIDLIDDARQIYKVNVVDNGIGIPPQEVPNAFGRVLYSSKYVNRQTRGMYGLGVKAAVLYS</Hsp_hseq>
+      <Hsp_midline>V+EL+ENSLDA          +I ID+     ++ ++   DNG GI   E+  A  R   S          +  LG +   L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1MU5|A</Hit_id>
+  <Hit_def>Structure of topoisomerase subunit [Saccharolobus shibatae]</Hit_def>
+  <Hit_accession>1MU5_A</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.86949</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VKELVENSLDAGAT-------RIDIDIERGGAKLIRIR--DNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALAS</Hsp_qseq>
+      <Hsp_hseq>VRELIENSLDATDVHGILPNIKITIDLIDDARQIYKVNVVDNGIGIPPQEVPNAFGRVLYSSKYVNRQTRGMYGLGVKAAVLYS</Hsp_hseq>
+      <Hsp_midline>V+EL+ENSLDA          +I ID+     ++ ++   DNG GI   E+  A  R   S          +  LG +   L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|2ZBK|B</Hit_id>
+  <Hit_def>Crystal structure of an intact type II DNA topoisomerase: insights into DNA transfer mechanisms [Saccharolobus shibatae] &gt;pdb|2ZBK|D Crystal structure of an intact type II DNA topoisomerase: insights into DNA transfer mechanisms [Saccharolobus shibatae] &gt;pdb|2ZBK|F Crystal structure of an intact type II DNA topoisomerase: insights into DNA transfer mechanisms [Saccharolobus shibatae] &gt;pdb|2ZBK|H Crystal structure of an intact type II DNA topoisomerase: insights into DNA transfer mechanisms [Saccharolobus shibatae]</Hit_def>
+  <Hit_accession>2ZBK_B</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.23154</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VKELVENSLDAGAT-------RIDIDIERGGAKLIRIR--DNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALAS</Hsp_qseq>
+      <Hsp_hseq>VRELIENSLDATDVHGILPNIKITIDLIDDARQIYKVNVVDNGIGIPPQEVPNAFGRVLYSSKYVNRQTRGMYGLGVKAAVLYS</Hsp_hseq>
+      <Hsp_midline>V+EL+ENSLDA          +I ID+     ++ ++   DNG GI   E+  A  R   S          +  LG +   L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1Z59|A</Hit_id>
+  <Hit_def>Topoisomerase VI-B, ADP-bound monomer form [Saccharolobus shibatae] &gt;pdb|1Z5C|A Topoisomerase VI-B, ADP Pi bound dimer form [Saccharolobus shibatae] &gt;pdb|1Z5C|B Topoisomerase VI-B, ADP Pi bound dimer form [Saccharolobus shibatae]</Hit_def>
+  <Hit_accession>1Z59_A</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.78447</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VKELVENSLDAGAT-------RIDIDIERGGAKLIRIR--DNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALAS</Hsp_qseq>
+      <Hsp_hseq>VRELIENSLDATDVHGILPNIKITIDLIDDARQIYKVNVVDNGIGIPPQEVPNAFGRVLYSSKYVNRQTRGXYGLGVKAAVLYS</Hsp_hseq>
+      <Hsp_midline>V+EL+ENSLDA          +I ID+     ++ ++   DNG GI   E+  A  R   S             LG +   L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|1MX0|A</Hit_id>
+  <Hit_def>Structure of topoisomerase subunit [Saccharolobus shibatae] &gt;pdb|1MX0|B Structure of topoisomerase subunit [Saccharolobus shibatae] &gt;pdb|1MX0|C Structure of topoisomerase subunit [Saccharolobus shibatae] &gt;pdb|1MX0|D Structure of topoisomerase subunit [Saccharolobus shibatae] &gt;pdb|1MX0|E Structure of topoisomerase subunit [Saccharolobus shibatae] &gt;pdb|1MX0|F Structure of topoisomerase subunit [Saccharolobus shibatae]</Hit_def>
+  <Hit_accession>1MX0_A</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.02902</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VKELVENSLDAGAT-------RIDIDIERGGAKLIRIR--DNGCGIKKDELALALARHATSKIASLDDLEAIISLGFRGEALAS</Hsp_qseq>
+      <Hsp_hseq>VRELIENSLDATDVHGILPNIKITIDLIDDARQIYKVNVVDNGIGIPPQEVPNAFGRVLYSSKYVNRQTRGXYGLGVKAAVLYS</Hsp_hseq>
+      <Hsp_midline>V+EL+ENSLDA          +I ID+     ++ ++   DNG GI   E+  A  R   S             LG +   L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|2YGE|A</Hit_id>
+  <Hit_def>E88G-N92L Mutant of N-Term HSP90 complexed with Geldanamycin [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>2YGE_A</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.12634</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPV--GTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIANSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIGRGTIL------------RLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +  GT L            R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|6Y8O|A</Hit_id>
+  <Hit_def>Chain A, DNA gyrase subunit B [Mycolicibacterium smegmatis] &gt;pdb|6Y8O|B Chain B, DNA gyrase subunit B [Mycolicibacterium smegmatis]</Hit_def>
+  <Hit_accession>6Y8O_A</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.26509</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>HHMPIQVLPPQL-ANQIAAGEVVE----RPAS------------VVKELVENSLD---AG-ATRIDIDIERGGAKLIRIRDNGCGIKKDELALALAR--------HATSKIASLDDLEAIISLGFRGEALASISSVSRLTLTSRTAEQQEAWQAY-----------AEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARR</Hsp_qseq>
+      <Hsp_hseq>ENLYFQGMPKEYGADSITILEGLEAVRKRPGMYIGSTGERGLHHLIWEVVDNAVDEAMAGFATRVDVKIHADGS--VEVRDDGRGIPVEMHATGMPTIDVVMTQLHAGGK---FDGETYAVSGGLHGVGVSVVNALSTRLEATVLRDGYEWFQYYDRSVPGKLKQGGETKETGTTIRFWADP--EIFETTDYNFETVARR</Hsp_hseq>
+      <Hsp_midline> ++  Q +P +  A+ I   E +E    RP              ++ E+V+N++D   AG ATR+D+ I   G+  + +RD+G GI  +  A  +          HA  K    D     +S G  G  ++ ++++S     +   +  E +Q Y            E ++   T++  A P     E  D  + T ARR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1ZW9|A</Hit_id>
+  <Hit_def>Yeast HSP82 in complex with the Novel HSP90 Inhibitor 8-(6-Bromo-benzo[1,3]dioxol-5-ylsulfanyl)-9-(3-isopropylamino-propyl)-adenine [Saccharomyces cerevisiae] &gt;pdb|1ZWH|A Yeast Hsp82 in complex with the novel Hsp90 inhibitor Radester amine [Saccharomyces cerevisiae] &gt;pdb|2FXS|A Yeast HSP82 in complex with the novel HSP90 Inhibitor Radamide [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1ZW9_A</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.73896</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPV--GTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIGRGTIL------------RLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +  GT L            R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|2WEP|A</Hit_id>
+  <Hit_def>Yeast Hsp90 N-terminal domain LI-IV mutant with ADP [Saccharomyces cerevisiae] &gt;pdb|2WEQ|A Yeast Hsp90 N-terminal domain LI-IV mutant with Geldanamycin [Saccharomyces cerevisiae] &gt;pdb|2WER|A Yeast Hsp90 N-terminal domain LI-IV mutant with Radicicol [Saccharomyces cerevisiae] &gt;pdb|2WER|B Yeast Hsp90 N-terminal domain LI-IV mutant with Radicicol [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>2WEP_A</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.70117</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPV--GTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIGRGTIL------------RLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +  GT L            R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1AH6|A</Hit_id>
+  <Hit_def>Structure Of The Tetragonal Form Of The N-Terminal Domain Of The Yeast Hsp90 Chaperone [Saccharomyces cerevisiae] &gt;pdb|1AH8|A Structure Of The Orthorhombic Form Of The N-Terminal Domain Of The Yeast Hsp90 Chaperone [Saccharomyces cerevisiae] &gt;pdb|1AH8|B Structure Of The Orthorhombic Form Of The N-Terminal Domain Of The Yeast Hsp90 Chaperone [Saccharomyces cerevisiae] &gt;pdb|4AS9|A The structure of modified benzoquinone ansamycins bound to yeast N- terminal Hsp90 [Saccharomyces cerevisiae] &gt;pdb|4ASA|A The structure of modified benzoquinone ansamycins bound to yeast N- terminal Hsp90 [Saccharomyces cerevisiae] &gt;pdb|4ASB|A The structure of modified benzoquinone ansamycins bound to yeast N- terminal Hsp90 [Saccharomyces cerevisiae] &gt;pdb|4ASF|A The structure of modified benzoquinone ansamycins bound to yeast N- terminal Hsp90 [Saccharomyces cerevisiae] &gt;pdb|4ASG|A The structure of modified benzoquinone ansamycins bound to yeast N- terminal Hsp90 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1AH6_A</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.70117</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPV--GTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIGRGTIL------------RLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +  GT L            R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1AM1|A</Hit_id>
+  <Hit_def>Atp Binding Site In The Hsp90 Molecular Chaperone [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1AM1_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.77583</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIG----------RGTILRLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +G               R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|2XX2|A</Hit_id>
+  <Hit_def>Macrolactone Inhibitor bound to HSP90 N-term [Saccharomyces cerevisiae] &gt;pdb|2XX2|B Macrolactone Inhibitor bound to HSP90 N-term [Saccharomyces cerevisiae] &gt;pdb|2XX2|C Macrolactone Inhibitor bound to HSP90 N-term [Saccharomyces cerevisiae] &gt;pdb|2XX2|D Macrolactone Inhibitor bound to HSP90 N-term [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>2XX2_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.79545</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIG----------RGTILRLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +G               R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1AMW|A</Hit_id>
+  <Hit_def>Adp Binding Site In The Hsp90 Molecular Chaperone [Saccharomyces cerevisiae] &gt;pdb|1US7|A Complex of Hsp90 and P50 [Saccharomyces cerevisiae] &gt;pdb|2BRC|A Structure of a Hsp90 Inhibitor bound to the N-terminus of Yeast Hsp90. [Saccharomyces cerevisiae] &gt;pdb|2IWS|A Radicicol analogues bound to the ATP site of HSP90 [Saccharomyces cerevisiae] &gt;pdb|2IWU|A Analogues of radicicol bound to the ATP-binding site of Hsp90 [Saccharomyces cerevisiae] &gt;pdb|2IWX|A Analogues of radicicol bound to the ATP-binding site of Hsp90. [Saccharomyces cerevisiae] &gt;pdb|2VW5|A Structure Of The Hsp90 Inhibitor 7-O-carbamoylpremacbecin Bound To The N- Terminus Of Yeast Hsp90 [Saccharomyces cerevisiae] &gt;pdb|2VW5|B Structure Of The Hsp90 Inhibitor 7-O-carbamoylpremacbecin Bound To The N- Terminus Of Yeast Hsp90 [Saccharomyces cerevisiae] &gt;pdb|2VW5|C Structure Of The Hsp90 Inhibitor 7-O-carbamoylpremacbecin Bound To The N- Terminus Of Yeast Hsp90 [Saccharomyces cerevisiae] &gt;pdb|2VW5|D Structure Of The Hsp90 Inhibitor 7-O-carbamoylpremacbecin Bound To The N- Terminus Of Yeast Hsp90 [Saccharomyces cerevisiae] &gt;pdb|2XD6|A Hsp90 complexed with a resorcylic acid macrolactone. [Saccharomyces cerevisiae] &gt;pdb|2XX4|A Macrolactone Inhibitor bound to HSP90 N-term [Saccharomyces cerevisiae] &gt;pdb|2XX5|A Macrolactone Inhibitor bound to HSP90 N-term [Saccharomyces cerevisiae] &gt;pdb|4CE1|A Hsp90 N-terminal domain bound to macrolactam analogues of radicicol. [Saccharomyces cerevisiae] &gt;pdb|4CE2|A Hsp90 N-terminal domain bound to macrolactam analogues of radicicol. [Saccharomyces cerevisiae] &gt;pdb|4CE3|A Hsp90 N-terminal domain bound to macrolactam analogues of radicicol. [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1AMW_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.90065</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIG----------RGTILRLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +G               R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|2AKP|A</Hit_id>
+  <Hit_def>Hsp90 Delta24-N210 mutant [Saccharomyces cerevisiae] &gt;pdb|2AKP|B Hsp90 Delta24-N210 mutant [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>2AKP_A</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.92845</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIG----------RGTILRLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +G               R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|2BRE|A</Hit_id>
+  <Hit_def>STRUCTURE OF A HSP90 INHIBITOR BOUND TO THE N-TERMINUS OF YEAST HSP90. [Saccharomyces cerevisiae] &gt;pdb|2BRE|B STRUCTURE OF A HSP90 INHIBITOR BOUND TO THE N-TERMINUS OF YEAST HSP90. [Saccharomyces cerevisiae] &gt;pdb|2VWC|A Structure Of The Hsp90 Inhibitor Macbecin Bound To The N- Terminus Of Yeast Hsp90. [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>2BRE_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.1064</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTA-EQQEAWQAYAEGRDMNVTVKPAAHPV--GTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKSNDDEQYIWESNA-GGSFTVTLDEVNERIGRGTIL------------RLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S++  ++Q  W++ A G    VT+      +  GT L            R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|6XLB|A</Hit_id>
+  <Hit_def>Chain A, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLB|B Chain B, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLC|A Chain A, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLC|B Chain B, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLD|A Chain A, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLD|B Chain B, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLE|A Chain A, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLE|B Chain B, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLF|A Chain A, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLF|B Chain B, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLG|A Chain A, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLG|B Chain B, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLH|A Chain A, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C] &gt;pdb|6XLH|B Chain B, ATP-dependent molecular chaperone HSC82 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>6XLB_A</Hit_accession>
+  <Hit_len>705</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.14461</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KLIRIRDNGCGIKKDELALALARHATSKI-ASLDDLEA---IISLGFRGEALASISSVS-RLTLTSRTAE-QQEAWQAYAEGRDMNVTVKPAAHPV--GTTLEVLDLFYNTPARRKFLRTEKTEF---NHIDEIIRR</Hsp_qseq>
+      <Hsp_hseq>KVLEIRDSGIGMTKAELINNLGTIAKSGTKAFMEALSAGADVSMIGQFGVGFYSLFLVADRVQVISKNNEDEQYIWESNA-GGSFTVTLDEVNERIGRGTVL------------RLFLKDDQLEYLEEKRIKEVIKR</Hsp_hseq>
+      <Hsp_midline>K++ IRD+G G+ K EL   L   A S   A ++ L A   +  +G  G    S+  V+ R+ + S+  E +Q  W++ A G    VT+      +  GT L            R FL+ ++ E+     I E+I+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|3D36|A</Hit_id>
+  <Hit_def>How to Switch Off a Histidine Kinase: Crystal Structure of Geobacillus stearothermophilus KinB with the Inhibitor Sda [Geobacillus stearothermophilus] &gt;pdb|3D36|B How to Switch Off a Histidine Kinase: Crystal Structure of Geobacillus stearothermophilus KinB with the Inhibitor Sda [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>3D36_A</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.88593</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>SVVKELVENSLDAGATRIDIDIERGGAKLIRIRDNGCGIKKDEL</Hsp_qseq>
+      <Hsp_hseq>NVMKNAIEAMPNGGTLQVYVSIDNGRV-LIRIADTGVGMTKEQL</Hsp_hseq>
+      <Hsp_midline>+V+K  +E   + G  ++ + I+ G   LIRI D G G+ K++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|2B3Z|A</Hit_id>
+  <Hit_def>Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|2B3Z|B Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|2B3Z|C Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|2B3Z|D Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|2D5N|A Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|2D5N|B Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|2D5N|C Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|2D5N|D Crystal structure of a bifunctional deaminase and reductase involved in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|3EX8|A Complex structure of bacillus subtilis RibG reduction mechanism in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|3EX8|B Complex structure of bacillus subtilis RibG reduction mechanism in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|3EX8|C Complex structure of bacillus subtilis RibG reduction mechanism in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|3EX8|D Complex structure of bacillus subtilis RibG reduction mechanism in riboflavin biosynthesis [Bacillus subtilis] &gt;pdb|4G3M|A Complex Structure of Bacillus subtilis RibG: The Deamination Process in Riboflavin Biosynthesis [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|4G3M|B Complex Structure of Bacillus subtilis RibG: The Deamination Process in Riboflavin Biosynthesis [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|4G3M|C Complex Structure of Bacillus subtilis RibG: The Deamination Process in Riboflavin Biosynthesis [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|4G3M|D Complex Structure of Bacillus subtilis RibG: The Deamination Process in Riboflavin Biosynthesis [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>2B3Z_A</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.49935</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>AYAEGRDMNVTVKPAAHPVGTTLEVLDLFYNTPARRKFL</Hsp_qseq>
+      <Hsp_hseq>AHAEGADIYVTLEPCSH-YGKTPPCAELIINSGIKRVFV</Hsp_hseq>
+      <Hsp_midline>A+AEG D+ VT++P +H  G T    +L  N+  +R F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|2YWW|A</Hit_id>
+  <Hit_def>Crystal structure of aspartate carbamoyltransferase regulatory chain from Methanocaldococcus jannaschii [Methanocaldococcus jannaschii] &gt;pdb|2YWW|B Crystal structure of aspartate carbamoyltransferase regulatory chain from Methanocaldococcus jannaschii [Methanocaldococcus jannaschii]</Hit_def>
+  <Hit_accession>2YWW_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.06974</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>FLRTEKTEFNHIDEIIRRIALARFDVTINLSHNGKIVRQYR</Hsp_qseq>
+      <Hsp_hseq>ILKIEGIELKKED--VDKISLISPDVTINIIRNGKVVEKLK</Hsp_hseq>
+      <Hsp_midline> L+ E  E    D  + +I+L   DVTIN+  NGK+V + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>130881</Statistics_db-num>
+      <Statistics_db-len>34844698</Statistics_db-len>
+      <Statistics_hsp-len>106</Statistics_hsp-len>
+      <Statistics_eff-space>5221856688</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
