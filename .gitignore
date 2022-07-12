@@ -1,4 +1,7 @@
-iofiles-blast/*
+iofiles-blast/every_part_a/BindingMOAD_2020/
+iofiles-blast/every_part_a/every_part_a.zip
+iofiles-blast/every_part_b/BindingMOAD_2020/
+iofiles-blast/every_part_b/every_part_b.zip
 iofiles-pdb/*
 !iofiles-pdb/generated-submission-scripts/
 filtering-output/*
