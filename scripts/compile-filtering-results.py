@@ -67,4 +67,4 @@ for j in pair_ligands:
 #save output
 
 serial = "1" #for tracking different versions
-np.save(f"{directory}/filtering-output/structure-pairs-desc-rmsd-v{serial}", np.array(lowrmsd_pairs, dtype = object))
+np.save(f"{directory}/filtering-output/all-apoholo-pairs-by-all-c-alpha-rmsd-v{serial}", np.array(lowrmsd_pairs, dtype = object))

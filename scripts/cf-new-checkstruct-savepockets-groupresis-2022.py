@@ -13,28 +13,52 @@ import re
 #the output is subsequently compiled into a csv by another script,
 #although that function could be integrated into this script
 
-serial = "3b-nr"
-direction = "forward"
+serial_in = "1"
 
-upper_dir = "X:/project/" #"/home/jonathanb/mount"
+#valid directions:
+    #all
+    #forward
+    #reverse
+    #abnormal
+direction = "all"
 
-input_directory = f"{upper_dir}/bowmanlab/borowsky.jonathan/FAST-cs/protein-sets/new_pockets_2"
-output_directory = "C:/Users/JBorowsky/Documents/Bowman_lab/cryptosite-FAST/protein-sets/new_pockets_2"
 
-filter_mode = ""
-reviewtype = 2 #2 reviews only the 20 best structures, 1 reviews 50 structures, irrelevant if filter_mode != "review"
+#junk vv
+#sorttype_by_direction = {"all":"all-c-alpha",
+#                         "forward":"cryptic-site",
+#                         "reverse":"cryptic-site",
+#                         "abnormal":"cryptic-site"}
 
-cryptic_site_only_rmsd = True
+#filter_mode = ""
+#reviewtype = 2 #2 reviews only the 20 best structures, 1 reviews 50 structures, irrelevant if filter_mode != "review"
 
-if cryptic_site_only_rmsd:
-    itemgetter_sort_ind = 6
-else:
+#if sorttype
+
+#if cryptic_site_only_rmsd:
+#    itemgetter_sort_ind = 6
+#else:
+#    itemgetter_sort_ind = 4
+#junk ^^
+
+#sorttype = sorttype_by_direction[direction]
+
+upper_dir = "/Users/jonathanborowsky/mount" #"/home/jonathanb/mount"
+
+directory = f"{upper_dir}/bowmanlab/borowsky.jonathan/FAST-cs/protein-sets/cryptic-pocket-filtering-3"
+input_directory = f"{directory}/filtering-output"
+output_directory = f"{directory}/iofiles-manual"
+#"C:/Users/JBorowsky/Documents/Bowman_lab/cryptosite-FAST/protein-sets/new_pockets_2"
+
+pairs_all = np.load(f"{input_directory}/{direction}-apoholo-pairs-by-cryptic-site-rmsd-v{serial_in}.npy", allow_pickle = True)
+
+#re-sort the pockets by all-c-alpha rmsd
+resort_by_all_c_alpha_rmsd = False
+if resort_by_all_c_alpha_rmsd:
     itemgetter_sort_ind = 4
-
-pairs_all = sorted(np.load(f"{input_directory}/filter_output/{direction}_lowrmsd_ligand_pairs_v{serial}.npy", allow_pickle = True), key = itemgetter(itemgetter_sort_ind), reverse = True)
+    pairs_all = sorted(pairs_all, key = itemgetter(itemgetter_sort_ind), reverse = True)
 
 print(pairs_all)
-
+"""
 if filter_mode == "review":
 
     if reviewtype == 1:
@@ -53,7 +77,7 @@ if filter_mode == "review":
         #print(i[2])
         if i[2] in pdb_apo_ids:
             relevant_indices.append(x)
-
+"""
 #print usage instructions when the script is run
 print("""
 This program adds a pymol command called 'checkst' which can be used to inspect apo-holo protein structure pairs.
@@ -80,12 +104,12 @@ adding and underscore and text after the "s" when saving allows you to include a
 
 def get_names(x, y): #x is the index of the holo structure of interest, y is a label for saving structures
 
-    if filter_mode == "":
-        pair = pairs_all[int(x)] #get the xth apo-holo pair
-    elif filter_mode == "review":
-        pair = pairs_all[relevant_indices[int(x)]] #get the xth previously saved apo-holo pair
-    else:
-        print(f"invalid mode: {filter_mode}")
+    #if filter_mode == "":
+    pair = pairs_all[int(x)] #get the xth apo-holo pair
+    #elif filter_mode == "review":
+    #    pair = pairs_all[relevant_indices[int(x)]] #get the xth previously saved apo-holo pair
+    #else:
+    #    print(f"invalid mode: {filter_mode}")
 
     print(pair)
 
@@ -171,7 +195,7 @@ def display(apo_holo_lig):
 
     #the two apo-holo cross-checks are in case something got scrambled
     if apo[0:4].upper() in all_cs_apos or holo[0:4].upper() in all_cs_apos or apo[0:4].upper() in all_cs_holos or holo[0:4].upper() in all_cs_holos:
-        print("One or both of these structures is also in cryptosite.")
+        print("One or both of these structures is also in CryptoSite.")
 
     cmd.hide("spheres", "name Na+Cl")
     cmd.hide("lines")
@@ -200,8 +224,8 @@ def save(apo_holo_lig):
     holo_lig_resis = apo_holo_lig[2]
     pair_label = apo_holo_lig[4]
 
-    pdb_output_dir = f"{output_directory}/apo_structures_clean"
-    npy_output_dir = f"{output_directory}/pair_indices"
+    pdb_output_dir = f"{output_directory}/apo-structures-clean"
+    npy_output_dir = f"{output_directory}/pair-data"
 
     coord_threshold = 5 #maximum distance in Angstroms between ligand and coordinating residues
     ligand_grouping_threshold = 3.5 #maximum distance in Angstroms between ligands to be grouped
@@ -209,7 +233,7 @@ def save(apo_holo_lig):
     #save ligandless apo structure.
     #Note that structual ions and other non-protein structural groups such as glycans may be missing.
     #It might be good to add a second line to save structures with likely-structural ions (Zn, Ca, etc.)
-    cmd.save(f"{pdb_output_dir}/{apo}_clean.pdb", f" {apo} and polymer.protein")
+    cmd.save(f"{pdb_output_dir}/{apo}-clean.pdb", f" {apo} and polymer.protein")
 
     all_pocket_resis = []
     print(holo_lig_resis)
@@ -232,27 +256,33 @@ def save(apo_holo_lig):
 
 
     for i in holo_lig_resis:
+        print(i)
         #find ligand-coordinating residues
         #checking both resi and resn avoids any issues with duplicate residues and with residues from the apo chain with the same number as the ligand
         cmd.select(f"byres({holo} and polymer.protein within {coord_threshold} of resi {i[1]})")
-        cmd.select(f"byres((sele) and polymer.protein within {coord_threshold} of resn {i[0]})")
+        cmd.select(f"byres((sele) and polymer.protein within {coord_threshold} of resn {i[0].split(' ')[0]})")
 
         #extract residue numbers from the selection
         stored.testobj = [] #note that "stored" is a special pymol helper variable
         cmd.iterate("(sele)", "stored.testobj.append(resi)")
-        pocket_resis = np.sort([int(i) for i in np.unique(stored.testobj)])
+        try:
+            pocket_resis = np.sort([int(i) for i in np.unique(stored.testobj)])
+        except ValueError as verr:
+            print(f"Encountered an error: {verr}, possibly due to an alphabetic residue insertion code, \
+when processing {np.unique(stored.testobj)}. Appending empty list of lining residues. Please inspect manually.")
+            pocket_resis = np.array([])
         all_pocket_resis += list(pocket_resis)
 
         #save the residue numbers for current ligand
         print("+".join([str(i) for i in pocket_resis]))
-        np.save(f"{npy_output_dir}/{apo}_pocketresis_{i[0]}-{i[1]}_{pair_label}.npy", pocket_resis)
+        np.save(f"{npy_output_dir}/{apo}-pocketresis-{i[0]}-{i[1]}-{pair_label}.npy", pocket_resis)
 
     #save the pairing index element for the pair of interest
-    np.save(f"{npy_output_dir}/{apo}_index_{pair_label}.npy", apo_holo_lig[3])
+    np.save(f"{npy_output_dir}/{apo}-index-{pair_label}.npy", apo_holo_lig[3])
 
     #save all ligand-coordinating residue numbers together if there are multiple ligands
     if nligands > 1:
-        np.save(f"{npy_output_dir}/{apo}_pocketresis_all_{pair_label}.npy", np.unique(all_pocket_resis))
+        np.save(f"{npy_output_dir}/{apo}-pocketresis-all-{pair_label}.npy", np.unique(all_pocket_resis))
 
 @cmd.extend
 def checkst(a):

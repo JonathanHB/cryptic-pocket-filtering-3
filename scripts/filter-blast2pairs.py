@@ -707,7 +707,9 @@ def check_gaps(type, pdb_id, chain, max_gap_len):
         pdblist = line.split()
 
         if reading and len(pdblist)==5: #read data
-            #detect cases of residue indices with multiple different residue types (not just different conformations) and skip them
+            #detect cases of residue indices with multiple different residue types
+            #(not just different conformations) and skip them.
+            #This code only detects insertion codes in remark 465, not anywhere else
             try:
                 res_id = int(pdblist[4])
             except ValueError:

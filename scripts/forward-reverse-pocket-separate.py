@@ -4,6 +4,8 @@ import itertools
 import scipy
 import os
 import sys
+from operator import itemgetter
+
 
 serial_in = "1" #which version of the pocket set to load
 serial_out = "1" #which version of the pocket set to save
@@ -11,7 +13,7 @@ directory = "/project/bowmanlab/borowsky.jonathan/FAST-cs/protein-sets/cryptic-p
 
 distance_threshold = 0.5
 
-all_pockets = np.load(f"{directory}/filtering-output/structure-pairs-desc-rmsd-v{serial_in}.npy")
+all_pockets = np.load(f"{directory}/filtering-output/all-apoholo-pairs-by-all-c-alpha-rmsd-v{serial_in}.npy")
 
 #notes
 #6rsk has messed up numbering that skips 0 and starts with a negative numbered residue
@@ -197,11 +199,21 @@ for testind in range(len(all_pockets)):
     else:
         print("error; invalid lining comparison result")
 
-#print(reverse_pockets)
+#combine lists to save a list of all pockets but with cryptic site rmsds
+all_pockets = forward_pockets + reverse_pockets + abnormal_pockets
 
-np.save(f"{directory}/filtering-output/forward-lowrmsd-ligand-pairs-v{serial_out}.npy", forward_pockets)
-np.save(f"{directory}/filtering-output/reverse-lowrmsd-ligand-pairs-v{serial_out}.npy", reverse_pockets)
-np.save(f"{directory}/filtering-output/abnormal-lowrmsd-ligand-pairs-v{serial_out}.npy", abnormal_pockets)
+#print(reverse_pockets)
+#sort outputs by cryptic site heavy atom RMSD
+itemgetter_sort_ind = 6
+all_pockets_sorted = sorted(all_pockets, key = itemgetter(itemgetter_sort_ind), reverse = True)
+forward_pockets_sorted = sorted(forward_pockets, key = itemgetter(itemgetter_sort_ind), reverse = True)
+reverse_pockets_sorted = sorted(reverse_pockets, key = itemgetter(itemgetter_sort_ind), reverse = True)
+abnormal_pockets_sorted = sorted(abnormal_pockets, key = itemgetter(itemgetter_sort_ind), reverse = True)
+
+np.save(f"{directory}/filtering-output/all-apoholo-pairs-by-cryptic-site-rmsd-v{serial_out}.npy", all_pockets_sorted)
+np.save(f"{directory}/filtering-output/forward-apoholo-pairs-by-cryptic-site-rmsd-v{serial_out}.npy", forward_pockets_sorted)
+np.save(f"{directory}/filtering-output/reverse-apoholo-pairs-by-cryptic-site-rmsd-v{serial_out}.npy", reverse_pockets_sorted)
+np.save(f"{directory}/filtering-output/abnormal-apoholo-pairs-by-cryptic-site-rmsd-v{serial_out}.npy", abnormal_pockets_sorted)
 
 print("---------------------------------------------------------------------------------------")
 print(f"{len(all_pockets)} pockets")
