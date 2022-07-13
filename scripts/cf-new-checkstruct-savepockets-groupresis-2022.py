@@ -22,32 +22,11 @@ serial_in = "1"
     #abnormal
 direction = "all"
 
-
-#junk vv
-#sorttype_by_direction = {"all":"all-c-alpha",
-#                         "forward":"cryptic-site",
-#                         "reverse":"cryptic-site",
-#                         "abnormal":"cryptic-site"}
-
-#filter_mode = ""
-#reviewtype = 2 #2 reviews only the 20 best structures, 1 reviews 50 structures, irrelevant if filter_mode != "review"
-
-#if sorttype
-
-#if cryptic_site_only_rmsd:
-#    itemgetter_sort_ind = 6
-#else:
-#    itemgetter_sort_ind = 4
-#junk ^^
-
-#sorttype = sorttype_by_direction[direction]
-
-upper_dir = "/Users/jonathanborowsky/mount" #"/home/jonathanb/mount"
+upper_dir = "/Users/jonathanborowsky/mount"
 
 directory = f"{upper_dir}/bowmanlab/borowsky.jonathan/FAST-cs/protein-sets/cryptic-pocket-filtering-3"
 input_directory = f"{directory}/filtering-output"
 output_directory = f"{directory}/iofiles-manual"
-#"C:/Users/JBorowsky/Documents/Bowman_lab/cryptosite-FAST/protein-sets/new_pockets_2"
 
 pairs_all = np.load(f"{input_directory}/{direction}-apoholo-pairs-by-cryptic-site-rmsd-v{serial_in}.npy", allow_pickle = True)
 
@@ -58,26 +37,7 @@ if resort_by_all_c_alpha_rmsd:
     pairs_all = sorted(pairs_all, key = itemgetter(itemgetter_sort_ind), reverse = True)
 
 print(pairs_all)
-"""
-if filter_mode == "review":
 
-    if reviewtype == 1:
-        npy_input_dir = f"{input_directory}/pair_indices_2"
-        screenedcontents = os.listdir(npy_input_dir)
-        pdb_apo_ids = np.unique([i.split("_")[0][0:4] for i in screenedcontents])
-    elif reviewtype == 2:
-        pdb_apo_ids = ["1kx9","1tvq","2hq8","2j1x","2oy4","2zby","2zku","3cab","3nx1","3p53","3rwv","4i92","6e5d","1y1a","3fvj","3qxw","4ic4","4w51","5h9a","6ypk"]
-    else:
-        print(f"invalid review setting: {reviewtype}")
-
-    #print(pdb_apo_ids)
-    relevant_indices = []
-
-    for x, i in enumerate(pairs_all):
-        #print(i[2])
-        if i[2] in pdb_apo_ids:
-            relevant_indices.append(x)
-"""
 #print usage instructions when the script is run
 print("""
 This program adds a pymol command called 'checkst' which can be used to inspect apo-holo protein structure pairs.
@@ -93,8 +53,9 @@ and save both these and ligand-free structures for starting MD simulations.
 To use this script, enter "run cf-new-checkstruct-savepockets-groupresis-2022.py" once into the pymol command line
 To run the command created by the script, run "checkst i" to examine the structure index i
 
-running "checkst is", where i is a nonnegative real integer and s is just the letter s,
-saves information about the apo holo pair, the ligand-coordinating residue(s), and cleaned apo structure.
+Running "checkst icomment_text", where i is a nonnegative real integer and comment_text
+is a comment about the structure without the "-" character, saves information about the
+apo holo pair, the ligand-coordinating residue(s), and cleaned apo structure.
 It automatically reloads the absent structures,
 but does not check for modifications made in pymol that do not alter the structure's name.
 
@@ -104,12 +65,7 @@ adding and underscore and text after the "s" when saving allows you to include a
 
 def get_names(x, y): #x is the index of the holo structure of interest, y is a label for saving structures
 
-    #if filter_mode == "":
     pair = pairs_all[int(x)] #get the xth apo-holo pair
-    #elif filter_mode == "review":
-    #    pair = pairs_all[relevant_indices[int(x)]] #get the xth previously saved apo-holo pair
-    #else:
-    #    print(f"invalid mode: {filter_mode}")
 
     print(pair)
 
