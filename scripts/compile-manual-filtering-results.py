@@ -22,7 +22,7 @@ output_dir = f"{directory}/iofiles-manual"
 
 files = os.listdir(npy_input_dir)
 
-pairs = [] #[[apo, apo id, holo, holo id, rmsd, type, in cryptosite, comments],...]
+pairs = [] #[[apo, apo id, holo, holo id, ligand information, all-c-alpha rmsd, cryptic site heavy atom rmsd, in cryptosite, comments],...]
 
 # open the file in write mode
 f = open(f"{output_dir}/screened-pairs-v{serial}", 'w', newline='')
@@ -41,11 +41,10 @@ for i in files:
         #extract save comment from filename
         label = i.split(".")[0].split("-")[-1]
 
-        print(file[5])
-        writer.writerow(list(file[2:4])+list(file[0:2])+list(file[5][0])+[file[4]]+[in_cs]+[label])
+        writer.writerow(list(file[0:4])+list(file[5][0])+[file[4]]+[file[6]]+[in_cs]+[label])
         # write a row to the csv file
 
-        pairs.append(list(file[2:4])+list(file[0:2])+list(file[5])+[file[4]]+[in_cs]+[label])
+        pairs.append(list(file[0:4])+list(file[5][0])+[file[4]]+[file[6]]+[in_cs]+[label])
 
 # close the file
 f.close()

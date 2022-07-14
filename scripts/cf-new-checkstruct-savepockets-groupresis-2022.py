@@ -35,7 +35,7 @@ resort_by_all_c_alpha_rmsd = False
 if resort_by_all_c_alpha_rmsd:
     itemgetter_sort_ind = 4
     pairs_all = sorted(pairs_all, key = itemgetter(itemgetter_sort_ind), reverse = True)
-
+    print(pairs_all[0])
 print(pairs_all)
 
 #print usage instructions when the script is run
@@ -234,6 +234,7 @@ when processing {np.unique(stored.testobj)}. Appending empty list of lining resi
         np.save(f"{npy_output_dir}/{apo}-pocketresis-{i[0]}-{i[1]}-{pair_label}.npy", pocket_resis)
 
     #save the pairing index element for the pair of interest
+    print(apo_holo_lig[3])
     np.save(f"{npy_output_dir}/{apo}-index-{pair_label}.npy", apo_holo_lig[3])
 
     #save all ligand-coordinating residue numbers together if there are multiple ligands
