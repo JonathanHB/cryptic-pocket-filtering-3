@@ -5,6 +5,7 @@ iofiles-blast/every_part_b/every_part_b.zip
 iofiles-pdb/*
 !iofiles-pdb/generated-submission-scripts/
 filtering-output/*
-iofiles-manual/apo-structures-clean/*
-iofiles-manual/pair-data/*
+iofiles-manual/*
+!iofiles-manual/apo-structures-clean/
+!iofiles-manual/pair-data/
 log-files/*
