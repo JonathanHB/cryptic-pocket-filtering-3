@@ -1,2 +1,2 @@
 # cryptic-pocket-filtering-3
-a refactored and properly documented version of the cryptic pocket filtering pipeline
+Code for identifying apo-holo protein pairs with large conformational changes associated with ligand binding from Binding MOAD and RCSB PDB structures to study cryptic pocket opening.
